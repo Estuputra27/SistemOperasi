@@ -1,41 +1,33 @@
-exit
+exit 1
 This demo is available in badak:///extra/.
 See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
-DO NOT work inside this folder!
+DO NOT work inside the /extra folder!
 =======================================================
 
 Folder Name:
-Week01/
+Week02/
 
 To copy the folder to your home directory:
-cp -r /extra/Week01/W01-demos/ W01-demos/
+cp -r /extra/Week02/W02-demos/ W02-demos/
 =======================================================
 
 File Listing:
 * 1-READ-THIS-FIRST.txt (this file)
-* a01-READ-ME
-* a02-sort-n-prepare
-* a03-command-lines-demo
-* a04-does-it-exist
-* a05-finding-EXIST
-* a06-loop
-* a07-tester
-* a08-append-a-file
-* a09-add-numbers
-* a10-mysha1
-* a11-banding
-* a12-fixfs
+
+* c-language/
+  c-language files
+
+* permissions/
+  Permission mode demo
+
 
 =======================================================
-
-Use "bash" to run each script. Eg.
-   bash a01-READ-ME
-   bash a02-sort-n-prepare
-   bash a03-command-lines-demo 11 22 33 44 55
+To list files, run:  ls -al
+To compile the “.c” files, run make
 
 ===================================
-REV03: Mon Aug 27 18:45:45 WIB 2018
+REV04: Tue Aug 28 13:27:02 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
 # Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
@@ -51,5 +43,5 @@ START: Tue Feb 20 09:12:43 WIB 2018
 # Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
 # Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
-# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
 

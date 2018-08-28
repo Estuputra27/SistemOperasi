@@ -1,6 +1,6 @@
 exit 1
 This demo is available in badak:///extra/.
-See also: https://github.com/UI-FASILKOM-OS/os181.
+See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside this folder!
 =======================================================
