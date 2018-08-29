@@ -6,30 +6,28 @@ DO NOT work inside this folder!
 =======================================================
 
 Folder Name:
-Week04/
+Week05/
 
 To copy the folder to your home directory:
-cp -r /extra/Week04/W04-demos/ W04-demos/
+cp -r /extra/Week05/W05-demos/ W05-demos/
 =======================================================
 
 File Listing:
 * 000-READ-THIS-FIRST.txt (this file)
-* 00-global-variables.c
-* 01-local-variables.c
-* 02-pointers.c
-* 03-pointers-of-pointers.c
-* 04-pointers-of-pointers-of-pointers.c
-* 05-chrptr-vs-intptr.c
-* 06-pointer-address.c
-* 07-addresses.c
-* 08-passing-parameters.c
-* 09-struct.c
-* 10-os172.c
+* 00-What-To-Do.txt
+* 01-top.jpg
+* 02-top.jpg
+* 03-top.jpg
+* 04-top.jpg
+* 05-top.jpg
+* 06-memory.c
+* 07-result.txt
+* 08-comments.txt
 * 1-READ-THIS-FIRST.txt (this file)
 * Makefile
 
 ===================================
-REV04: Wed Aug 29 14:34:01 WIB 2018
+REV04: Wed Aug 29 14:38:28 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
 # Copyright (C) 2018 Rahmat M. Samik-Ibrahim 

@@ -2,48 +2,46 @@ exit 1
 This demo is available in badak:///extra/.
 See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
-DO NOT work inside this folder!
+DO NOT work inside the /extra folder!
 =======================================================
 
 Folder Name:
-Week04/
+Week06/
 
 To copy the folder to your home directory:
-cp -r /extra/Week04/W04-demos/ W04-demos/
+cp -r /extra/Week06/W06-demos/ W06-demos/
 =======================================================
 
 File Listing:
-* 000-READ-THIS-FIRST.txt (this file)
-* 00-global-variables.c
-* 01-local-variables.c
-* 02-pointers.c
-* 03-pointers-of-pointers.c
-* 04-pointers-of-pointers-of-pointers.c
-* 05-chrptr-vs-intptr.c
-* 06-pointer-address.c
-* 07-addresses.c
-* 08-passing-parameters.c
-* 09-struct.c
-* 10-os172.c
 * 1-READ-THIS-FIRST.txt (this file)
-* Makefile
+* Makefile (a make file)
+* C files:
+	00-show-pid.c, 01-fork.c, 02-fork.c, 03-fork.c
+	04-sleep.c, 05-fork.c, 06-fork.c, 07-fork.c
+	08-fork.c, 09-fork.c, 10-fork.c, 11-fork.c
+	12-fork.c, 14-fork.c, 15-fork.c
+
+=======================================================
+To list files, run:  ls -al
+To compile the “.c” files, run make
 
 ===================================
-REV04: Wed Aug 29 14:34:01 WIB 2018
-START: Tue Feb 20 09:12:43 WIB 2018
+REV01: Wed Aug 29 16:10:00 WIB 2018
+START: Wed Apr  4 09:51:41 WIB 2018
 
 # Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#
+
 # Special thanks to:
-# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
 # Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
-# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
-# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
 # Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
-# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
+   
