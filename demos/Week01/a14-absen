@@ -1,0 +1,44 @@
+#!/bin/bash
+# REV00: Wed Sep 12 20:58:04 WIB 2018
+# START: Wed Sep 12 20:58:04 WIB 2018
+
+# R: list of all users logged in
+
+# Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This program is free script/software. This program is distributed in the hope 
+# that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+exit 0
+
+## BASH IGNORES AFTER EXIT
+
+##############################################
+
+LDIR="ZB-SOURCE"
+echo "LDIR=$LDIR"
+
+ABSEN="ZB-SOURCE/absen.txt"
+echo "ABSEN=$ABSEN"
+
+##############################################
+
+checkingdir() {
+   [ -d $LDIR ] || {
+      echo "mkdir $LDIR"
+      mkdir $LDIR
+   }
+}
+  
+##############################################
+
+w
+w | tr -s " "
+w | tr -s " " | cut -d" " -f1,5
+w | tr -s " " | cut -d" " -f1,5 | tail -n+3
+w | tr -s " " | cut -d" " -f1,5 | tail -n+3 | awk '/s$/ {print}'
+w | tr -s " " | cut -d" " -f1,5 | tail -n+3 | awk '/s$/ {print}' | cut -d" " -f1
+w | tr -s " " | cut -d" " -f1,5 | tail -n+3 | awk '/s$/ {print}' | cut -d" " -f1 | sed -e "s/$/ `date`/"
+
+
