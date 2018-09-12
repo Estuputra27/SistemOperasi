@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV00: Wed Sep 12 18:35:04 WIB 2018
+# REV01: Wed Sep 12 20:45:41 WIB 2018
 # START: Wed Sep 12 18:35:04 WIB 2018
 
 # R: list of all users logged in
@@ -12,13 +12,15 @@
 
 exit 0
 
+## BASH IGNORES AFTER EXIT
+
 # Execute this following line by line
 
 # AWK ################################# ######
 
-cat "COL1 COL2 COL3" 
+echo "COL1 COL2 COL3" 
 
-cat "COL1 COL2 COL3" | awk '{print $1}'
+echo "COL1 COL2 COL3" | awk '{print $1}'
 
 ##############################################
 
@@ -30,9 +32,11 @@ echo "LAST0=$LAST0"
 
 ##############################################
 
-[ -d $LDIR ] || {
-   echo "mkdir $LDIR"
-   mkdir $LDIR
+checkingdir() {
+   [ -d $LDIR ] || {
+      echo "mkdir $LDIR"
+      mkdir $LDIR
+   }
 }
   
 ##############################################
@@ -49,30 +53,25 @@ last -w | awk '{print $1}' | sort -u > $LAST0
 
 ##############################################
 
-echo ""
-echo "=========================================================================="
-echo "This week visitor(s):"
-echo ""
+lastweek() {
+   echo ""
+   echo "=========================================================================="
+   echo "This week visitor(s):"
+   echo ""
 
-COUNTER=0
-for ii in `cat $LAST0`
-do
-   printf "%-17s " $ii
-   let COUNTER=(COUNTER+1)%4
-   if [ $COUNTER -eq 0 ]
-   then
-      echo ""
-      COUNTER=0
-   fi
-done
-echo ""
-echo "=========================================================================="
+   COUNTER=0
+   for ii in `cat $LAST0`
+   do
+      printf "%-17s " $ii
+      let COUNTER=(COUNTER+1)%4
+      if [ $COUNTER -eq 0 ]
+      then
+         echo ""
+         COUNTER=0
+      fi
+   done
+   echo ""
+   echo "=========================================================================="
+   echo ""
+}
 
-
-
-
-
-
-
-
-exit 0
