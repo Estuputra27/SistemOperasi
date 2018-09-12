@@ -10,6 +10,68 @@
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+exit 0
+
+# Execute this following line by line
+
+# AWK ################################# ######
+
+cat "COL1 COL2 COL3" 
+
+cat "COL1 COL2 COL3" | awk '{print $1}'
+
+##############################################
+
+LDIR="ZB-SOURCE"
+echo "LDIR=$LDIR"
+
+LAST0="ZB-SOURCE/last.0"
+echo "LAST0=$LAST0"
+
+##############################################
+
+[ -d $LDIR ] || {
+   echo "mkdir $LDIR"
+   mkdir $LDIR
+}
+  
+##############################################
+
+last
+
+last -w
+
+last -w | awk '{print $1}'
+
+last -w | awk '{print $1}' | sort -u 
+
+last -w | awk '{print $1}' | sort -u > $LAST0
+
+##############################################
+
+echo ""
+echo "=========================================================================="
+echo "This week visitor(s):"
+echo ""
+
+COUNTER=0
+for ii in `cat $LAST0`
+do
+   printf "%-17s " $ii
+   let COUNTER=(COUNTER+1)%4
+   if [ $COUNTER -eq 0 ]
+   then
+      echo ""
+      COUNTER=0
+   fi
+done
+echo ""
+echo "=========================================================================="
+
+
+
+
+
 
 
 
