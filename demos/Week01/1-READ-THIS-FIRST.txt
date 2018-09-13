@@ -26,6 +26,8 @@ File Listing:
 * a10-mysha1
 * a11-banding
 * a12-fixfs
+* a13-last
+* a14-absen
 
 =======================================================
 
@@ -35,7 +37,7 @@ Use "bash" to run each script. Eg.
    bash a03-command-lines-demo 11 22 33 44 55
 
 ===================================
-REV03: Mon Aug 27 18:45:45 WIB 2018
+REV04: Thu Sep 13 10:02:44 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
 # Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
