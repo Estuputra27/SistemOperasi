@@ -1,8 +1,8 @@
 #!/bin/bash
-# REV00: Wed Sep 12 20:58:04 WIB 2018
+# REV01: Thu Sep 13 10:05:41 WIB 2018
 # START: Wed Sep 12 20:58:04 WIB 2018
 
-# R: list of all users logged in
+# R: attendance (absen) list
 
 # Copyright (C) 2018 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
