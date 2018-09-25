@@ -4,7 +4,8 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV02 Tue Aug 28 13:31:19 WIB 2018
+ * REV04 Tue Sep 25 11:57:34 WIB 2018
+ * REV03 Tue Aug 28 13:31:19 WIB 2018
  * START 2013
  */
 
@@ -13,7 +14,7 @@
 #include <unistd.h>
 
 void main(void) {
-   printf("Process Identifier (PID) [%5.5d] -- Perent PID (PPID[%5.5d])\n", getpid(), getppid());
+   printf("Process Identifier (PID) [%5.5d] -- Parent PID (PPID[%5.5d])\n", getpid(), getppid());
    sleep(1);
 }
 
