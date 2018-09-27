@@ -19,7 +19,6 @@ export PROCPS_USERLEN=16
 w
 w | gawk '$5 ~ /s$/ {print}'
 w | gawk '$5 ~ /s$/ {print $1}'
-w | gawk '$5 ~ /s$/ {print $1}'
 w | gawk '$5 ~ /s$/ {print $1, systime()}'
 w | gawk '$5 ~ /s$/ {print $1, strftime("%y%m%d-%H%M%S", systime())}'
 w | gawk '$5 ~ /s$/ {print $1, strftime("%y%m%d-%H%M%S", systime())}' | sort -u
