@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV02: Thu Sep 27 10:03:16 DST 2018
+# REV03: Thu Sep 27 21:44:00 WIB 2018
 # START: Wed Sep 12 20:58:04 WIB 2018
 
 # R: attendance (absen) list
@@ -18,7 +18,9 @@ w
 export PROCPS_USERLEN=16
 w
 w | gawk '$5 ~ /s$/ {print}'
-w | gawk '$5 ~ /s$/ {print $1}' | sort -u
+w | gawk '$5 ~ /s$/ {print $1}'
+w | gawk '$5 ~ /s$/ {print $1}'
+w | gawk '$5 ~ /s$/ {print $1, systime()}'
 w | gawk '$5 ~ /s$/ {print $1, strftime("%y%m%d-%H%M%S", systime())}'
 w | gawk '$5 ~ /s$/ {print $1, strftime("%y%m%d-%H%M%S", systime())}' | sort -u
 
