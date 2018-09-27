@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV01: Thu Sep 13 10:05:41 WIB 2018
+# REV02: Thu Sep 27 10:03:16 DST 2018
 # START: Wed Sep 12 20:58:04 WIB 2018
 
 # R: attendance (absen) list
@@ -14,31 +14,11 @@ exit 0
 
 ## BASH IGNORES AFTER EXIT
 
-##############################################
-
-LDIR="ZB-SOURCE"
-echo "LDIR=$LDIR"
-
-ABSEN="ZB-SOURCE/absen.txt"
-echo "ABSEN=$ABSEN"
-
-##############################################
-
-checkingdir() {
-   [ -d $LDIR ] || {
-      echo "mkdir $LDIR"
-      mkdir $LDIR
-   }
-}
-  
-##############################################
-
 w
-w | tr -s " "
-w | tr -s " " | cut -d" " -f1,5
-w | tr -s " " | cut -d" " -f1,5 | tail -n+3
-w | tr -s " " | cut -d" " -f1,5 | tail -n+3 | awk '/s$/ {print}'
-w | tr -s " " | cut -d" " -f1,5 | tail -n+3 | awk '/s$/ {print}' | cut -d" " -f1
-w | tr -s " " | cut -d" " -f1,5 | tail -n+3 | awk '/s$/ {print}' | cut -d" " -f1 | sed -e "s/$/ `date`/"
-
+export PROCPS_USERLEN=16
+w
+w | gawk '$5 ~ /s$/ {print}'
+w | gawk '$5 ~ /s$/ {print $1}' | sort -u
+w | gawk '$5 ~ /s$/ {print $1, strftime("%y%m%d-%H%M%S", systime())}'
+w | gawk '$5 ~ /s$/ {print $1, strftime("%y%m%d-%H%M%S", systime())}' | sort -u
 
