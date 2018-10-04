@@ -1,4 +1,4 @@
-# REV09 Wed Oct  3 19:57:34 WIB 2018
+# REV10 Thu Oct  4 10:41:39 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
 
@@ -16,7 +16,8 @@ P08=08-passing-parameters
 P09=09-struct
 P10=10-os172
 P11=11-os181
-P12=12-ppp
+P12=12-pppchar
+P13=13-pppint
 
 
 EXECS= \
@@ -33,6 +34,7 @@ EXECS= \
         $(P10) \
         $(P11) \
         $(P12) \
+        $(P13) \
 
 
 DEMOFILES=\
@@ -89,6 +91,9 @@ $(P11): $(P11).c
 
 $(P12): $(P12).c
 	$(CC) $(P12).c -o $(P12)
+
+$(P13): $(P13).c
+	$(CC) $(P13).c -o $(P13)
 
 clean:
 	rm -f ${EXECS} 
