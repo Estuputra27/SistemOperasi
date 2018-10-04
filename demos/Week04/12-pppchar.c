@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV01 Thu Oct  4 10:49:14 WIB 2018
+ * REV02 Thu Oct  4 20:55:37 WIB 2018
  * START Wed Oct  3 19:59:08 WIB 2018
  *
  */
@@ -17,9 +17,14 @@ unsigned char**  pt2_chr=&pt1_chr;
 unsigned char*** pt3_chr=&pt2_chr;
 
 void main(void) {
-   printf("   var_chr=%c,      ADDR=%p\n",                                    var_chr, &var_chr);
-   printf("  *pt1_chr=%c,     VALUE=%p,     ADDR=%p\n",                      *pt1_chr,   pt1_chr, &pt1_chr);
-   printf(" **pt2_chr=%c,  *pt2_chr=%p,    VALUE=%p,  ADDR=%p\n",           **pt2_chr,  *pt2_chr,  pt2_chr, &pt2_chr);
-   printf("***pt3_chr=%c, **pt3_chr=%p, *pt3_chr=%p, VALUE=%p, ADDR=%p\n", ***pt3_chr, **pt3_chr, *pt3_chr,  pt3_chr, &pt3_chr);
+   printf("   var_chr=%c,      ADDR=%p\n",
+              var_chr, &var_chr);
+   printf("  *pt1_chr=%c,     VALUE=%p,     ADDR=%p\n",
+             *pt1_chr,   pt1_chr, &pt1_chr);
+   printf(" **pt2_chr=%c,  *pt2_chr=%p,    VALUE=%p,  ADDR=%p\n",
+            **pt2_chr,  *pt2_chr,  pt2_chr, &pt2_chr);
+   printf("***pt3_chr=%c, **pt3_chr=%p, *pt3_chr=%p, VALUE=%p, ADDR=%p\n", 
+            ***pt3_chr, **pt3_chr, *pt3_chr,  pt3_chr, &pt3_chr);
 }
+
 
