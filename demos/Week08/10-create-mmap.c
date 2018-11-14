@@ -1,3 +1,14 @@
+/*
+ * Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+ * You are free to SHARE (copy and redistribute the material in any medium or 
+ * format) and to ADAPT (remix, transform, and build upon the material for any 
+ * purpose, even commercially).  This program is distributed in the hope that 
+ * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
+ * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV00 Wed Nov 14 20:30:05 WIB 2018
+ * START Wed Nov 14 20:30:05 WIB 2018
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
