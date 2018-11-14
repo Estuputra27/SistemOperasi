@@ -20,19 +20,22 @@
 typedef  struct {
    char  mystring[16];
    int   myint;
+   char  ends[2];
 } myshare;
 
-#define MYFLAGS      O_CREAT|O_RDWR
+#define MYFLAGS      O_RDWR
 #define MYPROTECTION PROT_READ|PROT_WRITE
 #define MYVISIBILITY MAP_SHARED
-char*  sfile="19-share-file.bin";
+char*  sfile="demo-file.bin";
 
 void main(void) {
    printf("TBA1:create mmap\n");
    int ssize=sizeof(myshare);
    int fd=open(sfile,MYFLAGS,S_IRWXU);
    myshare* mymap=mmap(NULL, ssize, MYPROTECTION, MYVISIBILITY, fd, 0);
+   printf("TBA2:create mmap\n");
    if (mymap == MAP_FAILED) exit(1);
+   printf("TBA3:create mmap\n");
    mymap->mystring[0]='X';
    mymap->mystring[1]='Y';
    mymap->mystring[2]='Z';
