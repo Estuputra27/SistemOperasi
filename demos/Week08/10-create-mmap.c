@@ -25,7 +25,7 @@ typedef  struct {
 #define MYFLAGS      O_CREAT|O_RDWR
 #define MYPROTECTION PROT_READ|PROT_WRITE
 #define MYVISIBILITY MAP_SHARED
-char*  sfile="demo-file.bin";
+char*  sfile="19-share-file.bin";
 
 void main(void) {
    printf("TBA1:create mmap\n");
@@ -36,7 +36,7 @@ void main(void) {
    mymap->mystring[0]='X';
    mymap->mystring[1]='Y';
    mymap->mystring[2]='Z';
-   mymap->mystring[3]='\0';
+   mymap->mystring[3]=' ';
    mymap->myint=0x61626364;
    close(fd);
    printf("TBA6:create mmap\n");
