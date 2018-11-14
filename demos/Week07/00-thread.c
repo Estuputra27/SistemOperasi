@@ -16,27 +16,29 @@
 #include <sys/types.h>
 #include "99-myutils.h"
 
-#define  LOOP0      10
+#define  LOOP0      6
 
 volatile int loop  = LOOP0;
 volatile int share = 0;
 
 void* thread1 (void* a) {
    printf("THREAD#1--PID[%d]\n", getpid());
-   sleep(2);
+   sleep(2)
+   rehat_acak(100);
    share = 1000;
    while (loop > 0) {
-      sleep(1);
+      rehat_acak(100);
       share++;
    }
 }
 
 void* thread2 (void* a) {
    printf("THREAD#2--PID[%d]\n", getpid());
-   sleep(2);
+   sleep(2)
+   rehat_acak(100);
    share = 2000;
    while (loop > 0) {
-      sleep(1);
+      rehat_acak(100);
       share--;
    }
 }
@@ -44,8 +46,8 @@ void* thread2 (void* a) {
 void* thread3 (void* a) {
    printf("THREAD#3--PID[%d]\n", getpid());
    while (loop-- > 0) {
-      sleep(1);
       printf("SHARE  =  %4.4d\n", share);
+      sleep(1);
    }
 }
 
