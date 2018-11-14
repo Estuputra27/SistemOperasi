@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV08 Wed Nov 14 17:32:43 WIB 2018
+ * REV08 Wed Nov 14 17:39:15 WIB 2018
  * REV02 Tue Apr 18 15:28:19 WIB 2017
  * REV01 Wed Nov  2 11:49:30 WIB 2016
  * START Xxx Sep 30 XX:XX:XX UTC 2015
@@ -16,19 +16,17 @@
 #include <sys/types.h>
 #include "99-myutils.h"
 
-#define  LOOP0      6
-
-volatile int loop  = LOOP0;
+volatile int loop  = 6;
 volatile int share = 0;
 
-void  sleepflush(int ii) {
-   sleep (ii);
+void  flushsleep(int ii) {
    fflush(NULL);
+   sleep (ii);
 }
 
 void* thread1 (void* a) {
    printf("THREAD#1--PID[%d]\n", getpid());
-   sleepflush(1);
+   flushsleep(1);
    rehat_acak(100);
    share = 1000;
    while (loop > 0) {
@@ -39,7 +37,7 @@ void* thread1 (void* a) {
 
 void* thread2 (void* a) {
    printf("THREAD#2--PID[%d]\n", getpid());
-   sleepflush(1);
+   flushsleep(1);
    rehat_acak(100);
    share = 2000;
    while (loop > 0) {
@@ -52,7 +50,7 @@ void* thread3 (void* a) {
    printf("THREAD#3--PID[%d]\n", getpid());
    while (loop-- > 0) {
       printf("SHARE  =  %4.4d\n", share);
-      sleepflush(1);
+      flushsleep(1);
    }
 }
 
