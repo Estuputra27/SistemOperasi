@@ -5,6 +5,7 @@
 CC=gcc
 CFLAGS=-std=gnu99 -pthread
 
+P10=10-create-mmap
 P20=20-parent
 P21=21-child
 P22=22-hello-goodbye
@@ -16,6 +17,7 @@ P32=32-sub1
 
 
 EXECS= \
+        $(P10) \
         $(P20) \
         $(P21) \
         $(P22) \
@@ -27,7 +29,8 @@ EXECS= \
 
 
 DEMOFILES=\
-	demo-file1.txt \
+	demo-file.txt \
+	demo-file.bin \
         
 
 all:  $(EXECS)
