@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV08 Wed Nov 14 15:44:18 WIB 2018
+ * REV08 Wed Nov 14 16:52:03 WIB 2018
  * REV02 Tue Apr 18 15:28:19 WIB 2017
  * REV01 Wed Nov  2 11:49:30 WIB 2016
  * START Xxx Sep 30 XX:XX:XX UTC 2015
@@ -16,52 +16,45 @@
 #include <sys/types.h>
 #include "99-myutils.h"
 
-#define  LOOP0      5
-#define  LOOP1 500900
-#define  LOOP2 500000
+#define  LOOP0      10
 
-volatile int loop = LOOP0;
-int          share;
+volatile int loop  = LOOP0;
+volatile int share = 0;
 
 void* thread1 (void* a) {
-   int ii, jj=0;
-   printf("I am thread 1 -- PID[%d]\n", getpid());
-   sleep(1);
+   printf("THREAD#1--PID[%d]\n", getpid());
+   sleep(2);
    share = 1000;
    while (loop > 0) {
-      for (ii=0;ii<LOOP1;ii++) 
-         jj++;
+      sleep(1);
       share++;
    }
 }
 
 void* thread2 (void* a) {
-   int ii, jj=0;
-   printf("I am thread 2 -- PID[%d]\n", getpid());
-   sleep(1);
+   printf("THREAD#2--PID[%d]\n", getpid());
+   sleep(2);
    share = 2000;
    while (loop > 0) {
-      for (ii=0;ii<LOOP2;ii++) 
-         jj++;
+      sleep(1);
       share--;
    }
 }
 
 void* thread3 (void* a) {
-   printf("I am thread 3 -- PID[%d]\n", getpid());
-   sleep(1);
+   printf("THREAD#3--PID[%d]\n", getpid());
    while (loop-- > 0) {
-      sleep(2);
-      printf("SHARE = %4.4d\n", share);
+      sleep(1);
+      printf("SHARE  =  %4.4d\n", share);
    }
 }
 
 void main(void) {
+   printf("MAIN------PID[%d]\n", getpid());
    daftar_trit   (thread1);
    daftar_trit   (thread2);
    daftar_trit   (thread3);
    jalankan_trit ();
-   printf ("I am MAIN -- PID[%d]\n", getpid());
    beberes_trit  ("Done...");
 }
 
