@@ -14,8 +14,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
-
-
 #include "99-myutils.h"
 
 #define  LOOP0      5
