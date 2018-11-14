@@ -23,7 +23,7 @@ volatile int share = 0;
 
 void* thread1 (void* a) {
    printf("THREAD#1--PID[%d]\n", getpid());
-   sleep(2)
+   sleep(1);
    rehat_acak(100);
    share = 1000;
    while (loop > 0) {
@@ -34,7 +34,7 @@ void* thread1 (void* a) {
 
 void* thread2 (void* a) {
    printf("THREAD#2--PID[%d]\n", getpid());
-   sleep(2)
+   sleep(2);
    rehat_acak(100);
    share = 2000;
    while (loop > 0) {
