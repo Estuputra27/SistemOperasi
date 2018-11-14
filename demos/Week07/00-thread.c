@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV07 Wed Aug 29 18:33:29 WIB 2018
+ * REV08 Wed Nov 14 15:44:18 WIB 2018
  * REV02 Tue Apr 18 15:28:19 WIB 2017
  * REV01 Wed Nov  2 11:49:30 WIB 2016
  * START Xxx Sep 30 XX:XX:XX UTC 2015
@@ -13,6 +13,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/types.h>
+
+
 #include "99-myutils.h"
 
 #define  LOOP0      5
@@ -24,7 +27,7 @@ int          share;
 
 void* thread1 (void* a) {
    int ii, jj=0;
-   printf("I am a thread no 1\n");
+   printf("I am thread 1 -- PID[%d]\n", getpid());
    sleep(1);
    share = 1000;
    while (loop > 0) {
@@ -36,7 +39,7 @@ void* thread1 (void* a) {
 
 void* thread2 (void* a) {
    int ii, jj=0;
-   printf("I am a thread no 2\n");
+   printf("I am thread 2 -- PID[%d]\n", getpid());
    sleep(1);
    share = 2000;
    while (loop > 0) {
@@ -47,7 +50,7 @@ void* thread2 (void* a) {
 }
 
 void* thread3 (void* a) {
-   printf("I am a thread no 3\n");
+   printf("I am thread 3 -- PID[%d]\n", getpid());
    sleep(1);
    while (loop-- > 0) {
       sleep(2);
@@ -60,7 +63,7 @@ void main(void) {
    daftar_trit   (thread2);
    daftar_trit   (thread3);
    jalankan_trit ();
-   printf        ("I am MAIN\n");
+   printf ("I am MAIN -- PID[%d]\n", getpid());
    beberes_trit  ("Done...");
 }
 
