@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV09 Thu Nov 15 09:26:07 WIB 2018
+ * REV10 Thu Nov 15 19:29:46 WIB 2018
  * REV02 Tue Apr 18 15:28:19 WIB 2017
  * REV01 Wed Nov  2 11:49:30 WIB 2016
  * START Xxx Sep 30 XX:XX:XX UTC 2015
@@ -58,7 +58,7 @@ void* thread3 (void* a) {
    }
 }
 
-// THREAD#3: start share=0 --> display share
+// MAIN: start share=0
 void main(void) {
    printf("---MAIN--PID[%5.5d]\n", getpid());
    daftar_trit   (thread1);
