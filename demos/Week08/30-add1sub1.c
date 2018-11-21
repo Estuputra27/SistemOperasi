@@ -50,22 +50,22 @@ void main(int argc, char* argv[]) {
    mymap->loop  = 6;
    sem_init (&(mymap->sync1), 1, 0);
    sem_init (&(mymap->sync2), 1, 0);
-   flushprintf("EXEC", "Parent");
+   flushprintf("Parent", "EXEC");
    if (!fork()) execlp("./31-add1", "31ADD1", NULL);
    if (!fork()) execlp("./32-sub1", "32SUB1", NULL);
    sleep(1);
    sem_post (&(mymap->sync1));
    sem_post (&(mymap->sync1));
    while (--mymap->loop) {
-      flushprintf("LOOP", "Parent");
+      flushprintf("Parent", "LOOP");
       sleep(1);
    }
-   flushprintf("WAIT", "Parent");
+   flushprintf("Parent", "WAIT");
    sem_wait (&(mymap->sync2));
    sem_wait (&(mymap->sync2));
    wait(NULL);
    wait(NULL);
-   flushprintf("EXIT", "Parent");
+   flushprintf("Parent", "EXIT");
    close(fd);
 }
 

@@ -45,7 +45,7 @@ void main(int argc, char* argv[]) {
    int     ssize=sizeof(myshare);
    mymap=mmap(NULL, ssize, MYPROTECTION, MYVISIBILITY, fd, 0);
    sem_wait (&(mymap->sync1));
-   flushprintf("PASS", argv[0]);
+   flushprintf(argv[0], "PASS");
    sleep(1);
    mymap->share=1000;
    while (mymap->loop) {
@@ -54,6 +54,6 @@ void main(int argc, char* argv[]) {
    }
    sem_post (&(mymap->sync2));
    close(fd);
-   flushprintf("EXIT", argv[0]);
+   flushprintf(argv[0], "EXIT");
 }
 
