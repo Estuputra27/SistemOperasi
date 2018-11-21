@@ -49,6 +49,7 @@ REF:
 - https://www.linux.com/learn/understanding-and-using-systemd
 
 ===================================
+REV10: Wed Nov 21 16:07:56 WIB 2018
 REV09: Tue Aug 28 17:48:20 WIB 2018
 REV04: Mon Nov 27 17:02:11 WIB 2017
 START: 2017
@@ -67,5 +68,4 @@ START: 2017
 # Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
-
 

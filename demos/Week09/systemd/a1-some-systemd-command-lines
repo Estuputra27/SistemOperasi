@@ -10,6 +10,10 @@
 
 XX="xx"
 clear
+echo ""; echo "This is a SYSTEMD - systemctl demo."
+echo "Just run: \"bash $0\""
+echo ""; echo "*** Hit Enter Key ***";
+[ "$1" = "$XX" ] || (read YY ; clear)
 
 for II in      \
     'systemctl list-unit-files | head -8; echo "(...)";systemctl list-unit-files| tail -8' \
@@ -30,7 +34,7 @@ do
     echo $COMMENT
     echo "$STR"
     eval $II
-    echo ""; echo "*** Hit Anykey ***";
+    echo ""; echo "*** Hit Enter Key ***";
     [ "$1" = "$XX" ] || (read YY ; clear)
 done
 
