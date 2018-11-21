@@ -5,7 +5,7 @@
  * purpose, even commercially).  This program is distributed in the hope that 
  * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV02 Wed Nov 21 17:19:59 WIB 2018
+ * REV02 Wed Nov 21 20:48:49 WIB 2018
  * REV01 Thu Nov 15 12:27:16 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
  */
@@ -35,7 +35,7 @@ typedef  struct {
 myshare* mymap;
 
 void flushprintf(char* tag1, char* tag2) {
-   printf("%s[%s] S/L(%5d,%5d) - P/PPID(%d/%d)\n", tag1, 
+   printf("%s[%s] S/L(%4d/%d) - P/PPID(%5d/%d)\n", tag1, 
       tag2, mymap->share, mymap->loop, getpid(), getppid());
    fflush(NULL);
 }
