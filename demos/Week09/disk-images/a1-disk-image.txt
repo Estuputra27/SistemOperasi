@@ -37,6 +37,3 @@ mdir            -i vfat32.img
 Delete
 rm -f test.img vfat32.img zzzzDisket.img zzzz.txt
 
-============================
-Mon Nov 27 12:09:45 WIB 2017
-
