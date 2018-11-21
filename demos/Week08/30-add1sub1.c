@@ -36,7 +36,8 @@ typedef  struct {
 myshare* mymap;
 
 void flushprintf(char* tag1, char* tag2) {
-   printf("%5s[%13s] S/L(%5d,%5d) - P/PPID(%d/%d)\n", tag1, tag2, mymap->share, mymap->loop, getpid(), getppid());
+   printf("%s[%s] S/L(%5d,%5d) - P/PPID(%d/%d)\n", tag1,
+      tag2, mymap->share, mymap->loop, getpid(), getppid());
    fflush(NULL);
 }
 
@@ -46,24 +47,25 @@ void main(int argc, char* argv[]) {
    truncate(sfile, ssize);
    mymap=mmap(NULL, ssize, MYPROTECTION, MYVISIBILITY, fd, 0);
    mymap->share = 0;
-   mymap->loop  = 1;
+   mymap->loop  = 6;
    sem_init (&(mymap->sync1), 1, 0);
    sem_init (&(mymap->sync2), 1, 0);
-   flushprintf("EXECa", argv[0]);
-   if (!fork()) execlp("./31-add1", "DODOL", NULL);
-   flushprintf("EXECb", argv[0]);
-   if (!fork()) execlp("./31-add1", "DIDIL", NULL);
+   flushprintf("EXEC", "Parent");
+   if (!fork()) execlp("./31-add1", "31ADD1", NULL);
+   if (!fork()) execlp("./32-sub1", "32SUB1", NULL);
+   sleep(1);
    sem_post (&(mymap->sync1));
    sem_post (&(mymap->sync1));
-   flushprintf("WAITa", argv[0]);
+   while (--mymap->loop) {
+      flushprintf("LOOP", "Parent");
+      sleep(1);
+   }
+   flushprintf("WAIT", "Parent");
    sem_wait (&(mymap->sync2));
-   flushprintf("WAITb", argv[0]);
    sem_wait (&(mymap->sync2));
+   wait(NULL);
+   wait(NULL);
+   flushprintf("EXIT", "Parent");
    close(fd);
-   flushprintf("WAIT1", argv[0]);
-   wait(NULL);
-   flushprintf("WAIT2", argv[0]);
-   wait(NULL);
-   flushprintf("STOP ", argv[0]);
 }
 

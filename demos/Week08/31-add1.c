@@ -35,7 +35,8 @@ typedef  struct {
 myshare* mymap;
 
 void flushprintf(char* tag1, char* tag2) {
-   printf("%5s[%13s] S/L(%5d,%5d) - P/PPID(%d/%d)\n", tag1, tag2, mymap->share, mymap->loop, getpid(), getppid());
+   printf("%s[%s] S/L(%5d,%5d) - P/PPID(%d/%d)\n", tag1, 
+      tag2, mymap->share, mymap->loop, getpid(), getppid());
    fflush(NULL);
 }
 
@@ -43,15 +44,16 @@ void main(int argc, char* argv[]) {
    int     fd   =open(sfile,MYFLAGS,S_IRWXU);
    int     ssize=sizeof(myshare);
    mymap=mmap(NULL, ssize, MYPROTECTION, MYVISIBILITY, fd, 0);
-   sleep(1);
    sem_wait (&(mymap->sync1));
-   flushprintf("PASS ", argv[0]);
+   flushprintf("PASS", argv[0]);
    sleep(1);
-   mymap->share=getpid();
-   mymap->loop =getppid();
+   mymap->share=1000;
+   while (mymap->loop) {
+      for(int ii=0; ii<1000000; ii++);
+      mymap->share++;
+   }
    sem_post (&(mymap->sync2));
    close(fd);
-   sleep(1);
-   flushprintf("STOP ", argv[0]);
+   flushprintf("EXIT", argv[0]);
 }
 
