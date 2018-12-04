@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/45813030/how-to-generate-multiple-executable-files-in-one-makefile
+
