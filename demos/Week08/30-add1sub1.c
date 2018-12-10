@@ -1,5 +1,3 @@
-// 4567890123456789012345678901234567890
-
 /*
  * (C) 2018 Rahmat M. Samik-Ibrahim
  * You are free to SHARE and to ADAPT,
@@ -20,51 +18,51 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 
-#define MYFLAGS      O_CREAT | O_RDWR
-#define MYPROTECTION PROT_READ|PROT_WRITE
-#define MYVISIBILITY MAP_SHARED
-char*  sfile="demo-file.bin";
+#define MYFLAGS     O_CREAT | O_RDWR
+#define MYPROTECT PROT_READ | PROT_WRITE
+#define MYVISIBILITY          MAP_SHARED
 
 typedef  struct {
-   sem_t  sync1;
-   sem_t  sync2;
+   sem_t  sync[3];
    int    share;
    int    loop;
 } myshare;
 
 myshare* mymap;
+char*    sfile = "demo-file.bin";
 
 void flushprintf(char* tag1, char* tag2) {
-   printf("%s[%s] S/L(%4d/%d) - P/PPID(%5d/%d)\n", tag1,
-      tag2, mymap->share, mymap->loop, getpid(), getppid());
+   printf("%s[%s] loop(%d) - PID(%d)\n", tag1,
+      tag2, mymap->loop, getpid());
    fflush(NULL);
 }
 
-void main(int argc, char* argv[]) {
-   int     fd   =open(sfile,MYFLAGS,S_IRWXU);
-   int     ssize=sizeof(myshare);
+// 4567890123456789012345678901234567890
+void main(void) {
+   int fd  =open(sfile,MYFLAGS,S_IRWXU);
+   int ssize=sizeof(myshare);
    truncate(sfile, ssize);
-   mymap=mmap(NULL, ssize, MYPROTECTION, MYVISIBILITY, fd, 0);
+   mymap=mmap(NULL, ssize, MYPROTECT, 
+              MYVISIBILITY, fd, 0);
    mymap->share = 0;
    mymap->loop  = 6;
-   sem_init (&(mymap->sync1), 1, 0);
-   sem_init (&(mymap->sync2), 1, 0);
-   flushprintf("Parent", "EXEC");
-   if (!fork()) execlp("./31-add1", "31ADD1", NULL);
-   if (!fork()) execlp("./32-sub1", "32SUB1", NULL);
+   sem_init (&(mymap->sync[0]), 1, 0);
+   sem_init (&(mymap->sync[1]), 1, 0);
+   sem_init (&(mymap->sync[2]), 1, 0);
+   flushprintf("30====", "EXEC");
+   if (!fork()) execlp("./31-add1", " 31 ++", NULL);
+   if (!fork()) execlp("./32-sub1", " 32 --", NULL);
    sleep(1);
-   sem_post (&(mymap->sync1));
-   sem_post (&(mymap->sync1));
    while (--mymap->loop) {
-      flushprintf("Parent", "LOOP");
+      flushprintf("30====", "LOOP");
       sleep(1);
    }
-   flushprintf("Parent", "WAIT");
-   sem_wait (&(mymap->sync2));
-   sem_wait (&(mymap->sync2));
+   flushprintf("30====", "WAIT");
+   sem_wait (&(mymap->sync[0]));
+   sem_wait (&(mymap->sync[0]));
    wait(NULL);
    wait(NULL);
-   flushprintf("Parent", "EXIT");
+   flushprintf("30====", "EXIT");
    close(fd);
 }
 
