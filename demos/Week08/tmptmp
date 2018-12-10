@@ -1,6 +1,0 @@
-void flushprintf(char* tag1, char* tag2) {
-   printf("%s[%s] loop(%4d) - PID(%d)\n", tag1,
-      tag2, mymap->loop, getpid());
-   fflush(NULL);
-}
-
