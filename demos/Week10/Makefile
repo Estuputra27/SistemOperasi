@@ -4,9 +4,8 @@
 
 CC            = gcc
 CPP           = cpp
-# CFLAGS        = -std=gnu99 -pthread
 CFLAGS        = -std=gnu99
-LDFLAGS       = -pthread
+LDFLAGS       = 
 CPPFLAGS      =
 DEPFLAGS      = -MM -MT $(@:.d=.o) 
 OUTPUT_OPTION = -o $@
