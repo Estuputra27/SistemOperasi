@@ -5,8 +5,8 @@
  * purpose, even commercially).  This program is distributed in the hope that 
  * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV03 Mon Dec 10 15:37:32 WIB 2018
  * REV02 Wed Nov 21 20:48:49 WIB 2018
- * REV01 Thu Nov 15 12:27:16 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
  */
 
@@ -56,4 +56,8 @@ void main(int argc, char* argv[]) {
    close(fd);
    flushprintf(argv[0], "EXIT");
 }
+
+//       1         2         3         4
+// 4567890123456789012345678901234567890
+
 

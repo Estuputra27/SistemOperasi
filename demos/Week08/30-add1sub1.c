@@ -1,12 +1,11 @@
+// 4567890123456789012345678901234567890
+
 /*
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim
- * You are free to SHARE (copy and redistribute the material in any medium or 
- * format) and to ADAPT (remix, transform, and build upon the material for any 
- * purpose, even commercially).  This program is distributed in the hope that 
- * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
- * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * (C) 2018 Rahmat M. Samik-Ibrahim
+ * You are free to SHARE and to ADAPT,
+ * but WITHOUT ANY WARRANTY.
+ * REV03 Mon Dec 10 15:37:09 WIB 2018
  * REV02 Wed Nov 21 20:48:39 WIB 2018
- * REV01 Thu Nov 15 12:27:16 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
  */
 
@@ -68,4 +67,7 @@ void main(int argc, char* argv[]) {
    flushprintf("Parent", "EXIT");
    close(fd);
 }
+
+//       1         2         3         4
+// 4567890123456789012345678901234567890
 
