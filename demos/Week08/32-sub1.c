@@ -17,9 +17,10 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#define MYFLAGS      O_CREAT | O_RDWR
-#define MYPROTECTION PROT_READ|PROT_WRITE
-#define MYVISIBILITY MAP_SHARED 
+#define MYFLAGS     O_CREAT | O_RDWR
+#define MYPROTECT PROT_READ | PROT_WRITE
+#define MYVISIBILITY          MAP_SHARED 
+#define SFILE             "demo-file.bin"
 
 typedef  struct {
    sem_t  sync[3];
@@ -29,7 +30,6 @@ typedef  struct {
 } myshare;
 
 myshare* mymap;
-char*    sfile="demo-file.bin";
 
 void flushprintf(char* tag1, char* tag2){
    printf("%s[%s] loop%d relative(%d)\n", 
@@ -39,9 +39,9 @@ void flushprintf(char* tag1, char* tag2){
 }
 
 void main(int argc, char* argv[]) {
-   int fd  =open(sfile,MYFLAGS,S_IRWXU);
+   int fd  =open(SFILE,MYFLAGS,S_IRWXU);
    int ssize=sizeof(myshare);
-   mymap=mmap(NULL, ssize, MYPROTECTION, 
+   mymap=mmap(NULL, ssize, MYPROTECT, 
               MYVISIBILITY, fd, 0);
    sem_post (&(mymap->sync[1]));
    sem_wait (&(mymap->sync[2]));

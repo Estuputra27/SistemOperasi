@@ -21,7 +21,7 @@
 #define MYFLAGS     O_CREAT | O_RDWR
 #define MYPROTECT PROT_READ | PROT_WRITE
 #define MYVISIBILITY          MAP_SHARED
-#define SFILE       "demo-file.bin"
+#define SFILE            "demo-file.bin"
 
 typedef  struct {
    sem_t  sync[3];
@@ -44,9 +44,9 @@ void flushprintf(char* tag1, char* tag2){
 #define SUB1 "  32:SUB1"
 
 void main(void) {
-   int fd   =open(sfile,MYFLAGS,S_IRWXU);
+   int fd   =open(SFILE,MYFLAGS,S_IRWXU);
    int ssize=sizeof(myshare);
-   truncate(sfile, ssize);
+   truncate(SFILE, ssize);
    mymap=mmap(NULL, ssize, MYPROTECT, 
               MYVISIBILITY, fd, 0);
    mymap->share    = 0;
