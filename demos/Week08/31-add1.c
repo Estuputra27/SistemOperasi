@@ -29,13 +29,16 @@ typedef  struct {
    sem_t  sync[3];
    int    share;
    int    loop;
+   pid_t  relative;
 } myshare;
 
 myshare* mymap;
 
-void flushprintf(char* tag1, char* tag2) {
-   printf("%s[%s] loop(%d) - PID(%d)\n", tag1,
-      tag2, mymap->loop, getpid());
+// 4567890123456789012345678901234567890
+void flushprintf(char* tag1, char* tag2){
+   printf("%s[%s] loop%d relative(%d)\n", 
+      tag1, tag2, mymap->loop, 
+      getpid()  + mymap->relative);
    fflush(NULL);
 }
 

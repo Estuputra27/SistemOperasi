@@ -1,0 +1,8 @@
+// 4567890123456789012345678901234567890
+void flushprintf(char* tag1, char* tag2){
+   printf("%s[%s] LOOP%d relative(%d)\n", 
+      tag1, tag2, mymap->loop, 
+      getpid()  + mymap->relative);
+   fflush(NULL);
+}
+
