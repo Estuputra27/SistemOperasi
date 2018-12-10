@@ -2,7 +2,7 @@
  * (C) 2018 Rahmat M. Samik-Ibrahim
  * You are free to SHARE and to ADAPT,
  * but WITHOUT ANY WARRANTY.
- * REV03 Mon Dec 10 15:37:09 WIB 2018
+ * REV03 Mon Dec 10 18:53:06 WIB 2018
  * REV02 Wed Nov 21 20:48:39 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
  */
@@ -21,10 +21,7 @@
 #define MYFLAGS     O_CREAT | O_RDWR
 #define MYPROTECT PROT_READ | PROT_WRITE
 #define MYVISIBILITY          MAP_SHARED
-
-#define MAIN "30:ADDSUB"
-#define ADD1 "  31:ADD1"
-#define SUB1 "  32:SUB1"
+#define SFILE       "demo-file.bin"
 
 typedef  struct {
    sem_t  sync[3];
@@ -34,9 +31,7 @@ typedef  struct {
 } myshare;
 
 myshare* mymap;
-char*    sfile = "demo-file.bin";
 
-// 4567890123456789012345678901234567890
 void flushprintf(char* tag1, char* tag2){
    printf("%s[%s] loop%d relative(%d)\n", 
       tag1, tag2, mymap->loop, 
@@ -44,9 +39,12 @@ void flushprintf(char* tag1, char* tag2){
    fflush(NULL);
 }
 
-// 4567890123456789012345678901234567890
+#define MAIN "30:ADDSUB"
+#define ADD1 "  31:ADD1"
+#define SUB1 "  32:SUB1"
+
 void main(void) {
-   int fd  =open(sfile,MYFLAGS,S_IRWXU);
+   int fd   =open(sfile,MYFLAGS,S_IRWXU);
    int ssize=sizeof(myshare);
    truncate(sfile, ssize);
    mymap=mmap(NULL, ssize, MYPROTECT, 
@@ -62,22 +60,21 @@ void main(void) {
       execlp("./31-add1", ADD1, NULL);
    if (!fork()) 
       execlp("./32-sub1", SUB1, NULL);
-   sleep(1);
-   while (--mymap->loop) {
-      flushprintf(MAIN, "LOOP");
+   do {
       sleep(1);
-   }
+      flushprintf(MAIN, "LOOP");
+   } while (--mymap->loop);
    flushprintf(MAIN, "WAIT");
    sem_wait (&(mymap->sync[0]));
    sem_wait (&(mymap->sync[0]));
-   wait(NULL);
-   wait(NULL);
-   if (mymap->share > 1500)
-      flushprintf("  SHARE: ", "2000");
+   if      (mymap->share > 1500)
+      flushprintf("SHARE +/-", "2000");
    else if (mymap->share > 500)
-      flushprintf("  SHARE: ", "1000");
+      flushprintf("SHARE +/-", "1000");
    else 
-      flushprintf("  SHARE: ", "0");
+      flushprintf("SHARE +/-", "0");
+   wait(NULL);
+   wait(NULL);
    flushprintf(MAIN, "EXIT");
    close(fd);
 }
