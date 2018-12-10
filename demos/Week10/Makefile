@@ -1,9 +1,20 @@
-# REV12 Tue Dec  4 19:57:55 WIB 2018
+# REV14 Mon Dec 10 15:17:15 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
 
-CC=gcc
-CFLAGS=-std=gnu99 -pthread
+CC            = gcc
+CPP           = cpp
+# CFLAGS        = -std=gnu99 -pthread
+CFLAGS        = -std=gnu99
+LDFLAGS       = -pthread
+CPPFLAGS      =
+DEPFLAGS      = -MM -MT $(@:.d=.o) 
+OUTPUT_OPTION = -o $@
+COMPILE       = $(CC) $(DEPFLAGS) $(CFLAGS) $(CPPFLAGS) -c
+SRCS          = $(wildcard *.c)
+OBJ           = $(SRCS:.c=.o)
+DEP           = $(OBJ:.o=.d)
+PROGS         = $(SRCS:.c=  )
 
 P10=10-server
 P11=11-client
@@ -70,7 +81,7 @@ MODE644=\
 all:  $(EXECS) demo-file4.txt
 
 $(EXECS): %: %.c $(DEPS)
-	$(CC) $(CFLAGS) $< -o $@ 
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
 .phony: clean demo
 clean:
@@ -86,9 +97,6 @@ demo-file4.txt:
 	@chmod 644 $(MODE644)
 
 
-## # REV02 Thu Dec  6 10:14:44 WIB 2018
-## # START Wed Dec  5 19:35:40 WIB 2018
-## 
 ## CC            = gcc
 ## CPP           = cpp
 ## LDFLAGS       = 
@@ -101,6 +109,7 @@ demo-file4.txt:
 ## OBJ           = $(SRCS:.c=.o)
 ## DEP           = $(OBJ:.o=.d)
 ## PROGS         = $(SRCS:.c=  )
+
 ## 
 ## all: main1 main2 main3 main4
 ## 
