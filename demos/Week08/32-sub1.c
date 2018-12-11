@@ -2,7 +2,7 @@
  * (C) 2018 Rahmat M. Samik-Ibrahim
  * You are free to SHARE and to ADAPT,
  * but WITHOUT ANY WARRANTY.
- * REV03 Mon Dec 10 18:54:10 WIB 2018
+ * REV04 Tue Dec 11 10:32:43 WIB 2018
  * REV02 Wed Nov 21 20:49:00 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
  */
@@ -54,8 +54,8 @@ void main(int argc, char* argv[]) {
    }
    sem_post (&(mymap->sync[1]));
    sem_wait (&(mymap->sync[2]));
-   sem_post (&(mymap->sync[1]));
    flushprintf(argv[0], "EXIT");
+   sem_post (&(mymap->sync[1]));
    sem_post (&(mymap->sync[0]));
    close(fd);
 }
