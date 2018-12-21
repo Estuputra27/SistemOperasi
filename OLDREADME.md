@@ -24,7 +24,47 @@
 
   * [Bash - Bourne again shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
+* UDACITY
+
+  * [Introduction to Operating Systems](https://classroom.udacity.com/courses/ud923) (login)
+
+    * Lesson 1: Course Readiness Survey
+
+      * C Programming Examples
+
+    * Lesson 2: 
+
+      * Quiz: Your Learning Expectations
+
+  * [Operating Systems Visual Metaphors](https://goo.gl/HaUk5g)
+
+* Buku Kunyuk MDGR
+
+  * [Pengantar Sistem Operasi Komputer jilid 1](https://rms46.vlsm.org/2/213.pdf)
+
+  * [Pengantar Sistem Operasi Komputer jilid 2](https://rms46.vlsm.org/2/214.pdf)
+
+* WSL
+
+  * [Cara Install WSL Ubuntu 16.04](https://github.com/Belajar-Latex/InstallWSL/blob/master/README.md)
+
+  * [Setup PowerShell untuk WSL](https://github.com/Belajar-Latex/InstallWSL/blob/master/README.md)
+
+  * [WSL: Fine Tuning](http://rahmatm.samik-ibrahim.vlsm.org/2018/07/wsl-fine-tuning.html)
+
+  * [More...](https://wsl.vlsm.org/)
 
 
+# DISKLAIMER
 
+Grrr...laman ini terutama ditulis untuk KEPERLUAN SENDIRI.
+Tulisan ini berbasis "Google Sana, Google Sini, Coba Itu, Coba Ini, Lalu Tanya-tanyi".
+Entah ini PLAGIAT, entah ini RISET, yang jelas tidak pernah ada klaim bahwa ini merupakan karya asli, 
+serta belum tentu pula merupakan solusi terbaik, serta bukan untuk konsumsi Scopus :). 
+Mohon kiranya memberikan tanggapan, terutama jika memiliki solusi alternatif. 
+Semoga catatan ini akan bermanfaat di masa mendatang, saat sudah lupa cara menyelesaikan masalah trivia ini.
+
+RMS
+
+revisi 18---21-Dec-2018
 
