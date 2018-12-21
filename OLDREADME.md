@@ -16,5 +16,15 @@
 
     * UAS Sistem Operasi: [W06](http://rms46.vlsm.org/2/201.pdf), [W07](http://rms46.vlsm.org/2/202.pdf), [W08](http://rms46.vlsm.org/2/203.pdf), [W09](http://rms46.vlsm.org/2/204.pdf), [W10](http://rms46.vlsm.org/2/195.pdf).
 
+* [Operating System Concepts (Silberschatz et.al.)](http://os-book.com/)
+
+  * [OSC 10: Slides](http://codex.cs.yale.edu/avi/os-book/OS10/slide-dir/)
+
+* [Wikipedia](https://en.wikipedia.org/)
+
+  * [Bash - Bourne again shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+
+
+
 
 
