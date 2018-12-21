@@ -1,5 +1,3 @@
----
----
 * `BADAK.cs.ui.ac.id:///extra/` -- situs ini hanya dapat diakses dari internal Universitas Indonesia.
 
 * [GITHUB](https://github.com/)
