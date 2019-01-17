@@ -1,3 +1,4 @@
+# REV11 Thu Jan 17 15:58:20 WIB 2019
 # REV10 Thu Oct  4 10:41:39 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -14,10 +15,13 @@ P06=06-pointer-address
 P07=07-addresses
 P08=08-passing-parameters
 P09=09-struct
-P10=10-os172
-P11=11-os181
-P12=12-pppchar
-P13=13-pppint
+P10=10-pppchar
+P11=11-pppint
+P12=12-uts162
+P13=13-uts171
+P14=14-uts172
+P15=15-uts181
+P16=16-uts182
 
 
 EXECS= \
@@ -35,6 +39,9 @@ EXECS= \
         $(P11) \
         $(P12) \
         $(P13) \
+        $(P14) \
+        $(P15) \
+        $(P16) \
 
 
 DEMOFILES=\
@@ -94,6 +101,15 @@ $(P12): $(P12).c
 
 $(P13): $(P13).c
 	$(CC) $(P13).c -o $(P13)
+
+$(P14): $(P14).c
+	$(CC) $(P14).c -o $(P14)
+
+$(P15): $(P15).c
+	$(CC) $(P15).c -o $(P15)
+
+$(P16): $(P16).c
+	$(CC) $(P16).c -o $(P16)
 
 clean:
 	rm -f ${EXECS} 
