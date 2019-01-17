@@ -1,3 +1,4 @@
+# REV05 Thu Jan 17 13:52:11 WIB 2019
 # REV04 Tue Sep 25 12:03:44 WIB 2018
 # REV02 Mon Sep 18 09:08:32 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -13,8 +14,10 @@ EXECS= \
 	05-envp \
 	06-scan \
 	07-status \
-	08-uts172 \
-	09-uts181 \
+	08-uts171 \
+	09-uts172 \
+	10-uts181 \
+	11-uts182 \
 
 
 all:  $(EXECS)
@@ -43,11 +46,17 @@ all:  $(EXECS)
 07-status: 07-status.c
 	$(CC) -o 07-status 07-status.c
 
-08-uts172: 08-uts172.c
-	$(CC) -o 08-uts172 08-uts172.c
+08-uts171: 08-uts171.c
+	$(CC) -o 08-uts171 08-uts171.c
 
-09-uts181: 09-uts181.c
-	$(CC) -o 09-uts181 09-uts181.c
+09-uts172: 09-uts172.c
+	$(CC) -o 09-uts172 09-uts172.c
+
+10-uts181: 10-uts181.c
+	$(CC) -o 10-uts181 10-uts181.c
+
+11-uts182: 11-uts182.c
+	$(CC) -o 11-uts182 11-uts182.c
 
 clean:
 	rm -f ${EXECS}

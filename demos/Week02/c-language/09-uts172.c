@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2017-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2017-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV03 Thu Jan 17 13:56:03 WIB 2019
  * REV02 Tue Aug 28 13:31:19 WIB 2018
  * START Mon Oct 16 21:15:03 WIB 2017
  */
@@ -35,3 +36,4 @@ void main (void) {
  * Line 19: mengganti chartPTR dari a menjadi b
  * Line 27: menggambil local char terakhir yaitu b
  */
+
