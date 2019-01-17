@@ -1,0 +1,16 @@
+#!/bin/bash
+# REV01: Thu Jan 17 11:17:05 WIB 2019
+# START: Xxx Xxx XX XX:XX:XX XXX 2018
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This program is free script/software. This program is distributed in the hope 
+# that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#!/bin/bash
+echo "START"
+for II in "SATU DUA TIGA"
+do echo $II ; done
+for II in SATU DUA TIGA
+do echo $II ; done
+echo "STOP"
+
