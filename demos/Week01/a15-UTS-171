@@ -1,12 +1,13 @@
 #!/bin/bash
+# REV02: Thu Jan 17 11:13:06 WIB 2019
+# REV01: Thu Mar 30 17:29:35 WIB 2017
+# START: Wed Mar 29 17:28:20 WIB 2017
+#
 # Copyright (C) 2017-2019 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# REV02: Thu Jan 17 11:13:06 WIB 2019
-# REV01: Thu Mar 30 17:29:35 WIB 2017
-# START: Wed Mar 29 17:28:20 WIB 2017
 # ===============================================
 # cut     remove sections from each line of files
 # cut -c  select only these characters
