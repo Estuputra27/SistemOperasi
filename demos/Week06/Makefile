@@ -1,3 +1,4 @@
+# REV05 Tue Jan 22 20:11:41 WIB 2019
 # REV04 Wed Nov  1 13:30:30 WIB 2017
 # START Mon Oct 24 09:18:34 WIB 2016
 # DEMOFILES=\
@@ -21,6 +22,7 @@ P11=11-fork
 P12=12-fork
 P14=14-fork
 P15=15-fork
+P16=16-uas161
 
 EXECS= \
 	$(P00) \
@@ -38,6 +40,7 @@ EXECS= \
 	$(P12) \
 	$(P14) \
 	$(P15) \
+	$(P16) \
 
 
 all:	$(EXECS)
@@ -86,6 +89,9 @@ $(P14): $(P14).c
 
 $(P15): $(P15).c
 	$(CC) $(P15).c -o $(P15)
+
+$(P16): $(P16).c
+	$(CC) $(P16).c -o $(P16)
 
 clean:
 	rm -f $(EXECS)
