@@ -15,7 +15,7 @@
 
 void main (void) {
    char  cc='A';                // Character
-   char  dd[]="The string";     // The string
+   char  dd[]=STRING;
 
    printf(STRING);
    printf("cc=%c\n", cc);
