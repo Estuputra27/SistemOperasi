@@ -11,15 +11,17 @@
 
 #include <stdio.h>
 
-#define STRING "This is a string!\n"
+#define STRING "123456789ABCDEF\n"
 
 void main (void) {
    char  cc='A';                // Character
    char  dd[]=STRING;
+   long  size=sizeof(STRING);
 
    printf(STRING);
+   printf("AGAIN: %sSIZE=%ld\n", dd, size);
    printf("cc=%c\n", cc);
    printf("dd[]= %c%c%c ... %c\n", dd[0], 
-           dd[1], dd[2], dd[sizeof(dd)-2]);
+           dd[1], dd[2], dd[size-3]);
 }
 
