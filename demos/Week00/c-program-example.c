@@ -1,9 +1,10 @@
 /* 
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2019 Rahmat M. Samik-Ibrahim
  * http://RahmatM.Samik-Ibrahim.vLSM.org/
  * This free software is distributed in the hope that it will be
  * useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV03 Fri Jan 25 18:56:46 WIB 2019
  * REV02 Mon Aug 27 18:17:11 WIB 2018
  * REV01 Sun Aug 20 15:01:12 WIB 2017
  * START Fri Jan 01 00:00:00 WIB 2016
@@ -23,6 +24,6 @@
 #include <stdio.h>
 
 void main() {
-   printf("This is program #1\n");
+   printf("Hello World!\n");
 }
 
