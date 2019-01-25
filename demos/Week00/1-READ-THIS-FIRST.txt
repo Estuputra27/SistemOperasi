@@ -25,14 +25,18 @@ File Listing:
   Just run:
   $ make
 
+* QR-Code.png
+  A QR Code (QRC) Example 
+
 * QR-Code.docx and QR-Code.pdf
-  A MEMO example.
+  A MEMO example using QRC
 
 ===================================
+REV04: Fri Jan 25 18:53:08 WIB 2019
 REV03: Mon Aug 27 18:46:08 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
-# Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
