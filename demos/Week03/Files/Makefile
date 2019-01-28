@@ -1,4 +1,4 @@
-# REV15 Thu Jan 17 14:28:48 WIB 2019
+# REV16 Mon Jan 28 19:03:30 WIB 2019
 # REV14 Mon Dec 10 15:17:15 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -18,13 +18,17 @@ PROGS         = $(SRCS:.c=  )
 
 P01=01-open-close
 P02=02-file-pointer
-P03=03-printf
+P03=03-fprintf
+P04=04-dprintf
+P05=05-sprintf
 
 
 EXECS= \
         $(P01) \
         $(P02) \
         $(P03) \
+        $(P04) \
+        $(P05) \
 
 
 DEMOFILES=\
