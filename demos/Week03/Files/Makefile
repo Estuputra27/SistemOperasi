@@ -18,11 +18,13 @@ PROGS         = $(SRCS:.c=  )
 
 P01=01-open-close
 P02=02-file-pointer
+P03=03-printf
 
 
 EXECS= \
         $(P01) \
         $(P02) \
+        $(P03) \
 
 
 DEMOFILES=\
@@ -52,5 +54,4 @@ demo-file4.txt:
 	@echo "Line 2: Blah Blah Blah 2" >> demo-file4.txt
 	@echo "Line 3: Blah Blah Blah 3" >> demo-file4.txt
 	@chmod 644 $(MODE644)
-
 
