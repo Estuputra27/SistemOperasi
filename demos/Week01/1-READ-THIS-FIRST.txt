@@ -32,19 +32,23 @@ File Listing:
 * a16-UTS-181
 * a17-UTS-182
 
-=======================================================
+================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+HOW TO TRY THIS DEMO:
+=====================
 
 Use "bash" to run each script. Eg.
    bash a01-READ-ME
    bash a02-sort-n-prepare
    bash a03-command-lines-demo 11 22 33 44 55
 
-===================================
-REV05: Thu Jan 17 11:25:04 WIB 2019
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+================================================
+REV06: Wed Feb  6 19:35:09 WIB 2019
 REV04: Thu Sep 13 10:02:44 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
-# Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
