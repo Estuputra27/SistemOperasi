@@ -16,21 +16,33 @@ File Listing:
 * 1-READ-THIS-FIRST.txt (this file)
 
 * c-language/
-  c-language files
+    00-hallo.c
+    01-printf-int.c
+    02-printf-etc.c
+    03-loop.c
+    04-argc-argv.c
+    05-envp.c
+    06-scan.c
+    07-status.c
+    08-uts171.c
+    09-uts172.c
+    10-uts181.c
+    11-uts182.c
+    Makefile
 
 * permissions/
   Permission mode demo
-
 
 =======================================================
 To list files, run:  ls -al
 To compile the “.c” files, run make
 
 ===================================
+REV05: Wed Feb  6 19:48:58 WIB 2019
 REV04: Tue Aug 28 13:27:02 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
-# Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
