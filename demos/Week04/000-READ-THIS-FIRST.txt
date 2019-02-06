@@ -24,15 +24,20 @@ File Listing:
 * 07-addresses.c
 * 08-passing-parameters.c
 * 09-struct.c
-* 10-os172.c
-* 1-READ-THIS-FIRST.txt (this file)
+* 10-pppchar.c
+* 11-pppint.c
+* 12-uts162.c
+* 13-uts171.c
+* 14-uts172.c
+* 15-uts181.c
+* 16-uts182.c
 * Makefile
-
 ===================================
+REV06: Wed Feb  6 20:11:28 WIB 2019
 REV05: Tue Sep  4 09:13:28 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
-# Copyright (C) 2018 Rahmat M. Samik-Ibrahim 
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
