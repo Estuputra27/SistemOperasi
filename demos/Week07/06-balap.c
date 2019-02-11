@@ -1,10 +1,10 @@
 /*
- * Copyright (C) 2012-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2012-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV04 Wed Aug 29 18:39:17 WIB 2018
+ * REV05 Mon Feb 11 15:44:22 WIB 2019
  * REV03 Tue Apr 17 09:34:02 WIB 2018
  * START Xxx Mar 30 02:13:01 UTC 2012
  */
@@ -16,44 +16,50 @@
 
 #define lamaRehat  250
 #define jmlPembalap 12
-sem_t start;
+sem_t start1, start2, mutex1, mutex2;
 
 void* bandar (void* a) {
    for (int ii=0; ii<jmlPembalap; ii++)
-      sem_wait (&start);
-   sem_wait (&mutex);
-   sleep(2);
-   rehat_acak(lamaRehat);
+      sem_wait (&start1);
    printf ("Bandar Siap!\n");
    fflush(NULL);
-   sem_post (&mutex);
+   for (int ii=0; ii<jmlPembalap; ii++)
+      sem_post (&start2);
 }
 
 int idmaster = 1;
-int juara = 1;
-int menang = TRUE;
+int juara    = 1;
+int menang   = TRUE;
+
 void* pembalap (void* a) {
    int id;
    sem_wait (&mutex);
    id = idmaster++;
    sem_post (&mutex);
-   sem_post (&start);
-   rehat_acak(lamaRehat);
+
    printf ("Pembalap %2.2d Siap!\n",id);
-   fflush(NULL);
+   sem_post (&start1);
+   sem_wait (&start2);
    rehat_acak(lamaRehat);
+   sem_wait (&mutex1);
    rehat_acak(lamaRehat);
-   sem_wait (&mutex);
+   sem_wait (&mutex2);
    if (menang==TRUE) printf("HORE, pemain");
    else printf("Aduh, pemain");
    printf(" %2.2d juara %2.2d!\n",id,juara++);
    menang = FALSE;
-   sem_post (&mutex);
+   rehat_acak(lamaRehat);
+   sem_post (&mutex2);
+   rehat_acak(lamaRehat);
+   sem_post (&mutex1);
 }
 
 void main(void) {
-   sem_init (&mutex, 0, 1);
-   sem_init (&start, 0, 0);
+   sem_init (&mutex,  0, 1);
+   sem_init (&mutex1, 0, 1);
+   sem_init (&mutex2, 0, 1);
+   sem_init (&start1, 0, 0);
+   sem_init (&start2, 0, 0);
    daftar_trit (bandar);
    for (int ii=0; ii<jmlPembalap; ii++)
       daftar_trit (pembalap);

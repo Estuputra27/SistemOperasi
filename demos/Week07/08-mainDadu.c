@@ -1,10 +1,10 @@
 /*
- * Copyright (C) 2012-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2012-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV04 Wed Aug 29 18:40:52 WIB 2018
+ * REV05 Mon Feb 11 16:15:25 WIB 2019
  * REV03 Tue Apr 17 09:35:55 WIB 2018
  * REV01 Wed Nov  2 11:20:30 WIB 2016
  * REV00 Xxx Sep 30 XX:XX:XX UTC 2015
@@ -24,6 +24,7 @@ sem_t	mutex1;
 	
 int	idmaster=0;
 int	winner=0;
+int     nplayers=0;
 
 void* Dice (void* a) {
    int dadu;
@@ -34,12 +35,12 @@ void* Dice (void* a) {
       printf("Dice value %d\n", dadu);
       enter_buffer  (dadu);
       if (winner !=0) {
-         enter_buffer  (dadu);
-         enter_buffer  (dadu);
-         enter_buffer  (dadu);
-         enter_buffer  (dadu);
-         enter_buffer  (dadu);
-         enter_buffer  (dadu);
+         while (nplayers > 0) {
+            enter_buffer  (dadu);
+            enter_buffer  (dadu);
+            enter_buffer  (dadu);
+            sleep(1);
+         }
          break;
       }
    }
@@ -49,6 +50,7 @@ void* Player (void* a) {
    int id, prev=0, total=0;
    sem_wait (&mutex1);
    id=idmaster++;
+   nplayers++;
    sem_post (&mutex1);
    printf   ("                        Player %d is ready...\n",id);
    while (total < WINpoint) {
@@ -59,10 +61,13 @@ void* Player (void* a) {
       printf("                        Player %d's points: %2d [plus %d] \n", 
                                       id, total, total-prev);
    }
+   sem_wait (&mutex1);
    if (winner != 1)
       printf("                        Player %d WINS!!!! (%d)\n", id, total);
    winner = 1;
    printf("                        Player %d EXIT\n", id);
+   nplayers--;
+   sem_post (&mutex1);
 }
 
 int main(int argc, char * argv[]) {
