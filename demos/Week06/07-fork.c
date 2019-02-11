@@ -1,10 +1,11 @@
 /*
- * Copyright (C) 2005-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2005-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV06 Wed Aug 29 16:11:46 WIB 2018
+ * REV08 Mon Feb 11 15:33:59 WIB 2019
+ * REV07 Wed Aug 29 16:11:46 WIB 2018
  * REV06 Wed Nov  1 13:35:19 WIB 2017
  * REV02 Mon Oct 24 10:43:00 WIB 2016
  * REV01 Sun Feb 27 08:31:46 WIB 2011
@@ -16,8 +17,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#define DISPLAY1 "START * PARENT *** ** PID (%4d) ** **********\n"
-#define DISPLAY2 "RANDOM: val1(%4d) -- val2(%4d) -- val3(%4d)\n"
+#define DISPLAY1 "START * PARENT **** ** PID (%5d) ** ***********\n"
+#define DISPLAY2 "RANDOM: val1(%5d) -- val2(%5d) -- val3(%5d)\n"
 /*************************************************** main ** */
 void main(void) {
    pid_t val1, val2, val3;
@@ -26,11 +27,7 @@ void main(void) {
    val2 = fork();
    val3 = fork();
    printf(DISPLAY2, val1, val2, val3);
-/* *********** START BLOCK ***
    wait(NULL);
-   wait(NULL);
-   wait(NULL);
-   *********** END * BLOCK *** */
 }
 
 /*
