@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV03: Wed Feb  6 19:19:31 WIB 2019
+# REV04: Tue Feb 19 19:10:55 WIB 2019
 # REV01: Thu Mar 30 17:29:35 WIB 2017
 # START: Wed Mar 29 17:28:20 WIB 2017
 #
@@ -21,7 +21,7 @@ isADigit() {
       TEXT1="VARIABLE $VARIABLE is not a digit."
       return
    }
-   [[ ${#VARIABLE}} =~ $TEN ]] && {
+   [[ ${#VARIABLE} =~ $TEN ]] && {
       TEXT1="VARIABLE $VARIABLE has 10 digits."
       return
    }
