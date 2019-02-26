@@ -4,7 +4,7 @@ See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside this folder!
 ===================================================================
-REV05: Tue Feb 26 09:13:29 WIB 2019
+REV06: Tue Feb 26 09:16:30 WIB 2019
 REV03: Mon Aug 27 18:46:08 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
@@ -28,7 +28,7 @@ Folder Name:
 Week00/
 
 To copy the folder to your home directory:
-cp -r /extra/Week00/W00-demos/ W00-demos/
+cp -r /extra/Demos/W00-demos/ W00-demos/
 =================================================
 
 File Listing:
