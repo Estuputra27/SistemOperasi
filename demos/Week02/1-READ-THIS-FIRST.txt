@@ -4,7 +4,7 @@ See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside the /extra folder!
 =======================================================
-REV06: Tue Feb 26 09:19:53 WIB 2019
+REV07: Tue Feb 26 12:15:47 WIB 2019
 REV04: Tue Aug 28 13:27:02 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
@@ -43,10 +43,12 @@ File Listing:
     05-envp.c
     06-scan.c
     07-status.c
-    08-uts171.c
-    09-uts172.c
-    10-uts181.c
-    11-uts182.c
+    08-pointer.c
+    09-function.c
+    10-uts171.c
+    11-uts172.c
+    12-uts181.c
+    13-uts182.c
     Makefile
 
 * permissions/
