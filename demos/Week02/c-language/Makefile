@@ -1,4 +1,4 @@
-# REV05 Wed Jan 23 17:35:15 WIB 2019
+# REV06 Tue Feb 26 12:17:00 WIB 2019
 # REV04 Tue Sep 25 12:03:44 WIB 2018
 # REV02 Mon Sep 18 09:08:32 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -13,10 +13,13 @@ P04=04-argc-argv
 P05=05-envp
 P06=06-scan
 P07=07-status
-P08=08-uts171
-P09=09-uts172
-P10=10-uts181
-P11=11-uts182
+P08=08-pointer
+P09=09-function
+P10=10-uts171
+P11=11-uts172
+P12=12-uts181
+P13=13-uts182
+
 
 EXECS= \
    $(P00) \
@@ -31,6 +34,8 @@ EXECS= \
    $(P09) \
    $(P10) \
    $(P11) \
+   $(P12) \
+   $(P13) \
 
 
 all:	$(EXECS)
