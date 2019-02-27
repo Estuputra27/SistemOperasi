@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013-2018 CC BY-SA 3.0 adapted from https://stackoverflow.com/
+ * Copyright (C) 2013-2019 CC BY-SA 3.0 adapted from https://stackoverflow.com/
  *            questions/5656530/how-to-use-shared-memory-with-linux-in-c
  * Copyright (C) 2018 Rahmat M. Samik-Ibrahim (slightly modified)
  * You are free to SHARE (copy and redistribute the material in any medium or 
@@ -7,8 +7,8 @@
  * purpose, even commercially).  This program is distributed in the hope that 
  * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV03 Wed Feb 27 19:12:02 WIB 2019
  * REV02 Wed Aug 29 20:39:39 WIB 2018
- * REV01 Mon Apr 23 11:52:29 WIB 2018
  * START Xxx Xxx XX XX:XX:XX WIB 2015
  */
 
@@ -22,7 +22,7 @@
 char parent_message[] = "You say Hello";  // parent process will write this message
 char child_message[]  = "And I say Goodbye"; // child process will then write this one
 
-int main() {
+int main(void) {
   int protection = PROT_READ | PROT_WRITE;
   int visibility = MAP_ANONYMOUS | MAP_SHARED;
   char* shmem = mmap(NULL, 128, protection, visibility, 0, 0);

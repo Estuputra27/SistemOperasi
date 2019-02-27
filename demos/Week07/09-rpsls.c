@@ -1,10 +1,10 @@
 /*
- * Copyright (C) 2014-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2014-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV04 Wed Aug 29 18:41:35 WIB 2018
+ * REV05 Wed Feb 27 19:12:51 WIB 2019
  * REV03 Tue Apr 17 09:36:28 WIB 2018
  * REV01 Wed Nov  2 11:20:30 WIB 2016
  * START Xxx Oct 19 XX:XX:XX UTC 2014
@@ -90,7 +90,7 @@ void* refereeThread (void* a) {
       printf("Referee:   Player[2] WINS!\n");
 }
 
-void main() {
+void main(void) {
    // randomize with a time seed
    srand(time(NULL));          
    sleep(1);

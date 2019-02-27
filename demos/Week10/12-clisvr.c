@@ -1,10 +1,11 @@
 /*
  * Copyright (C) 2007 Tadeus Prastowo
- * Copyright (C) 2017 - 2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2017 - 2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV03 Wed Feb 27 19:21:44 WIB 2019
  * REV02 Wed Aug 29 20:54:25 WIB 2018
  * REV01 Wed Nov  8 20:00:02 WIB 2017
  * START 2007
@@ -76,7 +77,7 @@ void error(char *msg){
 
 #define BUFFER_SIZE 4096
 
-int main (int argc, char *argv []) {
+int main(int argc, char *argv []) {
    int sockfd, newsockfd, portno, clilen, count, nn, sysup;
    char buffer [BUFFER_SIZE], temp_buffer [BUFFER_SIZE], *colon_pos;
    struct sockaddr_in serv_addr, cli_addr;

@@ -4,7 +4,7 @@
  * This free software is distributed in the hope that it will be
  * useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV03 Fri Jan 25 18:56:46 WIB 2019
+ * REV04 Wed Feb 27 19:14:51 WIB 2019
  * REV02 Mon Aug 27 18:17:11 WIB 2018
  * REV01 Sun Aug 20 15:01:12 WIB 2017
  * START Fri Jan 01 00:00:00 WIB 2016
@@ -16,14 +16,14 @@
  *
  * Note (RPS & AII)
  * o Line 'include <stdio.h>' calls standard input/output library for C language.
- * o 'void main()' means it's the main function where the program start its execution. 
+ * o 'void main(void)' means it's the main function where the program start its execution. 
  * o This function returns nothing (or void).
  * o function printf() will print the string inside the parentheses
  */
 
 #include <stdio.h>
 
-void main() {
+void main(void) {
    printf("Hello World!\n");
 }
 

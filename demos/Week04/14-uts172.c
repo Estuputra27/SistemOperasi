@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2017-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2017-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV02 Wed Feb 27 19:19:35 WIB 2019
  * REV01 Thu Apr 12 20:46:48 WIB 2018
  * START Mon Oct 16 21:15:03 WIB 2017
  */
@@ -13,7 +14,7 @@
 char* stringChar="HALLO";
 char* stringPTR;
 
-void main (void) {
+void main(void) {
     stringPTR=stringChar;
     printf ("ADDR1: %p VAL: %p STR: %s\n", &stringChar, stringChar, stringChar);
     printf ("ADDR2: %p VAL: %p STR: %s\n", &stringPTR,  stringPTR, stringPTR);
