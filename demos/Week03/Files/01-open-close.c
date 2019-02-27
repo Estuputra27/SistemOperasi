@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV06 Thu Jan 17 14:30:55 WIB 2019
+ * REV07 Wed Feb 27 19:56:19 WIB 2019
  * REV05 Wed Aug 29 20:55:23 WIB 2018
  * REV02 Sun Oct 16 20:50:26 WIB 2016
  * START Xxx Xxx XX XX:XX:XX WIB 2015
@@ -48,34 +48,20 @@
 #include <unistd.h>
 
 void main(void) {
-   char*  file1=FILE1;
-   char*  file2=FILE2;
-   char*  file3=FILE3;
-
    int fd; /* to hold a file descriptor */
    /* umask(0);    ******************** */
-   fd = open (file1, O_CREAT | O_RDWR, S_IRWXU);
+   fd = open (FILE1, O_CREAT | O_RDWR, S_IRWXU);
    close(fd);
-   fd = open (file2, O_CREAT | O_RDWR, S_IRWXU|S_IRGRP|S_IWGRP|S_IROTH);
+   fd = open (FILE2, O_CREAT | O_RDWR, S_IRWXU|S_IRGRP|S_IWGRP|S_IROTH);
    close(fd);
-   fd = open (file3, O_CREAT | O_RDWR, 0711);
+   fd = open (FILE3, O_CREAT | O_RDWR, 0711);
    close(fd);
-   fd = open (file3, O_CREAT | O_RDWR, 0700);
+   fd = open (FILE3, O_CREAT | O_RDWR, 0700);
    close(fd);
 }
 
 /*
  * TAKE NOTE(TA)
  * this demo will create files depends on the criteria written inside open() command
- * file 1 : if file1 doesnt exist, then it will be created
- * the file will be open out for reading and writing
- * file1 created with read/write/execute for the file owner
- *
- * file 2 : if file2 doesnt exist, then it will be created
- * the file will be open out for reading and writing
- * file2 created with read/write/execute for the file owner (S_IRWXU),
- * read/write permission for the file's group (S_IRGRP and S_IWGRP),
- * read permission for users other than the file owner
  */
-
 
