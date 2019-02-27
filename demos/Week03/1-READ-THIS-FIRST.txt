@@ -3,13 +3,16 @@ This demo is available in badak:///extra/.
 See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside the /extra folder!
+==================================
+REV02 Wed Feb 27 19:28:58 WIB 2019
+START Thu Jan 17 14:24:05 WIB 2019
 =======================================================
 
 Folder Name:
 Week03/
 
 To copy the folder to your home directory:
-cp -r /extra/Week03/W03-demos/ W03-demos/
+cp -r /extra/Demos/W03-demos/ W03-demos/
 =======================================================
 
 File Listing:
@@ -23,6 +26,3 @@ File Listing:
     Makefile
 * FUSE
 
-==================================
-REV01 Wed Feb  6 19:54:27 WIB 2019
-START Thu Jan 17 14:24:05 WIB 2019
