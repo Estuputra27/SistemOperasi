@@ -3,8 +3,8 @@ This demo is available in badak:///extra/.
 See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside the "/extra" folder!
-===================================================================
-REV07: Wed Mar 13 12:35:03 WIB 2019
+=======================================================
+REV07: Wed Mar 13 14:15:03 WIB 2019
 REV03: Mon Aug 27 18:46:08 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
@@ -35,22 +35,22 @@ echo $HOME
 pwd
 # If your do not have a HOME directory, contact IT Fasilkom.
 # Next, create a work folder INSIDE your home directory. 
-# Eg. "mydemo".
-mkdir mydemo
-# Go into "mydemo"
+# Eg. "mydemos".
+mkdir mydemos
+# Go into "mydemos"
 cd mydemo
-# List "mydemo", it should be empty.
+# List "mydemos", it should be empty.
 ls -al
-# If you can not make "mydemo" inside your HOME directory, 
+# If you can not make "mydemos" inside your HOME directory, 
 # contact IT Fasilkom.
 # To copy the Week 00 demo folder:
-cp -r /extra/Demos/W00-demos/ ~/mydemo/W00-demos/
+cp -r /extra/Demos/W00-demos/ ~/mydemos/W00-demos/
 # Go into Week 00 demo folder:
-cd ~/mydemo/W00-demos/
+cd ~/mydemos/W00-demos/
 
 =================================================
 File Listing:
-* 1-READ-THIS-FIRST.txt (this file)
+* 000-READ-THIS-FIRST.txt (this file)
 
 * c-program-example.c (a c program)
   To compile:

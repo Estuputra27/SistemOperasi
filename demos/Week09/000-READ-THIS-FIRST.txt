@@ -3,14 +3,35 @@ This demo is available in badak:///extra/.
 See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside the /extra folder!
+=====================================
+REV11: Wed Mar 13 14:55:59 WIB 2019
+REV09: Tue Aug 28 17:48:20 WIB 2018
+REV04: Mon Nov 27 17:02:11 WIB 2017
+START: 2017
+
+# Copyright (C) 2017-2019 Rahmat M. Samik-Ibrahim
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
+
 =======================================================
 
 Folder Name:
 Week09/
 
 To copy the folder to your home directory:
-cp -r /extra/Week09/W09-demos/ W09-demos/
-=======================================================
+cp -r /extra/Demos/W09-demos/ ~/mydemos/W09-demos/
+==================================================
 
 File Listing:
 * 1-READ-THIS-FIRST.txt (this file)
@@ -47,25 +68,4 @@ journalctl -b
 REF:
 - https://www.youtube.com/watch?v=AtEqbYTLHfs
 - https://www.linux.com/learn/understanding-and-using-systemd
-
-===================================
-REV10: Wed Nov 21 16:07:56 WIB 2018
-REV09: Tue Aug 28 17:48:20 WIB 2018
-REV04: Mon Nov 27 17:02:11 WIB 2017
-START: 2017
-
-# Copyright (C) 2017-2018 Rahmat M. Samik-Ibrahim
-# http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This free document is distributed in the hope that it will be
-# useful, but WITHOUT ANY WARRANTY; without even the implied
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#
-# Special thanks to:
-# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
-# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
-# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
-# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
-# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
-# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
-# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
 

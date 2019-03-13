@@ -4,7 +4,7 @@ See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside the /extra folder!
 =======================================================
-REV07: Tue Feb 26 12:15:47 WIB 2019
+REV08: Wed Mar 13 14:42:24 WIB 2019
 REV04: Tue Aug 28 13:27:02 WIB 2018
 START: Tue Feb 20 09:12:43 WIB 2018
 
@@ -22,17 +22,17 @@ START: Tue Feb 20 09:12:43 WIB 2018
 # Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
-
+====================================================================
 
 Folder Name:
 Week02/
 
 To copy the folder to your home directory:
-cp -r /extra/Demos/W02-demos/ W02-demos/
-==============================================
+cp -r /extra/Demos/W02-demos/ ~/mydemos/W02-demos/
+==================================================
 
 File Listing:
-* 1-READ-THIS-FIRST.txt (this file)
+* 000-READ-THIS-FIRST.txt (this file)
 
 * c-language/
     00-hallo.c
