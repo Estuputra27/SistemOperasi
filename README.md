@@ -14,7 +14,7 @@
 
     * UTS Sistem Operasi: [W00](http://rms46.vlsm.org/2/195.pdf), [W01](http://rms46.vlsm.org/2/196.pdf), [W02](http://rms46.vlsm.org/2/197.pdf), [W03](http://rms46.vlsm.org/2/198.pdf), [W04](http://rms46.vlsm.org/2/199.pdf), [W05](http://rms46.vlsm.org/2/200.pdf).
 
-    * UAS Sistem Operasi: [W06](http://rms46.vlsm.org/2/201.pdf), [W07](http://rms46.vlsm.org/2/202.pdf), [W08](http://rms46.vlsm.org/2/203.pdf), [W09](http://rms46.vlsm.org/2/204.pdf), [W10](http://rms46.vlsm.org/2/195.pdf).
+    * UAS Sistem Operasi: [W06](http://rms46.vlsm.org/2/201.pdf), [W07](http://rms46.vlsm.org/2/202.pdf), [W08](http://rms46.vlsm.org/2/203.pdf), [W09](http://rms46.vlsm.org/2/204.pdf), [W10](http://rms46.vlsm.org/2/205.pdf).
 
 * [Operating System Concepts (Silberschatz et.al.)](http://os-book.com/)
 
@@ -66,5 +66,5 @@ Semoga catatan ini akan bermanfaat di masa mendatang, saat sudah lupa cara menye
 
 RMS
 
-revisi 18---21-Dec-2018
+revisi 19---02-Apr-2019
 
