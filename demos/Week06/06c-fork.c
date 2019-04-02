@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV07 Tue Jan 22 21:02:11 WIB 2019
+ * REV08 Tue Apr  2 12:17:03 WIB 2019
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV05 Wed Nov  1 13:34:33 WIB 2017
  * REV00 Mon Oct 24 10:43:00 WIB 2016
@@ -26,6 +26,7 @@ void main(void) {
    val1 = fork();
    wait(NULL);
    val2 = fork();
+   wait(NULL);
    printf("VAL1=[%5.5d] VAL2=[%5.5d] VAL3=[%5.5d]\n", val1, val2, val3);
 }
 
