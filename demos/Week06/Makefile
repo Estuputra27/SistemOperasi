@@ -1,3 +1,4 @@
+# REV07 Tue Apr  2 09:40:27 WIB 2019
 # REV06 Mon Feb 11 15:27:05 WIB 2019
 # REV04 Wed Nov  1 13:30:30 WIB 2017
 # START Mon Oct 24 09:18:34 WIB 2016
@@ -5,7 +6,8 @@
 # 	demo-file1.txt \
 # 	demo-file2.txt \
 
-CC=gcc
+CC='gcc'
+CFLAGS='-std=c99'
  
 P00=00-show-pid
 P01=01-fork
