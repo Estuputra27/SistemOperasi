@@ -1,8 +1,8 @@
 * **KONTAK**:
-  * WhatsApp Group: lihat 
-    [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/pdf/os00.pdf)
+  * WhatsApp Group (lihat 
+    [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/pdf/os00.pdf))
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
-  * Problem Lab/Kawung/Badak: ITFasilkom
+  * Problem Lab/Kawung/Badak: **ITFasilkom**
 
 * `BADAK.cs.ui.ac.id:///extra/` -- situs ini hanya dapat diakses dari internal Universitas Indonesia.
 
