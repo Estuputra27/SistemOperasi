@@ -1,3 +1,9 @@
+* **KONTAK**:
+  * WhatsApp Group: lihat 
+    [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/pdf/os00.pdf)
+  * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
+  * Problem Lab/Kawung/Badak: ITFasilkom
+
 * `BADAK.cs.ui.ac.id:///extra/` -- situs ini hanya dapat diakses dari internal Universitas Indonesia.
 
 * [GITHUB](https://github.com/)
@@ -66,5 +72,5 @@ Semoga catatan ini akan bermanfaat di masa mendatang, saat sudah lupa cara menye
 
 RMS
 
-revisi 19---02-Apr-2019
+revisi 20---11-Apr-2019
 
