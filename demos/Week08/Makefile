@@ -3,7 +3,7 @@
 # START Wed Apr 18 20:55:24 WIB 2018
 
 CC=gcc
-CFLAGS=-std=gnu99 -pthread
+CFLAGS=-std=c11 -pthread
 
 P10=10-create-file
 P11=11-create-mmap
@@ -12,6 +12,7 @@ P21=21-child
 P22=22-hello-goodbye
 P23=23-kirim-ambil
 P24=24-producer-consumer
+P25=25-balapan
 P30=30-add1sub1
 P31=31-add1
 P32=32-sub1
@@ -25,6 +26,7 @@ EXECS= \
         $(P22) \
         $(P23) \
         $(P24) \
+        $(P25) \
         $(P30) \
         $(P31) \
         $(P32) \
