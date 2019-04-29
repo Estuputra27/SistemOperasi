@@ -15,6 +15,7 @@
  warranty of MERCHANTABILITY or FITNESS 
  FOR A PARTICULAR PURPOSE.
 
+ * REV04 Mon Apr 29 08:28:47 WIB 2019
  * REV03 Sun Apr 28 10:32:18 WIB 2019
  * REV02 Fri Apr 26 14:26:13 DST 2019
  * REV01 Thu Apr 25 09:25:10 WIB 2019
@@ -33,10 +34,10 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#define LAP         50
+#define LAP         5
 #define NAME        20
 #define TMPSTRING   256
-#define MILISECOND  877
+#define MILISECOND  865
 #define DELAY0      1
 #define DELAY1      200
 #define DELAY2      5
@@ -77,9 +78,9 @@ drivers  D[]={
 };
 #define NDRIVERS (int)(sizeof(D)/sizeof(D[0]))
 typedef struct {
-  sem_t   mutex0;
-  sem_t   mutex1;
-  sem_t   mutex2;
+  sem_t   sector1;
+  sem_t   sector2;
+  sem_t   sector3;
   int     ndrivers;
   pid_t   relPID;
   drivers D[NDRIVERS];
@@ -106,34 +107,34 @@ void init(void) {
               MYVISIBILITY, fd, 0);
    mymap->relPID=getpid() - 1000;
    flushprintf("INIT: START");
-   sem_init (&(mymap->mutex0), 1, 0);
-   sem_init (&(mymap->mutex1), 1, 1);
-   sem_init (&(mymap->mutex2), 1, 2);
+   sem_init (&(mymap->sector1), 1, 0);
+   sem_init (&(mymap->sector2), 1, 1);
+   sem_init (&(mymap->sector3), 1, 2);
    mymap->ndrivers=NDRIVERS;
    memcpy(mymap->D, D, (int) sizeof(D));
    flushprintf("INIT: DONE");
 }
 // ======================
 void car(int number) {
-      sem_wait(&(mymap->mutex1));
+      sem_wait(&(mymap->sector2));
       sprintf(tmpString, "Car[%2.2d] is ready!",
          mymap->D[number].carNumber);
       flushprintf(tmpString);
-      sem_post(&(mymap->mutex1));
+      sem_post(&(mymap->sector2));
       do {
-         sem_wait(&(mymap->mutex0));
+         sem_wait(&(mymap->sector1));
          miliSleep(DELAY0);
-         sem_post(&(mymap->mutex0));
-         sem_wait(&(mymap->mutex2));
+         sem_post(&(mymap->sector1));
+         sem_wait(&(mymap->sector3));
          miliSleep(DELAY2);
-         sem_post(&(mymap->mutex2));
-         sem_post(&(mymap->mutex1));
+         sem_post(&(mymap->sector3));
+         sem_post(&(mymap->sector2));
          int idx1=sprintf(tmpString, "[%2.2d]  %s -- %2d",
             mymap->D[number].carNumber,
             mymap->D[number].name,
             mymap->D[number].lapCount);
          flushprintf(tmpString);
-         sem_post(&(mymap->mutex1));
+         sem_post(&(mymap->sector2));
          for(int ii=0;ii<mymap->D[number].laptime*LT;ii++)
             ;
          miliSleep(DELAY1);
@@ -146,13 +147,13 @@ void main(void) {
    flushprintf("main: START");
    for (int ii=0; ii<NDRIVERS; ii++)
       if(!fork()) car(ii); 
-   for (int ii=0;ii<3;ii++) {
-      system("date '+DRIFT MILISECOND: %N'");
-      miliSleep(1000);
-   }
-   sem_post(&(mymap->mutex0));
+   sem_post(&(mymap->sector1));
    for (int ii=0; ii<NDRIVERS; ii++)
       wait(NULL);
+   for (int ii=0;ii<3;ii++) {
+      system("date '+DRIFT CHECK: %N'");
+      miliSleep(2000);
+   }
    flushprintf("main: STOP");
 }
 
