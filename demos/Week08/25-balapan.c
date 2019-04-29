@@ -22,7 +22,7 @@
  * START Wed Apr 24 18:02:10 WIB 2019
  */
 
-#define LAP         50
+#define LAP         3
 #define S1          0
 #define S2          2
 #define S3          5
