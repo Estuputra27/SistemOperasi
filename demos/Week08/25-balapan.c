@@ -116,30 +116,35 @@ void init(void) {
 }
 // ======================
 void car(int number) {
-      sem_wait(&(mymap->sector2));
-      sprintf(tmpString, "Car[%2.2d] is ready!",
-         mymap->D[number].carNumber);
+   sprintf(tmpString, "Car[%2.2d] is ready!",
+      mymap->D[number].carNumber);
+   flushprintf(tmpString);
+   do {
+      sem_wait(&(mymap->sector1));
+      miliSleep(DELAY0);
+      sem_post(&(mymap->sector1));
+      sem_wait(&(mymap->sector3));
+      miliSleep(DELAY2);
+      sem_post(&(mymap->sector3));
+      sem_post(&(mymap->sector2));
+      int idx1=sprintf(tmpString, "[%2.2d]  %s -- %2d",
+        mymap->D[number].carNumber,
+        mymap->D[number].name,
+        mymap->D[number].lapCount);
       flushprintf(tmpString);
       sem_post(&(mymap->sector2));
-      do {
-         sem_wait(&(mymap->sector1));
-         miliSleep(DELAY0);
-         sem_post(&(mymap->sector1));
-         sem_wait(&(mymap->sector3));
-         miliSleep(DELAY2);
-         sem_post(&(mymap->sector3));
-         sem_post(&(mymap->sector2));
-         int idx1=sprintf(tmpString, "[%2.2d]  %s -- %2d",
-            mymap->D[number].carNumber,
-            mymap->D[number].name,
-            mymap->D[number].lapCount);
-         flushprintf(tmpString);
-         sem_post(&(mymap->sector2));
-         for(int ii=0;ii<mymap->D[number].laptime*LT;ii++)
-            ;
-         miliSleep(DELAY1);
-      } while (mymap->D[number].lapCount++ < LAP);
-      exit (0);
+      for(int ii=0;ii<mymap->D[number].laptime*LT;ii++)
+         ;
+      miliSleep(DELAY1);
+   } while (mymap->D[number].lapCount++ < LAP);
+   exit (0);
+}
+// ==============
+void driftCheck(int loop) {
+   for (int ii=0; ii<loop; ii++) {
+      system("date '+DRIFT CHECK: %N'");
+      miliSleep(1000);
+   }
 }
 // ==============
 void main(void) {
@@ -150,10 +155,7 @@ void main(void) {
    sem_post(&(mymap->sector1));
    for (int ii=0; ii<NDRIVERS; ii++)
       wait(NULL);
-   for (int ii=0;ii<3;ii++) {
-      system("date '+DRIFT CHECK: %N'");
-      miliSleep(2000);
-   }
+   driftCheck(3);
    flushprintf("main: STOP");
 }
 
