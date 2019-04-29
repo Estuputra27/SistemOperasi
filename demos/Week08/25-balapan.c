@@ -15,23 +15,23 @@
  warranty of MERCHANTABILITY or FITNESS 
  FOR A PARTICULAR PURPOSE.
 
- * REV04 Mon Apr 29 08:28:47 WIB 2019
+ * REV05 Mon Apr 29 16:11:26 WIB 2019
  * REV03 Sun Apr 28 10:32:18 WIB 2019
  * REV02 Fri Apr 26 14:26:13 DST 2019
  * REV01 Thu Apr 25 09:25:10 WIB 2019
  * START Wed Apr 24 18:02:10 WIB 2019
  */
 
+#define LAP         50
 #define S1          0
-#define S2          1
-#define S3          1
-#define LT          10
-#define DELAY1      100
-#define DELAY2      2
-#define DELAY3      600
+#define S2          2
+#define S3          5
+#define LT          10000
+#define DELAY1      20
+#define DELAY2      20
+#define DELAY3      900
 #define MILISECOND  901
-#define LAP         3
-#define DRIFTLOOP   5
+#define DRIFTLOOP   3
 #define NAME        20
 #define TMPSTRING   256
 #define MYFLAGS     O_CREAT | O_RDWR
