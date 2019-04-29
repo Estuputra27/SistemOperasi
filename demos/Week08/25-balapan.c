@@ -22,6 +22,23 @@
  * START Wed Apr 24 18:02:10 WIB 2019
  */
 
+#define S1          0
+#define S2          1
+#define S3          1
+#define LT          10
+#define DELAY1      100
+#define DELAY2      2
+#define DELAY3      600
+#define MILISECOND  901
+#define LAP         3
+#define DRIFTLOOP   5
+#define NAME        20
+#define TMPSTRING   256
+#define MYFLAGS     O_CREAT | O_RDWR
+#define MYPROTECT PROT_READ | PROT_WRITE
+#define MYVISIBILITY          MAP_SHARED
+#define SFILE       "demo-file.bin"
+
 #include <fcntl.h>
 #include <semaphore.h>
 #include <stdbool.h>     
@@ -33,19 +50,6 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-
-#define LAP         5
-#define NAME        20
-#define TMPSTRING   256
-#define MILISECOND  865
-#define DELAY0      1
-#define DELAY1      200
-#define DELAY2      5
-#define LT          50
-#define MYFLAGS     O_CREAT | O_RDWR
-#define MYPROTECT PROT_READ | PROT_WRITE
-#define MYVISIBILITY          MAP_SHARED
-#define SFILE       "demo-file.bin"
 
 typedef  struct {
    char  name[NAME];
@@ -107,9 +111,9 @@ void init(void) {
               MYVISIBILITY, fd, 0);
    mymap->relPID=getpid() - 1000;
    flushprintf("INIT: START");
-   sem_init (&(mymap->sector1), 1, 0);
-   sem_init (&(mymap->sector2), 1, 1);
-   sem_init (&(mymap->sector3), 1, 2);
+   sem_init (&(mymap->sector1), 1, S1);
+   sem_init (&(mymap->sector2), 1, S2);
+   sem_init (&(mymap->sector3), 1, S3);
    mymap->ndrivers=NDRIVERS;
    memcpy(mymap->D, D, (int) sizeof(D));
    flushprintf("INIT: DONE");
@@ -121,21 +125,21 @@ void car(int number) {
    flushprintf(tmpString);
    do {
       sem_wait(&(mymap->sector1));
-      miliSleep(DELAY0);
+      miliSleep(DELAY1);
       sem_post(&(mymap->sector1));
-      sem_wait(&(mymap->sector3));
+      sem_wait(&(mymap->sector2));
       miliSleep(DELAY2);
-      sem_post(&(mymap->sector3));
       sem_post(&(mymap->sector2));
+      sem_post(&(mymap->sector3));
+      for(int ii=0;ii<mymap->D[number].laptime*LT;ii++)
+         ;
+      sem_post(&(mymap->sector3));
+      miliSleep(DELAY3);
       int idx1=sprintf(tmpString, "[%2.2d]  %s -- %2d",
         mymap->D[number].carNumber,
         mymap->D[number].name,
         mymap->D[number].lapCount);
       flushprintf(tmpString);
-      sem_post(&(mymap->sector2));
-      for(int ii=0;ii<mymap->D[number].laptime*LT;ii++)
-         ;
-      miliSleep(DELAY1);
    } while (mymap->D[number].lapCount++ < LAP);
    exit (0);
 }
@@ -155,7 +159,7 @@ void main(void) {
    sem_post(&(mymap->sector1));
    for (int ii=0; ii<NDRIVERS; ii++)
       wait(NULL);
-   driftCheck(3);
+   driftCheck(DRIFTLOOP);
    flushprintf("main: STOP");
 }
 
