@@ -15,6 +15,8 @@
  warranty of MERCHANTABILITY or FITNESS 
  FOR A PARTICULAR PURPOSE.
 
+ * REV07 Mon May  6 08:40:58 WIB 2019
+ * REV06 Fri May  3 14:13:28 WIB 2019
  * REV05 Mon Apr 29 16:11:26 WIB 2019
  * REV03 Sun Apr 28 10:32:18 WIB 2019
  * REV02 Fri Apr 26 14:26:13 DST 2019
@@ -22,22 +24,20 @@
  * START Wed Apr 24 18:02:10 WIB 2019
  */
 
-#define LAP         3
-#define S1          0
-#define S2          2
-#define S3          5
-#define LT          10000
-#define DELAY1      20
-#define DELAY2      20
-#define DELAY3      900
-#define MILISECOND  901
-#define DRIFTLOOP   3
-#define NAME        20
-#define TMPSTRING   256
-#define MYFLAGS     O_CREAT | O_RDWR
-#define MYPROTECT PROT_READ | PROT_WRITE
-#define MYVISIBILITY          MAP_SHARED
-#define SFILE       "demo-file.bin"
+#define LAP          3
+#define S1           0
+#define S2           2
+#define S3           2
+#define LT           1000
+#define DELAY1       10
+#define DELAY2       20
+#define SECTORTIME   300
+#define MILISECOND   901
+#define DRIFTLOOP    3
+#define NAME         25
+#define TMPSTRING    128
+#define MYPROTECT    PROT_READ     | PROT_WRITE
+#define MYVISIBILITY MAP_ANONYMOUS | MAP_SHARED
 
 #include <fcntl.h>
 #include <semaphore.h>
@@ -49,36 +49,39 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/wait.h>
+#include <time.h>
 #include <unistd.h>
 
 typedef  struct {
    char  name[NAME];
-   int   laptime;
-   int   carNumber;
+   int   speedAvg;
    int   lapCount;
+   int   relTime;
 } drivers;
 drivers  D[]={
-   //= Driver Name = = =,lapTime, Car#,Lap#[] 
-   {"Valtteri Bottas    ", 80177,   77, 0},
-   {"Lewis Hamilton     ", 80244,   44, 0},
-   {"Max Verstappen     ", 80333,   33, 0},
-   {"Sebastian Vettel   ", 80405,    5, 0},
-   {"Charles Leclerc    ", 80516,   16, 0},
-   {"Kevin Magnussen    ", 80620,   20, 0},
-   {"Nico Huelkenberg   ", 80727,   27, 0},
-   {"Kimi Raeikkoenen   ", 80807,    7, 0},
-   {"Lance Stroll       ", 80918,   18, 0},
-   {"Daniil Kvyat       ", 81026,   26, 0},
-   {"Pierre Gasly       ", 81110,   10, 0},
-   {"Lando Norris       ", 81204,    4, 0},
-   {"Sergio Perez       ", 81311,   11, 0},
-   {"Alexander Albon    ", 81423,   23, 0},
-   {"Antonio Giovinazzi ", 81599,   99, 0},
-   {"George Russell     ", 81663,   63, 0},
-   {"Robert Kubica      ", 81788,   88, 0},
-   {"Romain Grosjean    ", 81808,    8, 0},
-   {"Daniel Ricciardo   ", 81903,    3, 0},
-   {"Carlos Sainz Jr.   ", 82055,   55, 0}
+   //= (Car#) Driver Name, SpeedAvg,Lap,RelTime
+    {"(77) Valtteri Bottas    ", 80177, 0, 0}
+   ,{"(44) Lewis Hamilton     ", 80244, 0, 0}
+   ,{"(33) Max Verstappen     ", 80333, 0, 0}
+   ,{"(05) Sebastian Vettel   ", 80405, 0, 0}
+/*
+   ,{"(16) Charles Leclerc    ", 80516, 0, 0}
+   ,{"(20) Kevin Magnussen    ", 80620, 0, 0}
+   ,{"(27) Nico Huelkenberg   ", 80727, 0, 0}
+   ,{"(07) Kimi Raeikkoenen   ", 80807, 0, 0}
+   ,{"(18) Lance Stroll       ", 80918, 0, 0}
+   ,{"(26) Daniil Kvyat       ", 81026, 0, 0}
+   ,{"(10) Pierre Gasly       ", 81110, 0, 0}
+   ,{"(04) Lando Norris       ", 81204, 0, 0}
+   ,{"(11) Sergio Perez       ", 81311, 0, 0}
+   ,{"(23) Alexander Albon    ", 81423, 0, 0}
+   ,{"(99) Antonio Giovinazzi ", 81599, 0, 0}
+   ,{"(63) George Russell     ", 81663, 0, 0}
+   ,{"(88) Robert Kubica      ", 81788, 0, 0}
+   ,{"(08) Romain Grosjean    ", 81808, 0, 0}
+   ,{"(03) Daniel Ricciardo   ", 81903, 0, 0}
+   ,{"(55) Carlos Sainz Jr.   ", 82055, 0, 0}
+*/
 };
 #define NDRIVERS (int)(sizeof(D)/sizeof(D[0]))
 typedef struct {
@@ -86,6 +89,7 @@ typedef struct {
   sem_t   sector2;
   sem_t   sector3;
   int     ndrivers;
+  int     relTime;
   pid_t   relPID;
   drivers D[NDRIVERS];
 } shareMem;
@@ -105,62 +109,56 @@ void miliSleep(int duration) {
 }
 // ==============
 void init(void) {
-   int fd   =open(SFILE,MYFLAGS,S_IRWXU);
-   truncate(SFILE, MSIZE);
    mymap=mmap(NULL, MSIZE, MYPROTECT, 
-              MYVISIBILITY, fd, 0);
+              MYVISIBILITY, 0, 0);
    mymap->relPID=getpid() - 1000;
    flushprintf("INIT: START");
    sem_init (&(mymap->sector1), 1, S1);
    sem_init (&(mymap->sector2), 1, S2);
    sem_init (&(mymap->sector3), 1, S3);
    mymap->ndrivers=NDRIVERS;
+   mymap->relTime=0;
    memcpy(mymap->D, D, (int) sizeof(D));
    flushprintf("INIT: DONE");
 }
-// ======================
+// ===================
 void car(int number) {
-   sprintf(tmpString, "Car[%2.2d] is ready!",
-      mymap->D[number].carNumber);
-   flushprintf(tmpString);
    do {
       sem_wait(&(mymap->sector1));
       miliSleep(DELAY1);
       sem_post(&(mymap->sector1));
+      miliSleep(SECTORTIME);
       sem_wait(&(mymap->sector2));
       miliSleep(DELAY2);
       sem_post(&(mymap->sector2));
+      miliSleep(SECTORTIME);
       sem_post(&(mymap->sector3));
-      for(int ii=0;ii<mymap->D[number].laptime*LT;ii++)
-         ;
+      for(int ii=0;
+         ii<mymap->D[number].speedAvg*LT;ii++)
+            ;
       sem_post(&(mymap->sector3));
-      miliSleep(DELAY3);
-      int idx1=sprintf(tmpString, "[%2.2d]  %s -- %2d",
-        mymap->D[number].carNumber,
-        mymap->D[number].name,
-        mymap->D[number].lapCount);
-      flushprintf(tmpString);
-   } while (mymap->D[number].lapCount++ < LAP);
+      miliSleep(SECTORTIME);
+      mymap->D[number].relTime=
+         mymap->relTime++;
+   } while (++mymap->D[number].lapCount < LAP);
+   sprintf(tmpString, "%s Lap %2d rTime %3d",
+      mymap->D[number].name,
+      mymap->D[number].lapCount,
+      mymap->D[number].relTime);
+   flushprintf(tmpString);
    exit (0);
-}
-// ==============
-void driftCheck(int loop) {
-   for (int ii=0; ii<loop; ii++) {
-      system("date '+DRIFT CHECK: %N'");
-      miliSleep(1000);
-   }
 }
 // ==============
 void main(void) {
    init();
-   flushprintf("main: START");
+   flushprintf("MAIN: READY");
    for (int ii=0; ii<NDRIVERS; ii++)
       if(!fork()) car(ii); 
    sem_post(&(mymap->sector1));
+   flushprintf("MAIN: START");
    for (int ii=0; ii<NDRIVERS; ii++)
       wait(NULL);
-   driftCheck(DRIFTLOOP);
-   flushprintf("main: STOP");
+   flushprintf("MAIN: FINISH");
 }
 
 //       1         2         3         4
