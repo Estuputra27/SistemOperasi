@@ -4,7 +4,7 @@ See also: https://os.vlsm.org/
 You should copy this folder to your own working folder.
 DO NOT work inside the /extra folder!
 =====================================
-REV05: Wed Apr 24 15:32:23 WIB 2019
+REV06: Tue May  7 20:45:00 WIB 2019
 REV04: Wed Mar 13 14:53:29 WIB 2019
 REV03: Wed Aug 29 19:14:44 WIB 2018
 START: Wed Apr 18 09:49:51 WIB 2018
