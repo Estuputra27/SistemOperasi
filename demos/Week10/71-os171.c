@@ -1,5 +1,10 @@
 /*
- * (c) 2017 Rahmat M. Samik-Ibrahim -- This is free software
+ * Copyright (C) 2017-2019 Rahmat M. Samik-Ibrahim
+ * http://rahmatm.samik-ibrahim.vlsm.org/
+ * This program is free script/software. This program is distributed in the 
+ * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+ * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ & REV02 Tue May  7 20:12:34 WIB 2019
  * REV01 Fri May 18 13:43:59 WIB 2018
  * START Thu Mar 30 16:56:54 WIB 2017
  *
@@ -15,7 +20,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <string.h>
-#define FILE "63-os171-dup-demo.txt"
+#define FILE "71-os171-demo.txt"
 
 static char* str1 = "AABB\n";
 static char* str2 = "CCDD\n";
@@ -23,6 +28,7 @@ static char* str3 = "EEFF\n";
 
 void main(void) {
    int fd1, fd2, fd3;
+   printf("See also file %s\n", FILE);
    /* STDIN=0, STDOUT=1, STDERR=2, therefore 
       fd1, fd2, fd3  will be 3, 4, and 5 */
    fd1 = open (FILE, O_TRUNC | O_RDWR | O_CREAT, 0644);

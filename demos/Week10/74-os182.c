@@ -18,10 +18,11 @@
 #define FLAGS O_RDWR|O_CREAT|O_TRUNC
 #define MODES 0644
 
-#define FILE3 "66-os182-demo3.txt"
-#define FILE4 "66-os182-demo4.txt"
+#define FILE3 "74-os182-demo3.txt"
+#define FILE4 "74-os182-demo4.txt"
 
 void main(void) {
+   printf("See %s and %s\n", FILE3, FILE4);
    int fd3 = open (FILE3,FLAGS,MODES);
    int fd4 = open (FILE4,FLAGS,MODES);
    dprintf(fd3, "fd%d\n", fd3);

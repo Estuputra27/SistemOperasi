@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * You are free to SHARE (copy and 
  * redistribute the material in any medium
@@ -11,9 +11,9 @@
  * WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS 
  * FOR A PARTICULAR PURPOSE.
+ *
+ * REV04 Tue May  7 20:27:52 WIB 2019
  * REV03 Wed Aug 29 20:55:23 WIB 2018
- * REV02 Wed May  2 11:30:19 WIB 2018
- * REV01 Wed Apr 18 19:50:01 WIB 2018
  * START Thu Mar 30 16:56:54 WIB 2017
 
  * fd2 = dup(fd1)  duplicates fd1 to fd2
@@ -30,13 +30,14 @@
 #include <fcntl.h>
 #include <string.h>
 #define FLAGS O_RDWR|O_TRUNC|O_CREAT
-#define FILE "61-open-dup-demo.txt"
+#define FILE "73-os181-demo.txt"
 
 static char* str1 = "AAAAAAAAAA";
 static char* str2 = "BBBBB";
 
 void main(void) {
    int fd1, fd2, fd3;
+   printf("See also file %s\n", FILE);
    /* STDIN=0, STDOUT=1, STDERR=2,
       fd1,fd2,fd3  will be 3,4,and 5 */
    fd1=open(FILE, FLAGS, 0644);
@@ -49,24 +50,4 @@ void main(void) {
    close(fd2);
    close(fd3);
 }
-
-/* 
- * TAKE NOTE(AII)
-
- * open() akan mengembalikan int file descriptor dengan
- * fd1, fd2, fd3 berturut-turut bernilai 3, 4, 5.
- * di fd1 dilakukan write sehingga file 
- * 61-open-dup-demo.txt berisi:
- * AAAAAAAAAA
- *
- * Kemudian di fd2 di write() sehingga 
- * file 61-open-dup-demo.txt berisi:
- * X3X4X5XAAA
- *
- * Terakhir di fd3 yang melakukan dup(fd1) dilakukan write() dengan
- * melanjutkan pointer dari fd1 sehingga akhirnya 
- * file 61-open-dup-demo.txt berisi:
- * X3X4X5XAAABBBBB
-
- */
 
