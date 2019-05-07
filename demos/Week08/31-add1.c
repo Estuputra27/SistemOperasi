@@ -1,7 +1,8 @@
 /*
- * (C) 2018 Rahmat M. Samik-Ibrahim
+ * (C) 2018-2019 Rahmat M. Samik-Ibrahim
  * You are free to SHARE and to ADAPT,
  * but WITHOUT ANY WARRANTY.
+ * REV05 Tue May  7 20:54:40 WIB 2019
  * REV04 Tue Dec 11 10:32:07 WIB 2018
  * REV02 Wed Nov 21 20:48:49 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
@@ -45,17 +46,17 @@ void main(int argc, char* argv[]) {
               MYVISIBILITY, fd, 0);
    sem_post (&(mymap->sync[2]));
    sem_wait (&(mymap->sync[1]));
+   sem_wait (&(mymap->sync[1]));
    mymap->share=1000;
    flushprintf(argv[0], "PASS");
-   sem_post (&(mymap->sync[2]));
    while (mymap->loop) {
       for(int ii=0; ii<1000000; ii++);
       mymap->share++;
    }
    sem_post (&(mymap->sync[2]));
    sem_wait (&(mymap->sync[1]));
-   sem_wait (&(mymap->sync[1]));
    flushprintf(argv[0], "EXIT");
+   sem_post (&(mymap->sync[2]));
    sem_post (&(mymap->sync[0]));
    close(fd);
 }
