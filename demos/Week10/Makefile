@@ -1,3 +1,4 @@
+# REV15 Tue May  7 18:51:58 WIB 2019
 # REV14 Mon Dec 10 15:17:15 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -27,12 +28,15 @@ P55=55-write
 P56=56-copy
 P57=57-dup
 P58=58-dup2
-P59=59-io
+P59a=59a-io
+P59b=59b-io
+P59c=59c-io
 P60=60-readwrite
 P61=61-open-dup
 P62=62-os172
 P63=63-os171-dup
 P64=64-os161
+P66=66-os182
 
 
 EXECS= \
@@ -48,12 +52,15 @@ EXECS= \
         $(P56) \
         $(P57) \
         $(P58) \
-        $(P59) \
+        $(P59a) \
+        $(P59b) \
+        $(P59c) \
         $(P60) \
         $(P61) \
         $(P62) \
         $(P63) \
         $(P64) \
+        $(P66) \
 
 
 DEMOFILES=\
@@ -65,13 +72,17 @@ DEMOFILES=\
 	demo-file6.txt \
 	demo-file7.txt \
 	demo-file8.txt \
-	demo-file9.txt \
 	demo-fileA.txt \
 	demo-copy.txt  \
+        $(P59a)-demo.txt \
+        $(P59b)-demo.txt \
+        $(P59c)-demo.txt \
         $(P61)-demo.txt \
         $(P62)-demo.txt \
         $(P63)-demo.txt \
         $(P64)-demo.txt \
+        $(P66)-demo3.txt \
+        $(P66)-demo4.txt \
         
 
 MODE644=\
