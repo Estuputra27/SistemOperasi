@@ -1,5 +1,5 @@
 title: Operating Systems - Sistem Operasi
-description: (V003-20190712) Laman ini berisi tautan-tautan seputar mata kuliah Sistem Operasi seperti bahan kuliah, soal ujian, dan bahan laboratorium. Situs ini dikelola oleh VauLSMorg (vlsm.org) sejak semester ganjil 2016/2017 lalu. 
+description: (V004-20190712) Laman ini berisi tautan-tautan seputar mata kuliah Sistem Operasi seperti bahan kuliah, soal ujian, dan bahan laboratorium. Situs ini dikelola oleh VauLSMorg (vlsm.org) sejak semester ganjil 2016/2017 lalu. 
 author: Mr. Yoda Yoda
 theme: jekyll-theme-midnight
 
@@ -10,6 +10,7 @@ theme: jekyll-theme-hacker
 # theme: jekyll-theme-merlot
 # theme: jekyll-theme-midnight
 
-# Fixing the "No GitHub API authentication could be found" ??
-github: [metadata]
+github:
+   zip_url: https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
+   tar_url: https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.tar.gz
 
