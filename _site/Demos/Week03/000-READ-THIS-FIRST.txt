@@ -1,0 +1,29 @@
+exit 1
+This demo is available in badak:///extra/.
+See also: https://os.vlsm.org/
+You should copy this folder to your own working folder.
+DO NOT work inside the /extra folder!
+==================================
+REV03 Wed Mar 13 14:42:58 WIB 2019
+REV02 Wed Feb 27 19:28:58 WIB 2019
+START Thu Jan 17 14:24:05 WIB 2019
+=======================================================
+
+Folder Name:
+Week03/
+
+To copy the folder to your home directory:
+cp -r /extra/Demos/W03-demos/ ~/mydemos/W03-demos/
+=======================================================
+
+File Listing:
+* 000-READ-THIS-FIRST.txt (this file)
+* Files
+    01-open-close.c
+    02-file-pointer.c
+    03-fprintf.c
+    04-dprintf.c
+    05-sprintf.c
+    Makefile
+* FUSE
+

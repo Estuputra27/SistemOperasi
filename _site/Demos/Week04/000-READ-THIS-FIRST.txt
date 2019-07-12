@@ -1,0 +1,55 @@
+exit 1
+This demo is available in badak:///extra/.
+See also: https://os.vlsm.org/
+You should copy this folder to your own working folder.
+DO NOT work inside this folder!
+===================================
+REV07: Wed Mar 13 14:13:55 WIB 2019
+REV05: Tue Sep  4 09:13:28 WIB 2018
+START: Tue Feb 20 09:12:43 WIB 2018
+
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+
+=======================================================
+
+Folder Name:
+Week04/
+
+To copy the folder to your home directory:
+cp -r /extra/Demos/W04-demos/ ~/mydemos/W04-demos/
+==================================================
+
+File Listing:
+* 000-READ-THIS-FIRST.txt (this file)
+* 00-global-variables.c
+* 01-local-variables.c
+* 02-pointers.c
+* 03-pointers-of-pointers.c
+* 04-pointers-of-pointers-of-pointers.c
+* 05-chrptr-vs-intptr.c
+* 06-pointer-address.c
+* 07-addresses.c
+* 08-passing-parameters.c
+* 09-struct.c
+* 10-pppchar.c
+* 11-pppint.c
+* 12-uts162.c
+* 13-uts171.c
+* 14-uts172.c
+* 15-uts181.c
+* 16-uts182.c
+* Makefile
+

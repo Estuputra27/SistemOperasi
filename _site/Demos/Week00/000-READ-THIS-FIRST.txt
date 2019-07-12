@@ -1,0 +1,71 @@
+exit 1
+This demo is available in badak:///extra/.
+See also: https://os.vlsm.org/
+You should copy this folder to your own working folder.
+DO NOT work inside the "/extra" folder!
+=======================================================
+REV07: Wed Mar 13 14:15:03 WIB 2019
+REV03: Mon Aug 27 18:46:08 WIB 2018
+START: Tue Feb 20 09:12:43 WIB 2018
+
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+===================================================================
+
+Folder Name:
+Week00/
+
+Welcome to demo Week00!
+
+# First, login to badak.cs.ui.ac.id using "ssh" and/or "putty".
+# Second after login, test what your HOME directory is.
+echo $HOME
+pwd
+# If your do not have a HOME directory, contact IT Fasilkom.
+# Next, create a work folder INSIDE your home directory. 
+# Eg. "mydemos".
+mkdir mydemos
+# Go into "mydemos"
+cd mydemo
+# List "mydemos", it should be empty.
+ls -al
+# If you can not make "mydemos" inside your HOME directory, 
+# contact IT Fasilkom.
+# To copy the Week 00 demo folder:
+cp -r /extra/Demos/W00-demos/ ~/mydemos/W00-demos/
+# Go into Week 00 demo folder:
+cd ~/mydemos/W00-demos/
+
+=================================================
+File Listing:
+* 000-READ-THIS-FIRST.txt (this file)
+
+* c-program-example.c (a c program)
+  To compile:
+  $ gcc -o c-program-example c-program-example.c
+  To execute:
+  $ ./c-program-example
+
+* Makefile (a Makefile)
+  Just run:
+  $ make
+
+* QR-Code.png
+  A QR Code (QRC) Example 
+
+* QR-Code.docx and QR-Code.pdf
+  A MEMO example using QRC
+
+=================================================

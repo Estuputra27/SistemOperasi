@@ -1,4 +1,15 @@
 title: Operating Systems - Sistem Operasi
-author: Cicak Bin Kadal
+description: (V002-20190712) Laman ini berisi tautan-tautan seputar mata kuliah Sistem Operasi seperti bahan kuliah, soal ujian, dan bahan laboratorium. Situs ini dikelola oleh VauLSMorg (vlsm.org) sejak semester ganjil 2016/2017 lalu. 
+author: Mr. Yoda Yoda
 theme: jekyll-theme-midnight
+
+show_downloads: true
+google_analytics:
+
+theme: jekyll-theme-hacker
+# theme: jekyll-theme-merlot
+# theme: jekyll-theme-midnight
+
+# Fixing the "No GitHub API authentication could be found" ??
+github: [metadata]
 
