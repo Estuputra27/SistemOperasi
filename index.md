@@ -23,13 +23,15 @@
 
 * Himpunan Soal Ujian Sistem Operasi
 
-  * [Ujian OS tahun 2002-2010](https://rms46.vlsm.org/1/94.pdf)
-
-  * [Ujian OS tahun 2010-2015](https://rms46.vlsm.org/2/183.pdf)
+  * Ujian OS tahun 2016-...
 
     * UTS Sistem Operasi: [W00](http://rms46.vlsm.org/2/195.pdf), [W01](http://rms46.vlsm.org/2/196.pdf), [W02](http://rms46.vlsm.org/2/197.pdf), [W03](http://rms46.vlsm.org/2/198.pdf), [W04](http://rms46.vlsm.org/2/199.pdf), [W05](http://rms46.vlsm.org/2/200.pdf).
 
     * UAS Sistem Operasi: [W06](http://rms46.vlsm.org/2/201.pdf), [W07](http://rms46.vlsm.org/2/202.pdf), [W08](http://rms46.vlsm.org/2/203.pdf), [W09](http://rms46.vlsm.org/2/204.pdf), [W10](http://rms46.vlsm.org/2/205.pdf).
+
+  * [Ujian OS tahun 2010-2015](https://rms46.vlsm.org/2/183.pdf)
+
+  * [Ujian OS tahun 2002-2010](https://rms46.vlsm.org/1/94.pdf)
 
 * [Operating System Concepts (Silberschatz et.al.)](http://os-book.com/)
 
@@ -61,9 +63,9 @@
 
 * EXTRA
 
-  * [Extra 2018 - 2](https://extra182.vlsm.org/)
-
   * [Extra 2019 - 1](https://extra191.vlsm.org/)
+
+  * [Extra 2018 - 2](https://extra182.vlsm.org/)
 
 * WSL
 
@@ -78,7 +80,26 @@
 <br>
 <h3>DISKLAIMER</h3>
 
-<br />Grrr... memo blog ini terutama ditulis untuk <b>KEPERLUAN SENDIRI</b>. Tulisan ini berbasis "<i>Google Sana, Google Sini, Coba Itu, Coba Ini, Lalu Tanya-tanyi</i>". Entah ini <b>PLAGIAT</b>, entah ini <b>RISET</b>, yang jelas tidak pernah ada klaim bahwa ini merupakan karya asli, serta belum tentu pula merupakan solusi terbaik, serta bukan untuk konsumsi Scopus :). Mohon kiranya memberikan tanggapan, terutama jika memiliki solusi alternatif. Semoga catatan ini akan bermanfaat di masa mendatang, saat sudah lupa cara menyelesaikan masalah trivia ini.<br /><br />
+<br>Situs ini berbasis 
+"<i>Google Sana, Google Sini, Coba Itu, Coba Ini, Lalu Tanya-tanyi</i>". 
+Entah ini <b>PLAGIAT</b>, entah ini <b>RISET</b>, 
+yang jelas tidak pernah ada klaim bahwa ini merupakan karya asli, 
+serta belum tentu pula merupakan solusi terbaik, 
+serta bukan untuk konsumsi Scopus :).
+Mohon kiranya memberikan tanggapan,
+terutama jika memiliki solusi alternatif.
+Semoga catatan ini akan bermanfaat di masa mendatang,
+saat sudah lupa cara menyelesaikan masalah trivia ini.<br><br>
+<hr>
+<br>
+You are free to share, 
+copy and redistribute the material of this site in any medium or format for any purpose, 
+even commercially. 
+Please give appropriate credit, provide a link to the page, and indicate if changes were made. 
+You may do so in any reasonable manner.
+You <b>should not</b> apply legal terms or technological measures, 
+that legally restrict others from doing anything that is permited here.
+<br>
 <div style="text-align: right;">
-<a href="http://rahmatm.samik-ibrahim.vlsm.org/">--- Rahmat M. Samik-Ibrahim</a><br />
+<a href="http://rahmatm.samik-ibrahim.vlsm.org/">--- Rahmat M. Samik-Ibrahim</a><br></div>
 
