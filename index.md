@@ -80,7 +80,12 @@
 <br>
 <h3>DISKLAIMER</h3>
 
-<br>Situs ini berbasis 
+<br>
+Laman ini berisi tautan-tautan seputar mata kuliah Sistem Operasi seperti bahan kuliah, 
+soal ujian, dan bahan laboratorium. 
+Situs ini dikelola oleh VauLSMorg (<a href="https://vlsm.org/">vlsm.org</a>) 
+sejak semester ganjil 2016/2017 (2016-2).<br><br>
+Situs ini berbasis 
 "<i>Google Sana, Google Sini, Coba Itu, Coba Ini, Lalu Tanya-tanyi</i>". 
 Entah ini <b>PLAGIAT</b>, entah ini <b>RISET</b>, 
 yang jelas tidak pernah ada klaim bahwa ini merupakan karya asli, 
@@ -90,16 +95,7 @@ Mohon kiranya memberikan tanggapan,
 terutama jika memiliki solusi alternatif.
 Semoga catatan ini akan bermanfaat di masa mendatang,
 saat sudah lupa cara menyelesaikan masalah trivia ini.<br><br>
-<hr>
-<br>
-You are free to share, 
-copy and redistribute the material of this site in any medium or format for any purpose, 
-even commercially. 
-Please give appropriate credit, provide a link to the page, and indicate if changes were made. 
-You may do so in any reasonable manner.
-You <b>should not</b> apply legal terms or technological measures, 
-that legally restrict others from doing anything that is permited here.
-<br>
 <div style="text-align: right;">
 <a href="http://rahmatm.samik-ibrahim.vlsm.org/">--- Rahmat M. Samik-Ibrahim</a><br></div>
+<br>
 
