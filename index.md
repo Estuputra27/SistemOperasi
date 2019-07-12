@@ -9,6 +9,8 @@
   * Situs ini: [https://os.vlsm.org/](https://os.vlsm.org/)
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](
              https://github.com/UI-FASILKOM-OS/SistemOperasi)
+  * [ZIP Download](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
+
 
 * `BADAK.cs.ui.ac.id:///extra/` -- situs ini hanya dapat diakses dari internal Universitas Indonesia.
 
