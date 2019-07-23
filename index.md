@@ -80,6 +80,8 @@
 <br>
 <h3>DISKLAIMER</h3>
 
+{{ site.disc }}
+
 <br>
 Laman ini berisi tautan-tautan seputar mata kuliah Sistem Operasi seperti bahan kuliah, 
 soal ujian, dan bahan laboratorium. 

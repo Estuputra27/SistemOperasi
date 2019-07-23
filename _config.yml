@@ -1,16 +1,20 @@
 title: Operating Systems - Sistem Operasi
-description: (V026-20190712) You are free to share, 
-   copy and redistribute the material of this site in any medium or format for any purpose, 
-   even commercially. 
-   Please give appropriate credit, provide a link to the page, 
-   and indicate if changes were made. You may do so in any reasonable manner. 
-   You should not apply legal terms or technological measures, 
-   that legally restrict others from doing anything that is permited here.
+description: (V027-20190723) This is the CSF-265 Operating System course site.
+      It contains links to lecture materials, exam questions, and laboratory materials.
+      It is based on "Google There, Google Here, Try It, Try This, Then Ask".
+      This site is managed by VauLSMorg (vlsm.org) since 2016.
+disc: You are free to share, copy and redistribute the material of this site 
+      in any medium or format for any purpose, even commercially. 
+      Please give appropriate credit, provide a link to the page, 
+      and indicate if changes were made. You may do so in any reasonable manner. 
+      You should not apply legal terms or technological measures, 
+      that legally restrict others from doing anything that is permited here.
 author: Mr. Yoda Yoda
 theme: jekyll-theme-midnight
-
 show_downloads: false
 google_analytics: UA-89852122-3
+plugins:
+  - jekyll-sitemap
 
 theme: jekyll-theme-hacker
 # theme: jekyll-theme-merlot
