@@ -1,5 +1,5 @@
 title: Operating Systems - Sistem Operasi
-description: (V027-20190723) This is the CSF-265 Operating System course site.
+description: (V029-20190723) This is the CSF-265 Operating System course site.
       It contains links to lecture materials, exam questions, and laboratory materials.
       It is based on "Google There, Google Here, Try It, Try This, Then Ask".
       This site is managed by VauLSMorg (vlsm.org) since 2016.
@@ -13,12 +13,15 @@ author: Mr. Yoda Yoda
 theme: jekyll-theme-midnight
 show_downloads: false
 google_analytics: UA-89852122-3
+theme: jekyll-theme-hacker
+sitemap: true
 plugins:
   - jekyll-sitemap
-
-theme: jekyll-theme-hacker
-# theme: jekyll-theme-merlot
-# theme: jekyll-theme-midnight
+  - jekyll-seo-tag
+social:
+  name: Operating Systems
+  links:
+    - https://https://github.com/UI-FASILKOM-OS/SistemOperasi
 
 # github:
 #    zip_url: https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
