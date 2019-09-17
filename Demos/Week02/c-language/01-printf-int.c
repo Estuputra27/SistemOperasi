@@ -4,6 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV05 Tue Sep 17 18:13:22 WIB 2019
  * REV04 Tue Feb 26 09:34:37 WIB 2019
  * REV02 Tue Aug 28 13:31:19 WIB 2018
  * START Thu Sep 15 11:47:10 WIB 2016
@@ -12,7 +13,7 @@
 #include <stdio.h>
 
 void main (void) {
-   int   ii   = 65;             // Integer
+   int   ii   = 74;             // Integer
 
    printf("(%%d)    ii = (%d)\n",    ii);
    printf("(%%5d)   ii = (%5d)\n",   ii);

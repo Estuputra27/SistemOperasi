@@ -11,8 +11,6 @@
 
 #include <stdio.h>
 
-#define STRING "123456789ABCDEF\n"
-
 void main (void) {
    short             sii    = 1;
    unsigned short    usii   = sii * -1;
@@ -39,12 +37,14 @@ void main (void) {
 
    char        ch='A';
    unsigned char uch = (unsigned char) -191;
-   printf("char %c (%d) |||| unsigned char      %c (%u)\n", ch, ch, uch, uch);
+   printf("char %c (%d) |||| unsigned char       %c (%u)\n", ch, ch, uch, uch);
+
+#define STRING "123456789ABCDEF\n"
 
    char  dd[]=STRING;
    long  size=sizeof(STRING);
    printf(STRING);
-   printf("One more  time:\n%sSIZE=%ld\n", dd, size);
+   printf("One  more time:\n%sSIZE=%ld\n", dd, size);
    printf("dd[]= %c%c%c ... %c\n", dd[0], 
            dd[1], dd[2], dd[size-3]);
 }
