@@ -1,3 +1,4 @@
+# REV07 Tue Sep 17 12:18:24 WIB 2019
 # REV06 Tue Feb 26 12:17:00 WIB 2019
 # REV04 Tue Sep 25 12:03:44 WIB 2018
 # REV02 Mon Sep 18 09:08:32 WIB 2017
@@ -19,6 +20,7 @@ P10=10-uts171
 P11=11-uts172
 P12=12-uts181
 P13=13-uts182
+P14=14-uts191
 
 
 EXECS= \
@@ -36,6 +38,7 @@ EXECS= \
    $(P11) \
    $(P12) \
    $(P13) \
+   $(P14) \
 
 
 all:	$(EXECS)
