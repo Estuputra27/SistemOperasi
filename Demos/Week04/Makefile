@@ -1,3 +1,4 @@
+# REV12 Tue Oct  1 11:31:18 WIB 2019
 # REV11 Thu Jan 17 15:58:20 WIB 2019
 # REV10 Thu Oct  4 10:41:39 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
@@ -22,6 +23,7 @@ P13=13-uts171
 P14=14-uts172
 P15=15-uts181
 P16=16-uts182
+P17=17-uts191
 
 
 EXECS= \
@@ -42,6 +44,7 @@ EXECS= \
         $(P14) \
         $(P15) \
         $(P16) \
+        $(P17) \
 
 
 DEMOFILES=\
@@ -110,6 +113,9 @@ $(P15): $(P15).c
 
 $(P16): $(P16).c
 	$(CC) $(P16).c -o $(P16)
+
+$(P17): $(P17).c
+	$(CC) $(P17).c -o $(P17)
 
 clean:
 	rm -f ${EXECS} 
