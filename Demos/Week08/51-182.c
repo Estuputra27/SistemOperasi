@@ -2,10 +2,14 @@
  * (C) 2018-2019 Rahmat M. Samik-Ibrahim
  * You are free to SHARE and to ADAPT,
  * but WITHOUT ANY WARRANTY.
+ * REV05 Mon Oct 28 20:57:52 WIB 2019
  * REV04 Tue May  7 20:55:07 WIB 2019
  * REV03 Mon Dec 10 18:53:06 WIB 2018
  * REV02 Wed Nov 21 20:48:39 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
+
+ To run: ./51-182
+
  */
 
 #include <fcntl.h>
@@ -40,9 +44,9 @@ void flushprintf(char* tag1, char* tag2){
    fflush(NULL);
 }
 
-#define MAIN "30:ADDSUB"
-#define ADD1 "  31:ADD1"
-#define SUB1 "  32:SUB1"
+#define MAIN "51:182 "
+#define ADD1 "52:182a"
+#define SUB1 "53:182b"
 
 void main(void) {
    int fd   =open(SFILE,MYFLAGS,S_IRWXU);
@@ -58,9 +62,9 @@ void main(void) {
    sem_init (&(mymap->sync[2]), 1, 0);
    flushprintf(MAIN, "EXEC");
    if (!fork())
-      execlp("./31-add1", ADD1, NULL);
+      execlp("./52-182a", ADD1, NULL);
    if (!fork()) 
-      execlp("./32-sub1", SUB1, NULL);
+      execlp("./53-182b", SUB1, NULL);
    do {
       sleep(1);
       flushprintf(MAIN, "LOOP");

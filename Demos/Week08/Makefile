@@ -13,11 +13,11 @@ P20=20-parent
 P21=21-child
 P22=22-hello-goodbye
 P23=23-kirim-ambil
-P24=24-producer-consumer
-P25=25-balapan
-P30=30-add1sub1
-P31=31-add1
-P32=32-sub1
+P50=50-181
+P51=51-182
+P52=52-182a
+P53=53-182b
+P54=54-191
 
 
 EXECS= \
@@ -27,11 +27,11 @@ EXECS= \
         $(P21) \
         $(P22) \
         $(P23) \
-        $(P24) \
-        $(P25) \
-        $(P30) \
-        $(P31) \
-        $(P32) \
+        $(P50) \
+        $(P51) \
+        $(P52) \
+        $(P53) \
+        $(P54) \
 
 
 DEMOFILES=\
