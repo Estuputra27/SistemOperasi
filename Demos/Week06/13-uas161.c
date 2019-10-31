@@ -5,6 +5,7 @@
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+ * REV09 Fri Nov  1 01:20:10 WIB 2019
  * REV08 Wed Feb 27 19:13:56 WIB 2019
  * REV06 Mon Apr 04 XX:XX:XX WIB 2016
  * START Xxx Xxx XX XX:XX:XX XXX XXXX
@@ -19,7 +20,7 @@ void main(void) {
    pid_t  pid1, pid2, pid3;
 
    pid1 = pid2 = pid3 = getpid();
-   printf(" 2016   2015   2014\n=====================\n");
+   printf(" 2016   2015   Lainnya\n=====================\n");
    printf("[%5.5d][%5.5d][%5.5d]\n", pid1, pid2, pid3);
    fork(); 
    pid1 = getpid();
