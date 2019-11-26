@@ -1,9 +1,22 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * TAKE NOTE()
+ * O_RDWR open for reading and writing
+ * O_CREAT indicates that the call to open() has a mode argument,
+ * if the file being opened already exist O_CREAT has no effect
+ * if the file being opened does not exist it is created
+ * if O_CREAT is specified and the file did not previously exist a sucessful open
+ * () sets the access time, change time, and modification time for the file
+ *
+ * if succesful, dup() returns a new file descriptor
+ * if unsucessful, dup() returs -1 and sets errno to EBADF or EMFILE
+ *
+ * REV09 Tue Nov 26 11:38:34 WIB 2019
  * REV08 Wed Aug 29 20:55:23 WIB 2018
  * REV07 Thu Oct  5 17:56:09 WIB 2017
  * REV02 Sun Oct 16 20:50:52 WIB 2016
@@ -32,17 +45,3 @@ void main(void) {
    close(fd2);
    printf("See output file %s\n", FILE5);
 }
-
-/*
- * TAKE NOTE()
- * O_RDWR open for reading and writing
- * O_CREAT indicates that the call to open() has a mode argument,
- * if the file being opened already exist O_CREAT has no effect
- * if the file being opened does not exist it is created
- * if O_CREAT is specified and the file did not previously exist a sucessful open
- * () sets the access time, change time, and modification time for the file
- *
- * if succesful, dup() returns a new file descriptor
- * if unsucessful, dup() returs -1 and sets errno to EBADF or EMFILE
- */
-

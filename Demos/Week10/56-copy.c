@@ -1,9 +1,29 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * 
+ * TAKE NOTE (MA)
+ * Program ini akan mengcopy isi dari suatu file 
+ * ke file lain yang sudah ada atau belum ada
+ *
+ * Argumen argc dan argv dari main digunakan 
+ * sebagai cara untuk mengirim argumen ke program
+ * argc adalah jumlah argumen,
+ * argv adalah list argumennya, 
+ * yang untuk list ke 0 merupakan nama filenya.
+ *
+ * Jadi, program ini butuh 2 argumen tambahan saat dijalankan,
+ * yang pertama adalah file yang isinya mau dicopy
+ * yang kedua adalah file hasil copy-annya
+ * yang jika file kedua namanya sudah ada maka akan direplace isinya
+ *
+ * Contohnya: ./56-copy test.txt test2.txt 
+ * (test.txt harus ada dibuat terlebih dahulu dahulu atau akan error)
+ *
+ * REV04 Tue Nov 26 11:39:10 WIB 2019
  * REV03 Wed Aug 29 20:55:23 WIB 2018
  * REV01 Mon Oct  2 16:23:50 WIB 2017
  * START Tue Apr 25 XX:XX:XX WIB 2015
@@ -56,24 +76,3 @@ void main(int argc, char* argv[])
    close(fdwrite);
    exit(0);
 }
- 
-/* 
- * TAKE NOTE (MA)
- * Program ini akan mengcopy isi dari suatu file 
- * ke file lain yang sudah ada atau belum ada
- *
- * Argumen argc dan argv dari main digunakan 
- * sebagai cara untuk mengirim argumen ke program
- * argc adalah jumlah argumen,
- * argv adalah list argumennya, 
- * yang untuk list ke 0 merupakan nama filenya.
- *
- * Jadi, program ini butuh 2 argumen tambahan saat dijalankan,
- * yang pertama adalah file yang isinya mau dicopy
- * yang kedua adalah file hasil copy-annya
- * yang jika file kedua namanya sudah ada maka akan direplace isinya
- *
- * Contohnya: ./56-copy test.txt test2.txt 
- * (test.txt harus ada dibuat terlebih dahulu dahulu atau akan error)
- */
-

@@ -1,9 +1,22 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * TAKE NOTE (MA)
+ * Program ini akan membuat file baru dengan isi
+ * buf1 pada 8 char pertama, dan buf2 pada 8 char terakhir
+ *
+ * Line 31 akan membuat program menulis 8 char 
+ * dari variabel char buf1 ke file yang didefine pada Line 19
+ *
+ * Line 35 akan membuat offset menjadi 32,
+ * yang maksudnya adalah pointernya lompat ke huruf ke 32
+ * Sehingga ketika menulis lg, akan dimulai pada huruf ke 33
+ *
+ * REV06 Tue Nov 26 11:39:10 WIB 2019
  * REV05 Wed Aug 29 20:55:23 WIB 2018
  * REV04 Wed Oct 18 17:54:25 WIB 2017
  * REV02 Thu Mar  9 21:21:28 WIB 2017
@@ -45,18 +58,3 @@ void main(void) {
    close(fd);
    printf("Run: hexdump -c %s\n", FILE6);
 }
-
-
-/*
- * TAKE NOTE (MA)
- * Program ini akan membuat file baru dengan isi
- * buf1 pada 8 char pertama, dan buf2 pada 8 char terakhir
- *
- * Line 31 akan membuat program menulis 8 char 
- * dari variabel char buf1 ke file yang didefine pada Line 19
- *
- * Line 35 akan membuat offset menjadi 32,
- * yang maksudnya adalah pointernya lompat ke huruf ke 32
- * Sehingga ketika menulis lg, akan dimulai pada huruf ke 33
- */
-

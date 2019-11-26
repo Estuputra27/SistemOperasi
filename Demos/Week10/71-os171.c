@@ -4,7 +4,8 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- & REV02 Tue May  7 20:12:34 WIB 2019
+ * REV03 Tue Nov 26 11:39:10 WIB 2019
+ * REV02 Tue May  7 20:12:34 WIB 2019
  * REV01 Fri May 18 13:43:59 WIB 2018
  * START Thu Mar 30 16:56:54 WIB 2017
  *
@@ -42,4 +43,3 @@ void main(void) {
    close(fd2);
    close(fd3);
 }
-

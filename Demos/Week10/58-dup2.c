@@ -38,5 +38,3 @@ void main(void) {
    printf("**** Please check file %s *****\n", FILE1);
    printf("**** Compare with 54-write\n");
 }
-
-

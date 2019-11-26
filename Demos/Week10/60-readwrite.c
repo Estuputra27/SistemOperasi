@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV05 Tue Nov 26 11:39:10 WIB 2019
  * REV04 Wed Aug 29 20:55:23 WIB 2018
  * REV03 Mon Mar  5 20:13:04 WIB 2018
  * REV02 Mon Oct  2 16:25:44 WIB 2017
@@ -74,8 +75,3 @@ void rwfile(char* fname) {
    putchar('\n');
    printf("Total time: %d seconds\n", (int) tt);
 }
-
-/*
- * TAKE NOTE()
- */
-

@@ -62,8 +62,3 @@ int main(int argc, char *argv[]) {
    printf("%s\n",buffer);
    return 0;
 }
-
-/*
- * TAKE NOTE()
- */
-

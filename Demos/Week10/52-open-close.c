@@ -1,9 +1,23 @@
 /*
- * Copyright (C) 2015 - 2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * TAKE NOTE(TA)
+ * this demo will create files depends on the criteria written inside open() command
+ * file 1 : if file1 doesnt exist, then it will be created
+ * the file will be open out for reading and writing
+ * file1 created with read/write/execute for the file owner
+ *
+ * file 2 : if file2 doesnt exist, then it will be created
+ * the file will be open out for reading and writing
+ * file2 created with read/write/execute for the file owner (S_IRWXU),
+ * read/write permission for the file's group (S_IRGRP and S_IWGRP),
+ * read permission for users other than the file owner
+ *
+ * REV06 Tue Nov 26 11:37:12 WIB 2019
  * REV05 Wed Aug 29 20:55:23 WIB 2018
  * REV04 Wed Oct 18 17:49:39 WIB 2017
  * REV02 Sun Oct 16 20:50:26 WIB 2016
@@ -63,19 +77,3 @@ void main(void) {
    fd = open (file3, O_CREAT | O_RDWR, 0700);
    close(fd);
 }
-
-/*
- * TAKE NOTE(TA)
- * this demo will create files depends on the criteria written inside open() command
- * file 1 : if file1 doesnt exist, then it will be created
- * the file will be open out for reading and writing
- * file1 created with read/write/execute for the file owner
- *
- * file 2 : if file2 doesnt exist, then it will be created
- * the file will be open out for reading and writing
- * file2 created with read/write/execute for the file owner (S_IRWXU),
- * read/write permission for the file's group (S_IRGRP and S_IWGRP),
- * read permission for users other than the file owner
- */
-
-

@@ -34,4 +34,3 @@ void main(void) {
    close(fd1);
    close(fd2);
 }
-

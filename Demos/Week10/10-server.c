@@ -59,8 +59,3 @@ int main(int argc, char *argv[]) {
       error("ERROR writing to socket");
    return 0;
 }
-
-/*
- * TAKE NOTE()
- */
-
