@@ -79,6 +79,12 @@
 
   * [More...](https://wsl.vlsm.org/)
 
+* 2019-2 Extra
+
+  * [Jekyll](https://jekyll.vlsm.org)
+
+  * [Raspberry Pi](https://www.raspberrypi.org/)
+
 <br>
 <h3>DISKLAIMER</h3>
 
