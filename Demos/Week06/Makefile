@@ -1,3 +1,4 @@
+# REV08 Mon Dec  9 16:57:42 WIB 2019
 # REV07 Tue Apr  2 09:40:27 WIB 2019
 # REV06 Mon Feb 11 15:27:05 WIB 2019
 # REV04 Wed Nov  1 13:30:30 WIB 2017
@@ -20,7 +21,7 @@ P06a=06a-fork
 P06b=06b-fork
 P06c=06c-fork
 P06d=06d-fork
-P07=07-fork
+P07=07-execlp
 P08=08-fork
 P09=09-fork
 P10=10-fork
