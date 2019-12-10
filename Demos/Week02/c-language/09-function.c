@@ -4,11 +4,13 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV01 Tue Dec 10 10:51:54 WIB 2019
  * REV00 Tue Feb 26 12:15:18 WIB 2019
  * START Tue Feb 26 12:15:18 WIB 2019
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int addone1 (int ii) {
    ii++;
@@ -36,5 +38,7 @@ void main(void) {
    printf("Addone3 %d -- %d \n", ii, *addone3(&ii));
    printf("Addone3 %d -- %d \n", ii, *addone3(&ii));
    printf("Addone3 %d -- %d \n", ii, *addone3(&ii));
+   system("echo This is echo from system. Cek demo.txt");
+   system("echo This is echo from system. Cek demo.txt > demo.txt");
 }
 
