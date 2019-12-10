@@ -1,25 +1,14 @@
 /*
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2019 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * REV03 Tue Dec 10 07:31:38 WIB 2019
  * REV02 Tue Aug 28 13:31:19 WIB 2018
  * START Tue Sep 13 12:11:09 WIB 2016
- */
-
-#include <stdio.h>
-void main(int argc, char *argv[]) {
-   int ii;
-   printf("The value of argc    is %d\n", argc);
-   printf("=============================================\n");
-   for (ii=argc-1; ii >= 0; ii--) {
-      printf("The value of argv[%d] is %s\n", ii, argv[ii]);
-   }
-   printf("=============================================\n");
-}
-
-/*
+ *
  * TAKE NOTE(BA)
  * In the beginning this program defined a main method with argc and argv as parameters
  * ARGC (argument counter) is represents the number of things that you entered into the 
@@ -34,8 +23,18 @@ void main(int argc, char *argv[]) {
  * OUTPUT (below) :
  * The value of argc    is 2
  * =============================================
- * The value of argv[1] is test
  * The value of argv[0] is ./04-argc-argv
+ * The value of argv[1] is test
  * =============================================
  */
+
+#include <stdio.h>
+void main(int argc, char *argv[]) {
+   printf("The value of argc    is %d\n", argc);
+   printf("=============================================\n");
+   for (int ii=0; ii < argc; ii++) {
+      printf("The value of argv[%d] is %s\n", ii, argv[ii]);
+   }
+   printf("=============================================\n");
+}
 
