@@ -21,6 +21,7 @@ P02=02-file-pointer
 P03=03-fprintf
 P04=04-dprintf
 P05=05-sprintf
+P06=06-printf
 
 
 EXECS= \
@@ -29,6 +30,7 @@ EXECS= \
         $(P03) \
         $(P04) \
         $(P05) \
+        $(P06) \
 
 
 DEMOFILES=\
