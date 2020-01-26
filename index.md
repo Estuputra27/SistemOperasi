@@ -21,6 +21,8 @@
 
   * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/)
 
+* [SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
+
 * Himpunan Soal Ujian Sistem Operasi
 
   * Ujian OS tahun 2016-...
