@@ -8,6 +8,7 @@
     [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Slides/os00.pdf))
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
   * Problem Lab/Kawung/Badak: **ITFasilkom**
+  * [STATUS OS201](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/201/)
   * Situs ini: [https://os.vlsm.org/](https://os.vlsm.org/)
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](
              https://github.com/UI-FASILKOM-OS/SistemOperasi)
