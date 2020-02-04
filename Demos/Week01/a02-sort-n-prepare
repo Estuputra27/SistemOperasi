@@ -17,11 +17,9 @@
 
 PREFIX="^#.R:"
 RESULT=`grep $PREFIX $0`
-clear
 if [[ $RESULT ]] ; then
    printf "\n[%11s]: %s\n" "`cut -c 1-11 <<< $0`" "$RESULT"
 fi
-echo ""
 echo "================================================="
 echo "Just run this script:"
 echo "bash $0    (... for RESET and START)"
