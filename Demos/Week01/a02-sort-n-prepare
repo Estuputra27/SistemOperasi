@@ -20,7 +20,7 @@ RESULT=`grep $PREFIX $0`
 if [[ $RESULT ]] ; then
    printf "\n[%11s]: %s\n" "`cut -c 1-11 <<< $0`" "$RESULT"
 fi
-echo "================================================="
+echo "=========================================================================="
 echo "Just run this script:"
 echo "bash $0    (... for RESET and START)"
 echo "bash $0 xx (... for RESET and END)"
@@ -28,7 +28,7 @@ echo "Check and compare with:"
 echo "ls -al"
 echo "Do also:"
 echo "bash a01-READ-ME"
-echo "================================================="
+echo "=========================================================================="
 
 HEAD="a" 
 TMPHEAD="ZTMP"
