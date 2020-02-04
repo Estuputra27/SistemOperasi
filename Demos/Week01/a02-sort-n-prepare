@@ -271,7 +271,9 @@ DODOL
 
 
 NNNN
+
 cat > $FILE5 << NNNN
+
 11 CSGE601020 4 A   4
 11 UIST601111 3 B   7
 11 UIST601014 3 C  10
@@ -317,6 +319,7 @@ NNNN
 # ###############################################################
 
 cat > $FILE6 << NNNN
+
 #!/bin/bash
 # REV12 Thu Jan 30 11:38:07 WIB 2020
 # REV11 Wed Sep  5 20:08:38 WIB 2018
@@ -355,110 +358,11 @@ sort $TMPFILE1 > $DATAFILE
 
 exit
 
+
 OS201 X 1253755125 ZCZCfake Cicak Bin Kadal
 
-#!/bin/bash
-# REV03 Tue Feb  4 12:11:43 WIB 2020
-# REV02 Thu Jan 30 14:59:54 WIB 2020
-# REV01 Xxx Feb 10 17:30:35 WIB 2017
-# START Mon Sep 19 00:42:55 WIB 2016
-
-OS="os201"
-GITID="GITID.txt"
-DATE=`date +%y%m%d-%H`
-LOG="log"
-STATUS="$LOG/STATUS-SIAK-$DATE.txt"
-INFO="$LOG/STATUS-GITHUB-$DATE.txt"
-GITDIR="/extra/OS"
-NONO="ZCZC_nogithub"
-
-[ -d $GITDIR ] || { 
-   echo "No $GITDIR"
-   exit 1
-}
-[ -d $LOG ] || { 
-   echo "No $LOG"
-   exit 1
-}
-[ -f $GITID ]  || { 
-   echo "No $GITID"
-   exit 1
-
-}
-
-GITID=`cat $GITID`
-
-rm -f $STATUS $INFO
-
-for ii in $GITID
-do
-   [ "$ii" = "$NONO" ] && {
-      printf "%-20s NO-GITHUB NO-REPO 0 0\n" $ii    >> $STATUS
-      continue
-   }
-   URL1="https://github.com/$ii"
-   URL2="https://github.com/$ii/os201"
-   if curl --output /dev/null --silent --head --fail "$URL1"
-   then
-      if curl --output /dev/null --silent --head --fail "$URL2"
-      then
-         printf "%-20s OK-GITHUB OK-REPO 1 1\n" $ii    >> $STATUS
-         sleep 1
-         pushd $GITDIR
-         [ -d $ii ] && {
-            cd $ii
-            git pull
-            cd ..
-         }
-         [ -d $ii ] || {
-            git clone $URL2.git $ii
-         }
-         popd
-      else
-         printf "%-20s OK-GITHUB NO-REPO 1 0\n" $ii    >> $STATUS
-      fi
-   else
-      printf "%-20s NO-GITHUB NO-REPO 0 0\n" $ii    >> $STATUS
-   fi
-done
-
-sort -u $STATUS > $INFO
-
-exit
-
-#!/bin/bash
-# REV02 Thu Jan 30 14:59:54 WIB 2020
-# REV01 Xxx Feb 10 17:30:35 WIB 2017
-# START Mon Sep 19 00:42:55 WIB 2016
-
-LOG="log/W00-log.txt"
-OS="os201"
-GITID="../GITID.txt"
-DATE=`date +%y%m%d-%H`
-STATUS="W00-STATUS-SIAK-$DATE.txt"
-INFO="W00-STATUS-GITHUB-$DATE.txt"
-GITDIR="/extra/OS"
-
-GITID=`cat $GITID`
-
-rm -f $STATUS $INFO
-
-for ii in $GITID
-do
-   if [ -f $GITDIR/$ii/$LOG ]
-   then
-      printf "%-20s OK-LOG 1\n" $ii >> $STATUS
-   else
-      printf "%-20s NO-LOG 0\n" $ii >> $STATUS
-   fi
-done
-
-sort -u $STATUS > $INFO
-
-exit
-
-
 NNNN
+
 # ###############################################################
 
 chmod 644 $AWKPROG $CPROGRAM $FILE1 $FILE2 $FILE3 $FILE4 $FILE5 $FILE6 ${TMPFILE}*
