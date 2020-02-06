@@ -5,7 +5,7 @@
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # INFO: Abount variables "argv" and "argc" in function main().
-# INFO:                   run with an argument: ./04-argc-argv test
+# INFO:                   run with an argument: ./04-argc-argv arg1 arg2 arg3
  * REV04 Fri Feb  7 01:27:07 WIB 2020
  * REV03 Tue Dec 10 07:31:38 WIB 2019
  * REV02 Tue Aug 28 13:31:19 WIB 2018

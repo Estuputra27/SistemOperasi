@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# INFO: printf() an integer.
+# INFO: An introduction to function printf().
  * REV06 Fri Feb  7 01:24:21 WIB 2020
  * REV05 Tue Sep 17 18:13:22 WIB 2019
  * REV02 Tue Aug 28 13:31:19 WIB 2018

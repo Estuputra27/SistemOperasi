@@ -37,7 +37,7 @@ Just run: make
 [02-printf-etc.c] More printf() examples.
 [      03-loop.c] a loop example.
 [ 04-argc-argv.c] Abount variables "argv" and "argc" in function main().
-                  run with an argument: ./04-argc-argv test
+                  run with an argument: ./04-argc-argv arg1 arg2 arg3
 [      05-envp.c] About variable "envp" in main().
 [      06-scan.c] An introduction to function scanf().
 [    07-status.c] An introduction to function getpid() and getppid().
@@ -49,7 +49,6 @@ Just run: make
 [    13-uts182.c] UTS 2018-1 (midterm)
 [    14-uts191.c] UTS 2019-1 (midterm)
 [    15-uts192.c] UTS 2019-2 (midterm)
-[         tmptmp] UTS 2019-2 (midterm)
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 # Special thanks to:
