@@ -1,19 +1,40 @@
-exit 1
-This demo is available in badak:///extra/.
-See also: https://os.vlsm.org/
-You should copy this folder to your own working folder.
-DO NOT work inside the /extra folder!
-=======================================================
-REV08: Wed Mar 13 14:42:24 WIB 2019
-REV04: Tue Aug 28 13:27:02 WIB 2018
-START: Tue Feb 20 09:12:43 WIB 2018
+# INFO: Read This First!
+cat $0; exit 0;
+========= ========= ========= ========= ========= ========= ========= =========
+These files are available in:
+(INTRANET) badak:///extra/Demos/ 
+(GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
+(See also) https://os.vlsm.org/
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
-# http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This free document is distributed in the hope that it will be 
-# useful, but WITHOUT ANY WARRANTY; without even the implied 
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#
+To copy the whole folder to your HOME directory:
+
+cp -r /extra/Demos/  ~
+
+OR, to copy it to your CURRENT directory:
+
+cp -r /extra/Demos/  .
+
+OR, rsync with your "ssoAccount":
+
+rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+OR, download GitHub master archive:
+
+https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
+
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+========= ========= ========= ========= ========= ========= ========= =========
+
+000-READ-THIS-FIRST.txt --- this file.
+c-language              --- C language demos.
+permissions             --- File permission exercise.
+
+========= ========= ========= ========= ========= ========= ========= =========
+[000-READ-THIS-FIRST.txt] Read This First!
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 # Special thanks to:
 # Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
 # Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
@@ -21,42 +42,15 @@ START: Tue Feb 20 09:12:43 WIB 2018
 # Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
 # Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
-# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
-====================================================================
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
-Folder Name:
-Week02/
+# REV09: Fri Feb  7 00:31:22 WIB 2020
+# REV07: Wed Mar 13 14:15:03 WIB 2019
+# START: Tue Feb 20 09:12:43 WIB 2018
 
-To copy the folder to your home directory:
-cp -r /extra/Demos/W02-demos/ ~/mydemos/W02-demos/
-==================================================
-
-File Listing:
-* 000-READ-THIS-FIRST.txt (this file)
-
-* c-language/
-    00-hallo.c
-    01-printf-int.c
-    02-printf-etc.c
-    03-loop.c
-    04-argc-argv.c
-    05-envp.c
-    06-scan.c
-    07-status.c
-    08-pointer.c
-    09-function.c
-    10-uts171.c
-    11-uts172.c
-    12-uts181.c
-    13-uts182.c
-    Makefile
-
-* permissions/
-  Permission mode demo
-
-==============================================
-To list files, run:  ls -al
-To compile the “.c” files, run make
-
-=======================================================
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
