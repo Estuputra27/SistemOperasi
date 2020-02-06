@@ -1,26 +1,22 @@
 #!/bin/bash
-# REV18: Tue Feb  4 21:17:24 WIB 2020
-# REV17: Sun Jan 26 13:28:34 WIB 2020
+# REV19: Thu Feb  6 19:43:17 WIB 2020
 # REV16: Thu Feb 14 12:39:53 WIB 2019
 # REV14: Mon Aug 27 20:05:24 WIB 2018
-# REV01: Mon Jun 26 21:48:52 WIB 2017
 # START: Mon Feb 13 20:22:22 WIB 2017
 
-# R: This script is sorting files and preparing the demo.
-#    Just run "bash a02-sort-n-prepare"
-
-# Copyright (C) 2017-2018 Rahmat M. Samik-Ibrahim
+# Copyright (C) 2017-2020 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-PREFIX="^#.R:"
-RESULT=`grep $PREFIX $0`
-if [[ $RESULT ]] ; then
-   printf "\n[%11s]: %s\n" "`cut -c 1-11 <<< $0`" "$RESULT"
-fi
-echo "=========================================================================="
+# INFO: This script is sorting files and preparing the demo.
+#    Just run "bash a02-sort-n-prepare"
+INFO=".zzz-generate-READ-THIS-FIRST.sh"
+echo "";
+[ -f $INFO ] && bash $INFO $0
+
+echo "========= ========= ========= ========= ========= ========= ========= ========="
 echo "Just run this script:"
 echo "bash $0    (... for RESET and START)"
 echo "bash $0 xx (... for RESET and END)"
@@ -28,13 +24,13 @@ echo "Check and compare with:"
 echo "ls -al"
 echo "Do also:"
 echo "bash a01-READ-ME"
-echo "=========================================================================="
+echo "========= ========= ========= ========= ========= ========= ========= ========="
 
 HEAD="a" 
 TMPHEAD="ZTMP"
 START="0"
 TMPSEQ="1000"
-TMPFILE="ZA-thisfile.tx"
+TMPFILE1="ZA-thisfile1.txt"
 TMPFILE2="ZA-thisfile2.txt"
 TESTDIR1="ZB-SOURCE"
 TESTDIR2="ZC-BACKUP"
@@ -80,7 +76,7 @@ done
 chmod 644 ${HEAD}*
 
 # Cleaning
-rm -rf $TESTDIR1 $TESTDIR2 $TMPFILE2 ${TMPFILE}* .txt
+rm -rf $TESTDIR1 $TESTDIR2 ${TMPFILE2}* ${TMPFILE1}*
 
 [ "$1" = "$DEL" ] && exit 0
 
@@ -132,7 +128,7 @@ NNNN
 
 # Files for demo
 # ###############################################################
-cat > $TMPFILE << NNNN
+cat > $TMPFILE1 << NNNN
 1. This is no. 1.
 2. This is no. 22.
 3. This is no. 333.  
@@ -142,22 +138,22 @@ cat > $TMPFILE << NNNN
 7. This is joko.
 8. This is Bowo.
 9. This is bowo.
-sed    'G'    $TMPFILE
-sed    'G;G'  $TMPFILE
-sed -n '4,6p' $TMPFILE
-sed -n '4,6p' $TMPFILE > $TMPFILE2
-sed -n '/[0-9]\{2\}/p' $TMPFILE
-sed    '4,6d' $TMPFILE
-sed    '\$d' $TMPFILE
-sed    '5,/HABATS/d'   $TMPFILE
-sed    's/Joko/Bowo/'   $TMPFILE
-sed    's/Joko/Bowo/2' $TMPFILE
-sed    's/Joko/Bowo/g' $TMPFILE
-sed    's/Bowo\\|bowo/Joko/g' $TMPFILE
-awk    '{print "Hello awk!"}' $TMPFILE
-awk    '{print \$0}' $TMPFILE
-awk    '{print \$1}' $TMPFILE
-awk    '{print \$2}' $TMPFILE
+sed    'G'    $TMPFILE1
+sed    'G;G'  $TMPFILE1
+sed -n '4,6p' $TMPFILE1
+sed -n '4,6p' $TMPFILE1 > $TMPFILE2
+sed -n '/[0-9]\{2\}/p' $TMPFILE1
+sed    '4,6d' $TMPFILE1
+sed    '\$d' $TMPFILE1
+sed    '5,/HABATS/d'   $TMPFILE1
+sed    's/Joko/Bowo/'   $TMPFILE1
+sed    's/Joko/Bowo/2' $TMPFILE1
+sed    's/Joko/Bowo/g' $TMPFILE1
+sed    's/Bowo\\|bowo/Joko/g' $TMPFILE1
+awk    '{print "Hello awk!"}' $TMPFILE1
+awk    '{print \$0}' $TMPFILE1
+awk    '{print \$1}' $TMPFILE1
+awk    '{print \$2}' $TMPFILE1
 HABATS: This is the last line, dude!
 NNNN
 # ###############################################################
@@ -334,10 +330,10 @@ cat > $FILE6 << NNNN
 
 QRCFILE="QRC-"
 MASTERFILE="MASTER.txt"
-TMPFILE1="tmp1.txt"
+TMPFILE1X="tmp1.txt"
 DATAFILE="DATA.csv"
 
-rm -f $TMPFILE1
+rm -f $TMPFILE1X
 for FF in ${QRCFILE}* ; do
    [ -e $FF ] && {
       gawk '
@@ -348,14 +344,13 @@ for FF in ${QRCFILE}* ; do
          }
          printf "\"%s\",\"%s\",\"%s\",\"%s\"\n", $2, $3, $4, NAME
       }
-      ' $FF | sort -u >> $TMPFILE1
+      ' $FF | sort -u >> $TMPFILE1X
    }
 done
 
-sort $TMPFILE1 > $DATAFILE
+sort $TMPFILE1X > $DATAFILEX
 
 exit
-
 
 OS201 X 1253755125 ZCZCfake Cicak Bin Kadal
 
@@ -363,7 +358,7 @@ NNNN
 
 # ###############################################################
 
-chmod 644 $AWKPROG $CPROGRAM $FILE1 $FILE2 $FILE3 $FILE4 $FILE5 $FILE6 ${TMPFILE}*
+chmod 644 $AWKPROG $CPROGRAM $FILE1 $FILE2 $FILE3 $FILE4 $FILE5 $FILE6 ${TMPFILE1}
 
 exit 0
 

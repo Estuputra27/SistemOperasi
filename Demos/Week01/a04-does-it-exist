@@ -1,40 +1,34 @@
 #!/bin/bash
+# REV06: Thu Feb  6 20:34:23 WIB 2020
 # REV05: Mon Aug 27 19:57:50 WIB 2018
 # START: Mon Sep  4 16:42:56 WIB 2017
 
-# R: Does "ZA-thisfile.txt" exists? Run "bash a04-does-it-exist"
-
-# Copyright (C)2017-2018 Rahmat M. Samik-Ibrahim
+# Copyright (C)2017-2020 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-PREFIX="^#.R:"
-RESULT=`grep $PREFIX $0`
-clear
-if [[ $RESULT ]] ; then
-   printf "\n[%11s]: %s\n" "`cut -c 1-11 <<< $0`" "$RESULT"
-fi
+# INFO: Does a file exists? Run "bash a04-does-it-exist"
+INFO=".zzz-generate-READ-THIS-FIRST.sh"
+echo "";
+[ -f $INFO ] && bash $INFO $0
+
+FILE2="ZA-thisfile1.txt"
+FILE1="ThisFileDoesNotExist"
+
 echo ""; 
-
-FILE="ZA-thisfile.txt"
-[ -f $FILE ] && {
-  echo "$FILE EXISTS!"
+[ -f $FILE1 ] && {
+  echo "File: \"$FILE1\" EXISTS!"
 }
-[ -f $FILE ] || {
-  echo "$FILE does not EXISTS!"
+[ -f $FILE1 ] || {
+  echo "File: \"$FILE1\" does not EXISTS!"
 }
-echo ""
+if [ -f $FILE2 ] ; then
+  echo "File: \"$FILE2\" EXISTS!"
+else
+  echo "File: \"$FILE2\" does not EXISTS!"
+fi
+exit 0
 
-exit
-
-################
-# TAKE NOTE (ZA)
-# (Line 14) variable RESULT akan menampung setiap nama file yang ada di 
-#           dalam folder W01-demos dengan menggunakan line scripting
-# (Line 21) variable FILE berisi file dengan nama "ZA-thisfile.txt"
-# (L 22-28) diberikan condition dan dicek apakah FILE terdapat pada W01
-#           Jika     EXIST, maka "ZA-thisfile.txt" EXISTS!
-#           Jika not EXIST, maka "ZA-thisfile.txt" does not EXISTS!
 

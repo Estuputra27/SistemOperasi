@@ -1,18 +1,56 @@
-exit
+# INFO: Read This First!
+cat $0; exit 0;
+================================================
 This demo is available in badak:///extra/.
 See also: https://os.vlsm.org/
-You should copy this folder to your own working folder.
-DO NOT work inside this folder!
 ================================================
-# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
-# http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This free document is distributed in the hope that it will be 
-# useful, but WITHOUT ANY WARRANTY; without even the implied 
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# REV08: Wed Mar 13 14:42:08 WIB 2019
-# REV04: Thu Sep 13 10:02:44 WIB 2018
-# START: Tue Feb 20 09:12:43 WIB 2018
-#
+To copy the whole folder to your HOME directory:
+
+cp -r /extra/Demos/  ~
+
+OR, to copy it to your CURRENT directory:
+
+cp -r /extra/Demos/  .
+
+OR, rsync with your "ssoAccount":
+
+rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+HOW TO TRY THIS DEMO:
+=====================
+
+Use "bash" to run each script. Eg.
+   bash a01-TEST-SCREEN
+   bash a02-sort-n-prepare
+   bash a03-command-lines-demo 11 22 33 44
+
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+========= ========= ========= ========= ========= ========= ========= =========
+[000-READ-THIS-FIRST.txt] Read This First!
+[       a01-SCREEN-CHECK] Check if the screen size is at least 80 x 23 characters
+[     a02-sort-n-prepare] This script is sorting files and preparing the demo.
+[ a03-command-lines-demo] CLI collections, run "bash a03-command-lines-demo 11 22 33 44"
+[      a04-does-it-exist] Does a file exists? Run "bash a04-does-it-exist"
+[      a05-finding-EXIST] Finding "EXISTS". Just run "bash a05-finding-EXIST"
+[               a06-loop] Just run "bash a06-loop 11 22 33 44"
+[             a07-tester] Just run "bash a07-tester"
+[      a08-append-a-file] Just run "bash a08-append-a-file"
+[        a09-add-numbers] Add line numbers to a file. Run "bash a09-add-numbers ZA-thisfile1.txt"
+[             a10-mysha1] Just run "bash a10-mysha1"
+[            a11-banding] Comparing folder "ZB-SOURCE/" and "ZC-BACKUP/". Run "bash a11-banding"
+[              a12-fixfs] fixfs: fixing file systems name and mode. Run "bash a12-fixfs"
+[               a13-last] list of all users logged in
+[              a14-absen] attendance (absen) list
+[             a15-uts171] UTS 2017-1 (midterm)
+[             a16-uts181] UTS 2018-1 (midterm)
+[             a17-uts182] UTS 2018-2 (midterm)
+[             a18-uts191] UTS 2019-1 (midterm)
+[             a19-uts192] UTS 2019-2 (midterm)
+[             a20-uts201] UTS 2020-1 (midterm) To Be Announced (TBA)
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 # Special thanks to:
 # Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
 # Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
@@ -22,45 +60,12 @@ DO NOT work inside this folder!
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
-================================================
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-HOW TO TRY THIS DEMO:
-=====================
+# REV09: Thu Feb  6 11:47:56 WIB 2020
+# START: Tue Feb 20 09:12:43 WIB 2018
 
-Use "bash" to run each script. Eg.
-   bash a01-READ-ME
-   bash a02-sort-n-prepare
-   bash a03-command-lines-demo 11 22 33 44 55
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-================================================
-
-=======================================================
-
-Folder Name:
-Week01/
-
-To copy the folder to your home directory:
-cp -r /extra/Demos/W01-demos/ ~/mydemos/W01-demos/
-==================================================
-
-File Listing:
-* 000-READ-THIS-FIRST.txt (this file)
-* a01-READ-ME
-* a02-sort-n-prepare
-* a03-command-lines-demo
-* a04-does-it-exist
-* a05-finding-EXIST
-* a06-loop
-* a07-tester
-* a08-append-a-file
-* a09-add-numbers
-* a10-mysha1
-* a11-banding
-* a12-fixfs
-* a13-last
-* a14-absen
-* a15-UTS-171
-* a16-UTS-181
-* a17-UTS-182
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 

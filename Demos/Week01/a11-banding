@@ -1,18 +1,23 @@
 #!/bin/bash
+# REV11 Thu Feb  6 22:35:34 WIB 2020
 # REV10 Mon Aug 27 20:09:17 WIB 2018
 # REV04 Mon Sep 11 14:51:36 WIB 2017
 # START Xxx Xxx XX XX:XX:XX XXX 2009
 
-# R: Compare (banding) .TESTFROM/ and .TESTBACKUP. Run "bash a11-banding"
-
-# Copyright (C)2009-2018 Rahmat M. Samik-Ibrahim
+# Copyright (C)2009-2020 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+# INFO: Comparing folder "ZB-SOURCE/" and "ZC-BACKUP/". Run "bash a11-banding"
+INFO=".zzz-generate-READ-THIS-FIRST.sh"
+echo "";
+[ -f $INFO ] && bash $INFO $0
 
 # Bandingkan isi FlashDisk dengan HardDisk
+
+echo "========= ========= ========= ========= ========= ========= ========= ========="
 
 DIR1="ZB-SOURCE/"
 DIR2="ZC-BACKUP/"

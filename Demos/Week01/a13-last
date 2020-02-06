@@ -1,14 +1,20 @@
 #!/bin/bash
+# REV02: Thu Feb  6 22:47:40 WIB 2020
 # REV01: Wed Sep 12 20:45:41 WIB 2018
 # START: Wed Sep 12 18:35:04 WIB 2018
 
-# R: list of all users logged in
-
-# Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# INFO: list of all users logged in
+INFO=".zzz-generate-READ-THIS-FIRST.sh"
+echo "";
+[ -f $INFO ] && bash $INFO $0
+echo "========= ========= ========= ========= ========= ========= ========= ========="
+cat $0
 
 exit 0
 

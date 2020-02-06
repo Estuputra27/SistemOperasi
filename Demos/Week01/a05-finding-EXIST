@@ -1,27 +1,24 @@
 #!/bin/bash
+# REV06: Thu Feb  6 20:40:10 WIB 2020
 # REV05: Mon Aug 27 20:02:29 WIB 2018
 # START: Mon Sep  5 14:25:10 WIB 2016
 
-# R: Finding "EXISTS". Just run "bash a05-finding-EXIST"
-
-# Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+# Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+# INFO: Finding "EXISTS". Just run "bash a05-finding-EXIST"
+INFO=".zzz-generate-READ-THIS-FIRST.sh"
+echo "";
+[ -f $INFO ] && bash $INFO $0
 
-PREFIX="^#.R:"
-RESULT=`grep $PREFIX $0`
-clear
-if [[ $RESULT ]] ; then
-   printf "\n[%11s]: %s\n" "`cut -c 1-11 <<< $0`" "$RESULT"
-fi
 echo ""; 
 echo "File list:"
 echo "=========="
 
-for file in `ls a[01]*`
+for file in `ls a*`
 do
    echo -n $file
    if grep -q EXIST $file
