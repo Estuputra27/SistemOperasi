@@ -43,31 +43,3 @@ File: QR-Code.docx and QR-Code.pdf
 
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 ========= ========= ========= ========= ========= ========= ========= =========
-[000-READ-THIS-FIRST.txt] Read This First!
-[c-program-example.c]  To compile, run:
-                gcc -o c-program-example c-program-example.c
-              To execute, run:
-                ./c-program-example
-[   Makefile] With this "Makefile", just run:
-                make
-========= ========= ========= ========= ========= ========= ========= =========
-!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
-# Special thanks to:
-# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
-# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
-# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
-# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
-# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
-# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
-# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
-
-# REV08: Thu Feb  6 23:23:45 WIB 2020
-# REV07: Wed Mar 13 14:15:03 WIB 2019
-# START: Tue Feb 20 09:12:43 WIB 2018
-
-# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
-# http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This free document is distributed in the hope that it will be 
-# useful, but WITHOUT ANY WARRANTY; without even the implied 
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
