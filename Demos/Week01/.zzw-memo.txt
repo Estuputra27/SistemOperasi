@@ -1,9 +1,11 @@
 # INFO: Read This First!
 cat $0; exit 0;
-================================================
-This demo is available in badak:///extra/.
-See also: https://os.vlsm.org/
-================================================
+========= ========= ========= ========= ========= ========= ========= =========
+These files are available in:
+(INTRANET) badak:///extra/Demos/ 
+(GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
+(See also) https://os.vlsm.org/
+========= ========= ========= ========= ========= ========= ========= =========
 To copy the whole folder to your HOME directory:
 
 cp -r /extra/Demos/  ~
@@ -15,6 +17,10 @@ cp -r /extra/Demos/  .
 OR, rsync with your "ssoAccount":
 
 rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+OR, GitHub master archive:
+
+https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!

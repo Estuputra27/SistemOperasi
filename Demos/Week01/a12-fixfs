@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV08: Thu Feb  6 22:40:35 WIB 2020
+# REV09: Thu Feb  6 23:31:29 WIB 2020
 # REV07: Mon Aug 27 20:09:35 WIB 2018
 # REV05: Fri Sep  8 20:48:24 WIB 2017
 # START: Thu Dec 19 00:00:00 WIB 2013
@@ -66,6 +66,7 @@ function recursive() {
 }
 
 recursive
+echo "Check files in subfolder ZB-SOURCE"
 
 exit
 

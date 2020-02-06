@@ -109,6 +109,8 @@ date
 sync
 date
 sync
+
+echo "Compare folders $DIR1 and $DIR2"
 exit 0
 
 

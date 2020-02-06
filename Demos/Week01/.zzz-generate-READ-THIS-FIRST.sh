@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV02: Thu Feb  6 23:24:38 WIB 2020
 # REV01: Thu Feb  6 21:08:03 WIB 2020
 # START: Thu Feb  6 11:56:35 WIB 2020
 # 
@@ -9,7 +10,7 @@
 # INFO: This will generate file 000-READ-THIS-FIRST.txt
 
 FILE="000-READ-THIS-FIRST.txt"
-FALLOC=23
+FALLOC=16
 PREFIX="^# INFO: "
 
 function INFO() {
