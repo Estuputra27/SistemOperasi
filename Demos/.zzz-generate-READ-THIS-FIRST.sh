@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV00: Fri Feb  7 00:19:25 WIB 2020
+# REV01: Fri Feb  7 00:31:36 WIB 2020
 # START: Fri Feb  7 00:19:25 WIB 2020
 # 
 # Copyright (C) 2020 Rahmat M. Samik-Ibrahim
