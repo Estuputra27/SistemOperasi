@@ -1,10 +1,12 @@
 /*
- * Copyright (C) 2016-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *
+# INFO: Abount variables "argv" and "argc" in function main().
+# INFO:                   run with an argument: ./04-argc-argv test
+ * REV04 Fri Feb  7 01:27:07 WIB 2020
  * REV03 Tue Dec 10 07:31:38 WIB 2019
  * REV02 Tue Aug 28 13:31:19 WIB 2018
  * START Tue Sep 13 12:11:09 WIB 2016
@@ -19,7 +21,6 @@
  * (integer) line to console and line 17 will print the value of variable argv (char) 
  * on your console
  * Example : type it to run this program
- * INPUT : ./04-argc-argv test
  * OUTPUT (below) :
  * The value of argc    is 2
  * =============================================

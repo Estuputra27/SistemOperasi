@@ -1,11 +1,13 @@
 /*
- * Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# INFO: UTS 2018-1 (midterm)
+ * REV02 Fri Feb  7 01:36:13 WIB 2020
  * REV01 Thu Jan 17 13:51:44 WIB 2019
- * START Xxx Xxx XX XX:XX:XX XXX XXXX
+ * START Xxx Xxx XX XX:XX:XX XXX 2018
  * NOTE: ASCII 61H = a; 62H = b
  */
 

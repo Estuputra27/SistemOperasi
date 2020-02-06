@@ -1,10 +1,11 @@
 /*
- * Copyright (C) 2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2019-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV00 Tue Feb 26 12:08:00 WIB 2019
+# INFO: An introduction to pointers.
+ * REV01 Fri Feb  7 01:32:13 WIB 2020
  * START Tue Feb 26 12:08:00 WIB 2019
  */
 

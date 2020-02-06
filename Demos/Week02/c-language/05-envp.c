@@ -1,8 +1,10 @@
 /*
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+# INFO: About variable "envp" in main().
+ * REV05 Fri Feb  7 01:29:46 WIB 2020
  * REV04 Tue Sep 25 11:55:22 WIB 2018
  * START Tue Sep 13 12:11:09 WIB 2016
  */

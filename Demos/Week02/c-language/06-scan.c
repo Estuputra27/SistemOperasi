@@ -1,9 +1,11 @@
 /*
- * Copyright (C) 2013-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2013-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# INFO: An introduction to function scanf().
+ * REV03 Fri Feb  7 01:30:37 WIB 2020
  * REV02 Tue Aug 28 13:31:19 WIB 2018
  * START 2013
  */

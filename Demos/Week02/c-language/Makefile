@@ -1,6 +1,5 @@
+# REV09 Fri Feb  7 01:16:41 WIB 2020
 # REV08 Tue Dec 10 10:39:18 WIB 2019
-# REV07 Tue Sep 17 12:18:24 WIB 2019
-# REV06 Tue Feb 26 12:17:00 WIB 2019
 # REV04 Tue Sep 25 12:03:44 WIB 2018
 # REV02 Mon Sep 18 09:08:32 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -33,6 +32,7 @@ P11=11-uts172
 P12=12-uts181
 P13=13-uts182
 P14=14-uts191
+P15=15-uts192
 
 
 EXECS= \
@@ -51,6 +51,7 @@ EXECS= \
    $(P12) \
    $(P13) \
    $(P14) \
+   $(P15) \
 
 
 DEMOFILES=\
