@@ -54,7 +54,7 @@ WeekTMP -- Leftover Demos, etc.;
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
-# REV08: Thu Feb  6 23:23:45 WIB 2020
+# REV09: Fri Feb  7 00:31:22 WIB 2020
 # REV07: Wed Mar 13 14:15:03 WIB 2019
 # START: Tue Feb 20 09:12:43 WIB 2018
 

@@ -10,9 +10,9 @@
  * REV01 Sun Aug 20 15:01:12 WIB 2017
  * START Fri Jan 01 00:00:00 WIB 2016
 # INFO:  To compile, run:
-# INFO:                 gcc -o c-program-example c-program-example.c
-# INFO:               To execute, run:
-# INFO:                 ./c-program-example
+# INFO:                     gcc -o c-program-example c-program-example.c
+# INFO:                   To execute, run:
+# INFO:                     ./c-program-example
  *
  * Note (RPS & AII)
  * o Line 'include <stdio.h>' calls standard input/output library for C language.

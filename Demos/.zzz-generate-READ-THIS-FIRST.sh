@@ -9,7 +9,7 @@
 # INFO: This will generate file 000-READ-THIS-FIRST.txt
 
 FILE="000-READ-THIS-FIRST.txt"
-FALLOC=11
+FALLOC=15
 PREFIX="^# INFO: "
 
 function INFO() {

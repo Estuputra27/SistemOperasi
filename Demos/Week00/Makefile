@@ -6,7 +6,7 @@
 # This is a free Makefile configuration.
 
 # INFO: With this "Makefile", just run:
-# INFO:                 make
+# INFO:                     make
 
 ALL:	c-program-example
 
