@@ -6,6 +6,8 @@ These files are available in:
 (GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
 (See also) https://os.vlsm.org/
 ========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+
 To copy the whole folder to your HOME directory:
 
 cp -r /extra/Demos/  ~
@@ -21,16 +23,6 @@ rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos
 OR, download GitHub master archive:
 
 https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
-
-========= ========= ========= ========= ========= ========= ========= =========
-!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
-HOW TO TRY THIS DEMO:
-=====================
-
-Use "bash" to run each script. Eg.
-   bash a01-TEST-SCREEN
-   bash a02-sort-n-prepare
-   bash a03-command-lines-demo 11 22 33 44
 
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 ========= ========= ========= ========= ========= ========= ========= =========
