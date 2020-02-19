@@ -1,5 +1,3 @@
-# INFO: Read This First!
-cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
 (INTRANET) badak:///extra/Demos/ 

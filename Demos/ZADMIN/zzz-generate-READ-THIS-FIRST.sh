@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV02: Wed Feb 19 07:13:45 WIB 2020
 # REV01: Fri Feb  7 00:31:36 WIB 2020
 # START: Fri Feb  7 00:19:25 WIB 2020
 # 
@@ -9,8 +10,10 @@
 # INFO: This will generate file 000-READ-THIS-FIRST.txt
 
 FILE="000-READ-THIS-FIRST.txt"
+MEMOFILE=".zzz-doREADTHISFIRST"
 FALLOC=15
 PREFIX="^# INFO: "
+ORIG="$(pwd)"
 
 function INFO() {
    [ -e $1 ] && {
@@ -20,11 +23,28 @@ function INFO() {
 }
 
 [ -z "$1" ]               || { INFO $1 ; exit 0; }
-[ -f .zzv-download.txt ]  && cat .zzv-download.txt  > $FILE
-[ -f .zzw-memo.txt ]      && cat .zzw-memo.txt      >> $FILE
-for II in `ls` ; do [ -f $II ] && INFO $II          >> $FILE ; done
-[ -f .zzx-thanks.txt ]    && cat .zzx-thanks.txt    >> $FILE
-[ -f .zzy-copyright.txt ] && cat .zzy-copyright.txt >> $FILE
+DATE=$(date)
+for II in \
+.. \
+../Week00/ \
+../Week01/ \
+../Week02/ \
+../Week03/ \
+../Week03/FUSE/ \
+; do
+   [ -f $II/$MEMOFILE ] && {
+      pushd $II
+      echo "# INFO: Read This First!"                               >  $FILE
+      echo "# Version: $DATE"                                       >> $FILE
+      echo "cat \$0; exit 0;"                                       >> $FILE
+      [ -f $ORIG/zzv-download.txt ]  && cat $ORIG/zzv-download.txt  >>  $FILE
+      cat $MEMOFILE                                     >> $FILE
+      for JJ in `ls` ; do [ -f $JJ ] && INFO $JJ        >> $FILE ; done
+      [ -f $ORIG/zzx-thanks.txt ]    && cat $ORIG/zzx-thanks.txt    >> $FILE
+      [ -f $ORIG/zzy-copyright.txt ] && cat $ORIG/zzy-copyright.txt >> $FILE
+      popd
+   }
+done
 
 exit 0
 
