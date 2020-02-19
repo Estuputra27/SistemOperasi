@@ -1,5 +1,5 @@
 # INFO: Read This First!
-# Version: Wed Feb 19 07:49:45 WIB 2020
+# Version: Wed Feb 19 15:43:42 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -66,8 +66,7 @@ File: QR-Code.docx and QR-Code.pdf
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
-# REV10: Wed Feb 19 07:25:28 WIB 2020
-# REV09: Fri Feb  7 00:31:22 WIB 2020
+# REV11: Wed Feb 19 15:40:21 WIB 2020
 # REV07: Wed Mar 13 14:15:03 WIB 2019
 # START: Tue Feb 20 09:12:43 WIB 2018
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV03: Wed Feb 19 15:40:43 WIB 2020
 # REV02: Wed Feb 19 07:13:45 WIB 2020
 # REV01: Fri Feb  7 00:31:36 WIB 2020
 # START: Fri Feb  7 00:19:25 WIB 2020
@@ -17,7 +18,7 @@ ORIG="$(pwd)"
 
 function INFO() {
    [ -e $1 ] && {
-      RESULT=`grep "$PREFIX" "$1" | cut -c9-`
+      RESULT=$(grep "$PREFIX" "$1" | cut -c9-)
       [ -z "$RESULT" ] || printf "[%${FALLOC}s] %s\n" "$1" "$RESULT"
    }
 }
@@ -39,7 +40,7 @@ for II in \
       echo "cat \$0; exit 0;"                                       >> $FILE
       [ -f $ORIG/zzv-download.txt ]  && cat $ORIG/zzv-download.txt  >>  $FILE
       cat $MEMOFILE                                     >> $FILE
-      for JJ in `ls` ; do [ -f $JJ ] && INFO $JJ        >> $FILE ; done
+      for JJ in $(ls) ; do [ -f $JJ ] && INFO $JJ        >> $FILE ; done
       [ -f $ORIG/zzx-thanks.txt ]    && cat $ORIG/zzx-thanks.txt    >> $FILE
       [ -f $ORIG/zzy-copyright.txt ] && cat $ORIG/zzy-copyright.txt >> $FILE
       popd
