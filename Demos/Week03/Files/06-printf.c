@@ -1,10 +1,11 @@
 /*
- * Copyright (C) 2016-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV00 Tue Dec 10 10:58:24 WIB 2019
+# INFO: Week02 printf() examples.
+ * REV01 Sun Feb 23 16:41:33 WIB 2020
  * START Tue Dec 10 10:58:24 WIB 2019
  */
 

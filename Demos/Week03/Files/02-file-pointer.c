@@ -1,15 +1,16 @@
 /*
- * Copyright (C) 2016 - 2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016 - 2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV05 Sun Feb 23 16:33:55 WIB 2020
  * REV04 Thu Jan 17 14:32:25 WIB 2019
  * REV03 Wed Aug 29 20:55:23 WIB 2018
  * REV02 Thu Oct  5 10:17:47 WIB 2017
  * START Tue Sep 27 12:07:42 WIB 2016
  *
- * Compare: File Pointer (FP) vs File Descriptor (FD)
+# INFO: Compare: File Pointer (FP) vs File Descriptor (FD)
  *
  */
 

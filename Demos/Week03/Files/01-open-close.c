@@ -1,16 +1,18 @@
 /*
- * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV08 Sun Feb 23 16:28:49 WIB 2020
  * REV07 Wed Feb 27 19:56:19 WIB 2019
  * REV05 Wed Aug 29 20:55:23 WIB 2018
  * REV02 Sun Oct 16 20:50:26 WIB 2016
  * START Xxx Xxx XX XX:XX:XX WIB 2015
 
  * === umask() ===
- * int open(const char* pathname, int flags, mode_t mode);
+# INFO: int open(const char* pathname, int FLAGS, mode_t MODE);
+# INFO:                   See also the FLAGS and MODE options.
  * === FLAGS: ===
  * O_RDONLY	Open the file so that it is read only.
  * O_WRONLY	Open the file so that it is write only.
@@ -60,8 +62,4 @@ void main(void) {
    close(fd);
 }
 
-/*
- * TAKE NOTE(TA)
- * this demo will create files depends on the criteria written inside open() command
- */
 
