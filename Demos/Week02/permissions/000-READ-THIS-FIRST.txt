@@ -27,12 +27,8 @@ https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 ========= ========= ========= ========= ========= ========= ========= =========
+This directory is for pacticing the "chmod" command.
 
-000-READ-THIS-FIRST.txt --- this file.
-c-language              --- C language demos.
-permissions             --- File permission exercise.
-
-========= ========= ========= ========= ========= ========= ========= =========
 [000-READ-THIS-FIRST.txt] Read This First!
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!

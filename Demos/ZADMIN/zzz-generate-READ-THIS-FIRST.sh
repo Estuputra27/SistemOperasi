@@ -32,8 +32,11 @@ for II in \
 ../Week00/ \
 ../Week01/ \
 ../Week02/ \
+../Week02/c-language/  \
+../Week02/permissions/ \
 ../Week03/ \
-../Week03/FUSE/ \
+../Week03/FUSE/  \
+../Week03/Files/ \
 ; do
    [ -f $II/$MEMOFILE ] && {
       pushd $II
