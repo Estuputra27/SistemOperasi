@@ -1,19 +1,61 @@
-exit 1
-This demo is available in badak:///extra/.
-See also: https://os.vlsm.org/
-You should copy this folder to your own working folder.
-DO NOT work inside this folder!
-===================================
-REV07: Wed Mar 13 14:13:55 WIB 2019
-REV05: Tue Sep  4 09:13:28 WIB 2018
-START: Tue Feb 20 09:12:43 WIB 2018
+# INFO: Read This First!
+# Version: Sun Feb 23 18:23:24 WIB 2020
+cat $0; exit 0;
+========= ========= ========= ========= ========= ========= ========= =========
+These files are available in:
+(INTRANET) badak:///extra/Demos/ 
+(GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
+(See also) https://os.vlsm.org/
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
-# http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This free document is distributed in the hope that it will be 
-# useful, but WITHOUT ANY WARRANTY; without even the implied 
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#
+To copy the whole folder to your HOME directory:
+
+cp -r /extra/Demos/  ~
+
+OR, to copy it to your CURRENT directory:
+
+cp -r /extra/Demos/  .
+
+OR, rsync with your "ssoAccount":
+
+rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+OR, download GitHub master archive:
+
+https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
+
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+========= ========= ========= ========= ========= ========= ========= =========
+HOW TO COMPILE THIS DEMO
+========================
+
+Just run: make
+
+[000-READ-THIS-FIRST.txt] Read This First!
+[00-global-variables.c] TBA
+[01-local-variables.c] TBA
+[  02-pointers.c] TBA
+[03-pointers-of-pointers.c] TBA
+[04-pointers-of-pointers-of-pointers.c] TBA
+[05-chrptr-vs-intptr.c] TBA
+[06-pointer-address.c] TBA
+[ 07-addresses.c] TBA
+[08-passing-parameters.c] TBA
+[    09-struct.c] TBA
+[   10-pppchar.c] TBA
+[    11-pppint.c] TBA
+[    12-uts162.c] UTS 2016-2 (midterm)
+[    13-uts171.c] UTS 2017-1 (midterm)
+[    14-uts172.c] UTS 2017-2 (midterm)
+[    15-uts181.c] UTS 2018-1 (midterm)
+[    16-uts182.c] UTS 2018-2 (midterm)
+[    17-uts191.c] UTS 2019-1 (midterm)
+[    18-uts192.c] UTS 2019-2 (midterm)
+[       Makefile] With this "Makefile", just run:
+                    make
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 # Special thanks to:
 # Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
 # Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
@@ -23,33 +65,14 @@ START: Tue Feb 20 09:12:43 WIB 2018
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
-=======================================================
+# REV12: Sun Feb 23 15:07:00 WIB 2020
+# REV11: Wed Feb 19 15:40:21 WIB 2020
+# REV07: Wed Mar 13 14:15:03 WIB 2019
+# START: Tue Feb 20 09:12:43 WIB 2018
 
-Folder Name:
-Week04/
-
-To copy the folder to your home directory:
-cp -r /extra/Demos/W04-demos/ ~/mydemos/W04-demos/
-==================================================
-
-File Listing:
-* 000-READ-THIS-FIRST.txt (this file)
-* 00-global-variables.c
-* 01-local-variables.c
-* 02-pointers.c
-* 03-pointers-of-pointers.c
-* 04-pointers-of-pointers-of-pointers.c
-* 05-chrptr-vs-intptr.c
-* 06-pointer-address.c
-* 07-addresses.c
-* 08-passing-parameters.c
-* 09-struct.c
-* 10-pppchar.c
-* 11-pppint.c
-* 12-uts162.c
-* 13-uts171.c
-* 14-uts172.c
-* 15-uts181.c
-* 16-uts182.c
-* Makefile
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 

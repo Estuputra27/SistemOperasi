@@ -1,12 +1,14 @@
 /*
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
- * REV01 Thu Oct  4 20:54:14 WIB 2018
- * START Thu Oct  4 10:49:54 WIB 2018
+# INFO: TBA
+ * REV02: Sun Feb 23 16:59:31 WIB 2020
+ * REV01: Thu Oct  4 20:54:14 WIB 2018
+ * START: Thu Oct  4 10:49:54 WIB 2018
  *
  */
 

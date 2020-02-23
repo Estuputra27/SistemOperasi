@@ -1,9 +1,11 @@
 /*
- * Copyright (C) 2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2019-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# INFO: UTS 2019-1 (midterm)
+ * REV01: Sun Feb 23 16:59:31 WIB 2020
  * REV00 Tue Oct  1 11:34:55 WIB 2019
  * START Fri Mar 15 13:52:00 WIB 2019
  */

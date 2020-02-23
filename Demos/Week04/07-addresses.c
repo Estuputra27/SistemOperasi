@@ -1,13 +1,15 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV05 Tue Aug 28 18:40:36 WIB 2018
- * REV04 Wed Oct  4 19:42:01 WIB 2017
- * REV02 Sun Oct 16 20:49:03 WIB 2016
- * START 2015
+# INFO: TBA
+ * REV06: Sun Feb 23 16:59:31 WIB 2020
+ * REV05: Tue Aug 28 18:40:36 WIB 2018
+ * REV04: Wed Oct  4 19:42:01 WIB 2017
+ * REV02: Sun Oct 16 20:49:03 WIB 2016
+ * START: 2015
  */
 
 #define NOP()    __asm__("nop")  /* No Operation inline gcc ASM */

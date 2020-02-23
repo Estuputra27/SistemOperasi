@@ -1,8 +1,11 @@
-# REV12 Tue Oct  1 11:31:18 WIB 2019
+# REV13 Sun Feb 23 16:54:44 WIB 2020
 # REV11 Thu Jan 17 15:58:20 WIB 2019
 # REV10 Thu Oct  4 10:41:39 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
+
+# INFO: With this "Makefile", just run:
+# INFO:                     make
 
 CC=gcc
 
@@ -24,6 +27,7 @@ P14=14-uts172
 P15=15-uts181
 P16=16-uts182
 P17=17-uts191
+P18=18-uts192
 
 
 EXECS= \
@@ -45,6 +49,7 @@ EXECS= \
         $(P15) \
         $(P16) \
         $(P17) \
+        $(P18) \
 
 
 DEMOFILES=\
@@ -116,6 +121,9 @@ $(P16): $(P16).c
 
 $(P17): $(P17).c
 	$(CC) $(P17).c -o $(P17)
+
+$(P18): $(P18).c
+	$(CC) $(P18).c -o $(P18)
 
 clean:
 	rm -f ${EXECS} 
