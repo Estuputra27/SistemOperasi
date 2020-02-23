@@ -37,6 +37,7 @@ for II in \
 ../Week03/ \
 ../Week03/FUSE/  \
 ../Week03/Files/ \
+../Week04/ \
 ; do
    [ -f $II/$MEMOFILE ] && {
       pushd $II

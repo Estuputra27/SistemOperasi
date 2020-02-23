@@ -1,5 +1,5 @@
 # INFO: Read This First!
-# Version: Sun Feb 23 16:44:41 WIB 2020
+# Version: Sun Feb 23 18:23:24 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -40,6 +40,8 @@ Just run: make
 [   04-dprintf.c] dprintf() prints to a file descriptor (int fd).
 [   05-sprintf.c] sprintf() prints to a character string pointer (char* string).
 [    06-printf.c] Week02 printf() examples.
+[       Makefile] With this "Makefile", just run:
+                    make
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 # Special thanks to:

@@ -4,6 +4,9 @@
 # REV02 Mon Sep 18 09:08:32 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
 
+# INFO: With this "Makefile", just run:
+# INFO:                     make
+
 CC            = gcc
 CPP           = cpp
 CFLAGS        = -std=gnu99
