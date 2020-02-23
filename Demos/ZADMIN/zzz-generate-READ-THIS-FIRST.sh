@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV04: Sun Feb 23 14:59:35 WIB 2020
 # REV03: Wed Feb 19 15:40:43 WIB 2020
 # REV02: Wed Feb 19 07:13:45 WIB 2020
 # REV01: Fri Feb  7 00:31:36 WIB 2020
@@ -26,6 +27,7 @@ function INFO() {
 [ -z "$1" ]               || { INFO $1 ; exit 0; }
 DATE=$(date)
 for II in \
+.  \
 .. \
 ../Week00/ \
 ../Week01/ \

@@ -27,34 +27,15 @@ https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 ========= ========= ========= ========= ========= ========= ========= =========
-========= ========= ========= ========= ========= ========= ========= =========
-!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
-File: c-program-example.c is a c program source code.
-  To compile:
-  $ gcc -o c-program-example c-program-example.c
-  To execute:
-  $ ./c-program-example
+# INFO:                           Test test test...
+# INFO:                           Yes... yes... yes...
 
-File: Makefile 
-  Just run:
-  $ make
-
-File: QR-Code.png
-  A QR Code (QRC) Example 
-
-File: QR-Code.docx and QR-Code.pdf
-  A MEMO example using QRC
-
-!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
-========= ========= ========= ========= ========= ========= ========= =========
+ZCZC TEST TEST TEST NNNN
 
 [000-READ-THIS-FIRST.txt] Read This First!
-[c-program-example.c]  To compile, run:
-                    gcc -o c-program-example c-program-example.c
-                  To execute, run:
-                    ./c-program-example
-[       Makefile] With this "Makefile", just run:
-                    make
+                          Test test test...
+                          Yes... yes... yes...
+[zzz-generate-READ-THIS-FIRST.sh] This will generate file 000-READ-THIS-FIRST.txt
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 # Special thanks to:
