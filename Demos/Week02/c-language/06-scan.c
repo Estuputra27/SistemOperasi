@@ -5,6 +5,7 @@
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # INFO: An introduction to function scanf().
+ * REV04 Sun Feb 23 16:17:15 WIB 2020
  * REV03 Fri Feb  7 01:30:37 WIB 2020
  * REV02 Tue Aug 28 13:31:19 WIB 2018
  * START 2013
@@ -17,7 +18,7 @@
 void main(void) { 
    int ii; 
    char buf[10];
-   printf("Silakan isi: ");
+   printf("Write a string: ");
    scanf("%s",buf);
    printf("Isi buffer = %s\n",buf);
 }
