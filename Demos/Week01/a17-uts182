@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV03: Sun Feb 23 15:41:00 WIB 2020
 # REV02: Thu Feb  6 22:52:34 WIB 2020
 # REV01: Wed Feb  6 19:21:05 WIB 2019
 # REV00: Thu Jan 17 11:21:44 WIB 2019
@@ -11,7 +12,7 @@
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # INFO: UTS 2018-2 (midterm)
-INFO=".zzz-generate-READ-THIS-FIRST.sh"
+INFO="../ZADMIN/zzz-generate-READ-THIS-FIRST.sh"
 echo "";
 [ -f $INFO ] && bash $INFO $0
 

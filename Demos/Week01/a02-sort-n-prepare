@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV20: Sun Feb 23 15:36:04 WIB 2020
 # REV19: Thu Feb  6 19:43:17 WIB 2020
 # REV16: Thu Feb 14 12:39:53 WIB 2019
 # REV14: Mon Aug 27 20:05:24 WIB 2018
@@ -12,7 +13,7 @@
 
 # INFO: This script is sorting files and preparing the demo.
 #    Just run "bash a02-sort-n-prepare"
-INFO=".zzz-generate-READ-THIS-FIRST.sh"
+INFO="../ZADMIN/zzz-generate-READ-THIS-FIRST.sh"
 echo "";
 [ -f $INFO ] && bash $INFO $0
 
@@ -47,7 +48,7 @@ DEL="xx"
 # check is "aXX-XXXXX" files exist.
 for FF in ${HEAD}* ; do
    [ -e $FF ] && {
-      NFILES=`ls ${HEAD}* | wc -l`
+      NFILES=$(ls ${HEAD}* | wc -l)
       FORMAT="%${#NFILES}.${#NFILES}d"
    } || { 
       echo "No $FF"
@@ -59,8 +60,8 @@ done
 SEQ=$TMPSEQ
 for FF in ${HEAD}* ; do
    ((SEQ++))
-   TMPNAME=`echo $FF | cut -d"-" -f2-`
-   TMPNAME=`printf "${TMPHEAD}${FORMAT}-$TMPNAME" $SEQ`
+   TMPNAME=$(echo $FF | cut -d"-" -f2-)
+   TMPNAME=$(printf "${TMPHEAD}${FORMAT}-$TMPNAME" $SEQ)
    [[ $FF != $TMPNAME ]] && /bin/mv $FF $TMPNAME 
 done
 
@@ -68,8 +69,8 @@ done
 SEQ=$START
 for FF in ${TMPHEAD}* ; do
    ((SEQ++))
-   NEWNAME=`echo $FF | cut -d"-" -f2-`
-   NEWNAME=`printf "${HEAD}${FORMAT}-${NEWNAME}" $SEQ`
+   NEWNAME=$(echo $FF | cut -d"-" -f2-)
+   NEWNAME=$(printf "${HEAD}${FORMAT}-${NEWNAME}" $SEQ)
    [[ $FF != $NEWNAME ]] && /bin/mv $FF $NEWNAME 
    chmod 755 $NEWNAME
 done

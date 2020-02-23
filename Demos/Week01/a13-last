@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV03: Sun Feb 23 15:41:00 WIB 2020
 # REV02: Thu Feb  6 22:47:40 WIB 2020
 # REV01: Wed Sep 12 20:45:41 WIB 2018
 # START: Wed Sep 12 18:35:04 WIB 2018
@@ -10,7 +11,7 @@
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # INFO: list of all users logged in
-INFO=".zzz-generate-READ-THIS-FIRST.sh"
+INFO="../ZADMIN/zzz-generate-READ-THIS-FIRST.sh"
 echo "";
 [ -f $INFO ] && bash $INFO $0
 echo "========= ========= ========= ========= ========= ========= ========= ========="

@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV06: Sun Feb 23 15:36:04 WIB 2020
 # REV05: Thu Feb  6 22:05:52 WIB 2020
 # REV04: Mon Aug 27 20:09:03 WIB 2018
 # REV02: Fri Sep  8 21:58:19 WIB 2017
@@ -11,7 +12,7 @@
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # INFO: Just run "bash a10-mysha1"
-INFO=".zzz-generate-READ-THIS-FIRST.sh"
+INFO="../ZADMIN/zzz-generate-READ-THIS-FIRST.sh"
 echo "";
 [ -f $INFO ] && bash $INFO $0
 

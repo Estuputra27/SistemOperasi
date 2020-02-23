@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV08: Sun Feb 23 15:36:04 WIB 2020
 # REV07: Thu Feb  6 20:43:55 WIB 2020
 # REV06: Mon Aug 27 20:07:30 WIB 2018
 # START: Mon Sep  5 14:34:41 WIB 2016
@@ -10,7 +11,7 @@
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # INFO: Just run "bash a06-loop 11 22 33 44"
-INFO=".zzz-generate-READ-THIS-FIRST.sh"
+INFO="../ZADMIN/zzz-generate-READ-THIS-FIRST.sh"
 echo ""
 [ -f $INFO ] && bash $INFO $0
 

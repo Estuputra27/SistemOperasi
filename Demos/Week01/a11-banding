@@ -1,8 +1,9 @@
 #!/bin/bash
-# REV11 Thu Feb  6 22:35:34 WIB 2020
-# REV10 Mon Aug 27 20:09:17 WIB 2018
-# REV04 Mon Sep 11 14:51:36 WIB 2017
-# START Xxx Xxx XX XX:XX:XX XXX 2009
+# REV12: Sun Feb 23 15:36:04 WIB 2020
+# REV11: Thu Feb  6 22:35:34 WIB 2020
+# REV10: Mon Aug 27 20:09:17 WIB 2018
+# REV04: Mon Sep 11 14:51:36 WIB 2017
+# START: Xxx Xxx XX XX:XX:XX XXX 2009
 
 # Copyright (C)2009-2020 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
@@ -11,7 +12,7 @@
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # INFO: Comparing folder "ZB-SOURCE/" and "ZC-BACKUP/". Run "bash a11-banding"
-INFO=".zzz-generate-READ-THIS-FIRST.sh"
+INFO="../ZADMIN/zzz-generate-READ-THIS-FIRST.sh"
 echo "";
 [ -f $INFO ] && bash $INFO $0
 
