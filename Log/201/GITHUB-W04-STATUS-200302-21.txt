@@ -98,7 +98,7 @@ mlhmg                OK-LOG 1
 MNatalnael           OK-LOG 1
 mon23c               OK-LOG 1
 mrasyid22            OK-LOG 1
-mrifqyz              NO-LOG 0
+mrifqyz              OK-LOG 1
 Mufalando            OK-LOG 1
 muhammadmichael      OK-LOG 1
 naufalauddin         OK-LOG 1
@@ -120,7 +120,7 @@ racendol             OK-LOG 1
 rafaputri86          OK-LOG 1
 RafifEL              OK-LOG 1
 ramyazhar            OK-LOG 1
-raniapriliaa         NO-LOG 0
+raniapriliaa         OK-LOG 1
 raularrafi           OK-LOG 1
 Raygue               OK-LOG 1
 rekapaska            OK-LOG 1
@@ -161,3 +161,4 @@ zafirabinta          OK-LOG 1
 zafirr31             OK-LOG 1
 zakiysaputra         OK-LOG 1
 zxrsvy               OK-LOG 1
+zzzzzczcnnnn         NO-LOG 0

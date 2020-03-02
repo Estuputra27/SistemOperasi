@@ -78,7 +78,7 @@ JustOneMoreLine      A491E013B7A5CEBA 2
 kamilakaffah07       1C89F9888C9914FB 2
 keziasulami          571D0F0DB8C4667B 2
 khadijahrizqy        CC50DFB458CEF37F 2
-kholish219           B41252480858D3EA 2
+kholish219           0E8759CF8CBD3793 2
 KiddoKidz            F0A433A8E3599CD8 2
 kolokopo             no_W03-log.txt   0
 krisnadwitama        5F8E332822B39AB1 2
@@ -120,7 +120,7 @@ racendol             B381828C951557A1 2
 rafaputri86          15D702069CE0E8F7 2
 RafifEL              E4239AF3A2C87544 2
 ramyazhar            no_PUBKEY        0
-raniapriliaa         no_W03-log.txt   0
+raniapriliaa         no_PUBKEY        0
 raularrafi           no_PUBKEY        0
 Raygue               A334C5B4ACE00D3E 2
 rekapaska            no_PUBKEY        0
