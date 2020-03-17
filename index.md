@@ -1,6 +1,8 @@
 ---
 ---
 
+* [Kawal Covid 19 https://kawalcovid19.id/](https://kawalcovid19.id/)
+
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
 * **KONTAK**:
