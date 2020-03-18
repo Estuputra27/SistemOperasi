@@ -1,7 +1,7 @@
 ---
 ---
 
-* [Kawal Covid 19 -- https://kawalcovid19.id/](https://kawalcovid19.id/)
+* **Info Covid 19** -- [https://os.vlsm.org/COVID-19/](COVID-19/)
 
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
