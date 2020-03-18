@@ -4,6 +4,8 @@ permalink: /COVID-19/
 
 <h1>URL: https://os.vlsm.org/COVID-19/</h1>
 
+* [HOME](../)
+
 * Kawal Covid 19 -- 
   [https://kawalcovid19.id/](https://kawalcovid19.id/)
 
