@@ -62,7 +62,7 @@ Laman ini berisi tautan-tautan seputar COVID-19.
 Situs ini dikelola oleh VauLSMorg (<a href="https://vlsm.org/">vlsm.org</a>) 
 sejak semester ganjil 2016/2017 (2016-2).<br><br>
 Situs ini berbasis 
-"<i>Google Sana, Google Sini, Coba Itu, Coba Ini, Lalu Tanya-tanyi</i>". 
+"<i>Google Sana, Google Sini, Coba Itu, Coba Ini, Lalu Tanya-tanyi</i>" (GSGSCICILTT). 
 Entah ini <b>PLAGIAT</b>, entah ini <b>RISET</b>, 
 yang jelas tidak pernah ada klaim bahwa ini merupakan karya asli, 
 serta belum tentu pula merupakan solusi terbaik, 
