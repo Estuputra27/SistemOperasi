@@ -12,6 +12,9 @@ permalink: /COVID-19/
 * Kawal Covid 19 -- 
   [https://kawalcovid19.id/](https://kawalcovid19.id/)
 
+* Gugus Tugas Percepatan Penanganan Covid-19 --
+  [https://www.covid19.go.id/](https://www.covid19.go.id/)
+
 * Coronavirus: Essential Reads --
   [https://blog.getpocket.com/2020/03/corona-virus-collection/](https://blog.getpocket.com/2020/03/corona-virus-collection/)
 
