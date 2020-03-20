@@ -4,10 +4,23 @@ permalink: /COVID-19/
 
 <h1>URL: https://os.vlsm.org/COVID-19/</h1>
 
-* [HOME](../)
+* [HOME (Sistem Operasi)](../)
 
-* Info COVID-19 Fasilkom UI (**PENTING**)
+* Info COVID-19 Fasilkom UI (**PENTING!!**)
   [https://www.cs.ui.ac.id/index.php/coronavirus.html](https://www.cs.ui.ac.id/index.php/coronavirus.html)
+
+<hr>
+
+* Kenali Gejala COVID-19
+  [https://youtu.be/LD6z2fbo2W0?t=54](https://youtu.be/LD6z2fbo2W0?t=54)
+  * Gejala awal mirip *FLU* (batuk dan demam) pada lima hari *PERTAMA*, namun dapat berkembang buruk jika 
+    tubuh tidak memiliki daya tahan yang cukup. Walau pun belum tentu COVID-19, harap segera mengisolasikan
+    diri. Jika berkelanjutan, harap menghubungi Dokter.
+* Sistem Surveilens COVID-19 Universitas Indonesia
+  [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
+  * Ini merupakan Google Form. Namun tidak jelas, apa akan ada ditindak-lanjuti.
+
+<hr>
 
 * Kawal Covid 19 -- 
   [https://kawalcovid19.id/](https://kawalcovid19.id/)
