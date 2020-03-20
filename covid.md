@@ -6,6 +6,9 @@ permalink: /COVID-19/
 
 * [HOME](../)
 
+* Info COVID-19 Fasilkom UI (**PENTING**)
+  [https://www.cs.ui.ac.id/index.php/coronavirus.html](https://www.cs.ui.ac.id/index.php/coronavirus.html)
+
 * Kawal Covid 19 -- 
   [https://kawalcovid19.id/](https://kawalcovid19.id/)
 
