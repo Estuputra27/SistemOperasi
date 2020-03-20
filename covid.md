@@ -2,7 +2,7 @@
 permalink: /COVID-19/
 ---
 
-<h1>URL: <a href="https://os.vlsm.org/COVID-19/">https://os.vlsm.org/COVID-19/</a></h1>
+<h1>INFO COVID-19 -- <a href="https://os.vlsm.org/COVID-19/">https://os.vlsm.org/COVID-19/</a></h1>
 
 * [HOME (Sistem Operasi)](../)
 
@@ -22,7 +22,7 @@ permalink: /COVID-19/
     [https://youtu.be/1PLdl6NDGDE](https://youtu.be/1PLdl6NDGDE?t=25)
 * Sistem Surveilens COVID-19 Universitas Indonesia --
   [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
-  * Harap segera ke Klinik Satelit UI Makara serta mengisi Google Form ini.
+  * Jika ada gejalan COVID-19, harap segera ke Klinik Satelit UI Makara serta mengisi Google Form ini.
 
 <hr>
 
@@ -77,6 +77,9 @@ permalink: /COVID-19/
 * I stay at work for **YOU**, You stay at home for **US**. 
 * <img src="../Demos/ZADMIN/zza-ar.jpg" width="512">
   * US = Dr. Ahmed Rabea et.al.; **NOT** RMS, lah!
+
+* Laman RMS --
+  [https://rahmatm.samik-ibrahim.vlsm.org/2020/03/laman-covid-19.html](https://rahmatm.samik-ibrahim.vlsm.org/2020/03/laman-covid-19.html)
 
 * Source: mozilla.org, twitter, Google Here, Google There, Try This, Try That, and then Ask Anybody (GHGTT4A2), et.al.
 
