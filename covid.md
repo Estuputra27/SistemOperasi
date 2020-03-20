@@ -2,7 +2,9 @@
 permalink: /COVID-19/
 ---
 
-<h1>URL: https://os.vlsm.org/COVID-19/</h1>
+<h1>
+URL: https://os.vlsm.org/COVID-19/
+</h1>
 
 * [HOME (Sistem Operasi)](../)
 
@@ -15,12 +17,14 @@ permalink: /COVID-19/
   [https://youtu.be/TQoQknRMw6M](https://youtu.be/TQoQknRMw6M)
   * Gejala awal mirip **FLU** (batuk dan demam) pada lima hari **PERTAMA**, namun dapat berkembang buruk jika 
     tubuh tidak memiliki daya tahan yang cukup. Walau pun belum tentu COVID-19, harap segera **MENGISOLASIKAN**
-    diri. Jika berkelanjutan, harap menghubungi **?????**.
+    diri. Jika berkelanjutan, mahasiswa Fasilkom UI harap segera ke 
+    KLINIK SATELIT UI MAKARA --
+    [https://www.ui.ac.id/layanan/poliklinik.html](https://www.ui.ac.id/layanan/poliklinik.html).
   * More COVID-19 Symptoms Information --
     [https://youtu.be/1PLdl6NDGDE](https://youtu.be/1PLdl6NDGDE?t=25)
 * Sistem Surveilens COVID-19 Universitas Indonesia --
   [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
-  * Ini merupakan Google Form. Namun tidak jelas, apa akan ada ditindak-lanjuti.
+  * Harap segera ke Klinik Satelit UI Makara serta mengisi Google Form ini.
 
 <hr>
 
@@ -71,6 +75,10 @@ permalink: /COVID-19/
 
 * Coronavirus (COVID-19): How to Prepare Your Family --
   [https://kidshealth.org/en/parents/coronavirus-prepare.html](https://kidshealth.org/en/parents/coronavirus-prepare.html)
+
+* <img src="../Demos/ZADMIN/zza-ar.jpg" width="512">
+  * I stay at work for **YOU**, You stay at home for **ME**. 
+  * ME = Dr. Ahmed Rabea; **NOT** RMS, lah!
 
 (Source mozilla.org ++)
 
