@@ -14,15 +14,15 @@ permalink: /COVID-19/
 * Kenali Gejala COVID-19 --
   [https://youtu.be/TQoQknRMw6M](https://youtu.be/TQoQknRMw6M)
   * Gejala awal mirip **FLU** (batuk dan demam) pada lima hari **PERTAMA**, namun dapat berkembang buruk jika 
-    tubuh tidak memiliki daya tahan yang cukup. Walau pun belum tentu COVID-19, harap segera **MENGISOLASIKAN**
-    diri. Jika berkelanjutan, mahasiswa Fasilkom UI harap segera ke 
-    KLINIK SATELIT UI MAKARA --
-    [https://www.ui.ac.id/layanan/poliklinik.html](https://www.ui.ac.id/layanan/poliklinik.html).
+    tubuh tidak memiliki daya tahan yang cukup. 
   * More COVID-19 Symptoms Information --
     [https://youtu.be/1PLdl6NDGDE](https://youtu.be/1PLdl6NDGDE?t=25)
-* Sistem Surveilens COVID-19 Universitas Indonesia --
-  [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
-  * Jika ada gejalan COVID-19, harap segera ke Klinik Satelit UI Makara serta mengisi Google Form ini.
+* **KHUSUS SIVITAS UI**
+  * Jika ada gejala COVID-19, harap segera **MENGISOLASIKAN diri**.
+  * Jika berkelanjutan, harap segera ke KLINIK SATELIT UI MAKARA --
+    [https://www.ui.ac.id/layanan/poliklinik.html](https://www.ui.ac.id/layanan/poliklinik.html).
+  * Jangan lupa mengisi Sistem Surveilens COVID-19 Universitas Indonesia --
+    [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
 
 <hr>
 
@@ -74,7 +74,7 @@ permalink: /COVID-19/
 * Coronavirus (COVID-19): How to Prepare Your Family --
   [https://kidshealth.org/en/parents/coronavirus-prepare.html](https://kidshealth.org/en/parents/coronavirus-prepare.html)
 
-* I stay at work for **YOU**, You stay at home for **US**. 
+* I stayed at work for **YOU**, You stay at home for **US**. 
 * <img src="../Demos/ZADMIN/zza-ar.jpg" width="512">
   * US = Dr. Ahmed Rabea et.al.; **NOT** RMS, lah!
 
@@ -100,7 +100,7 @@ serta bukan untuk konsumsi Scopus :).
 Mohon kiranya memberikan tanggapan,
 terutama jika memiliki solusi alternatif.
 Semoga catatan ini akan bermanfaat di masa mendatang,
-saat sudah lupa cara menyelesaikan masalah trivia ini.<br><br>
+saat sudah lupa cara menyelesaikan masalah ini.<br><br>
 <div style="text-align: right;">
 <a href="https://rahmatm.samik-ibrahim.vlsm.org/2020/03/laman-covid-19.html">--- Rahmat M. Samik-Ibrahim</a><br></div>
 <br>
