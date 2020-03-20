@@ -2,9 +2,7 @@
 permalink: /COVID-19/
 ---
 
-<h1>
-URL: https://os.vlsm.org/COVID-19/
-</h1>
+<h1>URL: <a href="https://os.vlsm.org/COVID-19/">https://os.vlsm.org/COVID-19/</a></h1>
 
 * [HOME (Sistem Operasi)](../)
 
@@ -76,11 +74,11 @@ URL: https://os.vlsm.org/COVID-19/
 * Coronavirus (COVID-19): How to Prepare Your Family --
   [https://kidshealth.org/en/parents/coronavirus-prepare.html](https://kidshealth.org/en/parents/coronavirus-prepare.html)
 
+* I stay at work for **YOU**, You stay at home for **US**. 
 * <img src="../Demos/ZADMIN/zza-ar.jpg" width="512">
-  * I stay at work for **YOU**, You stay at home for **ME**. 
-  * ME = Dr. Ahmed Rabea; **NOT** RMS, lah!
+  * US = Dr. Ahmed Rabea et.al.; **NOT** RMS, lah!
 
-(Source mozilla.org ++)
+* Source: mozilla.org, twitter, Google Here, Google There, Try This, Try That, and then Ask Anybody (GHGTT4A2), et.al.
 
 <h3>DISKLAIMER</h3>
 
@@ -101,6 +99,6 @@ terutama jika memiliki solusi alternatif.
 Semoga catatan ini akan bermanfaat di masa mendatang,
 saat sudah lupa cara menyelesaikan masalah trivia ini.<br><br>
 <div style="text-align: right;">
-<a href="http://rahmatm.samik-ibrahim.vlsm.org/">--- Rahmat M. Samik-Ibrahim</a><br></div>
+<a href="https://rahmatm.samik-ibrahim.vlsm.org/2020/03/laman-covid-19.html">--- Rahmat M. Samik-Ibrahim</a><br></div>
 <br>
 
