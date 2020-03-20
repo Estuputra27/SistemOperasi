@@ -6,17 +6,19 @@ permalink: /COVID-19/
 
 * [HOME (Sistem Operasi)](../)
 
-* Info COVID-19 Fasilkom UI (**PENTING!!**)
+* Info COVID-19 Fasilkom UI (**PENTING!!**) --
   [https://www.cs.ui.ac.id/index.php/coronavirus.html](https://www.cs.ui.ac.id/index.php/coronavirus.html)
 
 <hr>
 
-* Kenali Gejala COVID-19
-  [https://youtu.be/LD6z2fbo2W0?t=54](https://youtu.be/LD6z2fbo2W0?t=54)
-  * Gejala awal mirip *FLU* (batuk dan demam) pada lima hari *PERTAMA*, namun dapat berkembang buruk jika 
-    tubuh tidak memiliki daya tahan yang cukup. Walau pun belum tentu COVID-19, harap segera mengisolasikan
-    diri. Jika berkelanjutan, harap menghubungi Dokter.
-* Sistem Surveilens COVID-19 Universitas Indonesia
+* Kenali Gejala COVID-19 --
+  [https://youtu.be/TQoQknRMw6M](https://youtu.be/TQoQknRMw6M)
+  * Gejala awal mirip **FLU** (batuk dan demam) pada lima hari **PERTAMA**, namun dapat berkembang buruk jika 
+    tubuh tidak memiliki daya tahan yang cukup. Walau pun belum tentu COVID-19, harap segera **MENGISOLASIKAN**
+    diri. Jika berkelanjutan, harap menghubungi **?????**.
+  * More COVID-19 Symptoms Information --
+    [https://youtu.be/1PLdl6NDGDE](https://youtu.be/1PLdl6NDGDE?t=25)
+* Sistem Surveilens COVID-19 Universitas Indonesia --
   [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
   * Ini merupakan Google Form. Namun tidak jelas, apa akan ada ditindak-lanjuti.
 
