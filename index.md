@@ -3,6 +3,10 @@
 
 * **Info Covid 19** -- [https://os.vlsm.org/COVID-19/](COVID-19/)
 
+* [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
+  * [Ayo Absen di SCELE!](https://scele.cs.ui.ac.id/mod/forum/view.php?id=44366)
+  * [STATUS WXX-log.txt OS201](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/201/)
+
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
 * **KONTAK**:
@@ -10,7 +14,6 @@
     [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Slides/os00.pdf))
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
   * Problem Lab/Kawung/Badak: **ITFasilkom**
-  * [STATUS OS201](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/201/)
   * Situs ini: [https://os.vlsm.org/](https://os.vlsm.org/)
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](
              https://github.com/UI-FASILKOM-OS/SistemOperasi)
@@ -23,8 +26,6 @@
   * [Slide Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Slides/)
 
   * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/)
-
-* [SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
 
 * Himpunan Soal Ujian Sistem Operasi
 
