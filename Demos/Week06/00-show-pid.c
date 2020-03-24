@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV07 Tue Mar 24 12:06:10 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV05 Wed Nov  1 13:30:44 WIB 2017
  * START Mon Oct 24 09:42:05 WIB 2016
@@ -18,23 +19,10 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE (AII, MA)
- * In Linux, an executable stored on disk is called a program,
- * and a program loaded into memory and running is 
- * called a process. 
- * When a process is started, it is given a unique 
- * number called process ID (PID)
- * that identifies that process to the system
- * 
- * Each process is assigned a parent process ID (PPID) 
- * that tells which process started it. 
- * The PPID is the PID of the process’s parent.
- *
- * To see PID and PPID in current process you can use 
- * getpid() and getppid()
- *
- * Program ini menunjukkan id dari proses saat ini dan 
- * PARENT id dari proses saat ini
- * dengan menggunakan fungsi getpid() dan getppid()
+# INFO: Get PID dan PPID.
+# INFO:                  PID  means Process ID (identification)
+# INFO:                  to get PID, call system function getpid().
+# INFO:                  PPID means Parent Process ID
+# INFO:                  to get PPID, call system function getppid().
  */
 

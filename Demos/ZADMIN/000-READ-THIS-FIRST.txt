@@ -1,5 +1,5 @@
-# INFO: Read This First!
-# Version: Sun Feb 23 18:35:26 WIB 2020
+# INFO: Read This First! ==== ========= =========
+# Version: Tue Mar 24 12:17:01 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -32,7 +32,7 @@ https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 
 ZCZC TEST TEST TEST NNNN
 
-[000-READ-THIS-FIRST.txt] Read This First!
+[000-READ-THIS-FIRST.txt] Read This First! ==== ========= =========
                           Test test test...
                           Yes... yes... yes...
 [zzz-generate-READ-THIS-FIRST.sh] This will generate file 000-READ-THIS-FIRST.txt
@@ -47,6 +47,7 @@ ZCZC TEST TEST TEST NNNN
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
+# REV13: Tue Mar 24 12:10:27 WIB 2020
 # REV12: Sun Feb 23 15:07:00 WIB 2020
 # REV11: Wed Feb 19 15:40:21 WIB 2020
 # REV07: Wed Mar 13 14:15:03 WIB 2019

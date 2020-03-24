@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV05: Tue Mar 24 11:54:46 WIB 2020
 # REV04: Sun Feb 23 14:59:35 WIB 2020
 # REV03: Wed Feb 19 15:40:43 WIB 2020
 # REV02: Wed Feb 19 07:13:45 WIB 2020
@@ -39,10 +40,11 @@ for II in \
 ../Week03/Files/ \
 ../Week04/ \
 ../Week05/ \
+../Week06/ \
 ; do
    [ -f $II/$MEMOFILE ] && {
       pushd $II
-      echo "# INFO: Read This First!"                               >  $FILE
+      echo "# INFO: Read This First! ==== ========= ========="       >  $FILE
       echo "# Version: $DATE"                                       >> $FILE
       echo "cat \$0; exit 0;"                                       >> $FILE
       [ -f $ORIG/zzv-download.txt ]  && cat $ORIG/zzv-download.txt  >>  $FILE
