@@ -1,7 +1,8 @@
 /*
- * (c) 2017 Rahmat M. Samik-Ibrahim
+ * (c) 2017-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This is free software.
+ * REV03 Tue Mar 24 16:42:16 WIB 2020
  * REV02 Mon Dec 11 17:46:01 WIB 2017
  * START Sun Dec  3 18:00:08 WIB 2017
  */
@@ -27,3 +28,8 @@ void main(void) {
       wait(NULL);
    }
 }
+
+/*
+# INFO: UTS 2017-2 (midterm)
+ */
+

@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV07 Tue Mar 24 13:49:27 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV01 Wed May  3 20:49:54 WIB 2017
  * START Mon Oct 24 09:42:05 WIB 2016
@@ -28,13 +29,9 @@ void main(void) {
    printf("PID[%d] PPID[%d] (STOP:%s)\n", getpid(), getppid(), iAM);
 }
 
-
 /*
- * TAKE NOTE(MA)
- * Program ini mirip dengan program 01-fork,
- * yang penjelasannya dapat dibaca pada bagian bawah program tersebut,
- * bedanya sleep dilakukan pada proses child yang
- * akan membuat proses child sleep selama 1 detik
- * sebelum melakukan print stop untuk child
+# INFO: System call "fork()"
+# INFO:                   Compare "01-fork.c", "02-fork.c", and "03-fork.c"
+# INFO:                   See where the line "LOOK THIS" is.
  */
 

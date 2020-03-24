@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV07 Tue Mar 24 13:52:25 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV02 Mon Oct 30 10:24:44 WIB 2017
  * START Mon Oct 24 09:42:05 WIB 2016
@@ -30,17 +31,7 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE(MA, MIM)
- * Fungsi fflush(NULL) berfungsi untuk membuat 
- * print langsung dikeluarkan tanpa harus menunggu baris baru
- *
- * Oleh karena itu, maka ketika program dijalankan akan terlihat bahwa 
- * output akan keluar perlahan lahan 
- * pada satu baris ketika menggunakan fflush,
- * bukan 1 baris langsung keluar semua outputnya
-
- * Fflush() tidak mempercepat I/O tetapi user process menunggu hingga 
- * I/O selesai. Hal ini dikarenakan user process dan I/O menggunakan 
- * scheduling yang berbeda.
+# INFO: System call "fflush()"
+# INFO:                   Compare the first loop with fflush() and the second one.
  */
 

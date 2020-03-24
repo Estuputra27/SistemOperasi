@@ -20,9 +20,9 @@ void main(void) {
 
 /*
 # INFO: Get PID dan PPID.
-# INFO:                  PID  means Process ID (identification)
-# INFO:                  to get PID, call system function getpid().
-# INFO:                  PPID means Parent Process ID
-# INFO:                  to get PPID, call system function getppid().
+# INFO:                   PID  means Process ID (identification)
+# INFO:                   to get PID, call system function getpid().
+# INFO:                   PPID means Parent Process ID
+# INFO:                   to get PPID, call system function getppid().
  */
 

@@ -1,10 +1,10 @@
 /*
- * Copyright (C) 2019-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2019-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV00 Mon Dec  9 16:28:36 WIB 2019
+ * REV01 Tue Mar 24 16:29:50 WIB 2020
  * START Mon Dec  9 16:28:36 WIB 2019
  */
 
@@ -21,4 +21,11 @@ void main(int argc, char* argv[]) {
    }
    printf("END   %11s PID[%d]\n", argv[0], getpid());
 }
+
+/*
+# INFO: System call "execlp()"
+# INFO:                   Run: 
+# INFO:                   ./07-execlp  ONE_ARGUMENT
+ */
+
 

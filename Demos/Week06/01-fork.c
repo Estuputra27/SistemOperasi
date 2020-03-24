@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV07 Tue Mar 24 13:43:35 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV01 Wed May  3 20:49:54 WIB 2017
  * START Mon Oct 24 09:42:05 WIB 2016
@@ -29,23 +30,8 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE(MA)
- *
- * Program ini akan membuat sebuah proses terbagi atas 2,
- * yaitu proses saat ini (parent) dan proses duplikat parentnya (child),
- * setelah dilakukan fork()
- *
- * Pada dasarnya, fork() akan bernilai 0 
- * jika proses tersebut adalah proses child,
- * jadi, karena fork() hanya membagi menjadi proses child 
- * dan parent saja dan kedua proses berjalan bersamaan,
- * maka proses parent akan masuk ke statement if 
- * yang mana proses itu akan diberhentikan selama satu detik
- * dan proses child akan masuk ke statement else,
- * kemudian menyelesaikan print sampai program selesai.
- *
- * Kemudian, setelah proses parent disleep selama satu detik,
- * barulah proses parent bisa berjalan kembali
- * dan menyelesaikan print hingga program selesai.
+# INFO: System call "fork()"
+# INFO:                   Compare "01-fork.c", "02-fork.c", and "03-fork.c"
+# INFO:                   See where the line "LOOK THIS" is.
  */
 

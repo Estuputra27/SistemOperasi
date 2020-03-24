@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2016-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV08 Tue Mar 24 16:40:28 WIB 2020
  * REV07 Wed Feb 27 19:16:01 WIB 2019
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV03 Wed Nov  1 14:00:40 WIB 2017
@@ -35,12 +36,6 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE (MA)
- * Fork dilakukan di DALAM for, yang berarti childnya 
- * akan mempunyai nilai ii sendiri dan begitu pula parentnya
- * 
- * Oleh karena itu, 
- * akan terdapat banyak child yang dia akan ikut looping juga
+# INFO: UTS 2016-2 (midterm)
  */
-
 

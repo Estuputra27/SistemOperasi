@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2016-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV08 Tue Mar 24 13:59:07 WIB 2020
  * REV07 Tue Jan 22 20:45:06 WIB 2019
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV04 Wed Nov  1 13:31:31 WIB 2017
@@ -29,10 +30,9 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE(MA)
- * Pada program ini, print pada child akan dilakukan terlebih dahulu
- * karena setelah dilakukan fork, 
- * proses parent akan memasuki statement else
- * dan akan menunggu hingga proses child selesai menjalankan program
+# INFO: System call "fork()" and "execlp()"
+# INFO:                   Compare "05a-fork.c" and "05b-fork.c".
+# INFO:                   See also "00-show-pid.c" and system call "execlp()".
  */
+
 

@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2005-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2005-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV07 Tue Mar 24 16:41:30 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV03 Mon Oct 30 15:10:10 WIB 2017
  * REV00 Wed May  3 17:07:09 WIB 2017
@@ -38,15 +39,7 @@ void main(void) {
    fflush(NULL);
 }
 
-
 /*
- * TAKE NOTE(MA)
- * Pada program ini, dapat dilihat bahwa terdapat 
- * 3 kali fork yang diselingi dengan  wait(NULL).
- *
- * Print pertama akan dilakukan pada proses child paling baru,
- * dan setelah selesai akan ke parentnya lagi.
- *
- * Detail lebih jelas akan terlihat ketika menggambarkan prosesnya.
+# INFO: UTS 2017-1 (midterm)
  */
 
