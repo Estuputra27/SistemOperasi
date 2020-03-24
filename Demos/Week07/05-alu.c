@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2013-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2013-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV05 Tue Mar 24 19:03:35 WIB 2020
  * REV04 Wed Aug 29 18:37:38 WIB 2018
  * REV03 Tue Apr 17 09:33:25 WIB 2018
  * REV01 Wed Nov  2 13:50:33 WIB 2016
@@ -103,18 +104,12 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE (ZA)
- * line 49-58: fungsi add pada program ini
- * line 60-69: fungsi substarct pada program ini
- * line 71-79: fungsi multiply pada program ini
- * line 81-89: fungsi devide pada program ini
- * line 91-101: fungsi main untuk menjalankan program ini
- * *sem_wait, to wait on a semaphore
- * If the value of the semaphore is negative, the calling process blocks;
- * one of the blocked processes wakes up when 
- * another process calls sem_post.
- * sem_post, to increment the value of a semaphore. It increments the 
- * value of the semaphore and wakes up a blocked process waiting on the semaphore, if any.
+# INFO: ALU with PTHREAD: add(), substract(), multiply(), devide().
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
+# INFO:                   sem_init():      init a semaphore.
+# INFO:                   sem_wait():      wait a semaphore.
+# INFO:                   sem_post():      signal a semaphore.
  */
-
 

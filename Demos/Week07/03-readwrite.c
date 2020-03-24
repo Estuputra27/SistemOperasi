@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2011-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2011-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV05 Tue Mar 24 17:35:08 WIB 2020
  * REV04 Wed Aug 29 18:36:15 WIB 2018
  * REV03 Tue Apr 17 09:32:14 WIB 2018
  * REV00 Xxx Sep 30 XX:XX:XX UTC 2015
@@ -72,8 +73,17 @@ int main(int argc, char * argv[])
    beberes_trit("Selese...");
 }
 
-
 /*
- * TAKE NOTE()
+# INFO: Readers - Writers with PTHREAD.
+# INFO:                   Reader():        a Reader.
+# INFO:                      startRead():  the Reader starts   reading.
+# INFO:                      endRead():    the Reader finishes reading.
+# INFO:                   Write():         a Writer.
+# INFO:                      startWrite(): the Writer starts   writing.
+# INFO:                      endWrite():   the Writer finishes writing.
+# INFO:                   rehat_acak():    random stop.
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
  */
 

@@ -1,12 +1,13 @@
 /*
  * Copyright (C) 2015 M. Anwar Ma'sum and R.M. Samik-Ibrahim
- * Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2016-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * SSV: Sudoku Solution Validator 
  *
+ * REV05 Tue Mar 24 19:09:55 WIB 2020
  * REV04 Wed Aug 29 18:40:08 WIB 2018
  * REV03 Tue Apr 17 09:35:23 WIB 2018
  * REV01 Wed Nov  2 11:20:30 WIB 2016
@@ -111,7 +112,16 @@ void main(void *v) {
    beberes_trit("Done...");
 }
 
+
 /*
- * TAKE NOTE ()
+# INFO: Verify SUDOKU with PTHREAD. 
+# INFO:                   sudoku[][]:      the sudoku matrix (9x9).
+# INFO:                      27 sudokuValidator() pthreads: 9 9 9
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
+# INFO:                   sem_init():      init a semaphore.
+# INFO:                   sem_wait():      wait a semaphore.
+# INFO:                   sem_post():      signal a semaphore.
  */
 

@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV11 Tue Mar 24 17:03:47 WIB 2020
  * REV10 Thu Nov 15 19:29:46 WIB 2018
  * REV02 Tue Apr 18 15:28:19 WIB 2017
  * REV01 Wed Nov  2 11:49:30 WIB 2016
@@ -69,19 +70,9 @@ void main(void) {
 }
 
 /*
- * TAKE NOTE(MGW+RMS)
- * Thread berjalan concurrently (berdampingan) dan mengakses memori 
- * yang sama secara bersamaan. Ketika main dijalankan, pertama akan 
- * mendaftarkan thread, mulai dari thread1, thread2, lalu thread3.
- * Lalu saat fungsi jalankan_trit() dijalankan, thread akan jalan bersamaan 
- * dari pertama terdaftar, maka thread1 jalan terlebih dahulu lalu thread2 
- * lalu thread3.
- *
- * Kemudian thread1, thread2, dan thread3 kembali jalan bersamaan. 
- * Di saat yang bersamaan, thread1 mengubah share menjadi 1000 dan thread2 
- * mengubah share menjadi 2000 (kita tidak tahu siapa yang akan jalan terlebih 
- * dahulu sehingga variable share bisa menjadi 1000 atau 2000), dan akaan looping 
- * bersamaan pada thread1 dan thread2 increment dan decrement share.
- *
+# INFO: PTHREAD: See also "99-myutils.c" and "99-myutils.h"
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished
  */
 
