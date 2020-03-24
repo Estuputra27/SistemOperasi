@@ -6,9 +6,6 @@ permalink: /COVID-19/
 
 * [HOME (Sistem Operasi)](../)
 
-* Info COVID-19 Fasilkom UI (**PENTING!!**) --
-  [https://www.cs.ui.ac.id/index.php/coronavirus.html](https://www.cs.ui.ac.id/index.php/coronavirus.html)
-
 <hr>
 
 * Kenali Gejala COVID-19 --
@@ -17,12 +14,16 @@ permalink: /COVID-19/
     tubuh tidak memiliki daya tahan yang cukup. 
   * More COVID-19 Symptoms Information --
     [https://youtu.be/1PLdl6NDGDE](https://youtu.be/1PLdl6NDGDE?t=25)
+  * Bagaimana Virus Corona Menyerang Tubuh? --
+    [https://kawalcovid19.id/content/650/bagaimana-virus-corona-menyerang-tubuh](https://kawalcovid19.id/content/650/bagaimana-virus-corona-menyerang-tubuh)
 * **KHUSUS SIVITAS UI**
   * Jika ada gejala COVID-19, harap segera **MENGISOLASIKAN diri**.
   * Jika berkelanjutan, harap segera ke KLINIK SATELIT UI MAKARA --
     [https://www.ui.ac.id/layanan/poliklinik.html](https://www.ui.ac.id/layanan/poliklinik.html).
   * Jangan lupa mengisi Sistem Surveilens COVID-19 Universitas Indonesia --
     [http://bit.ly/surveilanscoronaFKMUI](http://bit.ly/surveilanscoronaFKMUI) 
+  * Info COVID-19 Fasilkom UI --
+    [https://www.cs.ui.ac.id/index.php/coronavirus.html](https://www.cs.ui.ac.id/index.php/coronavirus.html)
 
 <hr>
 
