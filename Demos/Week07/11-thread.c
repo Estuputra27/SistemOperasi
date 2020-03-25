@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2015-2018 Rahmat M. Samik-Ibrahim (2016-2)
+ * Copyright (C) 2015-2020 Rahmat M. Samik-Ibrahim (2016-2)
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV07 Wed Mar 25 09:06:00 WIB 2020
  * REV06 Wed Aug 29 18:42:50 WIB 2018
  * REV05 Wed Nov  1 19:51:21 WIB 2017
  * REV04 Tue Dec 13 15:19:04 WIB 2016
@@ -59,27 +60,12 @@ void main(void) {
 
 
 /*
- * TAKE NOTE (MIM)
- *
- * Pada awal program, didefine nSem adalah 7.
- * Kemudian, program men-declare sebuah mutex bernama sem 
- * dengan panjang 7.
- *
- * Pada fungsi main, terdapat for loop di mana sem_init akan 
- * menginisiasi sebanyak 7 elemen di mutex sem dengan nilai 0.
- *
- * Jika program bertemu dengan sem_post, maka nilai dari elemen 
- * tersebut akan bertambah 1.
- * Jika program bertemu dengan sem_wait, check apakah elemennya 
- * bernilai 0. Jika bernilai 0, maka program akan menunda proses 
- * hingga elemen tersebut bernilai 1.
- *
- * Pada thread1, terdapat sem_wait untuk sem[1]. 
- * Karena sem[1] bernilai 0, maka program akan menunda proses pada 
- * line di bawahnya. Baris kode di bawahnya akan dijalankan ketika 
- * sem[1] sudah tidak bernilai 0, yaitu ketika program bertemu dengan 
- * sem_post(sem[1]). Pada thread-thread lainnya pun akan menjalankan 
- * hal yang sama ketika terdapat sem_wait dan sem_post
- *
+# INFO: PTHREAD: See also "99-myutils.c" and "99-myutils.h"
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
+# INFO:                   sem_init():      init a semaphore.
+# INFO:                   sem_wait():      wait a semaphore.
+# INFO:                   sem_post():      signal a semaphore.
  */
 

@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2017-2018 Rahmat M. Samik-Ibrahim (2017-2)
+ * Copyright (C) 2017-2020 Rahmat M. Samik-Ibrahim (2017-2)
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV09 Wed Mar 25 10:41:35 WIB 2020
  * REV08 Wed Aug 29 18:45:09 WIB 2018
  * REV07 Tue Apr 17 09:12:54 WIB 2018
  * START Mon Dec  4 18:52:57 WIB 2017
@@ -194,10 +195,12 @@ PROMPT>
 0 2  3 0
 1 0  0 0
 
-*/
-
-/*
- * TAKE NOTE ()
+# INFO: SUDOKU 4x4
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
+# INFO:                   sem_init():      init a semaphore.
+# INFO:                   sem_wait():      wait a semaphore.
+# INFO:                   sem_post():      signal a semaphore.
  */
-
 

@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2012-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2012-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV06 Wed Mar 25 08:33:35 WIB 2020
  * REV05 Mon Feb 11 16:15:25 WIB 2019
  * REV03 Tue Apr 17 09:35:55 WIB 2018
  * REV01 Wed Nov  2 11:20:30 WIB 2016
@@ -85,7 +86,15 @@ int main(int argc, char * argv[]) {
    beberes_trit("Done...");
 }
 
+
 /*
- * TAKE NOTE()
+# INFO: Rolling the Dics with PTHREADs. 
+# INFO:                   Player():        one pthread for each player.
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
+# INFO:                   sem_init():      init a semaphore.
+# INFO:                   sem_wait():      wait a semaphore.
+# INFO:                   sem_post():      signal a semaphore.
  */
 

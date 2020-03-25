@@ -3,7 +3,6 @@
 # REV04: Sun Feb 23 14:59:35 WIB 2020
 # REV03: Wed Feb 19 15:40:43 WIB 2020
 # REV02: Wed Feb 19 07:13:45 WIB 2020
-# REV01: Fri Feb  7 00:31:36 WIB 2020
 # START: Fri Feb  7 00:19:25 WIB 2020
 # 
 # Copyright (C) 2020 Rahmat M. Samik-Ibrahim
@@ -41,6 +40,7 @@ for II in \
 ../Week04/ \
 ../Week05/ \
 ../Week06/ \
+../Week07/ \
 ; do
    [ -f $II/$MEMOFILE ] && {
       pushd $II

@@ -1,27 +1,39 @@
 /*
- * Copyright (C) 2014-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2014-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV06 Wed Mar 25 08:40:06 WIB 2020
  * REV05 Wed Feb 27 19:12:51 WIB 2019
  * REV03 Tue Apr 17 09:36:28 WIB 2018
  * REV01 Wed Nov  2 11:20:30 WIB 2016
  * START Xxx Oct 19 XX:XX:XX UTC 2014
  */
 
-// *Rock*Paper*Scissors*Lizard*Spock*
-// Invented by Sam Kass and Karen Bryla
-// Rock crushes Scissors
-// Rock crushes Lizard
-// Paper covers Rock
-// Paper disproves Spock
-// Scissors cut Paper
-// Scissors decapitate Lizard
-// Lizard eats Paper
-// Lizard poisons Spock
-// Spock vaporizes Rock
-// Spock smashes Scissors
+
+/*
+# INFO: Rolling the Dics PTHREAD. 
+# INFO:                   Player():        one pthread for each player.
+# INFO:                   daftar_trit():   register a pthread.
+# INFO:                   jalankan_trit(): run the registered pthread(s).
+# INFO:                   beberes_trit():  finished.
+# INFO:                   sem_init():      init a semaphore.
+# INFO:                   sem_wait():      wait a semaphore.
+# INFO:                   sem_post():      signal a semaphore.
+# INFO:                   *Rock*Paper*Scissors*Lizard*Spock*
+# INFO:                   Invented by Sam Kass and Karen Bryla
+# INFO:                   Rock crushes Scissors
+# INFO:                   Rock crushes Lizard
+# INFO:                   Paper covers Rock
+# INFO:                   Paper disproves Spock
+# INFO:                   Scissors cut Paper
+# INFO:                   Scissors decapitate Lizard
+# INFO:                   Lizard eats Paper
+# INFO:                   Lizard poisons Spock
+# INFO:                   Spock vaporizes Rock
+# INFO:                   Spock smashes Scissors
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -105,8 +117,4 @@ void main(void) {
    jalankan_trit ();
    beberes_trit  ("Goodbye...");
 }
-
-/*
- * TAKE NOTE()
- */
 

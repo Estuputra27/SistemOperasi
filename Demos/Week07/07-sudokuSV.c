@@ -116,7 +116,7 @@ void main(void *v) {
 /*
 # INFO: Verify SUDOKU with PTHREAD. 
 # INFO:                   sudoku[][]:      the sudoku matrix (9x9).
-# INFO:                      27 sudokuValidator() pthreads: 9 9 9
+# INFO:                      27 sudokuValidator() pthreads: 9 columns, 9 rows, 9 boxes.
 # INFO:                   daftar_trit():   register a pthread.
 # INFO:                   jalankan_trit(): run the registered pthread(s).
 # INFO:                   beberes_trit():  finished.
