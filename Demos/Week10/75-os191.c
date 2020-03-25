@@ -1,11 +1,17 @@
 /*
- * Copyright (C) 2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2019-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ * REV02 Wed Mar 25 16:55:03 WIB 2020
  * REV01 Tue Nov 26 11:25:54 WIB 2019
  * START Wed May 15 12:40:00 WIB 2019
+
+# INFO: UAS 2019-1 (final term)
+# INFO:                   To run:   ./75-191
+
  */
 
 #include <fcntl.h>

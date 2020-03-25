@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * You are free to SHARE (copy and 
  * redistribute the material in any medium
@@ -12,10 +12,13 @@
  * warranty of MERCHANTABILITY or FITNESS 
  * FOR A PARTICULAR PURPOSE.
  *
+ * REV06 Wed Mar 25 16:52:55 WIB 2020
  * REV05 Tue Nov 26 11:39:10 WIB 2019
- * REV04 Tue May  7 20:27:52 WIB 2019
  * REV03 Wed Aug 29 20:55:23 WIB 2018
  * START Thu Mar 30 16:56:54 WIB 2017
+
+# INFO: UAS 2018-1 (final term)
+# INFO:                   To run:   ./73-181
 
  * fd2 = dup(fd1)  duplicates fd1 to fd2
  * O_RDWR   Open the file so that it can 

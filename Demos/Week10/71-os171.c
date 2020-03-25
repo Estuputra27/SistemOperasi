@@ -1,14 +1,18 @@
 /*
- * Copyright (C) 2017-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2017-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ * REV04 Wed Mar 25 16:13:47 WIB 2020
  * REV03 Tue Nov 26 11:39:10 WIB 2019
- * REV02 Tue May  7 20:12:34 WIB 2019
  * REV01 Fri May 18 13:43:59 WIB 2018
  * START Thu Mar 30 16:56:54 WIB 2017
- *
+
+# INFO: UAS 2017-1 (final term)
+# INFO:                   To run:   ./71-171
+
  * fd2=dup(fd1)  duplicates fd1 to fd2
  * O_RDWR	Open the file so that it can be read from and written to.
  * O_TRUNC	Initially clear all data from the file.

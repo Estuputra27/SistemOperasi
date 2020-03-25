@@ -1,5 +1,5 @@
+# REV17 Wed Mar 25 16:57:52 WIB 2020
 # REV16 Tue Nov 26 11:30:37 WIB 2019
-# REV15 Tue May  7 18:51:58 WIB 2019
 # REV14 Mon Dec 10 15:17:15 WIB 2018
 # REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
@@ -39,6 +39,7 @@ P72=72-os172
 P73=73-os181
 P74=74-os182
 P75=75-os191
+P76=76-os192
 
 
 EXECS= \
@@ -64,6 +65,7 @@ EXECS= \
         $(P73) \
         $(P74) \
         $(P75) \
+        $(P76) \
 
 
 DEMOFILES=\
@@ -87,6 +89,7 @@ DEMOFILES=\
         $(P74)-demo3.txt \
         $(P74)-demo4.txt \
         $(P75)-demo.txt \
+        $(P76)-demo.txt \
         
 
 MODE644=\

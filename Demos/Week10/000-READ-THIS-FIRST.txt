@@ -1,50 +1,71 @@
-exit 1
-This demo is available in badak:///extra/.
-See also: https://os.vlsm.org/
-You should copy this folder to your own working folder.
-DO NOT work inside the /extra folder!
-=====================================
-REV03: Tue May  7 20:45:29 WIB 2019
-REV01: Wed Aug 29 20:47:59 WIB 2018
-START: Wed Apr 18 13:32:21 WIB 2018
+# INFO: Read This First! ==== ========= =========
+# Version: Wed Mar 25 17:01:31 WIB 2020
+cat $0; exit 0;
+========= ========= ========= ========= ========= ========= ========= =========
+These files are available in:
+(INTRANET) badak:///extra/Demos/ 
+(GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
+(See also) https://os.vlsm.org/
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
+To copy the whole folder to your HOME directory:
+
+cp -r /extra/Demos/  ~
+
+OR, to copy it to your CURRENT directory:
+
+cp -r /extra/Demos/  .
+
+OR, rsync with your "ssoAccount":
+
+rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+OR, download GitHub master archive:
+
+https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
+
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+========= ========= ========= ========= ========= ========= ========= =========
+HOW TO COMPILE THIS DEMO
+========================
+
+Just run: make
+
+[000-READ-THIS-FIRST.txt] Read This First! ==== ========= =========
+[     70-os161.c] UAS 2016-1 (final term)
+                  To run:   ./70-161
+[     71-os171.c] UAS 2017-1 (final term)
+                  To run:   ./71-171
+[     72-os172.c] UAS 2017-2 (final term)
+                  To run:   ./72-172
+[     73-os181.c] UAS 2018-1 (final term)
+                  To run:   ./73-181
+[     74-os182.c] UAS 2018-2 (final term)
+                  To run:   ./74-182
+[     75-os191.c] UAS 2019-1 (final term)
+                  To run:   ./75-191
+[     76-os192.c] UAS 2019-2 (final term)
+                  To run:   ./76-192
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+
+# REV15: Wed Mar 25 13:46:38 WIB 2020
+# REV12: Sun Feb 23 15:07:00 WIB 2020
+# REV07: Wed Mar 13 14:15:03 WIB 2019
+# START: Tue Feb 20 09:12:43 WIB 2018
+
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-#
-# Special thanks to:
-# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
-# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
-# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
-# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
-# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
-# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
-# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA).
-
-=======================================================
-
-Folder Name:
-Week10/
-
-To copy the folder to your home directory:
-cp -r /extra/Demos/W10-demos/ ~/mydemos/W10-demos/
-==================================================
-
-File Listing:
-* 000-READ-THIS-FIRST.txt (this file)
-* Makefile (a make file)
-* C files:
-  10-server.c 11-client.c 12-clisvr.c
-  50-get-put.c 51-get-put-loop.c 52-open-close.c
-  53-file-pointer.c 54-write.c 55-write.c
-  56-copy.c 57-dup.c 58-dup2.c
-  59a-io.c 59b-io.c 59c-io.c 60-readwrite.c
-  70-os161.c 71-os171.c 72-os172.c 73-os181.c
-  74-os182.c
-=======================================================
-To list files, run:  ls -al
-To compile the “.c” files, run make
 

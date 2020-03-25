@@ -1,14 +1,19 @@
 /*
- * Copyright (C) 2015-2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2015-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ * REV07 Wed Mar 25 16:12:08 WIB 2020
  * REV06 Tue Nov 26 11:39:10 WIB 2019
- * REV03 Tue May  7 19:53:23 WIB 2019
  * REV02 Fri May 18 13:56:21 WIB 2018
  * REV01 Xxx Jun 05 00:00:00 WIB 2016
  * START Xxx Xxx XX 00:00:00 WIB 2015
+
+# INFO: UAS 2016-1 (final term)
+# INFO:                   To run:   ./70-161
+
  */
 
 #include <stdio.h>
@@ -29,3 +34,4 @@ void main(void) {
    printf ( "%s", string);
    write(fileDescriptor, string, strlen(string));
 }
+
