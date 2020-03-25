@@ -1,5 +1,5 @@
 /*
- Copyright 2018-2020 Rahmat M. Samik-Ibrahim
+ Copyright 2019-2020 Rahmat M. Samik-Ibrahim
  You are free to SHARE (copy and 
  redistribute the material in any medium
  or format) and to ADAPT (remix, 
@@ -11,15 +11,14 @@
  warranty of MERCHANTABILITY or FITNESS 
  FOR A PARTICULAR PURPOSE.
 
- * REV06 Wed Mar 25 12:10:46 WIB 2020
- * REV05 Tue May  7 20:54:40 WIB 2019
- * REV04 Tue Dec 11 10:32:07 WIB 2018
- * START Wed Nov 14 20:30:05 WIB 2018
+ * REV02 Wed Mar 25 12:16:00 WIB 2020
+ * REV01 XXX Dec 15 15:05:00 WIB 2019
+ * START XXX Dec 09 16:28:00 WIB 2019
 
-# INFO: UAS 2018-2 (final term)
-# INFO:                   Run from: ./51-182 
+# INFO: UAS 2019-2 (final term)
+# INFO:                   Run from: ./54-192a
 
- */
+*/
 
 #include <fcntl.h>
 #include <stdio.h>
@@ -30,6 +29,7 @@
 #include <sys/mman.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/wait.h>
 
 #define MYFLAGS     O_CREAT | O_RDWR
 #define MYPROTECT PROT_READ | PROT_WRITE
@@ -37,40 +37,38 @@
 #define SFILE            "demo-file.bin"
 
 typedef  struct {
-   sem_t  sync[3];
-   int    share;
-   int    loop;
+   sem_t  sync1;
+   sem_t  sync2;
    pid_t  relative;
 } myshare;
 
 myshare* mymap;
 
-void flushprintf(char* tag1, char* tag2){
-   printf("%s[%s] loop%d relative(%d)\n", 
-      tag1, tag2, mymap->loop, 
-      getpid()  + mymap->relative);
+void flushprintf(char* tag){
+   printf("PIDr[%d] %s\n", 
+      getpid() + mymap->relative, tag);
    fflush(NULL);
 }
 
 void main(int argc, char* argv[]) {
-   int fd  =open(SFILE,MYFLAGS,S_IRWXU);
+   int fd   =open(SFILE,MYFLAGS,S_IRWXU);
    int ssize=sizeof(myshare);
    mymap=mmap(NULL, ssize, MYPROTECT, 
               MYVISIBILITY, fd, 0);
-   sem_post (&(mymap->sync[2]));
-   sem_wait (&(mymap->sync[1]));
-   sem_wait (&(mymap->sync[1]));
-   mymap->share=1000;
-   flushprintf(argv[0], "PASS");
-   while (mymap->loop) {
-      for(int ii=0; ii<1000000; ii++);
-      mymap->share++;
-   }
-   sem_post (&(mymap->sync[2]));
-   sem_wait (&(mymap->sync[1]));
-   flushprintf(argv[0], "EXIT");
-   sem_post (&(mymap->sync[2]));
-   sem_post (&(mymap->sync[0]));
-   close(fd);
+   flushprintf("START");
+   if(argc == 1) {
+      if (!fork()) {
+         sem_post (&(mymap->sync1));
+         sem_wait (&(mymap->sync2));
+         flushprintf("FORK CHILD");
+      } else {
+         sem_wait (&(mymap->sync1));
+         flushprintf("FORK PARENT");
+         sem_post (&(mymap->sync2));
+      }
+      execlp(argv[0], argv[0], "XYZZY", NULL);
+   } 
+   wait(NULL);
+   flushprintf("EXIT");
 }
 

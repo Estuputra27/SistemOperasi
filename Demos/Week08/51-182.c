@@ -1,14 +1,23 @@
 /*
- * (C) 2018-2019 Rahmat M. Samik-Ibrahim
- * You are free to SHARE and to ADAPT,
- * but WITHOUT ANY WARRANTY.
+ Copyright 2018-2020 Rahmat M. Samik-Ibrahim
+ You are free to SHARE (copy and 
+ redistribute the material in any medium
+ or format) and to ADAPT (remix, 
+ transform, and build upon the material 
+ for any purpose, even commercially).
+ This program is distributed in the hope 
+ that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied 
+ warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE.
+ 
+ * REV06 Wed Mar 25 12:10:59 WIB 2020
  * REV05 Mon Oct 28 20:57:52 WIB 2019
- * REV04 Tue May  7 20:55:07 WIB 2019
  * REV03 Mon Dec 10 18:53:06 WIB 2018
- * REV02 Wed Nov 21 20:48:39 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
 
- To run: ./51-182
+# INFO: UAS 2018-2 (final term)
+# INFO:                   To run:   ./51-182 
 
  */
 

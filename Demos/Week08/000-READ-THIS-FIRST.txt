@@ -1,57 +1,73 @@
-exit 1
-This demo is available in badak:///extra/.
-See also: https://os.vlsm.org/
-You should copy this folder to your own working folder.
-DO NOT work inside the /extra folder!
-=====================================
-REV06: Tue May  7 20:45:00 WIB 2019
-REV04: Wed Mar 13 14:53:29 WIB 2019
-REV03: Wed Aug 29 19:14:44 WIB 2018
-START: Wed Apr 18 09:49:51 WIB 2018
+# INFO: Read This First! ==== ========= =========
+# Version: Wed Mar 25 12:16:24 WIB 2020
+cat $0; exit 0;
+========= ========= ========= ========= ========= ========= ========= =========
+These files are available in:
+(INTRANET) badak:///extra/Demos/ 
+(GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
+(See also) https://os.vlsm.org/
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
+To copy the whole folder to your HOME directory:
+
+cp -r /extra/Demos/  ~
+
+OR, to copy it to your CURRENT directory:
+
+cp -r /extra/Demos/  .
+
+OR, rsync with your "ssoAccount":
+
+rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+OR, download GitHub master archive:
+
+https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
+
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+========= ========= ========= ========= ========= ========= ========= =========
+# INFO:                   To list files, run:  ls -al
+# INFO:                   To compile the “.c” files, run make
+# INFO:                   The recent UAS archive for WEEK06 and WEEK07 is here in WEEK08.
+
+[000-READ-THIS-FIRST.txt] Read This First! ==== ========= =========
+                  To list files, run:  ls -al
+                  To compile the “.c” files, run make
+                  The recent UAS archive for WEEK06 and WEEK07 is here in WEEK08.
+[       50-181.c] UAS 2018-1 (final term)
+                  To run:   ./50-181 
+[       51-182.c] UAS 2018-2 (final term)
+                  To run:   ./51-182 
+[      52-182a.c] UAS 2018-2 (final term)
+                  Run from: ./51-182 
+[      53-182b.c] UAS 2018-2 (final term)
+                  Run from: ./51-182 
+[       54-191.c] UAS 2019-1 (final term)
+                  To run:   ./54-191 
+[      55-192a.c] UAS 2019-2 (final term)
+                  To run:   ./55-192a 
+[      56-192b.c] UAS 2019-2 (final term)
+                  Run from: ./54-192a
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+
+# REV13: Tue Mar 24 12:10:27 WIB 2020
+# REV12: Sun Feb 23 15:07:00 WIB 2020
+# REV07: Wed Mar 13 14:15:03 WIB 2019
+# START: Tue Feb 20 09:12:43 WIB 2018
+
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-# Special thanks to:
-# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
-# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
-# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
-# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
-# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
-# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
-# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
-
-# TAKE NOTE (RMS)
-# Week08 has been tested with WSL Ubuntu 18.04 (Windows 10).
-
-# cat /proc/version
-# Linux version 4.4.0-17134-Microsoft (Microsoft@Microsoft.com) 
-#  (gcc version 5.4.0 (GCC)) #137-Microsoft Thu Jun 14 18:46:00 PST 2018
-
-
-=======================================================
-
-Folder Name:
-Week08/
-
-To copy the folder to your home directory:
-cp -r /extra/Demos/W08-demos/ ~/mydemos/W08-demos/
-==================================================
-
-File Listing:
-* 000-READ-THIS-FIRST.txt (this file)
-* Makefile (a make file)
-* C files:
-  10-create-file.c 11-create-mmap.c 20-parent.c
-  21-child.c 22-hello-goodbye.c 23-kirim-ambil.c
-  24-producer-consumer.c 30-add1sub1.c 31-add1.c
-  32-sub1.c
-
-ALL:
-To make sure you understand Concurency and Synchronization;
-you should repeat Week06 and Week07!  Do not forget to update
-your "README.md" file!
 

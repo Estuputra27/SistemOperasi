@@ -1,8 +1,25 @@
-﻿// (c) 2019 This is Free Software R03
-// Rahmat M. Samik-Ibrahim
-// REV01 Mon Oct 28 21:11:13 WIB 2019
-// START Wed May 08 09:06:00 WIB 2019
-//
+﻿/*
+ Copyright 2019-2020 Rahmat M. Samik-Ibrahim
+ You are free to SHARE (copy and 
+ redistribute the material in any medium
+ or format) and to ADAPT (remix, 
+ transform, and build upon the material 
+ for any purpose, even commercially).
+ This program is distributed in the hope 
+ that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied 
+ warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE.
+
+ REV02 Wed Mar 25 11:56:58 WIB 2020
+ REV01 Mon Oct 28 21:11:13 WIB 2019
+ START Wed May 08 09:06:00 WIB 2019
+
+# INFO: UAS 2019-1 (final term)
+# INFO:                   To run:   ./54-191 
+
+*/
+
 // WARNING: NO ERROR CHECK! ////////////
 // exit(STATUS)    == exit with STATUS
 // memcpy(*d,*s,n) == copy n from s to d
@@ -125,7 +142,4 @@ void main(void) {
    printf("[1000] motoGP:FINISH\n");
    exit (0);
 }
-
-//       1         2         3         4
-// 4567890123456789012345678901234567890
 

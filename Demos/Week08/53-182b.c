@@ -1,11 +1,24 @@
 /*
- * (C) 2018-2019 Rahmat M. Samik-Ibrahim
- * You are free to SHARE and to ADAPT,
- * but WITHOUT ANY WARRANTY.
+ Copyright 2018-2020 Rahmat M. Samik-Ibrahim
+ You are free to SHARE (copy and 
+ redistribute the material in any medium
+ or format) and to ADAPT (remix, 
+ transform, and build upon the material 
+ for any purpose, even commercially).
+ This program is distributed in the hope 
+ that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied 
+ warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE.
+
+ * REV06 Wed Mar 25 12:12:59 WIB 2020
  * REV05 Tue May  7 20:55:29 WIB 2019
  * REV04 Tue Dec 11 10:32:43 WIB 2018
- * REV02 Wed Nov 21 20:49:00 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
+
+# INFO: UAS 2018-2 (final term)
+# INFO:                   Run from: ./51-182 
+
  */
 
 #include <fcntl.h>
@@ -60,8 +73,4 @@ void main(int argc, char* argv[]) {
    sem_post (&(mymap->sync[0]));
    close(fd);
 }
-
-//       1         2         3         4
-// 4567890123456789012345678901234567890
-
 

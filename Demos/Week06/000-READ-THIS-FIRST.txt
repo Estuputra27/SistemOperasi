@@ -1,5 +1,5 @@
 # INFO: Read This First! ==== ========= =========
-# Version: Wed Mar 25 10:44:21 WIB 2020
+# Version: Wed Mar 25 12:16:24 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -29,12 +29,12 @@ https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 ========= ========= ========= ========= ========= ========= ========= =========
 # INFO:                   To list files, run:  ls -al
 # INFO:                   To compile the “.c” files, run make
-# INFO:                   For recent UTS, see WEEK08
+# INFO:                   The recent UAS archive for WEEK06 and WEEK07 is in folder WEEK08.
 
 [000-READ-THIS-FIRST.txt] Read This First! ==== ========= =========
                   To list files, run:  ls -al
                   To compile the “.c” files, run make
-                  For recent UTS, see WEEK08
+                  The recent UAS archive for WEEK06 and WEEK07 is in folder WEEK08.
 [  00-show-pid.c] Get PID dan PPID.
                   PID  means Process ID (identification)
                   to get PID, call system function getpid().
