@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV06: Wed Mar 25 10:46:12 WIB 2020
+# REV06: Wed Mar 25 13:45:00 WIB 2020
 # REV05: Tue Mar 24 11:54:46 WIB 2020
 # REV04: Sun Feb 23 14:59:35 WIB 2020
 # REV03: Wed Feb 19 15:40:43 WIB 2020
@@ -43,6 +43,9 @@ for II in \
 ../Week06/ \
 ../Week07/ \
 ../Week08/ \
+../Week09/ \
+../Week09/disk-images/ \
+../Week09/systemd/ \
 ; do
    [ -f $II/$MEMOFILE ] && {
       pushd $II
