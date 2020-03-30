@@ -5,7 +5,6 @@
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * REV08 Mon Mar 30 07:40:03 WIB 2020
- * REV07 Tue Mar 24 13:43:35 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV01 Wed May  3 20:49:54 WIB 2017
  * START Mon Oct 24 09:42:05 WIB 2016

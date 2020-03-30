@@ -4,7 +4,7 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV07 Tue Mar 24 13:49:27 WIB 2020
+ * REV08 Mon Mar 30 07:44:59 WIB 2020
  * REV06 Wed Aug 29 16:11:46 WIB 2018
  * REV01 Wed May  3 20:49:54 WIB 2017
  * START Mon Oct 24 09:42:05 WIB 2016
@@ -16,7 +16,7 @@
 #include <sys/wait.h>
 
 void main(void) {
-   char *iAM="PARENT";
+   char* iAM="PARENT";
   
    printf("PID[%d] PPID[%d] (START:%s)\n", getpid(), getppid(), iAM);
    if (fork() > 0) {
