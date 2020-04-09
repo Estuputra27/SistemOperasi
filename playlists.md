@@ -7,8 +7,6 @@ permalink: /playlists/
 
 <hr>
 
-[HOME](/)
-
 * **Week 06 201 Operating Systems** ---
 [https://www.youtube.com/playlist?list=PLwaskZn3rUGvTfUHu3lhkYY4tOSy6amhz](https://www.youtube.com/playlist?list=PLwaskZn3rUGvTfUHu3lhkYY4tOSy6amhz)
 
