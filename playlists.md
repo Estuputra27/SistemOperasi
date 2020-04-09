@@ -1,5 +1,5 @@
 ---
-Permalink: /playlists/
+permalink: /playlists/
 ---
 <h1>YouTube PlayLists</h1>
 
