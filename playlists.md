@@ -1,6 +1,13 @@
 ---
 Permalink: /playlists/
 ---
+<h1>YouTube PlayLists</h1>
+
+* [HOME (Sistem Operasi)](../)
+
+<hr>
+
+[HOME](/)
 
 * **Week 06 201 Operating Systems** ---
 [https://www.youtube.com/playlist?list=PLwaskZn3rUGvTfUHu3lhkYY4tOSy6amhz](https://www.youtube.com/playlist?list=PLwaskZn3rUGvTfUHu3lhkYY4tOSy6amhz)
