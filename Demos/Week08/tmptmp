@@ -1,7 +1,0 @@
-#define SEM_NAME "/semaphore-demo-rms46"
-/* ATTN:
-   Replace the "rms46" part in SEM_NAME with your userid!
-   "Dead semaphores" are lingering in folder "/dev/shm/".
-   If you are the owner, you can delete "dead semaphores" manually.
- * *************************************************************** */
-
