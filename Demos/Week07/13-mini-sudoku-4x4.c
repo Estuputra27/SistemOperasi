@@ -154,7 +154,7 @@ void* displaySudoku (void* a) {
 
 // This is MAIN
 void main(void) {
-   printf   ("MAIN:\nRUN: ./13-sudoku-mini-4x4 < 13-1-data-sudoku.txt");
+   printf   ("MAIN:\nRUN: ./13-mini-sudoku-4x4 < 13-1-data-sudoku.txt");
    printf   (     "\n OR: Enter the value of the 16 cells (4x4)\n");
    sem_init (&mutexing, 0, 1);
    sem_init (&syncing1, 0, 0);
@@ -171,7 +171,7 @@ void main(void) {
 
 // END
 /* ***
-PROMPT> ./13-sudoku-mini-4x4 < 13-1-data-sudoku.txt
+PROMPT> ./13-mini-sudoku-4x4 < 13-1-data-sudoku.txt
 
 MAIN: START
 
