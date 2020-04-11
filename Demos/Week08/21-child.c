@@ -1,21 +1,23 @@
 /*
  * Copyright (C) 2015-2018 CC BY-SA 3.0 adapted from https://stackoverflow.com/
  *            questions/32205396/share-posix-semaphore-among-multiple-processes
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim (slightly modified)
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim (slightly modified)
  * You are free to SHARE (copy and redistribute the material in any medium or 
  * format) and to ADAPT (remix, transform, and build upon the material for any 
  * purpose, even commercially).  This program is distributed in the hope that 
  * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV05 Sat Apr 11 17:31:31 WIB 2020
  * REV04 Wed Aug 29 20:38:59 WIB 2018
  * REV03 Mon Apr 23 17:01:28 WIB 2018
  * START Xxx Xxx XX XX:XX:XX WIB 2015
  */
 
-
 #define ITERS 2
 #define SEM_NAME "/semaphore-demo-rms46"
+
 /* ATTN:
+   Replace the "rms46" part in SEM_NAME with your userid!
    "Dead semaphores" are lingering in folder "/dev/shm/".
    If you are the owner, you can delete "dead semaphores" manually.
  * *************************************************************** */

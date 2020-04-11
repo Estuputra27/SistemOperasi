@@ -1,10 +1,11 @@
 /*
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim
  * You are free to SHARE (copy and redistribute the material in any medium or 
  * format) and to ADAPT (remix, transform, and build upon the material for any 
  * purpose, even commercially).  This program is distributed in the hope that 
  * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV02 Sat Apr 11 17:30:25 WIB 2020
  * REV01 Thu Nov 15 09:51:28 WIB 2018
  * START Wed Nov 14 20:30:05 WIB 2018
  */

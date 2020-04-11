@@ -4,7 +4,7 @@
  questions/5656530/
  how-to-use-shared-memory-with-linux-in-c
 
- Copyright 2018 Rahmat M. Samik-Ibrahim
+ Copyright 2018-2020 Rahmat M. Samik-Ibrahim
  You are free to SHARE (copy and 
  redistribute the material in any medium
  or format) and to ADAPT (remix, 
@@ -16,6 +16,7 @@
  warranty of MERCHANTABILITY or FITNESS 
  FOR A PARTICULAR PURPOSE.
 
+ * REV09 Sat Apr 11 17:34:23 WIB 2020
  * REV08 Wed Aug 29 20:42:05 WIB 2018
  * REV07 Wed Apr 25 09:28:14 WIB 2018
  * START Xxx Xxx XX XX:XX:XX WIB 2013
@@ -123,27 +124,25 @@ void main(void) {
    printf("STOP PID[%d]\n", getpid());
 }
 
-//       1         2         3         4
-// 4567890123456789012345678901234567890
-
 /*
  * TAKE NOTE (RMS)
  * TESTED ON WSL Windows 10:
- *
- * rms46@rmsbase:~/git/os181/demos/Week08$ ./23-kirim-ambil 
-   STARTING PID[241]
-   PR KIRIMAN AWAL: 0
-   KR KIRIM PID[241]
-   AM AMBIL PID[242]
-   AM 0
-   KR 1
-   AM 1
-   KR 2
-   AM 2
-   AM LOOPS = 66
-   STOP PID[242]
-   KR LOOPS = 32
-   STOP PID[241]
- * rms46@rmsbase:~/git/os181/demos/Week08$
+ 
+ $ ./23-kirim-ambil 
+ STARTING PID[241]
+ PR KIRIMAN AWAL: 0
+ KR KIRIM PID[241]
+ AM AMBIL PID[242]
+ AM 0
+ KR 1
+ AM 1
+ KR 2
+ AM 2
+ AM LOOPS = 66
+ STOP PID[242]
+ KR LOOPS = 32
+ STOP PID[241]
+ $
+
  */
 

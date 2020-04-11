@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2013-2019 CC BY-SA 3.0 adapted from https://stackoverflow.com/
  *            questions/5656530/how-to-use-shared-memory-with-linux-in-c
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim (slightly modified)
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim (slightly modified)
  * You are free to SHARE (copy and redistribute the material in any medium or 
  * format) and to ADAPT (remix, transform, and build upon the material for any 
  * purpose, even commercially).  This program is distributed in the hope that 
@@ -11,7 +11,6 @@
  * REV02 Wed Aug 29 20:39:39 WIB 2018
  * START Xxx Xxx XX XX:XX:XX WIB 2015
  */
-
 
 #include <stdio.h>
 #include <string.h>
@@ -43,12 +42,13 @@ int main(void) {
 /*
  * TAKE NOTE (RMS)
  * TESTED ON WSL Windows 10:
- *
- * rms46@rmsbase:~/git/os181/demos/Week08$ ./22-hello-goodbye 
-   Parent read: You say Hello
-   Child read:  You say Hello
-   Child wrote: And I say Goodbye
-   After 1s, parent read: And I say Goodbye
- * rms46@rmsbase:~/git/os181/demos/Week08$
+ 
+ $ ./22-hello-goodbye 
+ Parent read: You say Hello
+ Child read:  You say Hello
+ Child wrote: And I say Goodbye
+ After 1s, parent read: And I say Goodbye
+ $
+
  */
 

@@ -114,17 +114,18 @@ void main(void) {
 /*
  * TAKE NOTE (RMS)
  * TESTED ON WSL Windows 10:
- *
- * rms46@rmsbase:~/git/os181/demos/Week08$ ./24-producer-consumer 
-   STARTING  PID [252]
-   CONSUMER  PID [253]
-   PRODUCER  PID [252]
-   PRODUCT   [1]
-   CONSUME   [1]
-   PRODUCT   [2]
-   CONSUME   [2]
-   STOP HERE PID [253]
-   STOP HERE PID [252]
- * rms46@rmsbase:~/git/os181/demos/Week08$
+ 
+ $ ./50-181
+ STARTING  PID [252]
+ CONSUMER  PID [253]
+ PRODUCER  PID [252]
+ PRODUCT   [1]
+ CONSUME   [1]
+ PRODUCT   [2]
+ CONSUME   [2]
+ STOP HERE PID [253]
+ STOP HERE PID [252]
+ $
+
  */
 

@@ -1,12 +1,13 @@
 /*
  * Copyright (C) 2015-2018 CC BY-SA 3.0 adapted from https://stackoverflow.com/
  *            questions/32205396/share-posix-semaphore-among-multiple-processes
- * Copyright (C) 2018 Rahmat M. Samik-Ibrahim (slightly modified)
+ * Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim (slightly modified)
  * You are free to SHARE (copy and redistribute the material in any medium or 
  * format) and to ADAPT (remix, transform, and build upon the material for any 
  * purpose, even commercially).  This program is distributed in the hope that 
  * it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV04 Sat Apr 11 17:30:03 WIB 2020
  * REV03 Wed Aug 29 20:39:16 WIB 2018
  * REV02 Wed Apr 18 22:02:52 WIB 2018
  * START Xxx Xxx XX XX:XX:XX WIB 2015
@@ -71,22 +72,25 @@ int main(void) {
 /*
  * TAKE NOTE (RMS)
  * TESTED ON WSL Windows 10:
- *
- * rms46@rmsbase:~/git/os181/demos/Week08$ ./20-parent 
-   Parent PID[185] creates child PID[186]
-   Parent PID[185] creates child PID[187]
-   Parent PID[185] signals [/semaphore-demo-rms46]
-   Child  PID[186] is UP!
-   Child  PID[187] is UP!
-   Child  PID[187] is inside  the Critical Section
-   Child  PID[187] is outside the Critical Section
-   Child  PID[186] is inside  the Critical Section
-   Child  PID[186] is outside the Critical Section
-   Child  PID[186] is inside  the Critical Section
-   Child  PID[186] is outside the Critical Section
-   Child  PID[187] is inside  the Critical Section
-   Child  PID[187] is outside the Critical Section
-   Parent PID[185] says Good Bye!
-   rms46@rmsbase:~/git/os181/demos/Week08$
+ 
+ $ ./20-parent 
+
+ Parent PID[185] creates child PID[186]
+ Parent PID[185] creates child PID[187]
+ Parent PID[185] signals [/semaphore-demo-rms46]
+ Child  PID[186] is UP!
+ Child  PID[187] is UP!
+ Child  PID[187] is inside  the Critical Section
+ Child  PID[187] is outside the Critical Section
+ Child  PID[186] is inside  the Critical Section
+ Child  PID[186] is outside the Critical Section
+ Child  PID[186] is inside  the Critical Section
+ Child  PID[186] is outside the Critical Section
+ Child  PID[187] is inside  the Critical Section
+ Child  PID[187] is outside the Critical Section
+ Parent PID[185] says Good Bye!
+
+ $
+
 */
 
