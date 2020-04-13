@@ -52,7 +52,7 @@ void beberes_trit(char* pesan) {
    if (pesan != NULL)
       printf("%s\n",pesan);
    fflush(NULL);
-   pthread_exit(NULL);
+   pthread_exit(NULL); // will wait until all threads terminate.
 }
 
 /* REHAT **********************************************/
