@@ -2,6 +2,7 @@
  * (c) 2011-2020 Rahmat M. Samik-Ibrahim -- This is free software
  * Feel free to copy and/or modify and/or distribute it, 
  * provided this notice, and the copyright notice, are preserved. 
+ * REV05 Mon Apr 13 08:01:58 WIB 2020
  * REV04 Wed Mar 25 08:58:08 WIB 2020
  * REV03 Wed Aug 29 18:46:36 WIB 2018
  * REV02 Tue Nov  7 20:15:16 WIB 2017
@@ -50,6 +51,7 @@ void jalankan_trit(void){
 void beberes_trit(char* pesan) {
    if (pesan != NULL)
       printf("%s\n",pesan);
+   fflush(NULL);
    pthread_exit(NULL);
 }
 

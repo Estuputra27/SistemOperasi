@@ -4,9 +4,8 @@
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * REV06 Tue Mar 24 17:08:43 WIB 2020
+ * REV07 Mon Apr 13 07:57:03 WIB 2020
  * REV05 Wed Aug 29 18:34:21 WIB 2018
- * REV04 Tue Apr 17 09:30:43 WIB 2018
  * REV01 Wed Nov  2 11:49:39 WIB 2016
  * START Xxx Sep 30 XX:XX:XX UTC 2015
  */
@@ -22,16 +21,19 @@ void* thread1 (void* a) {
    sem_wait   (&generik);
    printf("THREAD1: I am second!\n");
    sem_post   (&generik2);
+   beberes_trit  ("Bye Bye THREAD1...");
 }
 
 void* thread2 (void* a) {
    printf("THREAD2: I am first!\n");
    sem_post   (&generik);
+   beberes_trit  ("Bye Bye THREAD2...");
 }
 
 void* thread3 (void* a) {
    sem_wait   (&generik2);
    printf("THREAD3: I am last!\n");
+   beberes_trit  ("Bye Bye THREAD3...");
 }
 
 void main(void) {
