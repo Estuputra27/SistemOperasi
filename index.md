@@ -4,7 +4,6 @@
 * **Info Covid 19** -- [https://os.vlsm.org/COVID-19/](COVID-19/)
 
 * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
-  * [Ayo Absen di SCELE!](https://scele.cs.ui.ac.id/mod/forum/view.php?id=44366)
   * [STATUS WXX-log.txt OS201](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/201/)
 
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
