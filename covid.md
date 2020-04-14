@@ -48,20 +48,11 @@ permalink: /COVID-19/
 * Myth busters (WHO) --
   [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
 
-* The best, and the worst, of the coronavirus dashboards --
-  [https://www.technologyreview.com/s/615330/best-worst-coronavirus-dashboards/](https://www.technologyreview.com/s/615330/best-worst-coronavirus-dashboards/)
-
-* How Wikipedia Prevents the Spread of Coronavirus Misinformation --
-  [https://www.wired.com/story/how-wikipedia-prevents-spread-coronavirus-misinformation/](https://www.wired.com/story/how-wikipedia-prevents-spread-coronavirus-misinformation/)
-
 * Here’s The Entire List of Education Companies Offering Free Subscriptions Due to School Closings --
   [https://kidsactivitiesblog.com/135609/list-of-education-companies-offering-free-subscriptions/](https://kidsactivitiesblog.com/135609/list-of-education-companies-offering-free-subscriptions/)
 
 * 8 Tips To Make Working From Home Work For You --
   [https://www.npr.org/2020/03/15/815549926/8-tips-to-make-working-from-home-work-for-you](https://www.npr.org/2020/03/15/815549926/8-tips-to-make-working-from-home-work-for-you)
-
-* COVID-19 could kill the for-profit science publishing model. That would be a good thing --
-  [https://www.latimes.com/business/story/2020-03-03/covid-19-open-science](https://www.latimes.com/business/story/2020-03-03/covid-19-open-science)
 
 * Coronavirus outbreak changes how scientists communicate --
   [https://www.sciencemag.org/news/2020/02/completely-new-culture-doing-research-coronavirus-outbreak-changes-how-scientists](https://www.sciencemag.org/news/2020/02/completely-new-culture-doing-research-coronavirus-outbreak-changes-how-scientists)
