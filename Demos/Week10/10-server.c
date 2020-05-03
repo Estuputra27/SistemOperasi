@@ -1,9 +1,10 @@
 /*
- * Copyright (C) 2007-2018 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2007-2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV02 Sun May  3 07:53:26 WIB 2020
  * REV01 Wed Aug 29 20:52:29 WIB 2018
  * START Xxx Xxx XX XX:XX:XX UTC 2007
  */
@@ -37,6 +38,9 @@ int main(int argc, char *argv[]) {
    sockfd = socket(AF_INET, SOCK_STREAM, 0);
    if (sockfd < 0)
       error("ERROR opening socket");
+   int enable = 1;
+   if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &enable, sizeof(int)) < 0)
+      error("setsockopt(SO_REUSEADDR) failed");
    memset(&serv_addr, 0, sizeof(serv_addr));
    portno = atoi(argv[1]);
    serv_addr.sin_family      = AF_INET;

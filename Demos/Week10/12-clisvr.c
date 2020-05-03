@@ -1,10 +1,11 @@
 /*
  * Copyright (C) 2007 Tadeus Prastowo
- * Copyright (C) 2017 - 2019 Rahmat M. Samik-Ibrahim
+ * Copyright (C) 2017 - 2020 Rahmat M. Samik-Ibrahim
  * http://rahmatm.samik-ibrahim.vlsm.org/
  * This program is free script/software. This program is distributed in the 
  * hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
  * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * REV04 Sun May  3 07:59:57 WIB 2020
  * REV03 Wed Feb 27 19:21:44 WIB 2019
  * REV02 Wed Aug 29 20:54:25 WIB 2018
  * REV01 Wed Nov  8 20:00:02 WIB 2017
@@ -97,6 +98,10 @@ int main(int argc, char *argv []) {
       if (sockfd < 0) {
          error ("ERROR opening socket");
       }
+      int enable = 1;
+      if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, 
+         &enable, sizeof(int)) < 0)
+         error("setsockopt(SO_REUSEADDR) failed");
       server = gethostbyname(argv[2]);
       if (server == NULL) {
          fprintf (stderr, "ERROR, no such host\n");
@@ -113,7 +118,7 @@ int main(int argc, char *argv []) {
       memset (buffer, 0, BUFFER_SIZE);
       gettimeofday(&tval,NULL);
       sysup = 0x0000FFFF & (int) (tval.tv_sec * 1000 + tval.tv_usec / 1000);
-      snprintf (buffer, BUFFER_SIZE, "From %s[%d]: Hello", getenv ("USER"), sysup);
+      snprintf (buffer, BUFFER_SIZE, "From\n%s[%d]:", getenv ("USER"), sysup);
       nn = write (sockfd, buffer, strlen (buffer));
       if (nn < 0) {
         error ("ERROR writing to socket");
@@ -126,6 +131,10 @@ int main(int argc, char *argv []) {
    if (sockfd < 0) {
       error ("ERROR opening socket");
    }
+   int enable = 1;
+   if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, 
+      &enable, sizeof(int)) < 0)
+      error("setsockopt(SO_REUSEADDR) failed");
    memset(&serv_addr,0,sizeof(serv_addr));
    portno = atoi (argv [1]);
    serv_addr.sin_family = AF_INET;
@@ -157,7 +166,7 @@ int main(int argc, char *argv []) {
       ; // delay
    gettimeofday(&tval,NULL);
    sysup = 0x0000FFFF & (int) (tval.tv_sec * 1000 + tval.tv_usec / 1000);
-   snprintf (buffer + nn, BUFFER_SIZE-nn, " to %s[%d]: Hello", getenv ("USER"), sysup);
+   snprintf (buffer + nn, BUFFER_SIZE-nn, " to\n%s[%d]:\nEndOfMessage!", getenv ("USER"), sysup);
    /*End of modifying buffer's message*/
    if (strcmp (argv [2], "null") != 0 && strcmp (argv [3], "null") != 0) {
       portno = atoi (argv [3]);
