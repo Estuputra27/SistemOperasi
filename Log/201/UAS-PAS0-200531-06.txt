@@ -1,4 +1,4 @@
-Edisi: Sun May 31 06:16:20 WIB 2020
+Edisi: Sun May 31 06:20:19 WIB 2020
 =======================================================
 Penjelasan:  "akunGitHub H - P P0 P1 P2 - W - A - PAS0"
 
@@ -24,9 +24,9 @@ a) Prasyarat mengikuti UAS ialah mencapai "PAS0" sebelum
 b) Bagi yang sudah melihat "PAS0", silakan konfirmasi dengan berkas:
 == "UAS-BERSAMA/akunGitHub/0000-PAS0.txt"
 == (Boleh Berkas Kosong).
-b) "PAS0" tidak menjamin bahwa telah betul mengisi/membuat:
+c) "PAS0" tidak menjamin bahwa telah betul mengisi/membuat:
    P0, P1, dan P2.
-c) Lihat juga SCELE:
+d) Lihat juga SCELE:
 https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=19137
 
 Jolan Tru!
