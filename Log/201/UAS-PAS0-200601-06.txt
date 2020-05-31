@@ -1,0 +1,199 @@
+Edisi: Mon Jun  1 06:40:36 WIB 2020
+=======================================================
+Penjelasan:  "akunGitHub H - P P0 P1 P2 - W - A - PAS0"
+
+akunGitHub -- Nama akun yang digunakan untuk 
+              mengakses GitHub.com.
+
+H    = UAS-BERSAMA/0000-ABSEN.txt (Hadir)
+
+P    = UAS-PRIBADI/
+P0   = UAS-PRIBADI/0000-mypub.txt
+P1   = UAS-PRIBADI/0001-mytest.txt
+P2   = UAS-PRIBADI/0002-mytest.txt.asc
+
+W    = WEBPRIBADI/
+
+A    = UAS-BERSAMA/akunGitHub/
+
+PAS0 = berkas lengkap (akunGitHub H - P P0 P1 P2 - W - A)
+
+CATATAN:
+a) Prasyarat mengikuti UAS ialah mencapai "PAS0" sebelum 
+   8 Juni 2020 jam 12:59.
+b) Bagi yang sudah melihat "PAS0", silakan konfirmasi dengan berkas:
+== "UAS-BERSAMA/akunGitHub/0000-PAS0.txt" (Boleh Berkas Kosong).
+== Jangan lupa menghapus berkas ".dummy", ya!
+c) "PAS0" tidak menjamin bahwa telah betul mengisi/membuat:
+   P0, P1, dan P2.
+d) Lihat juga SCELE:
+https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=19137
+
+Jolan Tru!
+OS201 RMS
+=======================================================
+109119               H - 0 00 00 00 - 0 - 0 - ----
+abdulazis02          H - P P0 00 00 - W - A - ----
+abdurrafiarief       H - 0 00 00 00 - 0 - 0 - ----
+abhiprayatj          H - 0 00 00 00 - W - 0 - ----
+abifajri             H - 0 00 00 00 - 0 - 0 - ----
+aceyoga              H - P P0 P1 00 - W - 0 - ----
+adhytianara          H - P P0 P1 00 - W - A - ----
+adinugroho80000      0 - 0 00 00 00 - 0 - 0 - ----
+aditmuhmd            H - 0 00 00 00 - 0 - 0 - ----
+adrielananta         H - 0 00 00 00 - 0 - 0 - ----
+adzshaf              H - 0 00 00 00 - W - 0 - ----
+agit-ui              H - 0 00 00 00 - W - 0 - ----
+ahmadirfaan1         H - 0 00 00 00 - W - 0 - ----
+ajiinisti            H - 0 00 00 00 - W - 0 - ----
+akhmadiponegoro      H - P 00 00 00 - W - A - ----
+alfisyk              H - P P0 P1 P2 - W - A - PAS0
+alkwrzm              H - P P0 P1 00 - W - A - ----
+AlphaRazra           H - 0 00 00 00 - 0 - 0 - ----
+alviadibby           H - P P0 P1 P2 - W - A - PAS0
+amaliahanisa         H - 0 00 00 00 - W - 0 - ----
+amrisandha           H - 0 00 00 00 - W - 0 - ----
+andhikayusup         H - P P0 P1 P2 - W - A - PAS0
+AndiALH              H - 0 00 00 00 - 0 - 0 - ----
+andrewtheodore       H - 0 00 00 00 - W - 0 - ----
+ariellariza          H - 0 00 00 00 - W - 0 - ----
+ariqbasyar           H - P P0 P1 P2 - W - A - PAS0
+ashilaghassani       H - 0 00 00 00 - W - 0 - ----
+astridchrd           H - P P0 P1 P2 - W - A - PAS0
+audillapf            H - 0 00 00 00 - W - 0 - ----
+ayilaadzkiya24       H - P P0 P1 P2 - W - A - PAS0
+azis14               H - 0 00 00 00 - 0 - 0 - ----
+azkiyaHanna          H - 0 00 00 00 - W - 0 - ----
+aznaajeng            H - P P0 P1 P2 - W - A - PAS0
+Belaady              H - P 00 P1 P2 - W - A - ----
+billhsyn             H - 0 00 00 00 - W - 0 - ----
+bonarws              0 - 0 00 00 00 - 0 - 0 - ----
+chelmel18            H - P P0 P1 00 - W - A - ----
+ChristopherSamuelW   H - 0 00 00 00 - W - 0 - ----
+codefire53           H - P P0 P1 P2 - W - A - PAS0
+dafpool4             0 - 0 00 00 00 - W - 0 - ----
+dariantexanditama    H - 0 00 00 00 - W - 0 - ----
+darklordace          H - 0 00 00 00 - W - 0 - ----
+drassd               H - 0 00 00 00 - 0 - 0 - ----
+eaglescommander      H - P P0 P1 P2 - W - A - PAS0
+egiffari             H - P P0 00 00 - W - A - ----
+enbeqi               H - P P0 00 00 - W - 0 - ----
+fadhilhmr            H - 0 00 00 00 - W - 0 - ----
+fadhilibra           H - P P0 P1 P2 - W - A - PAS0
+FarizioKautsar       0 - 0 00 00 00 - 0 - 0 - ----
+fatih-alaydrus       H - 0 00 00 00 - W - 0 - ----
+finishal             H - 0 00 00 00 - W - 0 - ----
+fpradana             H - 0 00 00 00 - W - 0 - ----
+GibranBrahmanta      H - P P0 00 00 - W - A - ----
+gibranharahap        H - P 00 00 00 - W - A - ----
+glendaesutanto       H - P P0 P1 P2 - W - A - PAS0
+Gusni-Lusiana        H - 0 00 00 00 - 0 - 0 - ----
+gustifahmi           H - 0 00 00 00 - 0 - 0 - ----
+habelct              H - P P0 P1 P2 - W - A - PAS0
+hanardiansyah        H - P P0 P1 P2 - W - A - PAS0
+hanifahrahma         H - P P0 P1 P2 - W - A - PAS0
+hannajtm             H - 0 00 00 00 - 0 - 0 - ----
+hanrichie            H - 0 00 00 00 - W - 0 - ----
+HaroldHS16           H - P P0 P1 P2 - W - A - PAS0
+hasanahnur303        H - 0 00 00 00 - W - 0 - ----
+hedass               H - P P0 P1 P2 - W - A - PAS0
+HelmiAlf             H - 0 00 00 00 - 0 - 0 - ----
+hnsmchl              H - 0 00 00 00 - W - 0 - ----
+ichsandyrizki        H - 0 00 00 00 - 0 - 0 - ----
+IgoRamli             H - 0 00 00 00 - W - 0 - ----
+ihsanazizi14         H - 0 00 00 00 - W - 0 - ----
+imamsetyo96          H - 0 00 00 00 - W - 0 - ----
+iqrar99              H - 0 00 00 00 - W - A - ----
+irfanmaulananasution H - 0 00 00 00 - 0 - 0 - ----
+jacobstmrg           H - P P0 P1 P2 - W - A - PAS0
+JahnsMichael         H - 0 00 00 00 - W - 0 - ----
+jonathanfilbert      H - P P0 P1 P2 - W - A - PAS0
+JustOneMoreLine      H - 0 00 00 00 - 0 - 0 - ----
+kamilakaffah07       H - 0 00 00 00 - W - 0 - ----
+keziasulami          H - 0 00 00 00 - W - 0 - ----
+khadijahrizqy        H - 0 00 00 00 - W - 0 - ----
+kholish219           H - 0 00 00 00 - 0 - 0 - ----
+KiddoKidz            H - 0 00 00 00 - W - 0 - ----
+kolokopo             0 - 0 00 00 00 - 0 - 0 - ----
+krisnadwitama        H - 0 00 00 00 - W - 0 - ----
+kurilham19           0 - 0 00 00 00 - W - 0 - ----
+Kyosena              H - 0 00 00 00 - 0 - 0 - ----
+leleonardo81         H - P P0 P1 P2 - W - A - PAS0
+lepiku               H - 0 00 00 00 - W - 0 - ----
+louisanatalika       H - 0 00 00 00 - W - 0 - ----
+lubnasyifa9          H - 0 00 00 00 - 0 - 0 - ----
+luqman-maulana       H - P 00 00 00 - W - A - ----
+luthfiidrus          H - 0 00 00 00 - W - 0 - ----
+maisyrahmawati       H - 0 00 00 00 - W - 0 - ----
+marcelvaldhano       H - 0 00 00 00 - W - 0 - ----
+michaelsusanto81     H - P P0 P1 00 - W - A - ----
+Miner239             0 - 0 00 00 00 - 0 - 0 - ----
+mlhmg                H - 0 00 00 00 - W - 0 - ----
+MNatalnael           H - P P0 P1 00 - W - A - ----
+mon23c               H - P P0 P1 P2 - W - A - PAS0
+mrasyid22            H - 0 00 00 00 - W - 0 - ----
+mrifqyz              H - 0 00 00 00 - W - 0 - ----
+Mufalando            H - 0 00 00 00 - W - 0 - ----
+muhammadmichael      H - 0 00 00 00 - W - 0 - ----
+naufalauddin         H - P P0 P1 P2 - W - A - PAS0
+naufalhilmi12345     H - 0 00 00 00 - W - 0 - ----
+naufal-prakoso       H - 0 00 00 00 - 0 - 0 - ----
+naurakhansa          H - P P0 P1 P2 - W - A - PAS0
+nazilarahma          H - 0 00 00 00 - W - 0 - ----
+nethaniasonya        H - 0 00 00 00 - 0 - 0 - ----
+nota1706             H - 0 00 00 00 - W - 0 - ----
+noviarmdnfg          H - P P0 P1 P2 - W - A - PAS0
+nugrahaa878          H - 0 00 00 00 - W - 0 - ----
+NununHidayah         0 - 0 00 00 00 - 0 - 0 - ----
+nurulputri           H - 0 00 00 00 - W - 0 - ----
+nvanonim             H - P 00 00 00 - W - A - ----
+PakDengklek          H - 0 00 00 00 - W - 0 - ----
+phazeblaze           H - P P0 00 00 - 0 - A - ----
+qadzifi              0 - 0 00 00 00 - 0 - 0 - ----
+racendol             H - P P0 P1 P2 - W - A - PAS0
+rafaputri86          H - P P0 P1 P2 - W - A - PAS0
+RafifEL              H - P P0 00 00 - 0 - 0 - ----
+ramyazhar            H - 0 00 00 00 - W - 0 - ----
+raniapriliaa         H - P 00 00 00 - W - A - ----
+raularrafi           H - 0 00 00 00 - 0 - 0 - ----
+Raygue               H - P P0 P1 P2 - W - A - PAS0
+rekapaska            H - 0 00 00 00 - 0 - 0 - ----
+reynardryanda        H - 0 00 00 00 - W - 0 - ----
+ronaldi-tj           H - P P0 00 00 - W - A - ----
+roygodsend23         H - 0 00 00 00 - 0 - 0 - ----
+rukamudrik           H - P P0 P1 P2 - W - A - PAS0
+ryaasabsar           H - P 00 00 00 - W - A - ----
+Salman-Ahmad-N       H - P P0 P1 00 - W - A - ----
+salsabiladnan        H - 0 00 00 00 - W - 0 - ----
+samratumaharani      H - 0 00 00 00 - 0 - 0 - ----
+samuelsamosir27      H - P P0 P1 P2 - W - A - PAS0
+shanniadm            H - 0 00 00 00 - W - 0 - ----
+ShintaFauziah        H - 0 00 00 00 - W - 0 - ----
+skycruiser8          H - P P0 P1 P2 - W - A - PAS0
+stefansagala         H - P P0 P1 P2 - W - A - PAS0
+stephenhandiar       H - 0 00 00 00 - W - 0 - ----
+SulthanZahran        H - P P0 P1 00 - W - A - ----
+syannelimarwan       H - 0 00 00 00 - W - 0 - ----
+taritrinatha         H - 0 00 00 00 - 0 - 0 - ----
+tasyashbr            H - 0 00 00 00 - W - 0 - ----
+tesajps              H - 0 00 00 00 - W - 0 - ----
+ThatDecoff           H - 0 00 00 00 - W - 0 - ----
+thegalang            H - 0 00 00 00 - W - A - ----
+titusdirgantoro      H - P P0 P1 P2 - W - A - PAS0
+tolhassianipar       H - 0 00 00 00 - W - 0 - ----
+vianra               H - 0 00 00 00 - 0 - 0 - ----
+wahprima             H - P P0 P1 P2 - W - A - PAS0
+WillySand            0 - 0 00 00 00 - 0 - 0 - ----
+wulanfebyazzahra     H - P P0 P1 P2 - W - A - PAS0
+wulanmantiri         H - 0 00 00 00 - W - 0 - ----
+Xerdiosa             H - 0 00 00 00 - W - 0 - ----
+yasminadelia         H - 0 00 00 00 - W - 0 - ----
+yobelioe17           H - 0 00 00 00 - W - 0 - ----
+yogahmad             H - P P0 P1 P2 - W - 0 - ----
+zackhowisely         0 - 0 00 00 00 - 0 - 0 - ----
+zafirabinta          H - P P0 P1 00 - W - A - ----
+zafirr31             H - 0 00 00 00 - W - 0 - ----
+zakiysaputra         H - 0 00 00 00 - W - 0 - ----
+zxrsvy               H - 0 00 00 00 - W - 0 - ----
+zzzzzczcnnnn         0 - 0 00 00 00 - 0 - 0 - ----
+=======================================================
