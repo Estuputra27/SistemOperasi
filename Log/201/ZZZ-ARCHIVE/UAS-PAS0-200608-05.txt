@@ -1,4 +1,4 @@
-Edisi: Sun Jun  7 11:35:43 WIB 2020
+Edisi: Mon Jun  8 05:43:25 WIB 2020
 =======================================================
 Penjelasan:  "akunGitHub H - P P0 P1 P2 - W - A - PAS0"
 
@@ -35,7 +35,7 @@ OS201 RMS
 109119               H - P P0 P1 P2 - W - A - PAS0
 abdulazis02          H - P P0 P1 P2 - W - A - PAS0
 abdurrafiarief       H - P P0 P1 P2 - W - A - PAS0
-abhiprayatj          H - 0 00 00 00 - W - 0 - ----
+abhiprayatj          H - 0 00 00 00 - W - A - ----
 abifajri             H - P P0 P1 P2 - W - A - PAS0
 aceyoga              H - P P0 P1 P2 - W - A - PAS0
 adhytianara          H - P P0 P1 P2 - W - A - PAS0
@@ -49,14 +49,14 @@ ajiinisti            H - P P0 P1 P2 - W - A - PAS0
 akhmadiponegoro      H - P P0 P1 P2 - W - A - PAS0
 alfisyk              H - P P0 P1 P2 - W - A - PAS0
 alkwrzm              H - P P0 P1 P2 - W - A - PAS0
-AlphaRazra           H - 0 00 00 00 - 0 - 0 - ----
+AlphaRazra           H - P P0 P1 P2 - W - A - PAS0
 alviadibby           H - P P0 P1 P2 - W - A - PAS0
 amaliahanisa         H - P P0 P1 P2 - W - A - PAS0
 amrisandha           H - P P0 P1 P2 - W - A - PAS0
 andhikayusup         H - P P0 P1 P2 - W - A - PAS0
 AndiALH              H - P P0 P1 P2 - W - A - PAS0
 andrewtheodore       H - P P0 P1 P2 - W - A - PAS0
-ariellariza          H - P P0 00 00 - W - A - ----
+ariellariza          H - P P0 P1 P2 - W - A - PAS0
 ariqbasyar           H - P P0 P1 P2 - W - A - PAS0
 ashilaghassani       H - P P0 P1 P2 - W - A - PAS0
 astridchrd           H - P P0 P1 P2 - W - A - PAS0
@@ -71,24 +71,24 @@ bonarws              0 - 0 00 00 00 - 0 - 0 - ----
 chelmel18            H - P P0 P1 P2 - W - A - PAS0
 ChristopherSamuelW   H - P P0 P1 P2 - W - A - PAS0
 codefire53           H - P P0 P1 P2 - W - A - PAS0
-dafpool4             0 - 0 00 00 00 - W - 0 - ----
-dariantexanditama    H - 0 00 00 00 - W - 0 - ----
+dafpool4             H - P P0 P1 P2 - W - A - PAS0
+dariantexanditama    H - P P0 P1 P2 - W - A - PAS0
 darklordace          H - P P0 P1 P2 - W - A - PAS0
-drassd               H - 0 00 00 00 - 0 - 0 - ----
+drassd               H - P P0 P1 P2 - W - A - PAS0
 eaglescommander      H - P P0 P1 P2 - W - A - PAS0
 egiffari             H - P P0 P1 P2 - W - A - PAS0
 enbeqi               H - P P0 P1 P2 - W - A - PAS0
 fadhilhmr            H - P P0 P1 P2 - W - A - PAS0
 fadhilibra           H - P P0 P1 P2 - W - A - PAS0
-FarizioKautsar       H - P P0 P1 P2 - 0 - A - ----
-fatih-alaydrus       H - 0 00 00 00 - W - 0 - ----
+FarizioKautsar       H - P P0 P1 P2 - W - A - PAS0
+fatih-alaydrus       H - P P0 P1 P2 - W - A - PAS0
 finishal             H - P P0 P1 P2 - W - A - PAS0
 fpradana             H - P P0 P1 P2 - W - A - PAS0
 GibranBrahmanta      H - P P0 P1 P2 - W - A - PAS0
 gibranharahap        H - P P0 P1 P2 - W - A - PAS0
 glendaesutanto       H - P P0 P1 P2 - W - A - PAS0
 Gusni-Lusiana        H - P P0 P1 P2 - W - A - PAS0
-gustifahmi           H - P P0 00 00 - W - A - ----
+gustifahmi           H - P P0 P1 00 - W - A - ----
 habelct              H - P P0 P1 P2 - W - A - PAS0
 hanardiansyah        H - P P0 P1 P2 - W - A - PAS0
 hanifahrahma         H - P P0 P1 P2 - W - A - PAS0
@@ -99,24 +99,24 @@ hasanahnur303        H - P P0 P1 P2 - W - A - PAS0
 hedass               H - P P0 P1 P2 - W - A - PAS0
 HelmiAlf             H - P P0 P1 P2 - W - A - PAS0
 hnsmchl              H - P P0 P1 P2 - W - A - PAS0
-ichsandyrizki        H - 0 00 00 00 - 0 - 0 - ----
+ichsandyrizki        H - P P0 P1 P2 - 0 - A - ----
 IgoRamli             H - P P0 P1 P2 - W - A - PAS0
 ihsanazizi14         H - P P0 P1 P2 - W - A - PAS0
 imamsetyo96          H - P P0 P1 P2 - W - A - PAS0
 iqrar99              H - P P0 P1 P2 - W - A - PAS0
-irfanmaulananasution H - 0 00 00 00 - 0 - 0 - ----
+irfanmaulananasution H - P P0 P1 P2 - W - A - PAS0
 jacobstmrg           H - P P0 P1 P2 - W - A - PAS0
 JahnsMichael         H - P P0 P1 P2 - W - A - PAS0
 jonathanfilbert      H - P P0 P1 P2 - W - A - PAS0
-JustOneMoreLine      H - P P0 00 00 - 0 - 0 - ----
+JustOneMoreLine      H - P P0 P1 P2 - W - A - PAS0
 kamilakaffah07       H - P P0 P1 P2 - W - A - PAS0
 keziasulami          H - P P0 P1 P2 - W - A - PAS0
-khadijahrizqy        H - 0 00 00 00 - W - 0 - ----
+khadijahrizqy        H - P P0 P1 P2 - W - A - PAS0
 kholish219           H - P P0 P1 P2 - W - A - PAS0
 KiddoKidz            H - P P0 P1 P2 - W - A - PAS0
-kolokopo             0 - 0 00 00 00 - 0 - 0 - ----
+kolokopo             H - P P0 P1 P2 - W - A - PAS0
 krisnadwitama        H - P P0 P1 P2 - W - A - PAS0
-kurilham19           0 - 0 00 00 00 - W - 0 - ----
+kurilham19           H - P P0 P1 P2 - W - A - PAS0
 Kyosena              H - P P0 P1 P2 - W - A - PAS0
 leleonardo81         H - P P0 P1 P2 - W - A - PAS0
 lepiku               H - P P0 P1 P2 - W - A - PAS0
@@ -145,7 +145,7 @@ nota1706             H - P P0 P1 P2 - W - A - PAS0
 noviarmdnfg          H - P P0 P1 P2 - W - A - PAS0
 nugrahaa878          H - P P0 P1 P2 - W - A - PAS0
 NununHidayah         H - P P0 P1 P2 - W - A - PAS0
-nurulputri           H - P P0 00 00 - W - A - ----
+nurulputri           H - P P0 P1 P2 - W - A - PAS0
 nvanonim             H - P P0 P1 P2 - W - A - PAS0
 PakDengklek          H - P P0 P1 P2 - W - A - PAS0
 phazeblaze           H - P P0 P1 P2 - W - A - PAS0
@@ -174,7 +174,7 @@ stefansagala         H - P P0 P1 P2 - W - A - PAS0
 stephenhandiar       H - P P0 P1 P2 - W - A - PAS0
 SulthanZahran        H - P P0 P1 P2 - W - A - PAS0
 syannelimarwan       H - P P0 P1 P2 - W - A - PAS0
-taritrinatha         H - 0 00 00 00 - 0 - 0 - ----
+taritrinatha         H - P P0 P1 P2 - W - A - PAS0
 tasyashbr            H - P P0 P1 P2 - W - A - PAS0
 tesajps              H - P P0 P1 P2 - W - A - PAS0
 ThatDecoff           H - P P0 P1 P2 - W - A - PAS0
@@ -190,7 +190,7 @@ Xerdiosa             H - P P0 P1 P2 - W - A - PAS0
 yasminadelia         H - P P0 P1 P2 - W - A - PAS0
 yobelioe17           H - P P0 P1 P2 - W - A - PAS0
 yogahmad             H - P P0 P1 P2 - W - A - PAS0
-zackhowisely         0 - 0 00 00 00 - 0 - 0 - ----
+zackhowisely         H - P P0 P1 P2 - W - A - PAS0
 zafirabinta          H - P P0 P1 P2 - W - A - PAS0
 zafirr31             H - P P0 P1 P2 - W - A - PAS0
 zakiysaputra         H - P P0 P1 P2 - W - A - PAS0
