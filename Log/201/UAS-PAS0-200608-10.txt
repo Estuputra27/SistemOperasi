@@ -1,4 +1,4 @@
-Edisi: Mon Jun  8 08:14:10 WIB 2020
+Edisi: Mon Jun  8 10:43:39 WIB 2020
 =======================================================
 Penjelasan:  "akunGitHub H - P P0 P1 P2 - W - A - PAS0"
 
@@ -198,6 +198,6 @@ zackhowisely         H - P P0 P1 P2 - W - A - PAS0
 zafirabinta          H - P P0 P1 P2 - W - A - PAS0
 zafirr31             H - P P0 P1 P2 - W - A - PAS0
 zakiysaputra         H - P P0 P1 P2 - W - A - PAS0
-zxrsvy               H - P P0 P1 00 - W - A - ----
+zxrsvy               H - P P0 P1 P2 - W - A - PAS0
 zzzzzczcnnnn         0 - 0 00 00 00 - 0 - 0 - ----
 =======================================================
