@@ -98,11 +98,6 @@ mrasyid22 0001-mytest.txt SUMOK SEQOK
 mrifqyz 0001-mytest.txt SUMOK SEQOK
 Mufalando 0001-mytest.txt SUMOK SEQOK
 muhammadmichael 0001-mytest.txt SUMOK SEQOK
-NA
-NA
-NA
-NA
-NA
 naufalauddin 0001-mytest.txt SUMOK SEQOK
 naufalhilmi12345 0001-mytest.txt SUMOK SEQOK
 naufal-prakoso 0001-mytest.txt SUMOK SEQOK
@@ -146,7 +141,7 @@ taritrinatha 0001-mytest.txt SUMOK SEQOK
 tasyashbr 0001-mytest.txt SUMOK SEQOK
 tesajps 0001-mytest.txt SUMOK SEQOK
 ThatDecoff 0001-mytest.txt SUMOK SEQOK
-thegalang 0001-mytest.txt SUMOK SEQNO
+thegalang 0001-mytest.txt SUMOK SEQOK
 titusdirgantoro 0001-mytest.txt SUMOK SEQOK
 tolhassianipar 0001-mytest.txt SUMOK SEQOK
 wahprima 0001-mytest.txt SUMOK SEQOK
