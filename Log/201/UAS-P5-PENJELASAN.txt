@@ -28,7 +28,7 @@ Kolom #7: cek 0001-mytest.txt 0001-mytest.txt.asc
 == OKCRYPTSIGN: encrypt OK, signed OK
 == X0CRYPTSIGN: general error
 == X1CRYPTSIGN: tidak ada berkas 0001-mytest.txt
-== X2CRYPTSIGN: tidak ada berkas 0002-mytest.txt
+== X2CRYPTSIGN: tidak ada berkas 0001-mytest.txt.asc
 == X3CRYPTSIGN: tidak dapat enkripsi
 == X4CRYPTSIGN: tidak dapat verifikasi
 == X5CRYPTSIGN: tidak dapat enkripski dan verifikasi
