@@ -1,8 +1,6 @@
 ---
 ---
 
-* **Info Covid 19** -- [https://os.vlsm.org/COVID-19/](COVID-19/)
-
 * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
   * [STATUS OS201](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/201/)
 
