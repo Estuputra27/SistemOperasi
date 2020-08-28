@@ -2,7 +2,7 @@
 ---
 
 * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
-  * [STATUS OS201](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/201/)
+  * [STATUS](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/)
 
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
