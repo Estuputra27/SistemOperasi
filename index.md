@@ -1,7 +1,7 @@
 ---
 ---
 
-* [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=822)
+* [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
   * [STATUS](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Log/)
 
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
