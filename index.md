@@ -8,14 +8,14 @@
 
 * **KONTAK**:
   * WhatsApp Group (lihat 
-    [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Slides/os00.pdf))
+    [Week 00](Slides/os00.pdf)
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
   * This Site: [https://os.vlsm.org/](https://os.vlsm.org/)
-  * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](
-             https://github.com/UI-FASILKOM-OS/SistemOperasi)
+  * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](https://github.com/UI-FASILKOM-OS/SistemOperasi)
 
-<br>
-* [GITHUB](https://github.com/)
+* [**YouTube PlayLists**](/playlists/)
+
+* [GITHUB](https://github.com/):
   * [Operating System Slides](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Slides/)
     * Week00-Week05:
       [W00](Slides/os00.pdf)
@@ -30,10 +30,7 @@
       [W08](Slides/os08.pdf)
       [W09](Slides/os09.pdf)
       [W10](Slides/os10.pdf)
-
   * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/)
-
-* [**YouTube PlayLists**](/playlists/)
 
 * Himpunan Soal Ujian Sistem Operasi
 
