@@ -10,21 +10,30 @@
   * WhatsApp Group (lihat 
     [Week 00](https://github.com/UI-FASILKOM-OS/SistemOperasi/blob/master/Slides/os00.pdf))
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
-  * Problem Lab/Kawung/Badak: **ITFasilkom**
-  * Situs ini: [https://os.vlsm.org/](https://os.vlsm.org/)
+  * This Site: [https://os.vlsm.org/](https://os.vlsm.org/)
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](
              https://github.com/UI-FASILKOM-OS/SistemOperasi)
 
-* [**YouTube PlayLists**](/playlists/)
-
-* **INTRANET**
-  * `BADAK.cs.ui.ac.id:///extra/` -- situs ini hanya dapat diakses dari internal Universitas Indonesia.
-  * `BADAK.cs.ui.ac.id:////opt/OS-Videos/` -- situs ini hanya dapat diakses dari internal Universitas Indonesia.
-
+<br>
 * [GITHUB](https://github.com/)
-  * [Slide Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Slides/)
+  * [Operating System Slides](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Slides/)
+    * Week00-Week05:
+      [W00](Slides/os00.pdf)
+      [W01](Slides/os01.pdf)
+      [W02](Slides/os02.pdf)
+      [W03](Slides/os03.pdf)
+      [W04](Slides/os04.pdf)
+      [W05](Slides/os05.pdf)
+    * Week06-Week10:
+      [W06](Slides/os08.pdf)
+      [W07](Slides/os07.pdf)
+      [W08](Slides/os08.pdf)
+      [W09](Slides/os09.pdf)
+      [W10](Slides/os10.pdf)
 
   * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/)
+
+* [**YouTube PlayLists**](/playlists/)
 
 * Himpunan Soal Ujian Sistem Operasi
 
@@ -67,24 +76,6 @@
   * [Pengantar Sistem Operasi Komputer jilid 2](https://rms46.vlsm.org/2/214.pdf)
 
 * EXTRA
-
-  * [2017-2 (BIGENDIAN)](https://rms46.vlsm.org/2/223.pdf)
-
-  * [Extra 2019 - 1](https://extra191.vlsm.org/)
-
-  * [Extra 2018 - 2](https://extra182.vlsm.org/)
-
-* WSL
-
-  * [Cara Install WSL Ubuntu 16.04](https://github.com/Belajar-Latex/InstallWSL/blob/master/README.md)
-
-  * [Setup PowerShell untuk WSL](https://github.com/Belajar-Latex/InstallWSL/blob/master/README.md)
-
-  * [WSL: Fine Tuning](http://rahmatm.samik-ibrahim.vlsm.org/2018/07/wsl-fine-tuning.html)
-
-  * [More...](https://wsl.vlsm.org/)
-
-* 2019-2 Extra
 
   * [Jekyll](https://jekyll.vlsm.org)
 
