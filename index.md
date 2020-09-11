@@ -9,7 +9,7 @@
 
 * **KONTAK**:
   * WhatsApp Group (lihat 
-    [Week 00](Slides/os00.pdf)
+    [Week 00](Slides/os00.pdf))
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
   * This Site: [https://os.vlsm.org/](https://os.vlsm.org/)
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](https://github.com/UI-FASILKOM-OS/SistemOperasi)
