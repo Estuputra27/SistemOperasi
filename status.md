@@ -1,10 +1,10 @@
 ---
 permalink: /STATUS/
 ---
+[HOME (Sistem Operasi)](../)
 
+<br>
 # STATUS
-
-* [HOME (Sistem Operasi)](../)
 
 ## TBA
 

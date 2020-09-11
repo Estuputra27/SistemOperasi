@@ -1,9 +1,9 @@
 ---
 ---
 
-* [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
-
 * [STATUS](/STATUS/)
+
+* [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
 
 * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
