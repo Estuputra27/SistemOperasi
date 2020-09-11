@@ -33,6 +33,8 @@
       [W10](Slides/os10.pdf)
   * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/)
 
+* [Operating System Programming](https://osp4diss.vlsm.org/ETC/logCodes.txt)
+
 * Himpunan Soal Ujian Sistem Operasi
 
   * Ujian OS tahun 2016-...
