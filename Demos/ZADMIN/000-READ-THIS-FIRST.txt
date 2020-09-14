@@ -1,5 +1,5 @@
 # INFO: Read This First! ==== ========= =========
-# Version: Mon Sep 14 21:13:54 WIB 2020
+# Version: Mon Sep 14 21:23:58 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -8,12 +8,15 @@ These files are available in:
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-Use rsync with your "ssoAccount":
+(rsync with your "ssoAccount")
 
-rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+FASILKOM Intranet:
+rsync -auv --delete -e 'ssh'  'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+SSH (eg. via yourTunnel port 6789):
+rsync -auv --delete -e 'ssh -p 6789' 'ssoAccount@yourTunnel:/extra/Demos/' 'Demos/'
 
 OR, download GitHub master archive:
-
 https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
