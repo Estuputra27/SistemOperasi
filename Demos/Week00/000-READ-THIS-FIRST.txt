@@ -1,5 +1,5 @@
 # INFO: Read This First! ==== ========= =========
-# Version: Mon Sep 14 21:10:54 WIB 2020
+# Version: Mon Sep 14 21:13:54 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -20,6 +20,7 @@ https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 ========= ========= ========= ========= ========= ========= ========= =========
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+
 File: c-program-example.c is a c program source code.
   To compile:
   $ gcc -o c-program-example c-program-example.c
@@ -29,12 +30,6 @@ File: c-program-example.c is a c program source code.
 File: Makefile 
   Just run:
   $ make
-
-File: QR-Code.png
-  A QR Code (QRC) Example 
-
-File: QR-Code.docx and QR-Code.pdf
-  A MEMO example using QRC
 
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 ========= ========= ========= ========= ========= ========= ========= =========
