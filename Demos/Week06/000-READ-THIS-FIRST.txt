@@ -1,23 +1,14 @@
 # INFO: Read This First! ==== ========= =========
-# Version: Wed Mar 25 17:01:31 WIB 2020
+# Version: Mon Sep 14 21:10:54 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
-(INTRANET) badak:///extra/Demos/ 
 (GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
 (See also) https://os.vlsm.org/
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-To copy the whole folder to your HOME directory:
-
-cp -r /extra/Demos/  ~
-
-OR, to copy it to your CURRENT directory:
-
-cp -r /extra/Demos/  .
-
-OR, rsync with your "ssoAccount":
+Use rsync with your "ssoAccount":
 
 rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
 
@@ -103,8 +94,7 @@ https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
 # (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
 # Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
 
-# REV15: Wed Mar 25 13:46:38 WIB 2020
-# REV12: Sun Feb 23 15:07:00 WIB 2020
+# REV16: Mon Sep 14 21:09:26 WIB 2020
 # REV07: Wed Mar 13 14:15:03 WIB 2019
 # START: Tue Feb 20 09:12:43 WIB 2018
 

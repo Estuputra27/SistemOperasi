@@ -1,20 +1,11 @@
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
-(INTRANET) badak:///extra/Demos/ 
 (GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
 (See also) https://os.vlsm.org/
 ========= ========= ========= ========= ========= ========= ========= =========
 !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
 
-To copy the whole folder to your HOME directory:
-
-cp -r /extra/Demos/  ~
-
-OR, to copy it to your CURRENT directory:
-
-cp -r /extra/Demos/  .
-
-OR, rsync with your "ssoAccount":
+Use rsync with your "ssoAccount":
 
 rsync -auv --delete -e 'ssh' 'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
 
