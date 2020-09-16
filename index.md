@@ -3,21 +3,27 @@
 
 * [STATUS](/STATUS/)
 
-* [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
+  * [FAQ](/FAQ/)
 
-* [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
+  * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
+
+  * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
 * **KONTAK**:
+
   * WhatsApp Group (lihat 
     [Week 00](Slides/os00.pdf))
+
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
+
   * This Site: [https://os.vlsm.org/](https://os.vlsm.org/)
+
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](https://github.com/UI-FASILKOM-OS/SistemOperasi)
 
-* [**YouTube PlayLists**](/playlists/)
-
 * [GITHUB](https://github.com/):
+
   * [Operating System Slides](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Slides/)
+
     * Week00-Week05:
       [W00](Slides/os00.pdf)
       [W01](Slides/os01.pdf)
@@ -25,15 +31,20 @@
       [W03](Slides/os03.pdf)
       [W04](Slides/os04.pdf)
       [W05](Slides/os05.pdf)
+
     * Week06-Week10:
       [W06](Slides/os08.pdf)
       [W07](Slides/os07.pdf)
       [W08](Slides/os08.pdf)
       [W09](Slides/os09.pdf)
       [W10](Slides/os10.pdf)
-  * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/)
+
+  * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/) 
+
+* [**YouTube PlayLists**](/playlists/)
 
 * [Operating System Programming](https://osp4diss.vlsm.org/)
+
   * [Log Codes](https://osp4diss.vlsm.org/ETC/logCodes.txt)
 
 * Himpunan Soal Ujian Sistem Operasi
