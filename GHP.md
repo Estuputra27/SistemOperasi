@@ -49,8 +49,8 @@ permalink: /GitHubPages/
 * [mauludiam](https://github.com/mauludiam/) --- [os202](https://github.com/mauludiam/os202/) --- [https://mauludiam.github.io/os202/](https://mauludiam.github.io/os202/) --- [LOG](https://mauludiam.github.io/os202/TXT/mylog.txt)
 * [mdzkm](https://github.com/mdzkm/) --- [os202](https://github.com/mdzkm/os202/) --- [https://mdzkm.github.io/os202/](https://mdzkm.github.io/os202/) --- [LOG](https://mdzkm.github.io/os202/TXT/mylog.txt)
 * [mfadhlan98](https://github.com/mfadhlan98/) --- [os202](https://github.com/mfadhlan98/os202/) --- [https://mfadhlan98.github.io/os202/](https://mfadhlan98.github.io/os202/) --- [LOG](https://mfadhlan98.github.io/os202/TXT/mylog.txt)
-* [mhanif-82](https://github.com/mhanif-82/) --- [os202](https://github.com/mhanif-82/os202/) --- [https://mhanif-82.github.io/os202/](https://mhanif-82.github.io/os202/)[GitHub Page]
-* [nazifahamidiyati](https://github.com/nazifahamidiyati/) --- [os202](https://github.com/nazifahamidiyati/os202/) --- [https://nazifahamidiyati.github.io/os202/](https://nazifahamidiyati.github.io/os202/)[GitHub Page]
+* [mhanif-82](https://github.com/mhanif-82/) --- [os202](https://github.com/mhanif-82/os202/) --- [https://mhanif-82.github.io/os202/](https://mhanif-82.github.io/os202/)
+* [nazifahamidiyati](https://github.com/nazifahamidiyati/) --- [os202](https://github.com/nazifahamidiyati/os202/) --- [https://nazifahamidiyati.github.io/os202/](https://nazifahamidiyati.github.io/os202/)
 * [ndafarhan](https://github.com/ndafarhan/) --- [os202](https://github.com/ndafarhan/os202/) --- [https://ndafarhan.github.io/os202/](https://ndafarhan.github.io/os202/) --- [LOG](https://ndafarhan.github.io/os202/TXT/mylog.txt)
 * [nmhlog](https://github.com/nmhlog/) --- [os202](https://github.com/nmhlog/os202/) --- [https://nmhlog.github.io/os202/](https://nmhlog.github.io/os202/) --- [LOG](https://nmhlog.github.io/os202/TXT/mylog.txt)
 * [nyomangedar](https://github.com/nyomangedar/) --- [os202](https://github.com/nyomangedar/os202/) --- [https://nyomangedar.github.io/os202/](https://nyomangedar.github.io/os202/) --- [LOG](https://nyomangedar.github.io/os202/TXT/mylog.txt)
