@@ -1,6 +1,7 @@
 ---
 permalink: /GitHubPages/
 ---
+* [HOME (Operating Systems)](../)
 
 # GitHub Pages (os202)
 <hr>
