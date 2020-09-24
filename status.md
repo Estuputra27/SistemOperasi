@@ -6,5 +6,6 @@ permalink: /STATUS/
 <br>
 # STATUS
 
-## TBA
+* [Github and GitHub Pages](../GitHubPages/)
+
 

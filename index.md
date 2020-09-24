@@ -3,6 +3,8 @@
 
 * [STATUS](/STATUS/)
 
+  * [Github and GitHub Pages](GitHubPages/)
+
   * [FAQ](/FAQ/)
 
   * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
