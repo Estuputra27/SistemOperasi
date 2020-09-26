@@ -42,7 +42,7 @@ permalink: /GitHubPages/
 * [idrisyoga23](https://github.com/idrisyoga23/) --- [os202](https://github.com/idrisyoga23/os202/) --- [https://idrisyoga23.github.io/os202/](https://idrisyoga23.github.io/os202/) --- [LOG](https://idrisyoga23.github.io/os202/TXT/mylog.txt)
 * [ivanadebora](https://github.com/ivanadebora/) --- [os202](https://github.com/ivanadebora/os202/) --- [https://ivanadebora.github.io/os202/](https://ivanadebora.github.io/os202/) --- [LOG](https://ivanadebora.github.io/os202/TXT/mylog.txt)
 * [jeremiahtennes](https://github.com/jeremiahtennes/) --- [os202](https://github.com/jeremiahtennes/os202/) --- [https://jeremiahtennes.github.io/os202/](https://jeremiahtennes.github.io/os202/) --- [LOG](https://jeremiahtennes.github.io/os202/TXT/mylog.txt)
-* [johanessteven19](https://github.com/johanessteven19/) --- [os202](https://github.com/johanessteven19/os202/) --- [GitHub Page]
+* [johanessteven19](https://github.com/johanessteven19/) --- [os202](https://github.com/johanessteven19/os202/) --- [https://johanessteven19.github.io/os202/](https://johanessteven19.github.io/os202/) --- [LOG](https://johanessteven19.github.io/os202/TXT/mylog.txt)
 * [kukuhhafiyyan](https://github.com/kukuhhafiyyan/) --- [os202](https://github.com/kukuhhafiyyan/os202/) --- [https://kukuhhafiyyan.github.io/os202/](https://kukuhhafiyyan.github.io/os202/) --- [LOG](https://kukuhhafiyyan.github.io/os202/TXT/mylog.txt)
 * [lostfocus94](https://github.com/lostfocus94/) --- [os202](https://github.com/lostfocus94/os202/) --- [https://lostfocus94.github.io/os202/](https://lostfocus94.github.io/os202/) --- [LOG](https://lostfocus94.github.io/os202/TXT/mylog.txt)
 * [marioekaputta](https://github.com/marioekaputta/) --- [os202](https://github.com/marioekaputta/os202/) --- [https://marioekaputta.github.io/os202/](https://marioekaputta.github.io/os202/) --- [LOG](https://marioekaputta.github.io/os202/TXT/mylog.txt)
@@ -71,4 +71,4 @@ permalink: /GitHubPages/
 * [wienaamanda](https://github.com/wienaamanda/) --- [os202](https://github.com/wienaamanda/os202/) --- [https://wienaamanda.github.io/os202/](https://wienaamanda.github.io/os202/) --- [LOG](https://wienaamanda.github.io/os202/TXT/mylog.txt)
 * [yolandawsirait](https://github.com/yolandawsirait/) --- [os202](https://github.com/yolandawsirait/os202/) --- [https://yolandawsirait.github.io/os202/](https://yolandawsirait.github.io/os202/) --- [LOG](https://yolandawsirait.github.io/os202/TXT/mylog.txt)
 <hr>
-Fri Sep 25 13:00:46 WIB 2020
+Sat Sep 26 13:21:03 WIB 2020
