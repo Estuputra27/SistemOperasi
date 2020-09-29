@@ -8,7 +8,7 @@ permalink: /GitHubPages/
 <hr>
 * [aannurwahidi7](https://github.com/aannurwahidi7/) --- [os202](https://github.com/aannurwahidi7/os202/) --- [https://aannurwahidi7.github.io/os202/](https://aannurwahidi7.github.io/os202/) --- [LOG](https://aannurwahidi7.github.io/os202/TXT/mylog.txt)
 * [abebrahmana](https://github.com/abebrahmana/) --- [os202](https://github.com/abebrahmana/os202/) --- [https://abebrahmana.github.io/os202/](https://abebrahmana.github.io/os202/) --- [LOG](https://abebrahmana.github.io/os202/TXT/mylog.txt)
-* [Abimanyu-TheProgrammer](https://github.com/Abimanyu-TheProgrammer/) --- [os202](https://github.com/Abimanyu-TheProgrammer/os202/) --- [GitHub Page]
+* [Abimanyu-TheProgrammer](https://github.com/Abimanyu-TheProgrammer/) --- [os202](https://github.com/Abimanyu-TheProgrammer/os202/) --- [https://Abimanyu-TheProgrammer.github.io/os202/](https://Abimanyu-TheProgrammer.github.io/os202/) --- [LOG](https://Abimanyu-TheProgrammer.github.io/os202/TXT/mylog.txt)
 * [achmadafriza](https://github.com/achmadafriza/) --- [os202](https://github.com/achmadafriza/os202/) --- [https://achmadafriza.github.io/os202/](https://achmadafriza.github.io/os202/) --- [LOG](https://achmadafriza.github.io/os202/TXT/mylog.txt)
 * [achmadteddy](https://github.com/achmadteddy/) --- [os202](https://github.com/achmadteddy/os202/) --- [https://achmadteddy.github.io/os202/](https://achmadteddy.github.io/os202/) --- [LOG](https://achmadteddy.github.io/os202/TXT/mylog.txt)
 * [akbarrafs](https://github.com/akbarrafs/) --- [os202](https://github.com/akbarrafs/os202/) --- [https://akbarrafs.github.io/os202/](https://akbarrafs.github.io/os202/) --- [LOG](https://akbarrafs.github.io/os202/TXT/mylog.txt)
@@ -34,7 +34,7 @@ permalink: /GitHubPages/
 * [fathurrp](https://github.com/fathurrp/) --- [os202](https://github.com/fathurrp/os202/) --- [https://fathurrp.github.io/os202/](https://fathurrp.github.io/os202/) --- [LOG](https://fathurrp.github.io/os202/TXT/mylog.txt)
 * [ferenica](https://github.com/ferenica/) --- [os202](https://github.com/ferenica/os202/) --- [https://ferenica.github.io/os202/](https://ferenica.github.io/os202/) --- [LOG](https://ferenica.github.io/os202/TXT/mylog.txt)
 * [fghaffar26](https://github.com/fghaffar26/) --- [os202](https://github.com/fghaffar26/os202/) --- [https://fghaffar26.github.io/os202/](https://fghaffar26.github.io/os202/) --- [LOG](https://fghaffar26.github.io/os202/TXT/mylog.txt)
-* [gilbertstefano48](https://github.com/gilbertstefano48/) --- [os202](https://github.com/gilbertstefano48/os202/) --- [GitHub Page]
+* [gilbertstefano48](https://github.com/gilbertstefano48/) --- [os202](https://github.com/gilbertstefano48/os202/) --- [https://gilbertstefano48.github.io/os202/](https://gilbertstefano48.github.io/os202/) --- [LOG](https://gilbertstefano48.github.io/os202/TXT/mylog.txt)
 * [gpersable](https://github.com/gpersable/) --- [os202](https://github.com/gpersable/os202/) --- [https://gpersable.github.io/os202/](https://gpersable.github.io/os202/) --- [LOG](https://gpersable.github.io/os202/TXT/mylog.txt)
 * [Haskucy](https://github.com/Haskucy/) --- [os202](https://github.com/Haskucy/os202/) --- [https://Haskucy.github.io/os202/](https://Haskucy.github.io/os202/) --- [LOG](https://Haskucy.github.io/os202/TXT/mylog.txt)
 * [hazlazuardi](https://github.com/hazlazuardi/) --- [os202](https://github.com/hazlazuardi/os202/) --- [https://hazlazuardi.github.io/os202/](https://hazlazuardi.github.io/os202/) --- [LOG](https://hazlazuardi.github.io/os202/TXT/mylog.txt)
@@ -50,7 +50,7 @@ permalink: /GitHubPages/
 * [mdzkm](https://github.com/mdzkm/) --- [os202](https://github.com/mdzkm/os202/) --- [https://mdzkm.github.io/os202/](https://mdzkm.github.io/os202/) --- [LOG](https://mdzkm.github.io/os202/TXT/mylog.txt)
 * [mfadhlan98](https://github.com/mfadhlan98/) --- [os202](https://github.com/mfadhlan98/os202/) --- [https://mfadhlan98.github.io/os202/](https://mfadhlan98.github.io/os202/) --- [LOG](https://mfadhlan98.github.io/os202/TXT/mylog.txt)
 * [mhanif-82](https://github.com/mhanif-82/) --- [os202](https://github.com/mhanif-82/os202/) --- [https://mhanif-82.github.io/os202/](https://mhanif-82.github.io/os202/)
-* [nazifahamidiyati](https://github.com/nazifahamidiyati/) --- [os202](https://github.com/nazifahamidiyati/os202/) --- [https://nazifahamidiyati.github.io/os202/](https://nazifahamidiyati.github.io/os202/)
+* [nazifahamidiyati](https://github.com/nazifahamidiyati/) --- [os202](https://github.com/nazifahamidiyati/os202/) --- [GitHub Page]
 * [ndafarhan](https://github.com/ndafarhan/) --- [os202](https://github.com/ndafarhan/os202/) --- [https://ndafarhan.github.io/os202/](https://ndafarhan.github.io/os202/) --- [LOG](https://ndafarhan.github.io/os202/TXT/mylog.txt)
 * [nmhlog](https://github.com/nmhlog/) --- [os202](https://github.com/nmhlog/os202/) --- [https://nmhlog.github.io/os202/](https://nmhlog.github.io/os202/) --- [LOG](https://nmhlog.github.io/os202/TXT/mylog.txt)
 * [nyomangedar](https://github.com/nyomangedar/) --- [os202](https://github.com/nyomangedar/os202/) --- [https://nyomangedar.github.io/os202/](https://nyomangedar.github.io/os202/) --- [LOG](https://nyomangedar.github.io/os202/TXT/mylog.txt)
@@ -67,8 +67,8 @@ permalink: /GitHubPages/
 * [siepenmaru](https://github.com/siepenmaru/) --- [os202](https://github.com/siepenmaru/os202/) --- [https://siepenmaru.github.io/os202/](https://siepenmaru.github.io/os202/) --- [LOG](https://siepenmaru.github.io/os202/TXT/mylog.txt)
 * [stevenciayadi](https://github.com/stevenciayadi/) --- [os202](https://github.com/stevenciayadi/os202/) --- [https://stevenciayadi.github.io/os202/](https://stevenciayadi.github.io/os202/) --- [LOG](https://stevenciayadi.github.io/os202/TXT/mylog.txt)
 * [taufikalgi](https://github.com/taufikalgi/) --- [os202](https://github.com/taufikalgi/os202/) --- [https://taufikalgi.github.io/os202/](https://taufikalgi.github.io/os202/) --- [LOG](https://taufikalgi.github.io/os202/TXT/mylog.txt)
-* [vianra](https://github.com/vianra/) --- [os202](https://github.com/vianra/os202/) --- [GitHub Page]
+* [vianra](https://github.com/vianra/) --- [os202](https://github.com/vianra/os202/) --- [https://vianra.github.io/os202/](https://vianra.github.io/os202/) --- [LOG](https://vianra.github.io/os202/TXT/mylog.txt)
 * [wienaamanda](https://github.com/wienaamanda/) --- [os202](https://github.com/wienaamanda/os202/) --- [https://wienaamanda.github.io/os202/](https://wienaamanda.github.io/os202/) --- [LOG](https://wienaamanda.github.io/os202/TXT/mylog.txt)
 * [yolandawsirait](https://github.com/yolandawsirait/) --- [os202](https://github.com/yolandawsirait/os202/) --- [https://yolandawsirait.github.io/os202/](https://yolandawsirait.github.io/os202/) --- [LOG](https://yolandawsirait.github.io/os202/TXT/mylog.txt)
 <hr>
-Sat Sep 26 13:21:03 WIB 2020
+Tue Sep 29 06:48:59 WIB 2020
