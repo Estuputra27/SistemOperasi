@@ -16,7 +16,7 @@ permalink: /GitHubPages/
 * [aliasadillah](https://github.com/aliasadillah/) --- [os202](https://github.com/aliasadillah/os202/) --- [https://aliasadillah.github.io/os202/](https://aliasadillah.github.io/os202/) --- [LOG](https://aliasadillah.github.io/os202/TXT/mylog.txt)
 * [alifyandra](https://github.com/alifyandra/) --- [os202](https://github.com/alifyandra/os202/) --- [https://alifyandra.github.io/os202/](https://alifyandra.github.io/os202/) --- [LOG](https://alifyandra.github.io/os202/TXT/mylog.txt)
 * [althof3](https://github.com/althof3/) --- [os202](https://github.com/althof3/os202/) --- [https://althof3.github.io/os202/](https://althof3.github.io/os202/) --- [LOG](https://althof3.github.io/os202/TXT/mylog.txt)
-* [anowanggai](https://github.com/anowanggai/) --- [os202](https://github.com/anowanggai/os202/) --- [GitHub Page]
+* [anowanggai](https://github.com/anowanggai/) --- [os202](https://github.com/anowanggai/os202/) --- [https://anowanggai.github.io/os202/](https://anowanggai.github.io/os202/) --- [LOG](https://anowanggai.github.io/os202/TXT/mylog.txt)
 * [arditas](https://github.com/arditas/) --- [os202](https://github.com/arditas/os202/) --- [https://arditas.github.io/os202/](https://arditas.github.io/os202/) --- [LOG](https://arditas.github.io/os202/TXT/mylog.txt)
 * [aulia-adil](https://github.com/aulia-adil/) --- [os202](https://github.com/aulia-adil/os202/) --- [https://aulia-adil.github.io/os202/](https://aulia-adil.github.io/os202/) --- [LOG](https://aulia-adil.github.io/os202/TXT/mylog.txt)
 * [azhar81](https://github.com/azhar81/) --- [os202](https://github.com/azhar81/os202/) --- [https://azhar81.github.io/os202/](https://azhar81.github.io/os202/) --- [LOG](https://azhar81.github.io/os202/TXT/mylog.txt)
@@ -71,4 +71,4 @@ permalink: /GitHubPages/
 * [wienaamanda](https://github.com/wienaamanda/) --- [os202](https://github.com/wienaamanda/os202/) --- [https://wienaamanda.github.io/os202/](https://wienaamanda.github.io/os202/) --- [LOG](https://wienaamanda.github.io/os202/TXT/mylog.txt)
 * [yolandawsirait](https://github.com/yolandawsirait/) --- [os202](https://github.com/yolandawsirait/os202/) --- [https://yolandawsirait.github.io/os202/](https://yolandawsirait.github.io/os202/) --- [LOG](https://yolandawsirait.github.io/os202/TXT/mylog.txt)
 <hr>
-Tue Sep 29 06:48:59 WIB 2020
+Sun Oct  4 17:19:22 WIB 2020
