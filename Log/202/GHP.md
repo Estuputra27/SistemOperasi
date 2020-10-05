@@ -50,7 +50,7 @@ permalink: /GitHubPages/
 * [mdzkm](https://github.com/mdzkm/) --- [os202](https://github.com/mdzkm/os202/) --- [https://mdzkm.github.io/os202/](https://mdzkm.github.io/os202/) --- [LOG](https://mdzkm.github.io/os202/TXT/mylog.txt)
 * [mfadhlan98](https://github.com/mfadhlan98/) --- [os202](https://github.com/mfadhlan98/os202/) --- [https://mfadhlan98.github.io/os202/](https://mfadhlan98.github.io/os202/) --- [LOG](https://mfadhlan98.github.io/os202/TXT/mylog.txt)
 * [mhanif-82](https://github.com/mhanif-82/) --- [os202](https://github.com/mhanif-82/os202/) --- [https://mhanif-82.github.io/os202/](https://mhanif-82.github.io/os202/)
-* [nazifahamidiyati](https://github.com/nazifahamidiyati/) --- [os202](https://github.com/nazifahamidiyati/os202/) --- [GitHub Page]
+* [nazifahamidiyati](https://github.com/nazifahamidiyati/) --- [os202](https://github.com/nazifahamidiyati/os202/) --- [https://nazifahamidiyati.github.io/os202/](https://nazifahamidiyati.github.io/os202/) --- [LOG](https://nazifahamidiyati.github.io/os202/TXT/mylog.txt)
 * [ndafarhan](https://github.com/ndafarhan/) --- [os202](https://github.com/ndafarhan/os202/) --- [https://ndafarhan.github.io/os202/](https://ndafarhan.github.io/os202/) --- [LOG](https://ndafarhan.github.io/os202/TXT/mylog.txt)
 * [nmhlog](https://github.com/nmhlog/) --- [os202](https://github.com/nmhlog/os202/) --- [https://nmhlog.github.io/os202/](https://nmhlog.github.io/os202/) --- [LOG](https://nmhlog.github.io/os202/TXT/mylog.txt)
 * [nyomangedar](https://github.com/nyomangedar/) --- [os202](https://github.com/nyomangedar/os202/) --- [https://nyomangedar.github.io/os202/](https://nyomangedar.github.io/os202/) --- [LOG](https://nyomangedar.github.io/os202/TXT/mylog.txt)
@@ -71,4 +71,4 @@ permalink: /GitHubPages/
 * [wienaamanda](https://github.com/wienaamanda/) --- [os202](https://github.com/wienaamanda/os202/) --- [https://wienaamanda.github.io/os202/](https://wienaamanda.github.io/os202/) --- [LOG](https://wienaamanda.github.io/os202/TXT/mylog.txt)
 * [yolandawsirait](https://github.com/yolandawsirait/) --- [os202](https://github.com/yolandawsirait/os202/) --- [https://yolandawsirait.github.io/os202/](https://yolandawsirait.github.io/os202/) --- [LOG](https://yolandawsirait.github.io/os202/TXT/mylog.txt)
 <hr>
-Sun Oct  4 17:19:22 WIB 2020
+Tue Oct  6 06:45:19 WIB 2020
