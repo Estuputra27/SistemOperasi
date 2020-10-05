@@ -5,13 +5,19 @@
 
   * [Github and GitHub Pages](GitHubPages/)
 
-  * [FAQ](/FAQ/)
+  * [Operating System Programming](https://osp4diss.vlsm.org/)
+
+    * [Log Codes](https://osp4diss.vlsm.org/ETC/logCodes.txt)
+
+    * [CBKadal](https://github.com/cbkadal/os202/)
 
   * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
 
   * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
 
-* **KONTAK**:
+  * [FAQ](/FAQ/)
+
+* **CONTACT**:
 
   * WhatsApp Group (lihat 
     [Week 00](Slides/os00.pdf))
@@ -44,10 +50,6 @@
   * [Demo/Lab Sistem Operasi](https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos/) 
 
 * [**YouTube PlayLists**](/playlists/)
-
-* [Operating System Programming](https://osp4diss.vlsm.org/)
-
-  * [Log Codes](https://osp4diss.vlsm.org/ETC/logCodes.txt)
 
 * Himpunan Soal Ujian Sistem Operasi
 
