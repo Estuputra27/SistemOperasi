@@ -1,7 +1,6 @@
-# REV13 Sun Feb 23 16:54:44 WIB 2020
+# REV14 Mon Oct 12 11:32:36 WIB 2020
 # REV11 Thu Jan 17 15:58:20 WIB 2019
 # REV10 Thu Oct  4 10:41:39 WIB 2018
-# REV03 Thu Mar  9 21:18:27 WIB 2017
 # START Tue Sep 13 11:44:18 WIB 2016
 
 # INFO: With this "Makefile", just run:
@@ -28,6 +27,7 @@ P15=15-uts181
 P16=16-uts182
 P17=17-uts191
 P18=18-uts192
+P19=19-uts201
 
 
 EXECS= \
@@ -50,6 +50,7 @@ EXECS= \
         $(P16) \
         $(P17) \
         $(P18) \
+        $(P19) \
 
 
 DEMOFILES=\
@@ -124,6 +125,9 @@ $(P17): $(P17).c
 
 $(P18): $(P18).c
 	$(CC) $(P18).c -o $(P18)
+
+$(P19): $(P19).c
+	$(CC) $(P19).c -o $(P19)
 
 clean:
 	rm -f ${EXECS} 
