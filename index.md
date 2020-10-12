@@ -3,7 +3,9 @@
 
 * [STATUS](/STATUS/)
 
-  * [Github and GitHub Pages](GitHubPages/)
+  * [Github and GitHub Pages](GitHubPages/) 
+
+  * [WEEK04](WEEK/W04.tar.bz2.asc)
 
   * [Report](REPORT/)
 
