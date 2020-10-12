@@ -1,5 +1,5 @@
 # INFO: Read This First! ==== ========= =========
-# Version: Mon Oct 12 11:23:02 WIB 2020
+# Version: Mon Oct 12 11:28:59 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:

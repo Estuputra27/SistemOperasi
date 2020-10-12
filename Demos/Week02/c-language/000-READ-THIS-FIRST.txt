@@ -1,5 +1,5 @@
 # INFO: Read This First! ==== ========= =========
-# Version: Mon Oct 12 11:23:02 WIB 2020
+# Version: Mon Oct 12 11:28:59 WIB 2020
 cat $0; exit 0;
 ========= ========= ========= ========= ========= ========= ========= =========
 These files are available in:
@@ -44,6 +44,7 @@ Just run: make
 [    13-uts182.c] UTS 2018-1 (midterm)
 [    14-uts191.c] UTS 2019-1 (midterm)
 [    15-uts192.c] UTS 2019-2 (midterm)
+[    16-uts201.c] UTS 2020-1 (midterm)
 [       Makefile] With this "Makefile", just run:
                     make
 ========= ========= ========= ========= ========= ========= ========= =========
