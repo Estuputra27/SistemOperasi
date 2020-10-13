@@ -7,74 +7,76 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W03: os202 report === ===
-### ==== Tue 13 Oct 2020 08:24:49 PM WIB ====
+### ==== Tue 13 Oct 2020 08:50:07 PM WIB ====
 <hr>
 
 ```
-aannurwahidi7          19819 OKSHA
-abebrahmana            8D0FE OKSHA
-Abimanyu-TheProgrammer 26CD8 X5SHA
-achmadafriza           94887 OKSHA
-achmadteddy            X1PUB X3SHA
-akbarrafs              457EE OKSHA
-aks861                 D9361 OKSHA
-aliasadillah           40577 OKSHA
-alifyandra             6AEA3 OKSHA
-althof3                899A9 OKSHA
-anowanggai             27F41 OKSHA
-arditas                X1PUB X3SHA
-aulia-adil             F8BD0 OKSHA
-azhar81                1AFEA OKSHA
-baguspr                84576 OKSHA
-bilazahra              B523D OKSHA
-bonarws                036A5 OKSHA
-chandapap              5C0DD X5SHA
-Constantine-Kevin      68F30 OKSHA
-dandyfebriano          A34DF OKSHA
-destarass              4C78C OKSHA
-eugenebrigita          42484 OKSHA
-fadintan               C659C OKSHA
-fahdikrie              68C63 OKSHA
-fathinah               AF5D2 OKSHA
-fathurrp               0E7A5 OKSHA
-ferenica               X1PUB X3SHA
-fghaffar26             26326 OKSHA
-gilbertstefano48       B6554 OKSHA
-gpersable              B4128 OKSHA
-Haskucy                A8D7E OKSHA
-hazlazuardi            1BA86 OKSHA
-HugoIr                 FF8D3 OKSHA
-idrisyoga23            84336 X5SHA
-ivanadebora            D93B6 X5SHA
-jeremiahtennes         F6DDE OKSHA
-johanessteven19        D4FC8 OKSHA
-kukuhhafiyyan          A7B2C OKSHA
-lostfocus94            4A223 OKSHA
-marioekaputta          167D7 OKSHA
-mauludiam              X1PUB X3SHA
-mdzkm                  0BB51 OKSHA
-mfadhlan98             X1PUB X3SHA
-mhanif-82              BF855 OKSHA
-nazifahamidiyati       X1PUB X3SHA
-ndafarhan              347A8 X5SHA
-nmhlog                 68CAA OKSHA
-nyomangedar            B99FC OKSHA
-piawaisaid             X1PUB X3SHA
-primogu                C4633 OKSHA
-putrisalsa26           4DDE9 OKSHA
-qiwqiw                 2DC04 OKSHA
-rabialco               6A659 OKSHA
-raihanarmon            A2F24 X5SHA
-rioafirando            38CC9 OKSHA
-saddamonpc             36F91 OKSHA
-saridss                6943A OKSHA
-setoaprasetyo          C3CE3 X5SHA
-siepenmaru             0C1E8 OKSHA
-stevenciayadi          86A29 OKSHA
-taufikalgi             AEBAA OKSHA
-vianra                 1EAA7 OKSHA
-wienaamanda            3F6F7 OKSHA
-yolandawsirait         C35A7 OKSHA
+GitHubAccount         PubKey SHA256  LOG
+========================================
+aannurwahidi7          19819  OKSHA  410
+abebrahmana            8D0FE  OKSHA  615
+Abimanyu-TheProgrammer 26CD8  X5SHA  150
+achmadafriza           94887  OKSHA  600
+achmadteddy            X1PUB  X3SHA    0
+akbarrafs              457EE  OKSHA  484
+aks861                 D9361  OKSHA  480
+aliasadillah           40577  OKSHA  755
+alifyandra             6AEA3  OKSHA  260
+althof3                899A9  OKSHA  794
+anowanggai             27F41  OKSHA  485
+arditas                X1PUB  X3SHA    0
+aulia-adil             F8BD0  OKSHA  592
+azhar81                1AFEA  OKSHA  206
+baguspr                84576  OKSHA    0
+bilazahra              B523D  OKSHA  445
+bonarws                036A5  OKSHA  270
+chandapap              5C0DD  X5SHA  570
+Constantine-Kevin      68F30  OKSHA  395
+dandyfebriano          A34DF  OKSHA  345
+destarass              4C78C  OKSHA  815
+eugenebrigita          42484  OKSHA  400
+fadintan               C659C  OKSHA  577
+fahdikrie              68C63  OKSHA  383
+fathinah               AF5D2  OKSHA  410
+fathurrp               0E7A5  OKSHA  975
+ferenica               X1PUB  X3SHA   60
+fghaffar26             26326  OKSHA  703
+gilbertstefano48       B6554  OKSHA  815
+gpersable              B4128  OKSHA  638
+Haskucy                A8D7E  OKSHA  340
+hazlazuardi            1BA86  OKSHA    0
+HugoIr                 FF8D3  OKSHA  555
+idrisyoga23            84336  X5SHA 1355
+ivanadebora            D93B6  X5SHA    0
+jeremiahtennes         F6DDE  OKSHA  700
+johanessteven19        D4FC8  OKSHA  305
+kukuhhafiyyan          A7B2C  OKSHA  190
+lostfocus94            4A223  OKSHA  290
+marioekaputta          167D7  OKSHA  260
+mauludiam              X1PUB  X3SHA  210
+mdzkm                  0BB51  OKSHA  320
+mfadhlan98             X1PUB  X3SHA    0
+mhanif-82              BF855  OKSHA 1510
+nazifahamidiyati       X1PUB  X3SHA    0
+ndafarhan              347A8  X5SHA    0
+nmhlog                 68CAA  OKSHA 2010
+nyomangedar            B99FC  OKSHA  285
+piawaisaid             X1PUB  X3SHA    0
+primogu                C4633  OKSHA  410
+putrisalsa26           4DDE9  OKSHA  613
+qiwqiw                 2DC04  OKSHA  320
+rabialco               6A659  OKSHA  885
+raihanarmon            A2F24  X5SHA  495
+rioafirando            38CC9  OKSHA  305
+saddamonpc             36F91  OKSHA  360
+saridss                6943A  OKSHA 1058
+setoaprasetyo          C3CE3  X5SHA  300
+siepenmaru             0C1E8  OKSHA  420
+stevenciayadi          86A29  OKSHA  640
+taufikalgi             AEBAA  OKSHA  715
+vianra                 1EAA7  OKSHA  560
+wienaamanda            3F6F7  OKSHA  625
+yolandawsirait         C35A7  OKSHA    0
 ```
 
 <hr>
