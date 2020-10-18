@@ -7,76 +7,76 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W03: os202 report === ===
-### ==== Wed 14 Oct 2020 01:26:08 AM WIB ====
+### ==== Sun Oct 18 21:40:10 WIB 2020 ====
 <hr>
 
 ```
-GitHubAccount         PubKey SHA256  LOG   RANK Vote Files TOKEN
-================================================================
-aannurwahidi7          19819  OKSHA  410 OKRANK    0  1  0 OKTKN
-abebrahmana            8D0FE  OKSHA  615 OKRANK    2  2 10 OKTKN
-Abimanyu-TheProgrammer 26CD8  X5SHA  150 OKRANK    2  2 15 OKTKN
-achmadafriza           94887  OKSHA  600 OKRANK    2  2 11 OKTKN
-achmadteddy            X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN
-akbarrafs              457EE  OKSHA  484 OKRANK    4  2  7 OKTKN
-aks861                 D9361  OKSHA  480 OKRANK    2  2 10 OKTKN
-aliasadillah           40577  OKSHA  755 OKRANK    1  2 10 X4TKN
-alifyandra             6AEA3  OKSHA  260 OKRANK    7  2 10 OKTKN
-althof3                899A9  OKSHA  794 OKRANK    3  2 10 OKTKN
-anowanggai             27F41  OKSHA  485 OKRANK    5  2 10 OKTKN
-arditas                X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN
-aulia-adil             F8BD0  OKSHA  592 OKRANK    6  2  9 OKTKN
-azhar81                1AFEA  OKSHA  206 OKRANK    1  2 11 OKTKN
-baguspr                84576  OKSHA    0 OKRANK    3  1  9 X4TKN
-bilazahra              B523D  OKSHA  445 OKRANK    2  2 11 OKTKN
-bonarws                036A5  OKSHA  270 OKRANK    2  2 10 OKTKN
-chandapap              5C0DD  X5SHA  570 OKRANK    0  0  0 X3TKN
-Constantine-Kevin      68F30  OKSHA  395 OKRANK    1  2 10 OKTKN
-dandyfebriano          A34DF  OKSHA  345 OKRANK    1  2  8 OKTKN
-destarass              4C78C  OKSHA  815 OKRANK    5  2 11 OKTKN
-eugenebrigita          42484  OKSHA  400 OKRANK    4  2  5 OKTKN
-fadintan               C659C  OKSHA  577 OKRANK    5  2  9 X5TKN
-fahdikrie              68C63  OKSHA  383 OKRANK    2  2 10 OKTKN
-fathinah               AF5D2  OKSHA  410 OKRANK    1  2  0 OKTKN
-fathurrp               0E7A5  OKSHA  975 OKRANK    2  2  0 OKTKN
-ferenica               X1PUB  X3SHA   60 X2RANK    1  1  0 X3TKN
-fghaffar26             26326  OKSHA  703 OKRANK    5  2 11 OKTKN
-gilbertstefano48       B6554  OKSHA  815 OKRANK    2  2  7 OKTKN
-gpersable              B4128  OKSHA  638 OKRANK    3  2 11 OKTKN
-Haskucy                A8D7E  OKSHA  340 OKRANK    0  2 10 X4TKN
-hazlazuardi            1BA86  OKSHA    0 OKRANK    3  2  6 X4TKN
-HugoIr                 FF8D3  OKSHA  555 OKRANK    3  2 11 OKTKN
-idrisyoga23            84336  X5SHA 1355 OKRANK    4  2  3 OKTKN
-ivanadebora            D93B6  X5SHA    0 OKRANK    3  0  0 X3TKN
-jeremiahtennes         F6DDE  OKSHA  700 OKRANK    3  2 10 OKTKN
-johanessteven19        D4FC8  OKSHA  305 OKRANK    1  2  1 OKTKN
-kukuhhafiyyan          A7B2C  OKSHA  190 OKRANK    4  0  0 OKTKN
-lostfocus94            4A223  OKSHA  290 OKRANK    2  2 12 OKTKN
-marioekaputta          167D7  OKSHA  260 OKRANK    0  2 10 OKTKN
-mauludiam              X1PUB  X3SHA  210 OKRANK    0  2 14 X3TKN
-mdzkm                  0BB51  OKSHA  320 OKRANK    2  2 10 OKTKN
-mfadhlan98             X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN
-mhanif-82              BF855  OKSHA 1510 OKRANK    4  2  7 OKTKN
-nazifahamidiyati       X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN
-ndafarhan              347A8  X5SHA    0 OKRANK    2  0  0 OKTKN
-nmhlog                 68CAA  OKSHA 2010 OKRANK    2  2 10 OKTKN
-nyomangedar            B99FC  OKSHA  285 OKRANK    2  2  8 OKTKN
-piawaisaid             X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN
-primogu                C4633  OKSHA  410 OKRANK    4  2 10 OKTKN
-putrisalsa26           4DDE9  OKSHA  613 OKRANK    2  2 10 X4TKN
-qiwqiw                 2DC04  OKSHA  320 OKRANK    4  2  8 OKTKN
-rabialco               6A659  OKSHA  885 OKRANK    4  2  3 OKTKN
-raihanarmon            A2F24  X5SHA  495 OKRANK    2  2 10 OKTKN
-rioafirando            38CC9  OKSHA  305 OKRANK    5  2 11 OKTKN
-saddamonpc             36F91  OKSHA  360 OKRANK    5  2 11 OKTKN
-saridss                6943A  OKSHA 1058 OKRANK    5  2 11 X4TKN
-setoaprasetyo          C3CE3  X5SHA  300 OKRANK    6  2 10 OKTKN
-siepenmaru             0C1E8  OKSHA  420 OKRANK    0  2 10 OKTKN
-stevenciayadi          86A29  OKSHA  640 OKRANK    2  2 10 OKTKN
-taufikalgi             AEBAA  OKSHA  715 OKRANK    0  2  8 OKTKN
-vianra                 1EAA7  OKSHA  560 OKRANK    2  2 11 OKTKN
-wienaamanda            3F6F7  OKSHA  625 OKRANK    3  2 10 OKTKN
-yolandawsirait         C35A7  OKSHA    0 OKRANK    2  2  8 X4TKN
+GitHubAccount         PubKey SHA256  LOG   RANK Vote Files TOKEN   DISK
+=======================================================================
+aannurwahidi7          19819  OKSHA  410 OKRANK    0  1  0 OKTKN OKDISK
+abebrahmana            8D0FE  OKSHA  615 OKRANK    2  2 10 OKTKN OKDISK
+Abimanyu-TheProgrammer 26CD8  X5SHA  150 OKRANK    2  2 15 OKTKN X4DISK
+achmadafriza           94887  OKSHA  600 OKRANK    2  2 11 OKTKN OKDISK
+achmadteddy            X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN X4DISK
+akbarrafs              457EE  OKSHA  484 OKRANK    4  2  7 OKTKN OKDISK
+aks861                 D9361  OKSHA  480 OKRANK    2  2 10 OKTKN OKDISK
+aliasadillah           40577  OKSHA  755 OKRANK    1  2 10 X4TKN OKDISK
+alifyandra             6AEA3  OKSHA  260 OKRANK    7  2  1 OKTKN OKDISK
+althof3                899A9  OKSHA  794 OKRANK    3  1  0 OKTKN OKDISK
+anowanggai             27F41  OKSHA  485 OKRANK    5  2 10 OKTKN OKDISK
+arditas                X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN X4DISK
+aulia-adil             F8BD0  OKSHA  592 OKRANK    6  2  9 OKTKN OKDISK
+azhar81                1AFEA  OKSHA  206 OKRANK    1  2 11 OKTKN OKDISK
+baguspr                84576  OKSHA    0 OKRANK    3  1  9 X4TKN OKDISK
+bilazahra              B523D  OKSHA  445 OKRANK    2  2 11 OKTKN OKDISK
+bonarws                036A5  OKSHA  270 OKRANK    2  2 10 OKTKN OKDISK
+chandapap              5C0DD  X5SHA  570 OKRANK    0  0  0 X3TKN X4DISK
+Constantine-Kevin      68F30  OKSHA  395 OKRANK    1  2 10 OKTKN OKDISK
+dandyfebriano          A34DF  OKSHA  345 OKRANK    1  2  8 OKTKN OKDISK
+destarass              4C78C  OKSHA  815 OKRANK    5  2 11 OKTKN OKDISK
+eugenebrigita          42484  OKSHA  400 OKRANK    4  2  5 OKTKN OKDISK
+fadintan               C659C  OKSHA  577 OKRANK    5  2  9 X5TKN OKDISK
+fahdikrie              68C63  OKSHA  383 OKRANK    2  2 10 OKTKN OKDISK
+fathinah               AF5D2  OKSHA  410 OKRANK    1  2  0 OKTKN OKDISK
+fathurrp               0E7A5  OKSHA  975 OKRANK    2  2  0 OKTKN OKDISK
+ferenica               X1PUB  X3SHA   60 X2RANK    1  1  0 X3TKN X4DISK
+fghaffar26             26326  OKSHA  703 OKRANK    5  2 11 OKTKN OKDISK
+gilbertstefano48       B6554  OKSHA  815 OKRANK    2  2  7 OKTKN OKDISK
+gpersable              B4128  OKSHA  638 OKRANK    3  2 11 OKTKN OKDISK
+Haskucy                A8D7E  OKSHA  340 OKRANK    0  2 10 X4TKN OKDISK
+hazlazuardi            1BA86  OKSHA    0 OKRANK    3  2  6 X4TKN X5DISK
+HugoIr                 FF8D3  OKSHA  555 OKRANK    3  2 11 OKTKN OKDISK
+idrisyoga23            84336  X5SHA 1355 OKRANK    4  2  3 OKTKN OKDISK
+ivanadebora            D93B6  X5SHA    0 OKRANK    3  0  0 X3TKN X4DISK
+jeremiahtennes         F6DDE  OKSHA  700 OKRANK    3  2 10 OKTKN OKDISK
+johanessteven19        D4FC8  OKSHA  305 OKRANK    1  2  1 OKTKN OKDISK
+kukuhhafiyyan          A7B2C  OKSHA  190 OKRANK    4  0  0 OKTKN OKDISK
+lostfocus94            4A223  OKSHA  290 OKRANK    2  2 12 OKTKN OKDISK
+marioekaputta          167D7  OKSHA  260 OKRANK    0  2 10 OKTKN OKDISK
+mauludiam              X1PUB  X3SHA  210 OKRANK    0  2 14 X3TKN X4DISK
+mdzkm                  0BB51  OKSHA  320 OKRANK    2  2 10 OKTKN OKDISK
+mfadhlan98             X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN X4DISK
+mhanif-82              BF855  OKSHA 1510 OKRANK    4  2  7 OKTKN OKDISK
+nazifahamidiyati       X1PUB  X3SHA    0 X2RANK    0  1 10 X3TKN X4DISK
+ndafarhan              347A8  X5SHA    0 OKRANK    2  0  0 OKTKN X5DISK
+nmhlog                 68CAA  OKSHA 2010 OKRANK    2  2 10 OKTKN OKDISK
+nyomangedar            B99FC  OKSHA  285 OKRANK    2  2  8 OKTKN OKDISK
+piawaisaid             X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN X4DISK
+primogu                C4633  OKSHA  410 OKRANK    4  2 10 OKTKN OKDISK
+putrisalsa26           4DDE9  OKSHA  613 OKRANK    2  2 10 X4TKN OKDISK
+qiwqiw                 2DC04  OKSHA  320 OKRANK    4  2  8 OKTKN OKDISK
+rabialco               6A659  OKSHA  885 OKRANK    4  2  3 OKTKN OKDISK
+raihanarmon            A2F24  X5SHA  495 OKRANK    2  2 10 OKTKN OKDISK
+rioafirando            38CC9  OKSHA  305 OKRANK    5  2 11 OKTKN X5DISK
+saddamonpc             36F91  OKSHA  360 OKRANK    5  2 11 OKTKN OKDISK
+saridss                6943A  OKSHA 1058 OKRANK    5  2 11 X4TKN OKDISK
+setoaprasetyo          C3CE3  X5SHA  300 OKRANK    6  2 10 OKTKN OKDISK
+siepenmaru             0C1E8  OKSHA  420 OKRANK    0  2 10 OKTKN OKDISK
+stevenciayadi          86A29  OKSHA  640 OKRANK    2  2 10 OKTKN OKDISK
+taufikalgi             AEBAA  OKSHA  715 OKRANK    0  2  8 OKTKN OKDISK
+vianra                 1EAA7  OKSHA  560 OKRANK    2  2 11 OKTKN OKDISK
+wienaamanda            3F6F7  OKSHA  625 OKRANK    3  2 10 OKTKN OKDISK
+yolandawsirait         C35A7  OKSHA    0 OKRANK    2  2  8 X4TKN OKDISK
 ```
 
 <hr>
@@ -114,3 +114,11 @@ yolandawsirait         C35A7  OKSHA    0 OKRANK    2  2  8 X4TKN
 * X4TKN Different GitHubAccount.
 * X5TKN Token not matched.
 <hr>
+* OKDISK myW03disk.txt is OK
+* X0X0   Other Error.
+* X1DISK Other Error.
+* X2DISK Other Error.
+* X3DISK Other Error.
+* X4DISK No myW03disk.txt file
+* X5DISK No myW03disk.txt information
+
