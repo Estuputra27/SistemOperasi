@@ -7,7 +7,7 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W05: os202 report === ===
-### ==== Fri 06 Nov 2020 09:07:31 PM WIB ====
+### ==== Fri Nov  6 23:08:42 WIB 2020 ====
 <hr>
 
 ```
