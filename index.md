@@ -5,7 +5,7 @@
 
   * [Github and GitHub Pages](GitHubPages/) 
 
-  * [WEEK06](WEEK/W06.tar.bz2.asc)
+  * [WEEK07](WEEK/W07.tar.bz2.asc)
 
   * [Report](REPORT/)
 
