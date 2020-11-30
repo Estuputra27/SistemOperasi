@@ -5,8 +5,6 @@
 
   * [Github and GitHub Pages](GitHubPages/) 
 
-  * [WEEK07](WEEK/W07.tar.bz2.asc)
-
   * [Report](REPORT/)
 
   * [Operating System Programming](https://osp4diss.vlsm.org/)
