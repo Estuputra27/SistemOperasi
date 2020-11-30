@@ -7,7 +7,7 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W07: os202 report === ===
-### ==== Mon Nov 30 11:02:23 WIB 2020 ====
+### ==== Mon Nov 30 12:46:44 WIB 2020 ====
 <hr>
 
 ```
@@ -77,7 +77,7 @@ taufikalgi             AEBAA  OKSHA  392 OKRANK    3  2  9 OKTKN     1  OKTAR   
 vianra                 1EAA7  OKSHA  530 OKRANK    2  2 11 OKTKN     2  OKTAR   10
 wienaamanda            3F6F7  OKSHA  380 OKRANK    5  2 10 OKTKN     2  OKTAR   10
 yolandawsirait         C35A7  OKSHA    0 OKRANK    2  2 10 OKTKN     2  OKTAR    1
-zzzzzz                 27BF1  OKSHA  240 OKRANK    5  1 12 OKTKN     3  OKTAR   10
+zzzzzz                 27BF1  OKSHA  240 OKRANK    5  2 12 OKTKN     3  OKTAR   10
 ```
 
 <hr>
