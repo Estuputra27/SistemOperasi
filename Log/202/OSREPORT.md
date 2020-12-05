@@ -7,7 +7,7 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W08: os202 report === ===
-### ==== Sat Dec  5 15:34:59 WIB 2020 ====
+### ==== Sat Dec  5 22:46:03 WIB 2020 ====
 <hr>
 
 ```
@@ -18,7 +18,7 @@ abebrahmana            8D0FE  OKSHA  410 OKRANK    3  2  0 OKTKN     2  OKTAR OK
 Abimanyu-TheProgrammer 26CD8  OKSHA  370 OKRANK    1  2 11 OKTKN     2  OKTAR OKCHKS X3CHKW    0
 achmadafriza           94887  X5SHA    0 OKRANK    0  0  0 X3TKN     2  X3TAR X0CHKS X0CHKW    0
 achmadteddy            X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN     0  X3TAR X0CHKS X0CHKW    0
-akbarrafs              457EE  OKSHA  660 OKRANK    5  2  7 OKTKN     1  OKTAR OKCHKS OKCHKW    1
+akbarrafs              457EE  OKSHA  660 OKRANK    6  2  7 OKTKN     1  OKTAR OKCHKS OKCHKW    1
 aks861                 D9361  OKSHA  550 OKRANK    4  2  7 OKTKN     3  OKTAR OKCHKS OKCHKW    1
 aliasadillah           40577  X5SHA    0 OKRANK    1  0  0 X3TKN     2  X3TAR X0CHKS X0CHKW    0
 alifyandra             6AEA3  OKSHA  365 OKRANK    6  2  2 OKTKN     2  OKTAR OKCHKS OKCHKW    1
@@ -26,7 +26,7 @@ althof3                899A9  OKSHA  770 OKRANK    4  2 10 OKTKN     3  OKTAR X0
 anowanggai             27F41  OKSHA  190 OKRANK    2  2 10 OKTKN     0  OKTAR OKCHKS X3CHKW    0
 arditas                X1PUB  X3SHA    0 X2RANK    1  0  0 X3TKN     0  X3TAR X0CHKS X0CHKW    0
 aulia-adil             F8BD0  OKSHA  746 OKRANK    2  2 10 OKTKN     2  OKTAR OKCHKS OKCHKW    1
-azhar81                1AFEA  X5SHA    0 OKRANK    3  1 11 X3TKN     1  X3TAR X0CHKS X0CHKW    0
+azhar81                1AFEA  OKSHA  310 OKRANK    3  2 11 OKTKN     1  OKTAR OKCHKS OKCHKW    1
 baguspr                B9736  OKSHA  325 OKRANK    3  1 10 OKTKN     1  OKTAR OKCHKS OKCHKW    1
 bilazahra              B523D  X5SHA  310 OKRANK    3  2 11 X3TKN     0  X3TAR X0CHKS X0CHKW    0
 bonarws                036A5  X5SHA  150 OKRANK    2  2 10 OKTKN     0  X5TAR X0CHKS X0CHKW    0
@@ -38,13 +38,13 @@ eugenebrigita          42484  X5SHA    0 OKRANK    3  0  0 X3TKN     1  X3TAR X0
 fadintan               C659C  OKSHA  530 OKRANK    1  2 10 OKTKN     3  OKTAR OKCHKS OKCHKW    2
 fahdikrie              68C63  X5SHA  803 OKRANK    3  2 10 OKTKN     2  X3TAR X0CHKS X0CHKW    0
 fathinah               AF5D2  OKSHA  650 OKRANK    4  2  7 OKTKN     3  OKTAR OKCHKS OKCHKW    1
-fathurrp               0E7A5  X5SHA    0 OKRANK    2  1  9 X3TKN     1  X3TAR X0CHKS X0CHKW    0
+fathurrp               0E7A5  X5SHA  810 OKRANK    2  2  9 X4TKN     1  OKTAR X0CHKS X0CHKW    0
 ferenica               1DCD6  OKSHA  443 OKRANK    1  2 11 OKTKN     1  OKTAR OKCHKS OKCHKW    1
 fghaffar26             26326  OKSHA  142 OKRANK    2  2 10 OKTKN     2  OKTAR OKCHKS OKCHKW    0
 gilbertstefano48       B6554  OKSHA  740 OKRANK    2  2  9 OKTKN     1  OKTAR OKCHKS OKCHKW    0
 gpersable              9C507  OKSHA  490 OKRANK    7  2 11 OKTKN     3  OKTAR OKCHKS OKCHKW    1
 Haskucy                A8D7E  X5SHA    0 OKRANK    0  0  0 X3TKN     1  X3TAR X0CHKS X0CHKW    0
-hazlazuardi            B79AD  X5SHA  564 OKRANK    6  2 11 OKTKN     2  X3TAR X0CHKS X0CHKW    0
+hazlazuardi            B79AD  OKSHA  564 OKRANK    6  2 11 OKTKN     2  OKTAR OKCHKS OKCHKW    1
 HugoIr                 FF8D3  OKSHA  518 OKRANK    5  2 11 OKTKN     2  OKTAR OKCHKS OKCHKW    1
 idrisyoga23            84336  OKSHA  560 OKRANK    3  2  6 OKTKN     1  OKTAR OKCHKS X3CHKW    0
 ivanadebora            D93B6  X5SHA    0 OKRANK    1  0  0 X3TKN     0  X3TAR X0CHKS X0CHKW    0
@@ -57,27 +57,27 @@ mauludiam              X1PUB  X3SHA    0 OKRANK    2  0  0 X3TKN     0  X3TAR X0
 mdzkm                  0BB51  OKSHA  265 OKRANK    1  2 10 OKTKN     1  OKTAR OKCHKS OKCHKW    1
 mfadhlan98             X1PUB  X3SHA    0 X2RANK    0  0  0 X3TKN     0  X3TAR X0CHKS X0CHKW    0
 mhanif-82              BF855  OKSHA  775 OKRANK    5  2  8 OKTKN     2  OKTAR X0CHKS X0CHKW    2
-nazifahamidiyati       B82FF  X5SHA    0 OKRANK    1  2  0 X4TKN     0  X3TAR X0CHKS X0CHKW    0
+nazifahamidiyati       B82FF  X5SHA  715 OKRANK    1  2  0 X4TKN     0  X3TAR X0CHKS X0CHKW    0
 ndafarhan              347A8  X5SHA    0 OKRANK    0  0  0 X3TKN     1  X3TAR X0CHKS X0CHKW    0
 nmhlog                 68CAA  OKSHA    0 OKRANK    3  2 10 OKTKN     2  OKTAR OKCHKS OKCHKW    1
-nyomangedar            B99FC  OKSHA  250 OKRANK    2  2  7 OKTKN     2  OKTAR OKCHKS OKCHKW    1
-piawaisaid             8FA6F  X5SHA    0 OKRANK    1  2 10 X3TKN     3  X3TAR X0CHKS X0CHKW    0
+nyomangedar            B99FC  OKSHA  250 OKRANK    3  2  7 OKTKN     2  OKTAR OKCHKS OKCHKW    1
+piawaisaid             8FA6F  OKSHA  355 OKRANK    1  2 10 OKTKN     3  OKTAR OKCHKS OKCHKW    1
 primogu                C4633  OKSHA  730 OKRANK    4  2  9 OKTKN     2  OKTAR OKCHKS OKCHKW    1
 putrisalsa26           4DDE9  OKSHA  619 OKRANK    2  2 10 OKTKN     2  OKTAR OKCHKS OKCHKW    1
 qiwqiw                 2DC04  OKSHA  385 OKRANK    4  2  5 OKTKN     2  OKTAR OKCHKS OKCHKW    1
 rabialco               6A659  OKSHA  975 OKRANK    3  2  4 OKTKN     1  OKTAR OKCHKS OKCHKW    1
-raihanarmon            A2F24  X5SHA  420 OKRANK    3  2 10 OKTKN     2  X3TAR X0CHKS X0CHKW    0
+raihanarmon            A2F24  X5SHA  420 OKRANK    4  2 10 OKTKN     2  X3TAR X0CHKS X0CHKW    0
 rioafirando            38CC9  OKSHA  555 OKRANK    2  2 11 OKTKN     2  OKTAR OKCHKS OKCHKW    2
 saddamonpc             36F91  OKSHA  270 OKRANK    4  2 10 OKTKN     1  X5TAR X0CHKS X0CHKW    0
 saridss                58C05  OKSHA  257 OKRANK    2  2 11 OKTKN     2  OKTAR OKCHKS OKCHKW    1
-setoaprasetyo          C3CE3  X5SHA  300 OKRANK    5  2  5 OKTKN     2  X5TAR X0CHKS X0CHKW    0
+setoaprasetyo          C3CE3  X5SHA  300 OKRANK    5  2  5 OKTKN     2  OKTAR OKCHKS X3CHKW    1
 siepenmaru             0C1E8  OKSHA  350 OKRANK    4  2  8 OKTKN     3  X5TAR X0CHKS X0CHKW    0
 stevenciayadi          86A29  OKSHA  715 OKRANK    4  2  9 OKTKN     2  OKTAR OKCHKS X3CHKW    1
 taufikalgi             AEBAA  X5SHA  395 OKRANK    3  2 10 OKTKN     0  X3TAR X0CHKS X0CHKW    0
 vianra                 1EAA7  OKSHA  455 OKRANK    3  2 11 OKTKN     2  OKTAR OKCHKS X3CHKW    2
 wienaamanda            3F6F7  OKSHA  436 OKRANK    6  2 10 OKTKN     3  OKTAR OKCHKS OKCHKW    1
 yolandawsirait         C35A7  OKSHA    0 OKRANK    4  2 12 X4TKN     1  OKTAR OKCHKS X3CHKW    1
-zzzzzz                 27BF1  OKSHA  240 OKRANK    5  2 15 OKTKN     3  OKTAR OKCHKS OKCHKW    1
+zzzzzz                 27BF1  OKSHA  240 OKRANK    5  2 15 OKTKN     3  OKTAR OKCHKS X3CHKW    1
 ```
 
 <hr>
