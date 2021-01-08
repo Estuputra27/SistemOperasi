@@ -1,33 +1,22 @@
 ---
 ---
 
-* [STATUS](/STATUS/)
-
-  * [Github and GitHub Pages](GitHubPages/) 
-
-  * [Report](REPORT/)
-
-  * [Operating System Programming](https://osp4diss.vlsm.org/)
-
-    * [Log Codes](https://osp4diss.vlsm.org/ETC/logCodes.txt)
-
-    * [CBKadal](https://github.com/cbkadal/os202/)
-
-  * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
-
-  * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
-
-  * [FAQ](/FAQ/)
-
-* **CONTACT**:
-
-  * WhatsApp Group (lihat 
-    [Week 00](Slides/os00.pdf))
-
+# HOW TO CONTACT the lecturer
   * Email (Subject:[**HELP**]) operatingsystems at vlsm dot org
+  * See also [THIS LINK](https://rahmatm.samik-ibrahim.vlsm.org/2021/01/how-to-contact-rahmat-m-samik-ibrahim.html)
+  * **NEVER EVER** text / call the lecturer.
+  * No [Puss in Boots face](pib.jpg), please!
 
+# [STATUS](/STATUS/)
+  * [Github and GitHub Pages](GitHubPages/) 
+  * [Report](REPORT/)
+  * [Operating System Programming](https://osp4diss.vlsm.org/)
+    * [Log Codes](https://osp4diss.vlsm.org/ETC/logCodes.txt)
+    * [CBKadal](https://github.com/cbkadal/os202/)
+  * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
+  * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
+  * [FAQ](/FAQ/)
   * This Site: [https://os.vlsm.org/](https://os.vlsm.org/)
-
   * GitHub: [https://github.com/UI-FASILKOM-OS/SistemOperasi/](https://github.com/UI-FASILKOM-OS/SistemOperasi)
 
 * [GITHUB](https://github.com/):
@@ -120,6 +109,8 @@ terutama jika memiliki solusi alternatif.
 Semoga catatan ini akan bermanfaat di masa mendatang,
 saat sudah lupa cara menyelesaikan masalah trivia ini.<br><br>
 <div style="text-align: right;">
-<a href="http://rahmatm.samik-ibrahim.vlsm.org/">--- Rahmat M. Samik-Ibrahim</a><br></div>
+<h2>Qapla, Jolan Tru!</h2>
+<a href="http://rahmatm.samik-ibrahim.vlsm.org/2021/01/how-to-contact-rahmat-m-samik-ibrahim.html">---
+Rahmat M. Samik-Ibrahim</a><br></div>
 <br>
 
