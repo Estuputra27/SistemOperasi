@@ -13,7 +13,7 @@
   * [Operating System Programming](https://osp4diss.vlsm.org/)
     * [Log Codes](https://osp4diss.vlsm.org/ETC/logCodes.txt)
     * [CBKadal](https://github.com/cbkadal/os202/)
-  * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3020)
+  * [Info SCELE](https://scele.cs.ui.ac.id/course/view.php?id=3134)
   * [Download (ZIP)](https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip)
   * [FAQ](/FAQ/)
   * This Site: [https://os.vlsm.org/](https://os.vlsm.org/)
