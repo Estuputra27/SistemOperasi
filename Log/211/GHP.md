@@ -1,0 +1,6 @@
+---
+permalink: /GitHubPages/
+---
+
+## GitHub Pages
+
