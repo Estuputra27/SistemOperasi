@@ -7,7 +7,7 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W00: os211 report === ===
-### ==== Fri 19 Feb 23:44:24 WIB 2021 ====
+### ==== Fri 19 Feb 23:51:06 WIB 2021 ====
 <hr>
 ```
 GitHubAccount             LOG
@@ -151,8 +151,5 @@ zulfankasilas           X3LOG
 <br>
 ### LOG
 * (###) Total Weekly Log
-* X0LOG Internal Error
-* X1LOG Internal Error
-* X2LOG Internal Error
 * X3LOG File "TXT/mylog.txt" not found.
 
