@@ -11,14 +11,17 @@ permalink: /GitHubPages/
 * GitHub Account --- Repo --- GitHub Page
 <hr>
 * [abdurrohmanjafar](https://github.com/abdurrohmanjafar/) --- [os211] --- [GitHub Page]
-* [adamyrayeuk](https://github.com/adamyrayeuk/) --- [os211](https://github.com/adamyrayeuk/os211/) --- [https://adamyrayeuk.github.io/os211/](https://adamyrayeuk.github.io/os211/)
-* [Ageng-Anugrah](https://github.com/Ageng-Anugrah/) --- [os211](https://github.com/Ageng-Anugrah/os211/) --- [https://Ageng-Anugrah.github.io/os211/](https://Ageng-Anugrah.github.io/os211/)
+* [AdamSyauqi](https://github.com/AdamSyauqi/) --- [os211] --- [GitHub Page]
+* [adamyrayeuk](https://github.com/adamyrayeuk/) --- [os211](https://github.com/adamyrayeuk/os211/) --- [https://adamyrayeuk.github.io/os211/](https://adamyrayeuk.github.io/os211/) --- [LOG](https://adamyrayeuk.github.io/os211/TXT/mylog.txt)
+* [Ageng-Anugrah](https://github.com/Ageng-Anugrah/) --- [os211](https://github.com/Ageng-Anugrah/os211/) --- [https://Ageng-Anugrah.github.io/os211/](https://Ageng-Anugrah.github.io/os211/) --- [LOG](https://Ageng-Anugrah.github.io/os211/TXT/mylog.txt)
 * [ahmadhaydar](https://github.com/ahmadhaydar/) --- [os211](https://github.com/ahmadhaydar/os211/) --- [GitHub Page]
+* [aladster](https://github.com/aladster/) --- [os211] --- [GitHub Page]
 * [AldiNFitrah](https://github.com/AldiNFitrah/) --- [os211] --- [GitHub Page]
 * [alfina-megasiwi](https://github.com/alfina-megasiwi/) --- [os211] --- [GitHub Page]
 * [AlifHazairin](https://github.com/AlifHazairin/) --- [os211] --- [GitHub Page]
-* [alifsaddid](https://github.com/alifsaddid/) --- [os211](https://github.com/alifsaddid/os211/) --- [https://alifsaddid.github.io/os211/](https://alifsaddid.github.io/os211/)
+* [alifsaddid](https://github.com/alifsaddid/) --- [os211](https://github.com/alifsaddid/os211/) --- [https://alifsaddid.github.io/os211/](https://alifsaddid.github.io/os211/) --- [LOG](https://alifsaddid.github.io/os211/TXT/mylog.txt)
 * [alishayb](https://github.com/alishayb/) --- [os211] --- [GitHub Page]
+* [altschmerz](https://github.com/altschmerz/) --- [os211] --- [GitHub Page]
 * [amandacarrisa](https://github.com/amandacarrisa/) --- [os211] --- [GitHub Page]
 * [amzufar](https://github.com/amzufar/) --- [os211](https://github.com/amzufar/os211/) --- [GitHub Page]
 * [AndreSeptiano](https://github.com/AndreSeptiano/) --- [os211] --- [GitHub Page]
@@ -29,7 +32,7 @@ permalink: /GitHubPages/
 * [antoniusanggito](https://github.com/antoniusanggito/) --- [os211] --- [GitHub Page]
 * [ardi-nusantara](https://github.com/ardi-nusantara/) --- [os211] --- [GitHub Page]
 * [arroganthooman](https://github.com/arroganthooman/) --- [os211] --- [GitHub Page]
-* [asfiowilma](https://github.com/asfiowilma/) --- [os211] --- [GitHub Page]
+* [asfiowilma](https://github.com/asfiowilma/) --- [os211](https://github.com/asfiowilma/os211/) --- [https://asfiowilma.github.io/os211/](https://asfiowilma.github.io/os211/)
 * [astriddiany](https://github.com/astriddiany/) --- [os211] --- [GitHub Page]
 * [athiyafatihah](https://github.com/athiyafatihah/) --- [os211] --- [GitHub Page]
 * [azkafitria](https://github.com/azkafitria/) --- [os211] --- [GitHub Page]
@@ -45,10 +48,10 @@ permalink: /GitHubPages/
 * [darren.ngoh] --- [os211] --- [GitHub Page]
 * [dewa251202](https://github.com/dewa251202/) --- [os211] --- [GitHub Page]
 * [dirtboll](https://github.com/dirtboll/) --- [os211](https://github.com/dirtboll/os211/) --- [GitHub Page]
-* [dnswd](https://github.com/dnswd/) --- [os211](https://github.com/dnswd/os211/) --- [https://dnswd.github.io/os211/](https://dnswd.github.io/os211/)
+* [dnswd](https://github.com/dnswd/) --- [os211](https://github.com/dnswd/os211/) --- [https://dnswd.github.io/os211/](https://dnswd.github.io/os211/) --- [LOG](https://dnswd.github.io/os211/TXT/mylog.txt)
 * [ekojsalim](https://github.com/ekojsalim/) --- [os211] --- [GitHub Page]
 * [Etyaresa](https://github.com/Etyaresa/) --- [os211] --- [GitHub Page]
-* [Exqrch](https://github.com/Exqrch/) --- [os211](https://github.com/Exqrch/os211/) --- [https://Exqrch.github.io/os211/](https://Exqrch.github.io/os211/)
+* [Exqrch](https://github.com/Exqrch/) --- [os211](https://github.com/Exqrch/os211/) --- [https://Exqrch.github.io/os211/](https://Exqrch.github.io/os211/) --- [LOG](https://Exqrch.github.io/os211/TXT/mylog.txt)
 * [fadhilrasendriya](https://github.com/fadhilrasendriya/) --- [os211](https://github.com/fadhilrasendriya/os211/) --- [GitHub Page]
 * [fadlia68](https://github.com/fadlia68/) --- [os211] --- [GitHub Page]
 * [faishol01](https://github.com/faishol01/) --- [os211](https://github.com/faishol01/os211/) --- [https://faishol01.github.io/os211/](https://faishol01.github.io/os211/)
@@ -56,7 +59,7 @@ permalink: /GitHubPages/
 * [fauziridwan1709](https://github.com/fauziridwan1709/) --- [os211] --- [GitHub Page]
 * [fredypasaud](https://github.com/fredypasaud/) --- [os211] --- [GitHub Page]
 * [frz1110](https://github.com/frz1110/) --- [os211](https://github.com/frz1110/os211/) --- [GitHub Page]
-* [fwibisono87](https://github.com/fwibisono87/) --- [os211](https://github.com/fwibisono87/os211/) --- [https://fwibisono87.github.io/os211/](https://fwibisono87.github.io/os211/)
+* [fwibisono87](https://github.com/fwibisono87/) --- [os211](https://github.com/fwibisono87/os211/) --- [https://fwibisono87.github.io/os211/](https://fwibisono87.github.io/os211/) --- [LOG](https://fwibisono87.github.io/os211/TXT/mylog.txt)
 * [FXDROS](https://github.com/FXDROS/) --- [os211] --- [GitHub Page]
 * [galacticor](https://github.com/galacticor/) --- [os211] --- [GitHub Page]
 * [garyteofanus](https://github.com/garyteofanus/) --- [os211] --- [GitHub Page]
@@ -68,14 +71,14 @@ permalink: /GitHubPages/
 * [haikalSusanto](https://github.com/haikalSusanto/) --- [os211] --- [GitHub Page]
 * [handi91](https://github.com/handi91/) --- [os211] --- [GitHub Page]
 * [hanifahaputri](https://github.com/hanifahaputri/) --- [os211] --- [GitHub Page]
-* [Hanifahreza](https://github.com/Hanifahreza/) --- [os211] --- [GitHub Page]
+* [Hanifahreza](https://github.com/Hanifahreza/) --- [os211](https://github.com/Hanifahreza/os211/) --- [https://Hanifahreza.github.io/os211/](https://Hanifahreza.github.io/os211/)
 * [hanifanggawi](https://github.com/hanifanggawi/) --- [os211](https://github.com/hanifanggawi/os211/) --- [GitHub Page]
 * [haradijul](https://github.com/haradijul/) --- [os211] --- [GitHub Page]
-* [HardJoe](https://github.com/HardJoe/) --- [os211](https://github.com/HardJoe/os211/) --- [https://HardJoe.github.io/os211/](https://HardJoe.github.io/os211/)
-* [hockyy](https://github.com/hockyy/) --- [os211] --- [GitHub Page]
+* [HardJoe](https://github.com/HardJoe/) --- [os211](https://github.com/HardJoe/os211/) --- [https://HardJoe.github.io/os211/](https://HardJoe.github.io/os211/) --- [LOG](https://HardJoe.github.io/os211/TXT/mylog.txt)
+* [hockyy](https://github.com/hockyy/) --- [os211](https://github.com/hockyy/os211/) --- [https://hockyy.github.io/os211/](https://hockyy.github.io/os211/)
 * [Hori75](https://github.com/Hori75/) --- [os211] --- [GitHub Page]
 * [IlmaMannix](https://github.com/IlmaMannix/) --- [os211] --- [GitHub Page]
-* [IoriU](https://github.com/IoriU/) --- [os211] --- [GitHub Page]
+* [IoriU](https://github.com/IoriU/) --- [os211](https://github.com/IoriU/os211/) --- [https://IoriU.github.io/os211/](https://IoriU.github.io/os211/)
 * [irfancen](https://github.com/irfancen/) --- [os211](https://github.com/irfancen/os211/) --- [GitHub Page]
 * [JFernando11](https://github.com/JFernando11/) --- [os211] --- [GitHub Page]
 * [jojonicho](https://github.com/jojonicho/) --- [os211] --- [GitHub Page]
@@ -83,16 +86,18 @@ permalink: /GitHubPages/
 * [KentaBisma](https://github.com/KentaBisma/) --- [os211](https://github.com/KentaBisma/os211/) --- [GitHub Page]
 * [kevindharmawan](https://github.com/kevindharmawan/) --- [os211] --- [GitHub Page]
 * [kevin-UI2019](https://github.com/kevin-UI2019/) --- [os211] --- [GitHub Page]
+* [kgtgeo](https://github.com/kgtgeo/) --- [os211] --- [GitHub Page]
 * [KristiantoD](https://github.com/KristiantoD/) --- [os211] --- [GitHub Page]
 * [luthfifahlevi](https://github.com/luthfifahlevi/) --- [os211] --- [GitHub Page]
-* [machffud](https://github.com/machffud/) --- [os211](https://github.com/machffud/os211/) --- [https://machffud.github.io/os211/](https://machffud.github.io/os211/)
+* [machffud](https://github.com/machffud/) --- [os211](https://github.com/machffud/os211/) --- [https://machffud.github.io/os211/](https://machffud.github.io/os211/) --- [LOG](https://machffud.github.io/os211/TXT/mylog.txt)
 * [mackarelfish](https://github.com/mackarelfish/) --- [os211](https://github.com/mackarelfish/os211/) --- [GitHub Page]
 * [marcianadin](https://github.com/marcianadin/) --- [os211] --- [GitHub Page]
-* [mardianto-byte](https://github.com/mardianto-byte/) --- [os211](https://github.com/mardianto-byte/os211/) --- [https://mardianto-byte.github.io/os211/](https://mardianto-byte.github.io/os211/)
+* [mardianto-byte](https://github.com/mardianto-byte/) --- [os211](https://github.com/mardianto-byte/os211/) --- [https://mardianto-byte.github.io/os211/](https://mardianto-byte.github.io/os211/) --- [LOG](https://mardianto-byte.github.io/os211/TXT/mylog.txt)
 * [memahafizh](https://github.com/memahafizh/) --- [os211] --- [GitHub Page]
 * [mfelixharyono](https://github.com/mfelixharyono/) --- [os211] --- [GitHub Page]
 * [mirsalsa](https://github.com/mirsalsa/) --- [os211] --- [GitHub Page]
 * [mkadit](https://github.com/mkadit/) --- [os211] --- [GitHub Page]
+* [monta1212](https://github.com/monta1212/) --- [os211] --- [GitHub Page]
 * [MuhammadRaviSH](https://github.com/MuhammadRaviSH/) --- [os211] --- [GitHub Page]
 * [nabiladitaputri](https://github.com/nabiladitaputri/) --- [os211] --- [GitHub Page]
 * [nadhirarafik](https://github.com/nadhirarafik/) --- [os211] --- [GitHub Page]
@@ -106,8 +111,8 @@ permalink: /GitHubPages/
 * [nofamex](https://github.com/nofamex/) --- [os211] --- [GitHub Page]
 * [novihdn](https://github.com/novihdn/) --- [os211] --- [GitHub Page]
 * [Originica](https://github.com/Originica/) --- [os211] --- [GitHub Page]
-* [Pinatnat](https://github.com/Pinatnat/) --- [os211](https://github.com/Pinatnat/os211/) --- [https://Pinatnat.github.io/os211/](https://Pinatnat.github.io/os211/)
-* [prajnapras19](https://github.com/prajnapras19/) --- [os211](https://github.com/prajnapras19/os211/) --- [https://prajnapras19.github.io/os211/](https://prajnapras19.github.io/os211/)
+* [Pinatnat](https://github.com/Pinatnat/) --- [os211](https://github.com/Pinatnat/os211/) --- [https://Pinatnat.github.io/os211/](https://Pinatnat.github.io/os211/) --- [LOG](https://Pinatnat.github.io/os211/TXT/mylog.txt)
+* [prajnapras19](https://github.com/prajnapras19/) --- [os211](https://github.com/prajnapras19/os211/) --- [https://prajnapras19.github.io/os211/](https://prajnapras19.github.io/os211/) --- [LOG](https://prajnapras19.github.io/os211/TXT/mylog.txt)
 * [PWigunarta](https://github.com/PWigunarta/) --- [os211] --- [GitHub Page]
 * [RadhiansyaZ](https://github.com/RadhiansyaZ/) --- [os211](https://github.com/RadhiansyaZ/os211/) --- [GitHub Page]
 * [radityarestan](https://github.com/radityarestan/) --- [os211] --- [GitHub Page]
@@ -116,17 +121,18 @@ permalink: /GitHubPages/
 * [ranianhanami](https://github.com/ranianhanami/) --- [os211](https://github.com/ranianhanami/os211/) --- [GitHub Page]
 * [raryasdya](https://github.com/raryasdya/) --- [os211] --- [GitHub Page]
 * [rilabagus](https://github.com/rilabagus/) --- [os211] --- [GitHub Page]
+* [risw24](https://github.com/risw24/) --- [os211](https://github.com/risw24/os211/) --- [GitHub Page]
 * [rizkymusyaffa](https://github.com/rizkymusyaffa/) --- [os211] --- [GitHub Page]
 * [saepasomba](https://github.com/saepasomba/) --- [os211] --- [GitHub Page]
 * [samuelmjn](https://github.com/samuelmjn/) --- [os211] --- [GitHub Page]
 * [shafiraputri01](https://github.com/shafiraputri01/) --- [os211] --- [GitHub Page]
 * [shanikatysha](https://github.com/shanikatysha/) --- [os211](https://github.com/shanikatysha/os211/) --- [GitHub Page]
 * [SinusCosinusTangen](https://github.com/SinusCosinusTangen/) --- [os211] --- [GitHub Page]
-* [stevensim226](https://github.com/stevensim226/) --- [os211](https://github.com/stevensim226/os211/) --- [https://stevensim226.github.io/os211/](https://stevensim226.github.io/os211/)
+* [stevensim226](https://github.com/stevensim226/) --- [os211](https://github.com/stevensim226/os211/) --- [https://stevensim226.github.io/os211/](https://stevensim226.github.io/os211/) --- [LOG](https://stevensim226.github.io/os211/TXT/mylog.txt)
 * [sunnysani](https://github.com/sunnysani/) --- [os211] --- [GitHub Page]
 * [Trigonometr1](https://github.com/Trigonometr1/) --- [os211] --- [GitHub Page]
 * [tsanaativa](https://github.com/tsanaativa/) --- [os211] --- [GitHub Page]
-* [vandhya](https://github.com/vandhya/) --- [os211](https://github.com/vandhya/os211/) --- [https://vandhya.github.io/os211/](https://vandhya.github.io/os211/)
+* [vandhya](https://github.com/vandhya/) --- [os211](https://github.com/vandhya/os211/) --- [https://vandhya.github.io/os211/](https://vandhya.github.io/os211/) --- [LOG](https://vandhya.github.io/os211/TXT/mylog.txt)
 * [X1non](https://github.com/X1non/) --- [os211] --- [GitHub Page]
 * [yosuahutagalung](https://github.com/yosuahutagalung/) --- [os211] --- [GitHub Page]
 * [zahrahrp](https://github.com/zahrahrp/) --- [os211] --- [GitHub Page]
@@ -134,4 +140,4 @@ permalink: /GitHubPages/
 * [Zsaschz](https://github.com/Zsaschz/) --- [os211] --- [GitHub Page]
 * [zulfankasilas](https://github.com/zulfankasilas/) --- [os211] --- [GitHub Page]
 <hr>
-Thu 18 Feb 17:24:31 WIB 2021
+Fri 19 Feb 12:43:11 WIB 2021
