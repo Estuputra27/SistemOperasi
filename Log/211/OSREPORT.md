@@ -7,7 +7,7 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W00: os211 report === ===
-### ==== Mon 22 Feb 00:15:04 WIB 2021 ====
+### ==== Mon 22 Feb 07:24:47 WIB 2021 ====
 <hr>
 ```
 GitHubAccount             LOG
@@ -50,13 +50,13 @@ blopblipblap               10
 bltszr                    130
 BudiArb                 X3LOG
 calmeryan                  10
-cobrayyxx               X3LOG
+cobrayyxx                   0
 Corfaitch               X3LOG
 cornelita               X3LOG
 csq307                  X3LOG
 darren-ngoh             X3LOG
 ddelvo                  X3LOG
-dewa251202              X3LOG
+dewa251202                 45
 dirtboll                 1850
 dnswd                     100
 ekojsalim               X3LOG
@@ -64,7 +64,7 @@ Etyaresa                   10
 Exqrch                    375
 fadhilrasendriya          155
 fadlia68                   30
-faishol01               X3LOG
+faishol01                  25
 faustaadp               X3LOG
 fauziridwan1709         X3LOG
 fayaadbsa                  40
@@ -102,6 +102,7 @@ JFernando11             X3LOG
 johanesimarmata             0
 jojonicho                  15
 kalEl2001               X3LOG
+kaysakay                X3LOG
 KentaBisma                 40
 KevinAfiza              X3LOG
 kevindharmawan          X3LOG
@@ -159,12 +160,14 @@ Sasfort                 X3LOG
 shafiraputri01          X3LOG
 shanikatysha               20
 SinusCosinusTangen      X3LOG
+soniarahma27            X3LOG
 stevensim226              390
 sunnysani               X3LOG
 tarameccaluna           X3LOG
 Trigonometr1               91
 tsanaativa                 10
 vandhya                   220
+Veniche                 X3LOG
 X1non                   X3LOG
 yosuahutagalung         X3LOG
 zahrahrp                   10
