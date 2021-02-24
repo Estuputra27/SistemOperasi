@@ -7,16 +7,16 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W00: os211 report === ===
-### ==== Wed 24 Feb 03:29:23 WIB 2021 ====
+### ==== Thu 25 Feb 01:06:13 WIB 2021 ====
 <hr>
 ```
 GitHubAccount             LOG
 =================================
-abdurrohmanjafar           35
+abdurrohmanjafar           45
 AdamSyauqi              X3LOG
 adamyrayeuk                10
 advistasyam                30
-Ageng-Anugrah              90
+Ageng-Anugrah             205
 ahmadhaydar               323
 aladster                   10
 AldiNFitrah                20
@@ -25,19 +25,20 @@ AlifHazairin              150
 alifsaddid                160
 alishayb                  100
 altschmerz                 15
-amandacarrisa              10
+amandacarrisa             220
 amzufar                    40
 Andre-71                X3LOG
 AndreSeptiano           X3LOG
 andrew-susanto            160
-angelindepthios           105
-anisfarhan              X3LOG
+angelindepthios           590
+anisfarhan                125
 annisadevin               219
 ansqee                     30
 antoniusanggito            10
 ardi-nusantara             85
 arroganthooman          X3LOG
-aryaputr213                10
+Arsyandatj              X3LOG
+aryaputr213               250
 Aryuda-Oktawyandra      X3LOG
 asfiowilma                385
 astriddiany                17
@@ -46,8 +47,8 @@ azkafitria                 10
 azricot                   180
 basyirasabita             170
 bimabr                    175
-bintangdom                175
-blopblipblap              155
+bintangdom                210
+blopblipblap              180
 bltszr                    395
 BudiArb                    10
 calmeryan                 148
@@ -55,31 +56,31 @@ cobrayyxx                  30
 Corfaitch                 135
 cornelita                 190
 csq307                  X3LOG
-darren-ngoh                30
+darren-ngoh               240
 ddelvo                    130
 dewa251202                186
 dirtboll                 1850
-dnswd                     290
+dnswd                     135
 ekojsalim                 125
 Etyaresa                  145
 Exqrch                    375
 fadhilrasendriya          255
 fadlia68                   30
 faishol01                 110
-faustaadp               X3LOG
+faustaadp                 105
 fauziridwan1709             0
 fayaadbsa                  40
 fikriadidharma          X3LOG
-fredypasaud                45
+fredypasaud               255
 freezetabs                113
-FrhNzh                     30
+FrhNzh                    134
 frsardhf                  110
 frz1110                    90
 fwibisono87               210
 FXDROS                    170
 gabriel-enrique           127
 galacticor              X3LOG
-ganiirsyadi               160
+ganiirsyadi               220
 garyteofanus               10
 GerradND                  350
 ghifariaulia               10
@@ -88,22 +89,22 @@ gilangcy                  127
 hadihalimm                 10
 haikalSusanto              10
 handi91                     5
-hanifahaputri              10
+hanifahaputri             405
 Hanifahreza                10
 hanifanggawi               10
-hanifaudah                150
-Hans-sss                   10
+hanifaudah                240
+Hans-sss                  335
 haradijul                 140
 HardJoe                   440
 hilmy34                     0
 hockyy                    680
 Hori75                    120
 IanAndersenNg             142
-ikhsanpambayun            110
+ikhsanpambayun            138
 IlmaMannix                 65
 IoriU                     265
 irfancen                  205
-JFernando11               100
+JFernando11               160
 johanesimarmata           165
 jojonicho                  15
 jsaonn                     70
@@ -126,7 +127,7 @@ mfelixharyono              40
 mirsalsa                  129
 mkadit                     20
 monta1212                 125
-muadzaskar              X3LOG
+muadzaskar                100
 muhammadhafizmm           130
 MuhammadRaviSH             53
 muzhaffaris                10
@@ -146,24 +147,24 @@ nofamex                   275
 novihdn                   120
 Originica                 135
 Pinatnat                   20
-prajnapras19              439
+prajnapras19              499
 PWigunarta                 10
-RadhiansyaZ                99
+RadhiansyaZ               126
 radityarestan             112
 rafidirg                  250
 rafigabhira             X3LOG
 RafiMoreno                 10
 rafimuhammad01             43
 raflibangsawan             95
-rajasihombing           X3LOG
-ranianhanami               60
-raryasdya                   0
+rajasihombing              35
+ranianhanami              140
+raryasdya                 126
 rheznandyae               105
 rilabagus                 100
 risw24                     10
 rizkymusyaffa              80
 saepasomba                 95
-samuelmjn               X3LOG
+samuelmjn                 125
 Sasfort                 X3LOG
 shafiraputri01             10
 shanikatysha              130
@@ -172,8 +173,8 @@ soniarahma27              115
 stevensim226              535
 sunnysani               X3LOG
 tarameccaluna           X3LOG
-Theophilus-Lukas           30
-Trigonometr1              273
+Theophilus-Lukas          170
+Trigonometr1              282
 tsanaativa                 90
 VadimBhirawa               10
 valentinohp                10
@@ -185,7 +186,7 @@ yosuahutagalung           124
 zahrahrp                  220
 zaki-indra                 15
 Zsaschz                    70
-zulfankasilas              10
+zulfankasilas             140
 ```
 
 <hr>
