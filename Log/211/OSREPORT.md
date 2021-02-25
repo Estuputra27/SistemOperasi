@@ -7,7 +7,7 @@ permalink: /REPORT/
 [STATUS](../STATUS/)
 
 # W00: os211 report === ===
-### ==== Thu 25 Feb 01:06:13 WIB 2021 ====
+### ==== Fri 26 Feb 01:17:50 WIB 2021 ====
 <hr>
 ```
 GitHubAccount             LOG
@@ -21,14 +21,14 @@ ahmadhaydar               323
 aladster                   10
 AldiNFitrah                20
 alfina-megasiwi           150
-AlifHazairin              150
+AlifHazairin              188
 alifsaddid                160
 alishayb                  100
 altschmerz                 15
 amandacarrisa             220
 amzufar                    40
-Andre-71                X3LOG
-AndreSeptiano           X3LOG
+Andre-71                   10
+AndreSeptiano             135
 andrew-susanto            160
 angelindepthios           590
 anisfarhan                125
@@ -36,13 +36,13 @@ annisadevin               219
 ansqee                     30
 antoniusanggito            10
 ardi-nusantara             85
-arroganthooman          X3LOG
+arroganthooman            215
 Arsyandatj              X3LOG
 aryaputr213               250
 Aryuda-Oktawyandra      X3LOG
 asfiowilma                385
 astriddiany                17
-athiyafatihah             210
+athiyafatihah             685
 azkafitria                 10
 azricot                   180
 basyirasabita             170
@@ -64,9 +64,9 @@ dnswd                     135
 ekojsalim                 125
 Etyaresa                  145
 Exqrch                    375
-fadhilrasendriya          255
+fadhilrasendriya          315
 fadlia68                   30
-faishol01                 110
+faishol01                 350
 faustaadp                 105
 fauziridwan1709             0
 fayaadbsa                  40
@@ -79,7 +79,7 @@ frz1110                    90
 fwibisono87               210
 FXDROS                    170
 gabriel-enrique           127
-galacticor              X3LOG
+galacticor                 30
 ganiirsyadi               220
 garyteofanus               10
 GerradND                  350
@@ -89,12 +89,12 @@ gilangcy                  127
 hadihalimm                 10
 haikalSusanto              10
 handi91                     5
-hanifahaputri             405
+hanifahaputri             780
 Hanifahreza                10
 hanifanggawi               10
 hanifaudah                240
 Hans-sss                  335
-haradijul                 140
+haradijul                 240
 HardJoe                   440
 hilmy34                     0
 hockyy                    680
@@ -108,11 +108,11 @@ JFernando11               160
 johanesimarmata           165
 jojonicho                  15
 jsaonn                     70
-kalEl2001                 105
+kalEl2001                 125
 kaysakay                  130
 KentaBisma                 40
 KevinAfiza                 20
-kevindharmawan            102
+kevindharmawan            182
 kevin-UI2019               20
 kgtgeo                     10
 KristiantoD               172
@@ -123,6 +123,7 @@ marcianadin                 0
 mardianto-byte            185
 MarioSerano                10
 memahafizh                140
+mfadhlan98              X3LOG
 mfelixharyono              40
 mirsalsa                  129
 mkadit                     20
@@ -147,7 +148,7 @@ nofamex                   275
 novihdn                   120
 Originica                 135
 Pinatnat                   20
-prajnapras19              499
+prajnapras19              599
 PWigunarta                 10
 RadhiansyaZ               126
 radityarestan             112
@@ -165,18 +166,18 @@ risw24                     10
 rizkymusyaffa              80
 saepasomba                 95
 samuelmjn                 125
-Sasfort                 X3LOG
+Sasfort                   360
 shafiraputri01             10
 shanikatysha              130
-SinusCosinusTangen        133
+SinusCosinusTangen        253
 soniarahma27              115
-stevensim226              535
+stevensim226              545
 sunnysani               X3LOG
 tarameccaluna           X3LOG
 Theophilus-Lukas          170
-Trigonometr1              282
+Trigonometr1              352
 tsanaativa                 90
-VadimBhirawa               10
+VadimBhirawa              375
 valentinohp                10
 vandhya                   220
 Veniche                    10
@@ -185,7 +186,7 @@ YasyfaWiwaha            X3LOG
 yosuahutagalung           124
 zahrahrp                  220
 zaki-indra                 15
-Zsaschz                    70
+Zsaschz                   210
 zulfankasilas             140
 ```
 
