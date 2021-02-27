@@ -25,7 +25,7 @@ permalink: /GitHubPages/
 * [altschmerz](https://github.com/altschmerz/) --- [os211](https://github.com/altschmerz/os211/) --- [https://altschmerz.github.io/os211/](https://altschmerz.github.io/os211/) --- [LOG](https://altschmerz.github.io/os211/TXT/mylog.txt)
 * [amandacarrisa](https://github.com/amandacarrisa/) --- [os211](https://github.com/amandacarrisa/os211/) --- [https://amandacarrisa.github.io/os211/](https://amandacarrisa.github.io/os211/) --- [LOG](https://amandacarrisa.github.io/os211/TXT/mylog.txt)
 * [amzufar](https://github.com/amzufar/) --- [os211](https://github.com/amzufar/os211/) --- [https://amzufar.github.io/os211/](https://amzufar.github.io/os211/) --- [LOG](https://amzufar.github.io/os211/TXT/mylog.txt)
-* [Andre-71](https://github.com/Andre-71/) --- [os211](https://github.com/Andre-71/os211/) --- [GitHub Page]
+* [Andre-71](https://github.com/Andre-71/) --- [os211](https://github.com/Andre-71/os211/) --- [https://Andre-71.github.io/os211/](https://Andre-71.github.io/os211/) --- [LOG](https://Andre-71.github.io/os211/TXT/mylog.txt)
 * [AndreSeptiano](https://github.com/AndreSeptiano/) --- [os211](https://github.com/AndreSeptiano/os211/) --- [https://AndreSeptiano.github.io/os211/](https://AndreSeptiano.github.io/os211/) --- [LOG](https://AndreSeptiano.github.io/os211/TXT/mylog.txt)
 * [andrew-susanto](https://github.com/andrew-susanto/) --- [os211](https://github.com/andrew-susanto/os211/) --- [https://andrew-susanto.github.io/os211/](https://andrew-susanto.github.io/os211/) --- [LOG](https://andrew-susanto.github.io/os211/TXT/mylog.txt)
 * [angelindepthios](https://github.com/angelindepthios/) --- [os211](https://github.com/angelindepthios/os211/) --- [https://angelindepthios.github.io/os211/](https://angelindepthios.github.io/os211/) --- [LOG](https://angelindepthios.github.io/os211/TXT/mylog.txt)
@@ -53,7 +53,7 @@ permalink: /GitHubPages/
 * [cobrayyxx](https://github.com/cobrayyxx/) --- [os211](https://github.com/cobrayyxx/os211/) --- [https://cobrayyxx.github.io/os211/](https://cobrayyxx.github.io/os211/) --- [LOG](https://cobrayyxx.github.io/os211/TXT/mylog.txt)
 * [Corfaitch](https://github.com/Corfaitch/) --- [os211](https://github.com/Corfaitch/os211/) --- [https://Corfaitch.github.io/os211/](https://Corfaitch.github.io/os211/) --- [LOG](https://Corfaitch.github.io/os211/TXT/mylog.txt)
 * [cornelita](https://github.com/cornelita/) --- [os211](https://github.com/cornelita/os211/) --- [https://cornelita.github.io/os211/](https://cornelita.github.io/os211/) --- [LOG](https://cornelita.github.io/os211/TXT/mylog.txt)
-* [csq307](https://github.com/csq307/) --- [os211] --- [GitHub Page]
+* [csq307](https://github.com/csq307/) --- [os211](https://github.com/csq307/os211/) --- [https://csq307.github.io/os211/](https://csq307.github.io/os211/) --- [LOG](https://csq307.github.io/os211/TXT/mylog.txt)
 * [darren-ngoh](https://github.com/darren-ngoh/) --- [os211](https://github.com/darren-ngoh/os211/) --- [https://darren-ngoh.github.io/os211/](https://darren-ngoh.github.io/os211/) --- [LOG](https://darren-ngoh.github.io/os211/TXT/mylog.txt)
 * [ddelvo](https://github.com/ddelvo/) --- [os211](https://github.com/ddelvo/os211/) --- [https://ddelvo.github.io/os211/](https://ddelvo.github.io/os211/) --- [LOG](https://ddelvo.github.io/os211/TXT/mylog.txt)
 * [dewa251202](https://github.com/dewa251202/) --- [os211](https://github.com/dewa251202/os211/) --- [https://dewa251202.github.io/os211/](https://dewa251202.github.io/os211/) --- [LOG](https://dewa251202.github.io/os211/TXT/mylog.txt)
@@ -94,7 +94,7 @@ permalink: /GitHubPages/
 * [Hans-sss](https://github.com/Hans-sss/) --- [os211](https://github.com/Hans-sss/os211/) --- [https://Hans-sss.github.io/os211/](https://Hans-sss.github.io/os211/) --- [LOG](https://Hans-sss.github.io/os211/TXT/mylog.txt)
 * [haradijul](https://github.com/haradijul/) --- [os211](https://github.com/haradijul/os211/) --- [https://haradijul.github.io/os211/](https://haradijul.github.io/os211/) --- [LOG](https://haradijul.github.io/os211/TXT/mylog.txt)
 * [HardJoe](https://github.com/HardJoe/) --- [os211](https://github.com/HardJoe/os211/) --- [https://HardJoe.github.io/os211/](https://HardJoe.github.io/os211/) --- [LOG](https://HardJoe.github.io/os211/TXT/mylog.txt)
-* [hilmy34](https://github.com/hilmy34/) --- [os211](https://github.com/hilmy34/os211/) --- [GitHub Page]
+* [hilmy34](https://github.com/hilmy34/) --- [os211](https://github.com/hilmy34/os211/) --- [https://hilmy34.github.io/os211/](https://hilmy34.github.io/os211/) --- [LOG](https://hilmy34.github.io/os211/TXT/mylog.txt)
 * [hockyy](https://github.com/hockyy/) --- [os211](https://github.com/hockyy/os211/) --- [https://hockyy.github.io/os211/](https://hockyy.github.io/os211/) --- [LOG](https://hockyy.github.io/os211/TXT/mylog.txt)
 * [Hori75](https://github.com/Hori75/) --- [os211](https://github.com/Hori75/os211/) --- [https://Hori75.github.io/os211/](https://Hori75.github.io/os211/) --- [LOG](https://Hori75.github.io/os211/TXT/mylog.txt)
 * [IanAndersenNg](https://github.com/IanAndersenNg/) --- [os211](https://github.com/IanAndersenNg/os211/) --- [https://IanAndersenNg.github.io/os211/](https://IanAndersenNg.github.io/os211/) --- [LOG](https://IanAndersenNg.github.io/os211/TXT/mylog.txt)
@@ -170,12 +170,12 @@ permalink: /GitHubPages/
 * [SinusCosinusTangen](https://github.com/SinusCosinusTangen/) --- [os211](https://github.com/SinusCosinusTangen/os211/) --- [https://SinusCosinusTangen.github.io/os211/](https://SinusCosinusTangen.github.io/os211/) --- [LOG](https://SinusCosinusTangen.github.io/os211/TXT/mylog.txt)
 * [soniarahma27](https://github.com/soniarahma27/) --- [os211](https://github.com/soniarahma27/os211/) --- [https://soniarahma27.github.io/os211/](https://soniarahma27.github.io/os211/) --- [LOG](https://soniarahma27.github.io/os211/TXT/mylog.txt)
 * [stevensim226](https://github.com/stevensim226/) --- [os211](https://github.com/stevensim226/os211/) --- [https://stevensim226.github.io/os211/](https://stevensim226.github.io/os211/) --- [LOG](https://stevensim226.github.io/os211/TXT/mylog.txt)
-* [sunnysani](https://github.com/sunnysani/) --- [os211] --- [GitHub Page]
-* [tarameccaluna](https://github.com/tarameccaluna/) --- [os211] --- [GitHub Page]
+* [sunnysani](https://github.com/sunnysani/) --- [os211](https://github.com/sunnysani/os211/) --- [GitHub Page]
+* [tarameccaluna](https://github.com/tarameccaluna/) --- [os211](https://github.com/tarameccaluna/os211/) --- [https://tarameccaluna.github.io/os211/](https://tarameccaluna.github.io/os211/) --- [LOG](https://tarameccaluna.github.io/os211/TXT/mylog.txt)
 * [Theophilus-Lukas](https://github.com/Theophilus-Lukas/) --- [os211](https://github.com/Theophilus-Lukas/os211/) --- [https://Theophilus-Lukas.github.io/os211/](https://Theophilus-Lukas.github.io/os211/) --- [LOG](https://Theophilus-Lukas.github.io/os211/TXT/mylog.txt)
 * [Trigonometr1](https://github.com/Trigonometr1/) --- [os211](https://github.com/Trigonometr1/os211/) --- [https://Trigonometr1.github.io/os211/](https://Trigonometr1.github.io/os211/) --- [LOG](https://Trigonometr1.github.io/os211/TXT/mylog.txt)
 * [tsanaativa](https://github.com/tsanaativa/) --- [os211](https://github.com/tsanaativa/os211/) --- [https://tsanaativa.github.io/os211/](https://tsanaativa.github.io/os211/) --- [LOG](https://tsanaativa.github.io/os211/TXT/mylog.txt)
-* [VadimBhirawa](https://github.com/VadimBhirawa/) --- [os211](https://github.com/VadimBhirawa/os211/) --- [GitHub Page]
+* [VadimBhirawa](https://github.com/VadimBhirawa/) --- [os211](https://github.com/VadimBhirawa/os211/) --- [https://VadimBhirawa.github.io/os211/](https://VadimBhirawa.github.io/os211/) --- [LOG](https://VadimBhirawa.github.io/os211/TXT/mylog.txt)
 * [valentinohp](https://github.com/valentinohp/) --- [os211](https://github.com/valentinohp/os211/) --- [https://valentinohp.github.io/os211/](https://valentinohp.github.io/os211/) --- [LOG](https://valentinohp.github.io/os211/TXT/mylog.txt)
 * [vandhya](https://github.com/vandhya/) --- [os211](https://github.com/vandhya/os211/) --- [https://vandhya.github.io/os211/](https://vandhya.github.io/os211/) --- [LOG](https://vandhya.github.io/os211/TXT/mylog.txt)
 * [Veniche](https://github.com/Veniche/) --- [os211](https://github.com/Veniche/os211/) --- [https://Veniche.github.io/os211/](https://Veniche.github.io/os211/) --- [LOG](https://Veniche.github.io/os211/TXT/mylog.txt)
@@ -187,4 +187,4 @@ permalink: /GitHubPages/
 * [Zsaschz](https://github.com/Zsaschz/) --- [os211](https://github.com/Zsaschz/os211/) --- [https://Zsaschz.github.io/os211/](https://Zsaschz.github.io/os211/) --- [LOG](https://Zsaschz.github.io/os211/TXT/mylog.txt)
 * [zulfankasilas](https://github.com/zulfankasilas/) --- [os211](https://github.com/zulfankasilas/os211/) --- [https://zulfankasilas.github.io/os211/](https://zulfankasilas.github.io/os211/) --- [LOG](https://zulfankasilas.github.io/os211/TXT/mylog.txt)
 <hr>
-Sat 27 Feb 00:02:39 WIB 2021
+Sat 27 Feb 23:35:51 WIB 2021
